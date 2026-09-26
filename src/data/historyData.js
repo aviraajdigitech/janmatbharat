@@ -147,5 +147,173 @@ export const pmHistory = [
       "कार्यकाल के अंत में बढ़ती महंगाई और भोजन की भारी कमी।",
       "चीन से मिली हार ने भारत की अंतरराष्ट्रीय छवि और नेहरू जी के व्यक्तिगत स्वास्थ्य को गहरा नुकसान पहुँचाया।"
     ]
+  },
+  {
+    id: "term_4_3rd_loksabha_nehru",
+    pm_name_en: "Jawaharlal Nehru",
+    pm_name_hi: "जवाहरलाल नेहरू",
+    term_en: "2 April 1962 – 27 May 1964",
+    term_hi: "2 अप्रैल 1962 – 27 मई 1964",
+    period_en: "3rd Lok Sabha (Part 1)",
+    period_hi: "तीसरी लोकसभा (भाग 1)",
+    party_en: "Indian National Congress (INC)",
+    party_hi: "भारतीय राष्ट्रीय कांग्रेस (INC)",
+    coalition_en: "Absolute Majority (361/494 seats)",
+    coalition_hi: "प्रचंड बहुमत (494 में से 361 सीटें)",
+    symbol: "🐂", 
+    image: "/assets/pms/nehru.jpg",
+    achievements_en: [
+      "Initiated modernization of the Indian Armed Forces post-1962.",
+      "Laid the foundation for India's space program (INCOSPAR formed in 1962).",
+      "Passed the Official Languages Act, 1963."
+    ],
+    achievements_hi: [
+      "1962 के युद्ध के बाद भारतीय सशस्त्र बलों के आधुनिकीकरण की शुरुआत की।",
+      "भारत के अंतरिक्ष कार्यक्रम की नींव रखी (1962 में INCOSPAR का गठन)।",
+      "राजभाषा अधिनियम (Official Languages Act), 1963 पारित किया।"
+    ],
+    criticisms_en: [
+      "Heavy criticism over the handling of the 1962 War with China.",
+      "Declining health severely impacted his ability to govern effectively.",
+      "Faced the first-ever No-Confidence Motion in Parliament (1963)."
+    ],
+    criticisms_hi: [
+      "1962 के चीन युद्ध के प्रबंधन को लेकर भारी आलोचना हुई।",
+      "गिरते स्वास्थ्य ने उनकी शासन करने की क्षमता को गंभीर रूप से प्रभावित किया।",
+      "संसद में पहली बार अविश्वास प्रस्ताव (No-Confidence Motion) का सामना किया (1963)।"
+    ]
+  },
+  {
+    id: "term_5_3rd_loksabha_shastri",
+    pm_name_en: "Lal Bahadur Shastri",
+    pm_name_hi: "लाल बहादुर शास्त्री",
+    term_en: "9 June 1964 – 11 January 1966",
+    term_hi: "9 जून 1964 – 11 जनवरी 1966",
+    period_en: "3rd Lok Sabha (Part 2)",
+    period_hi: "तीसरी लोकसभा (भाग 2)",
+    party_en: "Indian National Congress (INC)",
+    party_hi: "भारतीय राष्ट्रीय कांग्रेस (INC)",
+    coalition_en: "Absolute Majority",
+    coalition_hi: "प्रचंड बहुमत",
+    symbol: "🐂", 
+    image: "/assets/pms/shastri.jpg",
+    achievements_en: [
+      "Coined the immortal slogan 'Jai Jawan Jai Kisan' during the 1965 war.",
+      "Led India to a decisive psychological and tactical victory in the Indo-Pakistani War of 1965.",
+      "Promoted the White Revolution by supporting the Amul milk co-operative.",
+      "Laid the foundational policies for the Green Revolution to make India self-sufficient in food.",
+      "Signed the Tashkent Declaration to end the 1965 war.",
+      "Restored the morale of the Indian Armed Forces after the 1962 defeat.",
+      "Set an unmatched standard of personal integrity and simplicity in public life."
+    ],
+    achievements_hi: [
+      "1965 के युद्ध के दौरान 'जय जवान जय किसान' का अमर नारा दिया।",
+      "1965 के भारत-पाक युद्ध में देश का सफल और साहसिक नेतृत्व किया।",
+      "अमूल (Amul) को समर्थन देकर 'श्वेत क्रांति' (White Revolution) को बढ़ावा दिया।",
+      "भारत को खाद्यान्न में आत्मनिर्भर बनाने के लिए 'हरित क्रांति' की नींव रखी।",
+      "1965 का युद्ध समाप्त करने के लिए ताशकंद समझौते पर हस्ताक्षर किए।",
+      "1962 की हार के बाद भारतीय सेना का मनोबल वापस लौटाया।",
+      "सार्वजनिक जीवन में व्यक्तिगत ईमानदारी और सादगी का बेजोड़ उदाहरण पेश किया।"
+    ],
+    criticisms_en: [
+      "Faced massive anti-Hindi language protests in Tamil Nadu (1965).",
+      "Severe food shortages and economic distress marked his early tenure.",
+      "The sudden and mysterious death in Tashkent left a leadership vacuum.",
+      "Agreed to return the strategically crucial Haji Pir Pass to Pakistan under the Tashkent pact."
+    ],
+    criticisms_hi: [
+      "तमिलनाडु में हिंदी विरोधी हिंसक प्रदर्शनों (1965) का सामना करना पड़ा।",
+      "शुरुआती कार्यकाल में देश में भयंकर खाद्य संकट और आर्थिक परेशानी रही।",
+      "ताशकंद में अचानक और रहस्यमय मौत से देश में नेतृत्व का खालीपन आ गया।",
+      "ताशकंद समझौते के तहत रणनीतिक रूप से महत्वपूर्ण 'हाजी पीर पास' पाकिस्तान को वापस करने पर सहमत हुए।"
+    ]
+  },
+  {
+    id: "term_6_4th_loksabha_indira",
+    pm_name_en: "Indira Gandhi",
+    pm_name_hi: "इंदिरा गांधी",
+    term_en: "4 March 1967 – 15 March 1971",
+    term_hi: "4 मार्च 1967 – 15 मार्च 1971",
+    period_en: "4th Lok Sabha",
+    period_hi: "चौथी लोकसभा",
+    party_en: "Indian National Congress (R)",
+    party_hi: "भारतीय राष्ट्रीय कांग्रेस (R)",
+    coalition_en: "Minority Gov (Supported by CPI)",
+    coalition_hi: "अल्पमत सरकार (CPI के समर्थन से)",
+    symbol: "🐄", // Cow and Calf symbol
+    image: "/assets/pms/indira.jpg",
+    achievements_en: [
+      "Nationalized 14 major private banks in 1969 to increase agricultural lending.",
+      "Abolished the 'Privy Purse' (royalties given to former kings) to promote equality.",
+      "Began the massive expansion of the Green Revolution, significantly increasing wheat yields.",
+      "Emerged as a supreme leader by successfully defeating the conservative 'Syndicate' within Congress.",
+      "Gave the powerful populist slogan 'Garibi Hatao' (Eradicate Poverty)."
+    ],
+    achievements_hi: [
+      "कृषि ऋण बढ़ाने के लिए 1969 में 14 प्रमुख निजी बैंकों का राष्ट्रीयकरण किया।",
+      "समानता लाने के लिए पूर्व राजा-महाराजाओं को मिलने वाले 'प्रिवी पर्स' (Privy Purse) को खत्म किया।",
+      "हरित क्रांति का बड़े पैमाने पर विस्तार किया, जिससे गेहूं की पैदावार में भारी वृद्धि हुई।",
+      "कांग्रेस के भीतर रूढ़िवादी 'सिंडिकेट' को हराकर एक सर्वोच्च नेता के रूप में उभरीं।",
+      "जनता के बीच 'गरीबी हटाओ' का बेहद शक्तिशाली नारा दिया।"
+    ],
+    criticisms_en: [
+      "Devalued the Indian Rupee in 1966 under foreign pressure, causing economic shock.",
+      "Caused the historic split in the Indian National Congress (1969).",
+      "Began the trend of centralizing power and weakening state-level leadership.",
+      "Ran a minority government reliant on left-wing parties (CPI) after the split."
+    ],
+    criticisms_hi: [
+      "विदेशी दबाव में 1966 में रुपये का अवमूल्यन (Devaluation) किया, जिससे आर्थिक झटका लगा।",
+      "भारतीय राष्ट्रीय कांग्रेस में ऐतिहासिक विभाजन (Split) का कारण बनीं (1969)।",
+      "सत्ता के केंद्रीकरण (Centralization) और राज्य स्तरीय नेतृत्व को कमजोर करने की प्रवृत्ति शुरू की।",
+      "विभाजन के बाद वामपंथी दलों (CPI) के समर्थन से अल्पमत की सरकार चलाई।"
+    ]
+  },
+  {
+    id: "term_7_5th_loksabha_indira",
+    pm_name_en: "Indira Gandhi",
+    pm_name_hi: "इंदिरा गांधी",
+    term_en: "15 March 1971 – 24 March 1977",
+    term_hi: "15 मार्च 1971 – 24 मार्च 1977",
+    period_en: "5th Lok Sabha (The Emergency Era)",
+    period_hi: "पांचवी लोकसभा (आपातकाल का दौर)",
+    party_en: "Indian National Congress (R)",
+    party_hi: "भारतीय राष्ट्रीय कांग्रेस (R)",
+    coalition_en: "Absolute Majority (352/518 seats)",
+    coalition_hi: "प्रचंड बहुमत (518 में से 352 सीटें)",
+    symbol: "🐄", 
+    image: "/assets/pms/indira.jpg",
+    achievements_en: [
+      "Led India to its greatest military victory in the 1971 war, resulting in the creation of Bangladesh.",
+      "Conducted India's first successful nuclear test 'Smiling Buddha' at Pokhran (1974).",
+      "Signed the historic 1971 Indo-Soviet Treaty of Peace, Friendship, and Cooperation.",
+      "Launched India's first satellite, Aryabhata, into space (1975).",
+      "Integrated the state of Sikkim into the Indian Union (1975).",
+      "Added the words 'Socialist' and 'Secular' to the Preamble of the Constitution (42nd Amendment)."
+    ],
+    achievements_hi: [
+      "1971 के युद्ध में भारत को सबसे बड़ी सैन्य जीत दिलाई, जिसके परिणामस्वरूप बांग्लादेश का निर्माण हुआ।",
+      "पोखरण में भारत का पहला सफल परमाणु परीक्षण 'स्माइलिंग बुद्धा' किया (1974)।",
+      "1971 की ऐतिहासिक भारत-सोवियत शांति और मैत्री संधि पर हस्ताक्षर किए।",
+      "भारत का पहला उपग्रह 'आर्यभट्ट' अंतरिक्ष में लॉन्च किया (1975)।",
+      "सिक्किम राज्य का भारतीय संघ में विलय किया (1975)।",
+      "संविधान की प्रस्तावना में 'समाजवादी' और 'धर्मनिरपेक्ष' (Secular) शब्द जोड़े (42वां संशोधन)।"
+    ],
+    criticisms_en: [
+      "Imposed the darkest period of Indian democracy: The National Emergency (1975–1977).",
+      "Suspended fundamental rights, jailed political opposition, and imposed press censorship.",
+      "Sanjay Gandhi's forced mass sterilization campaigns caused massive public outrage.",
+      "Passed the 42nd Amendment ('Mini Constitution') to severely curtail the judiciary's powers.",
+      "Overrode the Allahabad High Court verdict that had declared her election invalid.",
+      "Superseded senior Supreme Court judges to appoint a compliant Chief Justice."
+    ],
+    criticisms_hi: [
+      "भारतीय लोकतंत्र का सबसे काला दौर: 'राष्ट्रीय आपातकाल' (National Emergency, 1975-1977) लागू किया।",
+      "मौलिक अधिकारों को निलंबित किया, विपक्ष को जेल में डाला और प्रेस पर सख्त सेंसरशिप लगाई।",
+      "संजय गांधी के जबरन नसबंदी (Sterilization) अभियानों से जनता में भारी आक्रोश पैदा हुआ।",
+      "न्यायपालिका की शक्तियों को कम करने के लिए 42वां संशोधन ('मिनी संविधान') पास किया।",
+      "इलाहाबाद उच्च न्यायालय के उस फैसले को पलट दिया जिसमें उनके चुनाव को अमान्य घोषित किया गया था।",
+      "सुप्रीम कोर्ट के वरिष्ठ जजों को नजरअंदाज कर अपनी पसंद के मुख्य न्यायाधीश (CJ) की नियुक्ति की।"
+    ]
   }
 ];
