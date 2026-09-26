@@ -536,5 +536,89 @@ export const pmHistory = [
       "उनके गृह मंत्री मुफ्ती मोहम्मद सईद की बेटी (रुबैया सईद) के अपहरण के मामले को बेहद विवादास्पद तरीके से संभाला गया। उनकी रिहाई के बदले खूंखार JKLF आतंकवादियों को रिहा कर दिया गया, जिससे कश्मीर में आतंकवादियों का हौसला बहुत बढ़ गया।",
       "L.K. आडवाणी की 'राम रथ यात्रा' को रोकने और उन्हें बिहार में गिरफ्तार (वीपी सिंह के आदेश पर लालू यादव द्वारा) करने के बाद सरकार महज 11 महीने में गिर गई। BJP ने तुरंत अपना समर्थन वापस ले लिया, जिससे वीपी सिंह की सरकार का पतन हो गया।"
     ]
+  },
+  {
+    id: "term_13_9th_loksabha_chandrashekhar",
+    pm_name_en: "Chandra Shekhar",
+    pm_name_hi: "चंद्रशेखर",
+    term_en: "10 November 1990 – 21 June 1991",
+    term_hi: "10 नवंबर 1990 – 21 जून 1991",
+    period_en: "9th Lok Sabha (Part 2)",
+    period_hi: "नौवीं लोकसभा (भाग 2)",
+    party_en: "Samajwadi Janata Party",
+    party_hi: "समाजवादी जनता पार्टी",
+    coalition_en: "Minority Gov (Backed externally by Congress-I)",
+    coalition_hi: "अल्पमत सरकार (कांग्रेस-I का बाहरी समर्थन)",
+    symbol: "🌳", 
+    image: "/assets/pms/chandra_shekhar.jpg",
+    achievements_en: [
+      "Known as the 'Young Turk' of Indian politics, he fiercely maintained his ideological stance despite leading a fragile coalition.",
+      "Took incredibly bold, albeit deeply unpopular, economic decisions to prevent India from defaulting on its sovereign debt during the massive 1991 Balance of Payments crisis.",
+      "Authorized the airlifting and pledging of India's gold reserves (transported to the Bank of England and the Union Bank of Switzerland) to secure an emergency IMF loan, a bitter but necessary step to save the economy.",
+      "Attempted to mediate the highly volatile Ram Janmabhoomi-Babri Masjid dispute by facilitating direct negotiations between the VHP and the Babri Masjid Action Committee."
+    ],
+    achievements_hi: [
+      "भारतीय राजनीति के 'युवा तुर्क' (Young Turk) के रूप में जाने जाते थे। एक बेहद कमजोर गठबंधन का नेतृत्व करने के बावजूद उन्होंने अपनी वैचारिक दृढ़ता बनाए रखी।",
+      "1991 के ऐतिहासिक 'भुगतान संतुलन संकट' (Balance of Payments crisis) के दौरान भारत को दिवालिया (Default) होने से बचाने के लिए बहुत ही साहसिक (भले ही अलोकप्रिय) आर्थिक फैसले लिए।",
+      "अर्थव्यवस्था को बचाने के लिए आपातकालीन IMF लोन हासिल करने के लिए, भारत के सोने (Gold reserves) को गिरवी रखकर उसे 'बैंक ऑफ इंग्लैंड' और 'यूनियन बैंक ऑफ स्विट्जरलैंड' में एयरलिफ्ट करने की अनुमति दी—जो एक कड़वा लेकिन जरूरी कदम था।",
+      "विश्व हिंदू परिषद (VHP) और बाबरी मस्जिद एक्शन कमेटी के बीच सीधी बातचीत कराकर बेहद संवेदनशील राम जन्मभूमि-बाबरी मस्जिद विवाद में मध्यस्थता करने का प्रयास किया।"
+    ],
+    criticisms_en: [
+      "Led a highly unstable 'puppet' government with merely 64 MPs, entirely dependent on the mercy and external support of Rajiv Gandhi's Congress (I).",
+      "Oversaw the absolute worst economic crisis in post-independence Indian history, with foreign exchange reserves plummeting to levels barely sufficient to cover three weeks of imports.",
+      "The government embarrassingly collapsed in just 7 months when Rajiv Gandhi withdrew Congress support over petty allegations of two Haryana plainclothes policemen spying outside his residence.",
+      "The political instability directly resulted in the mid-term 1991 elections, during the campaigning of which Rajiv Gandhi was tragically assassinated."
+    ],
+    criticisms_hi: [
+      "महज 64 सांसदों के साथ एक बेहद अस्थिर 'कठपुतली' (Puppet) सरकार चलाई, जो पूरी तरह से राजीव गांधी की कांग्रेस (I) की दया और बाहरी समर्थन पर निर्भर थी।",
+      "आजादी के बाद के सबसे बुरे आर्थिक संकट का सामना किया, जब भारत का विदेशी मुद्रा भंडार (Forex reserves) इतना गिर गया था कि वह केवल तीन हफ्तों के आयात (Imports) के लिए ही बचा था।",
+      "राजीव गांधी द्वारा कांग्रेस का समर्थन वापस लेने पर यह सरकार केवल 7 महीने में शर्मनाक तरीके से गिर गई। समर्थन वापसी का कारण यह था कि राजीव गांधी के आवास के बाहर दो हरियाणा पुलिसकर्मियों द्वारा कथित तौर पर 'जासूसी' की जा रही थी।",
+      "इस राजनीतिक अस्थिरता के कारण सीधे 1991 के मध्यावधि (Mid-term) चुनाव हुए, जिनके चुनाव प्रचार के दौरान ही राजीव गांधी की दुखद हत्या हो गई।"
+    ]
+  },
+  {
+    id: "term_14_10th_loksabha_rao",
+    pm_name_en: "P. V. Narasimha Rao",
+    pm_name_hi: "पी. वी. नरसिम्हा राव",
+    term_en: "21 June 1991 – 16 May 1996",
+    term_hi: "21 जून 1991 – 16 मई 1996",
+    period_en: "10th Lok Sabha",
+    period_hi: "दसवीं लोकसभा",
+    party_en: "Indian National Congress (I)",
+    party_hi: "भारतीय राष्ट्रीय कांग्रेस (I)",
+    coalition_en: "Minority turned Majority (Engineered Defections)",
+    coalition_hi: "अल्पमत से बहुमत (दलबदल द्वारा)",
+    symbol: "✋", 
+    image: "/assets/pms/rao.jpg",
+    achievements_en: [
+      "Known as the 'Father of Indian Economic Reforms' and the 'Chanakya of Indian Politics'. He was the first Prime Minister from South India (Andhra Pradesh).",
+      "Orchestrated the monumental 1991 LPG Reforms (Liberalization, Privatization, Globalization) alongside Finance Minister Dr. Manmohan Singh, dismantling the draconian 'License Raj' and transforming India into a modern, fast-growing capitalist economy.",
+      "Successfully crushed the Khalistan militancy and restored peace and democratic elections in the deeply troubled state of Punjab (with super-cop K.P.S. Gill).",
+      "Passed the historic 73rd and 74th Constitutional Amendments (1992), legally formalizing and empowering Panchayati Raj institutions and Urban Local Bodies.",
+      "Initiated India's pragmatic 'Look East' policy, forging strong trade and strategic ties with ASEAN nations, and established formal diplomatic relations with Israel (1992).",
+      "Managed to complete a full 5-year term despite starting as a fragile minority government, showcasing unparalleled political astuteness and survival skills."
+    ],
+    achievements_hi: [
+      "उन्हें 'भारतीय आर्थिक सुधारों का जनक' (Father of Economic Reforms) और 'भारतीय राजनीति का चाणक्य' कहा जाता है। वे दक्षिण भारत (आंध्र प्रदेश) से आने वाले पहले प्रधानमंत्री थे।",
+      "वित्त मंत्री डॉ. मनमोहन सिंह के साथ मिलकर 1991 के ऐतिहासिक LPG सुधार (उदारीकरण, निजीकरण, वैश्वीकरण) लागू किए। भयानक 'लाइसेंस राज' को खत्म किया और भारत को एक आधुनिक, तेजी से बढ़ती पूंजीवादी अर्थव्यवस्था में बदल दिया।",
+      "पंजाब में खलिस्तान उग्रवाद (Khalistan militancy) को सफलतापूर्वक कुचला और अशांत राज्य में शांति तथा लोकतांत्रिक चुनाव बहाल किए (सुपरकॉप K.P.S. गिल के साथ)।",
+      "ऐतिहासिक 73वें और 74वें संविधान संशोधन (1992) को पास किया, जिससे 'पंचायती राज' और 'शहरी स्थानीय निकायों' (नगर पालिकाओं) को कानूनी रूप से मान्यता और शक्ति मिली।",
+      "भारत की 'लुक ईस्ट' (Look East) विदेश नीति की शुरुआत की, आसियान (ASEAN) देशों के साथ मजबूत व्यापारिक संबंध बनाए और 1992 में इस्राइल के साथ औपचारिक राजनयिक संबंध स्थापित किए।",
+      "एक कमजोर अल्पमत सरकार के रूप में शुरुआत करने के बावजूद, अपना 5 साल का कार्यकाल पूरा किया, जो उनकी बेजोड़ राजनीतिक कुशाग्रता (Political astuteness) को दर्शाता है।"
+    ],
+    criticisms_en: [
+      "Demolition of the Babri Masjid (December 6, 1992): His government was fiercely criticized for remaining a 'mute spectator' and failing to prevent the destruction of the mosque by Kar Sevaks in Ayodhya.",
+      "The demolition triggered the most horrific communal riots in post-independence India (especially the 1992-93 Bombay Riots), which directly culminated in the devastating 1993 Bombay serial bomb blasts.",
+      "The JMM Bribery Scandal (1993): He was accused (and convicted by a lower court, though later acquitted) of paying massive bribes to Jharkhand Mukti Morcha (JMM) MPs to survive a crucial no-confidence motion in Parliament.",
+      "His tenure was marred by several high-profile corruption cases, most notably the massive 1992 Harshad Mehta Stock Market Scam.",
+      "Despite his monumental economic contributions, he was marginalized and disowned by his own party (Congress) leadership after his election defeat in 1996."
+    ],
+    criticisms_hi: [
+      "बाबरी मस्जिद का विध्वंस (6 दिसंबर 1992): अयोध्या में कार सेवकों द्वारा मस्जिद को तोड़े जाने से रोकने में विफल रहने और 'मूक दर्शक' (Mute spectator) बने रहने के लिए उनकी सरकार की भयंकर आलोचना हुई।",
+      "इस विध्वंस के कारण पूरे देश में आजादी के बाद के सबसे भयानक सांप्रदायिक दंगे भड़क उठे (विशेषकर 1992-93 के बॉम्बे दंगे), जिसका सीधा परिणाम 1993 के विनाशकारी 'बॉम्बे सीरियल बम ब्लास्ट' (Bombay Bomb Blasts) के रूप में सामने आया।",
+      "JMM रिश्वत कांड (1993): उन पर संसद में एक महत्वपूर्ण अविश्वास प्रस्ताव (No-confidence motion) से बचने के लिए 'झारखंड मुक्ति मोर्चा' (JMM) के सांसदों को करोड़ों रुपये की रिश्वत देने का आरोप लगा (निचली अदालत ने उन्हें दोषी ठहराया, हालांकि बाद में वे बरी हो गए)।",
+      "उनके कार्यकाल में कई हाई-प्रोफाइल भ्रष्टाचार के मामले सामने आए, जिनमें 1992 का सबसे बड़ा 'हर्षद मेहता शेयर बाजार घोटाला' (Harshad Mehta Scam) प्रमुख था।",
+      "उनके द्वारा किए गए महान आर्थिक सुधारों के बावजूद, 1996 के चुनाव में हार के बाद उनकी ही पार्टी (कांग्रेस) के शीर्ष नेतृत्व ने उन्हें हाशिए पर धकेल दिया और उनके योगदान को भुला दिया।"
+    ]
   }
 ];
