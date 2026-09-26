@@ -620,5 +620,140 @@ export const pmHistory = [
       "उनके कार्यकाल में कई हाई-प्रोफाइल भ्रष्टाचार के मामले सामने आए, जिनमें 1992 का सबसे बड़ा 'हर्षद मेहता शेयर बाजार घोटाला' (Harshad Mehta Scam) प्रमुख था।",
       "उनके द्वारा किए गए महान आर्थिक सुधारों के बावजूद, 1996 के चुनाव में हार के बाद उनकी ही पार्टी (कांग्रेस) के शीर्ष नेतृत्व ने उन्हें हाशिए पर धकेल दिया और उनके योगदान को भुला दिया।"
     ]
+  },
+  {
+    id: "term_15_11th_loksabha_devegowda_gujral",
+    pm_name_en: "H.D. Deve Gowda & I.K. Gujral",
+    pm_name_hi: "एच. डी. देवेगौड़ा और आई. के. गुजराल",
+    term_en: "1 June 1996 – 19 March 1998",
+    term_hi: "1 जून 1996 – 19 मार्च 1998",
+    period_en: "11th Lok Sabha (United Front Era)",
+    period_hi: "ग्यारहवीं लोकसभा (संयुक्त मोर्चा)",
+    party_en: "Janata Dal (United Front)",
+    party_hi: "जनता दल (यूनाइटेड फ्रंट)",
+    coalition_en: "Minority Gov (Externally backed by Congress)",
+    coalition_hi: "अल्पमत सरकार (कांग्रेस का बाहरी समर्थन)",
+    symbol: "⚙️", 
+    image: "/assets/pms/deve_gowda.jpg",
+    achievements_en: [
+      "H.D. Deve Gowda, known as 'Mannina Maga' (Son of the Soil), became the first Prime Minister from Karnataka and heavily championed farmers' causes and agricultural subsidies.",
+      "The 'Gujral Doctrine' (formulated by I.K. Gujral): A milestone in India's foreign policy emphasizing peaceful, non-reciprocal, and generous relations with smaller neighboring countries (like Bangladesh, Nepal, and Sri Lanka) to build regional trust.",
+      "Signed the historic Mahakali Treaty with Nepal (1996) for water sharing and hydro-electric power development.",
+      "The era marked the true rise of regional parties and Chief Ministers playing kingmakers in national politics (Federalism at its peak)."
+    ],
+    achievements_hi: [
+      "एच. डी. देवेगौड़ा, जिन्हें 'मन्निना मगा' (धरती का पुत्र) कहा जाता था, कर्नाटक से पहले प्रधानमंत्री बने। उन्होंने किसानों के मुद्दों और कृषि सब्सिडी का पुरजोर समर्थन किया।",
+      "आई. के. गुजराल द्वारा दी गई 'गुजराल डॉक्ट्रिन' (Gujral Doctrine): यह भारत की विदेश नीति में एक मील का पत्थर थी, जिसमें पड़ोसियों (जैसे बांग्लादेश, नेपाल) के साथ बिना किसी स्वार्थ (Non-reciprocal) के शांतिपूर्ण संबंध बनाने पर जोर दिया गया।",
+      "जल बंटवारे और जलविद्युत विकास के लिए नेपाल के साथ ऐतिहासिक 'महाकाली संधि' (1996) पर हस्ताक्षर किए।",
+      "यह दौर राष्ट्रीय राजनीति में क्षेत्रीय दलों (Regional parties) और मुख्यमंत्रियों के 'किंगमेकर' बनने का वास्तविक उदय था (संघवाद अपने चरम पर था)।"
+    ],
+    criticisms_en: [
+      "The United Front was a highly unstable coalition of 13 disparate parties, entirely at the mercy of the Congress party's external support.",
+      "Deve Gowda's government fell in just 10 months when Congress President Sitaram Kesri unexpectedly withdrew support without any clear ideological reason.",
+      "Gujral's government also collapsed within a year when the Jain Commission report leaked, alleging that the DMK (a coalition partner) had tacitly supported the LTTE, which assassinated Rajiv Gandhi.",
+      "The constant political instability stalled major economic reforms and created a massive policy vacuum at the center, forcing early elections in 1998."
+    ],
+    criticisms_hi: [
+      "संयुक्त मोर्चा (United Front) 13 अलग-अलग पार्टियों का एक बेहद अस्थिर गठबंधन था, जो पूरी तरह से कांग्रेस के बाहरी समर्थन की दया पर निर्भर था।",
+      "देवेगौड़ा की सरकार महज 10 महीने में तब गिर गई जब कांग्रेस अध्यक्ष सीताराम केसरी ने बिना किसी स्पष्ट वैचारिक कारण के अचानक समर्थन वापस ले लिया।",
+      "गुजराल की सरकार भी एक साल के भीतर तब गिर गई जब 'जैन आयोग' (Jain Commission) की रिपोर्ट लीक हुई। इसमें आरोप लगाया गया था कि DMK (गठबंधन सहयोगी) ने परोक्ष रूप से LTTE का समर्थन किया था, जिसने राजीव गांधी की हत्या की थी।",
+      "लगातार राजनीतिक अस्थिरता ने बड़े आर्थिक सुधारों को रोक दिया और केंद्र में 'नीतिगत शून्यता' (Policy vacuum) पैदा कर दी, जिससे 1998 में जल्द चुनाव कराने पड़े।"
+    ]
+  },
+  {
+    id: "term_16_12th_13th_loksabha_vajpayee",
+    pm_name_en: "Atal Bihari Vajpayee",
+    pm_name_hi: "अटल बिहारी वाजपेयी",
+    term_en: "19 March 1998 – 22 May 2004",
+    term_hi: "19 मार्च 1998 – 22 मई 2004",
+    period_en: "12th & 13th Lok Sabha",
+    period_hi: "12वीं और 13वीं लोकसभा",
+    party_en: "Bharatiya Janata Party (BJP)",
+    party_hi: "भारतीय जनता पार्टी (BJP)",
+    coalition_en: "National Democratic Alliance (NDA)",
+    coalition_hi: "राष्ट्रीय जनतांत्रिक गठबंधन (NDA)",
+    symbol: "🪷", 
+    image: "/assets/pms/vajpayee.jpg",
+    achievements_en: [
+      "Pokhran-II (Operation Shakti, 1998): Successfully conducted five underground nuclear tests, officially declaring India a nuclear weapon state and boldly defying global sanctions.",
+      "Kargil War Victory (1999): Led the nation to a decisive military and diplomatic victory against Pakistani infiltrators in the treacherous high-altitude peaks of Kargil (Operation Vijay).",
+      "Golden Quadrilateral & PMGSY: Launched massive infrastructure projects, connecting India's four major metros via a world-class highway network, and the Pradhan Mantri Gram Sadak Yojana for rural road connectivity.",
+      "Telecom Revolution: Implemented the New Telecom Policy (1999), shifting from fixed license fees to a revenue-sharing model, which triggered the massive mobile phone boom in India.",
+      "Sarva Shiksha Abhiyan: Launched a massive nationwide scheme in 2001 to make free and compulsory education a fundamental right for children aged 6 to 14.",
+      "Passed the Fiscal Responsibility and Budget Management (FRBM) Act to institutionalize financial discipline and massively reduced inflation.",
+      "First non-Congress Prime Minister to complete a full five-year term, proving that a massive coalition (NDA) could provide stable, pro-growth governance."
+    ],
+    achievements_hi: [
+      "पोखरण-II (ऑपरेशन शक्ति, 1998): वैश्विक प्रतिबंधों की परवाह न करते हुए पांच सफल भूमिगत परमाणु परीक्षण किए और भारत को आधिकारिक तौर पर एक 'परमाणु हथियार संपन्न देश' (Nuclear state) घोषित किया।",
+      "कारगिल युद्ध विजय (1999): कारगिल की ऊंची चोटियों पर पाकिस्तानी घुसपैठियों के खिलाफ (ऑपरेशन विजय) देश को एक निर्णायक सैन्य और कूटनीतिक जीत दिलाई।",
+      "स्वर्णिम चतुर्भुज (Golden Quadrilateral) और PMGSY: भारत के चार प्रमुख महानगरों को विश्व स्तरीय राजमार्गों से जोड़ने और ग्रामीण सड़कों के लिए 'प्रधानमंत्री ग्राम सड़क योजना' की शुरुआत की।",
+      "दूरसंचार क्रांति (Telecom Revolution): नई दूरसंचार नीति (1999) लागू की, जिसने भारत में मोबाइल फोन के जबरदस्त विस्तार (Boom) का रास्ता साफ किया।",
+      "सर्व शिक्षा अभियान (2001): 6 से 14 वर्ष के बच्चों के लिए मुफ्त और अनिवार्य शिक्षा को मौलिक अधिकार बनाने के लिए देशव्यापी योजना शुरू की।",
+      "वित्तीय अनुशासन (Financial discipline) लाने के लिए FRBM एक्ट पास किया और महंगाई को बहुत कम स्तर पर बनाए रखा।",
+      "पूरा 5 साल का कार्यकाल पूरा करने वाले पहले 'गैर-कांग्रेसी' प्रधानमंत्री बने, और साबित किया कि एक बड़ा गठबंधन (NDA) भी स्थिर और विकासवादी सरकार दे सकता है।"
+    ],
+    criticisms_en: [
+      "2002 Gujarat Riots: His government faced extreme global and domestic criticism for failing to prevent the horrific communal riots in Gujarat. Vajpayee publicly reminded the state government to follow 'Raj Dharma' (the duty of rulers).",
+      "IC-814 Hijacking (1999): The decision to release three dreaded terrorists (including Maulana Masood Azhar, who later founded Jaish-e-Mohammed) in exchange for the hostages of the hijacked Indian Airlines flight in Kandahar remains highly controversial.",
+      "Kargil Intelligence Failure: While the war was won, the initial failure of Indian intelligence to detect massive Pakistani infiltration on Indian territory was a major security lapse.",
+      "The 'India Shining' Campaign: The overly optimistic 2004 election slogan completely alienated the rural poor and farmers facing agrarian distress, leading to the NDA's shock defeat.",
+      "Agra Summit Failure (2001): The highly publicized peace talks with Pakistan's Pervez Musharraf collapsed completely without any agreement."
+    ],
+    criticisms_hi: [
+      "2002 के गुजरात दंगे: गुजरात में हुए भयानक सांप्रदायिक दंगों को न रोक पाने के लिए उनकी सरकार को भारी आलोचना का सामना करना पड़ा। वाजपेयी जी ने सार्वजनिक रूप से राज्य सरकार को 'राजधर्म' का पालन करने की याद दिलाई थी।",
+      "IC-814 हाईजैक (1999): कंधार में अपहृत विमान के यात्रियों को छुड़ाने के बदले तीन खूंखार आतंकवादियों (जिसमें मसूद अजहर भी था, जिसने बाद में जैश-ए-मोहम्मद बनाया) को रिहा करने का फैसला आज भी बेहद विवादास्पद माना जाता है।",
+      "कारगिल इंटेलिजेंस विफलता: हालांकि युद्ध जीता गया, लेकिन भारतीय खुफिया एजेंसियों (Intelligence) का पाकिस्तानी घुसपैठ का पता न लगा पाना एक बड़ी सुरक्षा चूक (Security lapse) थी।",
+      "'इंडिया शाइनिंग' अभियान (2004): यह चुनाव प्रचार का नारा ग्रामीण गरीबों और किसानों की वास्तविक परेशानियों से बिल्कुल कटा हुआ था, जिसके कारण 2004 के चुनाव में NDA को चौंकाने वाली हार मिली।",
+      "आगरा शिखर सम्मेलन (2001) की विफलता: पाकिस्तान के परवेज मुशर्रफ के साथ शांति वार्ता पूरी तरह से विफल रही और कोई समझौता नहीं हो सका।"
+    ]
+  },
+  {
+    id: "term_17_14th_15th_loksabha_manmohan",
+    pm_name_en: "Dr. Manmohan Singh",
+    pm_name_hi: "डॉ. मनमोहन सिंह",
+    term_en: "22 May 2004 – 26 May 2014",
+    term_hi: "22 मई 2004 – 26 मई 2014",
+    period_en: "14th & 15th Lok Sabha",
+    period_hi: "14वीं और 15वीं लोकसभा",
+    party_en: "Indian National Congress (INC)",
+    party_hi: "भारतीय राष्ट्रीय कांग्रेस (INC)",
+    coalition_en: "United Progressive Alliance (UPA I & II)",
+    coalition_hi: "संयुक्त प्रगतिशील गठबंधन (UPA I & II)",
+    symbol: "✋", 
+    image: "/assets/pms/manmohan.jpg",
+    achievements_en: [
+      "Golden Era of GDP Growth: Oversaw India's highest sustained economic growth period in history, with GDP consistently growing at 8-9% before the 2008 global financial crisis.",
+      "Right to Information (RTI) Act, 2005: Passed the landmark transparency law, fundamentally empowering Indian citizens to question government authorities and expose corruption.",
+      "MGNREGA (2005): Launched the world's largest social welfare scheme, guaranteeing 100 days of wage employment to rural households, massively reducing rural poverty.",
+      "Indo-US Civil Nuclear Agreement (2008): Staked his government's survival to sign this historic pact, effectively ending India's nuclear isolation and securing uranium for nuclear energy.",
+      "Aadhaar (UIDAI): Launched the world's largest biometric ID system, laying the groundwork for Direct Benefit Transfers (DBT) and removing middlemen from welfare distribution.",
+      "Right to Education (RTE) Act, 2009: Made education a fundamental, legally enforceable right for every child between the ages of 6 and 14.",
+      "Navigated the 2008 Global Financial Crisis with extreme prudence, insulating the Indian banking sector from the subprime mortgage collapse."
+    ],
+    achievements_hi: [
+      "GDP वृद्धि का सुनहरा दौर: उनके कार्यकाल में भारत ने अपने इतिहास की सबसे तेज और स्थिर आर्थिक वृद्धि (8-9% GDP growth) देखी।",
+      "सूचना का अधिकार (RTI) अधिनियम, 2005: पारदर्शिता लाने वाला यह ऐतिहासिक कानून पास किया, जिसने नागरिकों को सरकार से सवाल पूछने और भ्रष्टाचार को उजागर करने की ताकत दी।",
+      "मनरेगा (MGNREGA, 2005): दुनिया की सबसे बड़ी सामाजिक कल्याण योजना शुरू की, जिसमें ग्रामीण परिवारों को 100 दिनों के रोजगार की गारंटी दी गई और ग्रामीण गरीबी में भारी कमी आई।",
+      "भारत-अमेरिका असैन्य परमाणु समझौता (2008): इस ऐतिहासिक समझौते को पास कराने के लिए अपनी सरकार दांव पर लगा दी, जिससे भारत का 'परमाणु अलगाव' (Nuclear isolation) खत्म हुआ।",
+      "आधार (Aadhaar / UIDAI): दुनिया की सबसे बड़ी बायोमेट्रिक पहचान प्रणाली शुरू की, जिसने 'डायरेक्ट बेनिफिट ट्रांसफर' (DBT) की नींव रखी और बिचौलियों को खत्म किया।",
+      "शिक्षा का अधिकार (RTE) अधिनियम, 2009: 6 से 14 वर्ष की आयु के प्रत्येक बच्चे के लिए शिक्षा को एक मौलिक और कानूनी अधिकार बनाया।",
+      "2008 के वैश्विक वित्तीय संकट (Global Financial Crisis) का बहुत समझदारी से सामना किया और भारतीय बैंकिंग क्षेत्र को डूबने से बचाया।"
+    ],
+    criticisms_en: [
+      "Massive Corruption Scandals (UPA-II): His second term was entirely derailed by astronomical corruption allegations, including the 2G Spectrum Scam, Coalgate (Coal block allocation), and the 2010 Commonwealth Games (CWG) scam.",
+      "Perception of Weakness: He was widely perceived as a 'remote-controlled' Prime Minister, lacking real political authority, with power concentrated in the hands of Congress President Sonia Gandhi and the NAC.",
+      "Policy Paralysis: The avalanche of scams led to extreme bureaucratic caution, causing severe 'policy paralysis', stalling infrastructure projects and crashing economic growth in his final years.",
+      "Runaway Inflation: The later years of UPA-II saw double-digit inflation (especially in food prices) and a sharply depreciating Rupee, devastating the middle class.",
+      "Handling of 26/11 Mumbai Attacks (2008): The government faced immense public anger for its lack of military retaliation against Pakistan following the horrific terror attacks.",
+      "The 'Nirbhaya' Protests (2012): The government's initially insensitive response to the brutal Delhi gang-rape sparked nationwide, unprecedented protests against women's safety failures."
+    ],
+    criticisms_hi: [
+      "महा-घोटाले (UPA-II): उनका दूसरा कार्यकाल 2G स्पेक्ट्रम घोटाला, कोयला घोटाला (Coalgate), और 2010 कॉमनवेल्थ गेम्स (CWG) घोटाले जैसे भ्रष्टाचार के भारी आरोपों से पूरी तरह बर्बाद हो गया।",
+      "कमजोर प्रधानमंत्री की छवि: जनता में यह धारणा बन गई थी कि वे एक 'रिमोट-कंट्रोल' प्रधानमंत्री हैं और असली सत्ता कांग्रेस अध्यक्ष सोनिया गांधी के हाथों में है।",
+      "पॉलिसी पैरालिसिस (Policy Paralysis): घोटालों के डर से नौकरशाही में इतना खौफ आ गया कि सरकारी फैसले लेने बंद हो गए। इससे इंफ्रास्ट्रक्चर प्रोजेक्ट रुक गए और आर्थिक विकास दर धड़ाम हो गई।",
+      "बेकाबू महंगाई: UPA-II के अंतिम वर्षों में दोहरे अंकों की महंगाई (Double-digit inflation) और गिरते रुपये ने आम आदमी और मध्यम वर्ग की कमर तोड़ दी।",
+      "26/11 मुंबई हमले (2008): इन खौफनाक आतंकी हमलों के बाद पाकिस्तान के खिलाफ कोई भी 'सैन्य जवाबी कार्रवाई' (Military retaliation) न करने पर सरकार को भारी जनता के गुस्से का सामना करना पड़ा।",
+      "निर्भया कांड (2012): दिल्ली में हुए क्रूर गैंगरेप के बाद सरकार की शुरुआती असंवेदनशीलता के कारण महिला सुरक्षा को लेकर पूरे देश में भयंकर विरोध प्रदर्शन हुए।"
+    ]
   }
 ];
