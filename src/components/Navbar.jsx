@@ -17,8 +17,9 @@ export const Navbar = () => {
             </Link>
           </div>
           
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-6">
             <Link to="/" className="text-slate-600 hover:text-blue-600 font-medium transition-colors">Home</Link>
+            <Link to="/history" className="text-slate-600 hover:text-blue-600 font-medium transition-colors">Political History</Link>
             <Link to="/evm-security" className="text-slate-600 hover:text-blue-600 font-medium transition-colors">EVM Security</Link>
             <Link to="/voter-awareness" className="text-slate-600 hover:text-blue-600 font-medium transition-colors">Voter Awareness</Link>
             <Link to="/contact" className="text-slate-600 hover:text-blue-600 font-medium transition-colors">Contact</Link>
@@ -41,6 +42,7 @@ export const Navbar = () => {
         <div className="md:hidden bg-white border-b border-gray-100">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <Link to="/" onClick={() => setIsOpen(false)} className="block px-3 py-2 text-slate-600 font-medium">Home</Link>
+            <Link to="/history" onClick={() => setIsOpen(false)} className="block px-3 py-2 text-slate-600 font-medium">Political History</Link>
             <Link to="/evm-security" onClick={() => setIsOpen(false)} className="block px-3 py-2 text-slate-600 font-medium">EVM Security</Link>
             <Link to="/voter-awareness" onClick={() => setIsOpen(false)} className="block px-3 py-2 text-slate-600 font-medium">Voter Awareness</Link>
             <Link to="/contact" onClick={() => setIsOpen(false)} className="block px-3 py-2 text-slate-600 font-medium">Contact</Link>

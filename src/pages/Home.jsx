@@ -49,17 +49,11 @@ export const Home = () => {
       </Helmet>
 
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 pb-20 pt-16 sm:pt-24 lg:pb-28 lg:pt-32">
-        {/* Abstract Background pattern */}
-        <div className="absolute inset-0 opacity-10">
-           <svg className="h-full w-full" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                 <pattern id="grid-pattern" width="40" height="40" patternUnits="userSpaceOnUse">
-                    <path d="M0 40L40 0H20L0 20M40 40V20L20 40" stroke="currentColor" strokeWidth="1" fill="none"/>
-                 </pattern>
-              </defs>
-              <rect width="100%" height="100%" fill="url(#grid-pattern)"/>
-           </svg>
+      <section className="relative overflow-hidden bg-slate-900 pb-20 pt-16 sm:pt-24 lg:pb-28 lg:pt-32">
+        {/* Majestic Flag Background */}
+        <div className="absolute inset-0 z-0">
+          <img src="/assets/pms/majestic_flag.jpg" alt="Indian Flag" className="w-full h-full object-cover opacity-30 mix-blend-overlay" />
+          <div className="absolute inset-0 bg-gradient-to-br from-blue-900/90 via-slate-900/95 to-slate-900/90"></div>
         </div>
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">

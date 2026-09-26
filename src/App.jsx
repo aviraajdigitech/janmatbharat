@@ -8,6 +8,7 @@ import { DataDeletion } from './pages/DataDeletion';
 import { VoterAwareness } from './pages/VoterAwareness';
 import { PrivacyPolicy } from './pages/PrivacyPolicy';
 import { Contact } from './pages/Contact';
+import { History } from './pages/History';
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
             <Route path="/voter-awareness" element={<VoterAwareness />} />
             <Route path="/privacy" element={<PrivacyPolicy />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/history" element={<History />} />
           </Routes>
         </main>
         <Footer />
