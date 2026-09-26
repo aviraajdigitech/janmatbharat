@@ -23,7 +23,7 @@ export const Navbar = () => {
             <Link to="/evm-security" className="text-slate-600 hover:text-blue-600 font-medium transition-colors">EVM Security</Link>
             <Link to="/voter-awareness" className="text-slate-600 hover:text-blue-600 font-medium transition-colors">Voter Awareness</Link>
             <Link to="/contact" className="text-slate-600 hover:text-blue-600 font-medium transition-colors">Contact</Link>
-            <a href="#download" className="bg-blue-600 text-white px-6 py-2.5 rounded-full font-semibold hover:bg-blue-700 transition-all shadow-md hover:shadow-blue-200 flex items-center gap-2">
+            <a href="https://play.google.com/store/apps/details?id=com.aviraajdigitech.janmatbharat" target="_blank" rel="noopener noreferrer" className="bg-blue-600 text-white px-6 py-2.5 rounded-full font-semibold hover:bg-blue-700 transition-all shadow-md hover:shadow-blue-200 flex items-center gap-2">
               <Smartphone size={18} />
               Download App
             </a>
@@ -52,3 +52,4 @@ export const Navbar = () => {
     </nav>
   );
 };
+

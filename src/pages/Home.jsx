@@ -117,28 +117,33 @@ export const Home = () => {
       <section className="relative min-h-[92vh] flex items-center justify-center pt-20 overflow-hidden">
         <ThreeFlag />
 
-        <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center" style={{ zIndex: 10 }}>
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/20 backdrop-blur-md border border-white/30 text-white font-semibold mb-8 shadow-2xl text-sm uppercase tracking-wider">
             <Activity size={16} />
             India's #1 Digital Polling Platform
           </div>
 
           <h1 className="text-5xl sm:text-6xl md:text-7xl font-extrabold text-white mb-6 tracking-tight drop-shadow-2xl leading-tight">
-            Awaaz Aapki.{' '}
+            Awaaz Aapki,{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-saffron-400 via-white to-green-400">
-              Faisla Desh Ka.
+              Bharat Ki Pehchaan.
             </span>
           </h1>
 
           <p className="mt-4 text-lg md:text-xl text-slate-100 max-w-3xl mx-auto font-medium leading-relaxed drop-shadow-lg mb-10">
-            Janmat Bharat is not just an app — it's a digital revolution. Experience 100% secure, transparent, and deep political polling right from your smartphone. Before the EVM decides, let the nation know your choice.
+            Pehli baar, ek aisa platform jahan har naagrik apni raay nishchint hokar de sakta hai. Lok Sabha se lekar Vidhan Sabha tak — apna mock vote daalo, live results dekho, aur apne neta ki poori history ek jagah padho.
           </p>
 
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
-            <button className="bg-saffron-500 hover:bg-saffron-600 text-white px-8 py-4 rounded-full font-extrabold text-lg transition-all shadow-lg flex items-center gap-2 transform hover:-translate-y-1 w-full sm:w-auto justify-center">
+            <a
+              href="https://play.google.com/store/apps/details?id=com.aviraajdigitech.janmatbharat"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-saffron-500 hover:bg-saffron-600 text-white px-8 py-4 rounded-full font-extrabold text-lg transition-all shadow-lg flex items-center gap-2 transform hover:-translate-y-1 w-full sm:w-auto justify-center"
+            >
               <Smartphone size={22} />
               Download App Now
-            </button>
+            </a>
             <Link to="/history" className="bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/30 text-white px-8 py-4 rounded-full font-bold text-lg transition-all flex items-center gap-2 w-full sm:w-auto justify-center">
               <Landmark size={22} />
               Read Political History
@@ -399,10 +404,15 @@ export const Home = () => {
         <div className="relative z-10 max-w-3xl mx-auto px-4">
           <h2 className="text-3xl md:text-5xl font-extrabold mb-5">Ready to Make Your Voice Heard?</h2>
           <p className="text-xl text-blue-100 mb-10">Join thousands of citizens already using Janmat Bharat.</p>
-          <button className="bg-white text-blue-600 px-10 py-5 rounded-full font-extrabold text-xl hover:bg-slate-50 transition-colors shadow-2xl flex items-center gap-3 mx-auto hover:scale-105 transform">
+          <a
+            href="https://play.google.com/store/apps/details?id=com.aviraajdigitech.janmatbharat"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-white text-blue-600 px-10 py-5 rounded-full font-extrabold text-xl hover:bg-slate-50 transition-colors shadow-2xl inline-flex items-center gap-3 hover:scale-105 transform"
+          >
             <Smartphone size={26} /> Download Janmat Bharat App
-          </button>
-          <p className="mt-5 text-blue-200 text-sm uppercase tracking-wide">Available soon on Google Play & Apple App Store</p>
+          </a>
+          <p className="mt-5 text-blue-200 text-sm uppercase tracking-wide">Available on Google Play Store</p>
         </div>
       </section>
     </div>
