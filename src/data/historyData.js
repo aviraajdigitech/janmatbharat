@@ -100,5 +100,52 @@ export const pmHistory = [
       "नौकरशाही और लालफीताशाही (License Raj) की शुरुआत होने लगी।",
       "भाषाई राज्यों के शुरुआती विरोध के कारण भारी हिंसक प्रदर्शन हुए (जैसे आंध्र में)।"
     ]
+  },
+  {
+    id: "term_3_2nd_loksabha",
+    pm_name_en: "Jawaharlal Nehru",
+    pm_name_hi: "जवाहरलाल नेहरू",
+    term_en: "17 April 1957 – 2 April 1962",
+    term_hi: "17 अप्रैल 1957 – 2 अप्रैल 1962",
+    period_en: "2nd Lok Sabha",
+    period_hi: "दूसरी लोकसभा",
+    party_en: "Indian National Congress (INC)",
+    party_hi: "भारतीय राष्ट्रीय कांग्रेस (INC)",
+    coalition_en: "Absolute Majority (371/494 seats)",
+    coalition_hi: "प्रचंड बहुमत (494 में से 371 सीटें)",
+    symbol: "🐂", 
+    image: "/assets/pms/nehru.jpg",
+    achievements_en: [
+      "Successfully held the second general elections, solidifying democratic roots.",
+      "Liberation and annexation of Goa from Portuguese rule (Operation Vijay, 1961).",
+      "Passed the Dowry Prohibition Act, 1961 to protect women's rights.",
+      "Established the Defence Research and Development Organisation (DRDO) in 1958.",
+      "Signed the historic Indus Water Treaty with Pakistan (1960).",
+      "Formally established the Non-Aligned Movement (NAM) in Belgrade (1961).",
+      "Expansion of heavy industries and steel plants (Bhilai, Rourkela, Durgapur).",
+      "Creation of the states of Maharashtra and Gujarat (1960)."
+    ],
+    achievements_hi: [
+      "दूसरे आम चुनाव सफलतापूर्वक करवाए, जिससे लोकतंत्र की जड़ें मजबूत हुईं।",
+      "पुर्तगाली शासन से गोवा की मुक्ति और भारत में विलय (ऑपरेशन विजय, 1961)।",
+      "महिलाओं के अधिकारों की रक्षा के लिए दहेज निषेध अधिनियम, 1961 पास किया।",
+      "1958 में रक्षा अनुसंधान एवं विकास संगठन (DRDO) की स्थापना की।",
+      "1960 में पाकिस्तान के साथ ऐतिहासिक सिंधु जल संधि (Indus Water Treaty) पर हस्ताक्षर किए।",
+      "1961 में बेलग्रेड में गुटनिरपेक्ष आंदोलन (NAM) की औपचारिक स्थापना की।",
+      "भारी उद्योगों और स्टील प्लांट (भिलाई, राउरकेला, दुर्गापुर) का विस्तार।",
+      "1960 में महाराष्ट्र और गुजरात राज्यों का निर्माण।"
+    ],
+    criticisms_en: [
+      "Failure of the 'Forward Policy', culminating in the disastrous 1962 Sino-Indian War.",
+      "Dismissal of the democratically elected Communist government in Kerala (1959).",
+      "Rising inflation and food shortages towards the end of the term.",
+      "The massive defeat to China deeply damaged India's international standing and Nehru's personal health."
+    ],
+    criticisms_hi: [
+      "'फॉरवर्ड पॉलिसी' की विफलता, जिसके परिणामस्वरूप 1962 का विनाशकारी भारत-चीन युद्ध हुआ।",
+      "केरल में लोकतांत्रिक रूप से चुनी गई कम्युनिस्ट सरकार की बर्खास्तगी (1959)।",
+      "कार्यकाल के अंत में बढ़ती महंगाई और भोजन की भारी कमी।",
+      "चीन से मिली हार ने भारत की अंतरराष्ट्रीय छवि और नेहरू जी के व्यक्तिगत स्वास्थ्य को गहरा नुकसान पहुँचाया।"
+    ]
   }
 ];

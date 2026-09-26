@@ -9,6 +9,7 @@ import { VoterAwareness } from './pages/VoterAwareness';
 import { PrivacyPolicy } from './pages/PrivacyPolicy';
 import { Contact } from './pages/Contact';
 import { History } from './pages/History';
+import { HistoryDetail } from './pages/HistoryDetail';
 
 export default function App() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
             <Route path="/privacy" element={<PrivacyPolicy />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/history" element={<History />} />
+            <Route path="/history/:termId" element={<HistoryDetail />} />
           </Routes>
         </main>
         <Footer />

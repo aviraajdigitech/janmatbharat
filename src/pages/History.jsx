@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import { Helmet } from 'react-helmet-async';
+import { Link } from 'react-router-dom';
 import { pmHistory } from '../data/historyData';
-import { CheckCircle2, XCircle, Clock, Landmark, Users, Languages } from 'lucide-react';
+import { Languages, ArrowRight, Landmark } from 'lucide-react';
 
 export const History = () => {
-  const [lang, setLang] = useState('hi'); // Default to Hindi as per user preference
+  const [lang, setLang] = useState('hi');
 
   return (
     <div className="min-h-screen pt-28 pb-20 bg-slate-50 font-sans">
@@ -28,103 +29,40 @@ export const History = () => {
           </h1>
           <p className="text-xl text-slate-600 font-medium leading-relaxed">
             {lang === 'en' 
-              ? "From 1947 to the present day, explore the definitive encyclopedia of India's Prime Ministers term by term. We break down the absolute highs and the critical lows of every government."
-              : "1947 से लेकर आज तक, भारत के प्रधानमंत्रियों का विस्तृत कार्यकाल (Term by Term) इतिहास। जानिए हर सरकार के सबसे शानदार फैसले और उनकी सबसे बड़ी कमियां।"}
+              ? "From 1947 to the present day, explore the definitive encyclopedia of India's Prime Ministers term by term. Select a term below to read its complete history."
+              : "1947 से लेकर आज तक, भारत के प्रधानमंत्रियों का विस्तृत कार्यकाल (Term by Term) इतिहास। पूरी जानकारी पढ़ने के लिए नीचे किसी भी कार्यकाल पर क्लिक करें।"}
           </p>
         </div>
 
-        <div className="space-y-16">
-          {pmHistory.map((pm, index) => (
-            <div key={pm.id} className="bg-white rounded-[2.5rem] shadow-xl border border-slate-100 overflow-hidden flex flex-col lg:flex-row">
-              {/* Profile Sidebar */}
-              <div className="lg:w-1/3 bg-slate-900 text-white p-10 flex flex-col items-center text-center relative overflow-hidden">
-                <div className="absolute top-0 right-0 p-8 opacity-10">
-                  <Landmark size={120} />
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {pmHistory.map((pm) => (
+            <Link to={`/history/${pm.id}`} key={pm.id} className="bg-white rounded-3xl shadow-lg hover:shadow-2xl transition-all border border-slate-100 overflow-hidden group flex flex-col">
+              <div className="h-48 bg-slate-900 relative overflow-hidden flex items-center justify-center">
+                <Landmark size={80} className="absolute opacity-10 text-white" />
+                <img 
+                  src={pm.image} 
+                  alt={pm.pm_name_en} 
+                  className="w-32 h-32 rounded-full border-4 border-white object-cover relative z-10 group-hover:scale-110 transition-transform duration-500"
+                  onError={(e) => { e.target.src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/300px-No_image_available.svg.png' }}
+                />
+              </div>
+              <div className="p-8 flex-grow flex flex-col">
+                <div className="bg-blue-50 text-blue-700 font-bold px-3 py-1 rounded-full text-xs inline-block mb-4 w-max">
+                  {lang === 'en' ? pm.period_en : pm.period_hi}
                 </div>
-                <div className="relative z-10 w-full">
-                  <div className="w-48 h-48 mx-auto rounded-full border-4 border-white/20 overflow-hidden mb-6 shadow-2xl bg-slate-800">
-                    <img src={pm.image} alt={pm.pm_name_en} className="w-full h-full object-cover" onError={(e) => { e.target.src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/300px-No_image_available.svg.png' }} />
-                  </div>
-                  
-                  <div className="bg-blue-600/20 text-blue-300 font-bold px-4 py-1.5 rounded-full inline-block mb-4 text-sm border border-blue-500/30">
-                    {lang === 'en' ? pm.period_en : pm.period_hi}
-                  </div>
-                  
-                  <h2 className="text-3xl font-extrabold mb-2">{lang === 'en' ? pm.pm_name_en : pm.pm_name_hi}</h2>
-                  
-                  <div className="flex items-center justify-center gap-2 mb-8">
-                    <span className="text-2xl">{pm.symbol}</span>
-                    <p className="text-saffron-400 font-bold text-lg">{lang === 'en' ? pm.party_en : pm.party_hi}</p>
-                  </div>
-                  
-                  <div className="space-y-4 w-full text-left">
-                    <div className="bg-white/10 p-4 rounded-2xl backdrop-blur-sm border border-white/10">
-                      <div className="flex items-center gap-2 text-blue-300 text-sm font-bold uppercase mb-1">
-                        <Clock size={16} /> {lang === 'en' ? 'Term Duration' : 'कार्यकाल'}
-                      </div>
-                      <p className="font-semibold">{lang === 'en' ? pm.term_en : pm.term_hi}</p>
-                    </div>
-                    <div className="bg-white/10 p-4 rounded-2xl backdrop-blur-sm border border-white/10">
-                      <div className="flex items-center gap-2 text-blue-300 text-sm font-bold uppercase mb-1">
-                        <Users size={16} /> {lang === 'en' ? 'Government Type' : 'सरकार का स्वरूप'}
-                      </div>
-                      <p className="font-semibold">{lang === 'en' ? pm.coalition_en : pm.coalition_hi}</p>
-                    </div>
-                  </div>
+                <h2 className="text-2xl font-extrabold text-slate-900 mb-2">
+                  {lang === 'en' ? pm.pm_name_en : pm.pm_name_hi}
+                </h2>
+                <p className="text-slate-500 font-medium text-sm mb-6 flex-grow">
+                  {lang === 'en' ? pm.term_en : pm.term_hi}
+                </p>
+                <div className="mt-auto flex items-center justify-between text-blue-600 font-bold group-hover:text-blue-700">
+                  <span>{lang === 'en' ? 'Read Full History' : 'पूरा इतिहास पढ़ें'}</span>
+                  <ArrowRight size={20} className="transform group-hover:translate-x-2 transition-transform" />
                 </div>
               </div>
-
-              {/* Data Content */}
-              <div className="lg:w-2/3 p-10 lg:p-12">
-                <div className="grid grid-cols-1 gap-12">
-                  {/* Achievements */}
-                  <div>
-                    <div className="flex items-center gap-3 mb-6">
-                      <div className="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center text-green-600 shadow-sm border border-green-200">
-                        <CheckCircle2 size={28} />
-                      </div>
-                      <h3 className="text-3xl font-extrabold text-slate-900">
-                        {lang === 'en' ? 'Major Achievements' : 'सबसे शानदार काम'}
-                      </h3>
-                    </div>
-                    <ul className="space-y-4 bg-green-50/50 p-6 rounded-3xl border border-green-100">
-                      {(lang === 'en' ? pm.achievements_en : pm.achievements_hi).map((item, i) => (
-                        <li key={i} className="flex items-start gap-4">
-                          <span className="w-8 h-8 rounded-full bg-green-600 text-white flex items-center justify-center text-sm font-bold flex-shrink-0 mt-0.5 shadow-sm">{i+1}</span>
-                          <span className="text-slate-800 font-medium leading-relaxed text-lg pt-0.5">{item}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-
-                  {/* Criticisms */}
-                  <div>
-                    <div className="flex items-center gap-3 mb-6">
-                      <div className="w-12 h-12 rounded-full bg-red-100 flex items-center justify-center text-red-600 shadow-sm border border-red-200">
-                        <XCircle size={28} />
-                      </div>
-                      <h3 className="text-3xl font-extrabold text-slate-900">
-                        {lang === 'en' ? 'Controversies & Failures' : 'विवाद और कमियां'}
-                      </h3>
-                    </div>
-                    <ul className="space-y-4 bg-red-50/50 p-6 rounded-3xl border border-red-100">
-                      {(lang === 'en' ? pm.criticisms_en : pm.criticisms_hi).map((item, i) => (
-                        <li key={i} className="flex items-start gap-4">
-                          <span className="w-8 h-8 rounded-full bg-red-600 text-white flex items-center justify-center text-sm font-bold flex-shrink-0 mt-0.5 shadow-sm">!</span>
-                          <span className="text-slate-800 font-medium leading-relaxed text-lg pt-0.5">{item}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
+            </Link>
           ))}
-          
-          <div className="bg-blue-50 border border-blue-100 p-8 rounded-3xl text-center">
-             <h3 className="text-xl font-bold text-slate-900 mb-2">{lang === 'en' ? 'More terms coming soon...' : 'अगले कार्यकाल की जानकारी जल्द आ रही है...'}</h3>
-             <p className="text-slate-600 font-medium">{lang === 'en' ? 'We are meticulously researching and adding detailed historical data for all Prime Ministers up to the present day.' : 'हम सभी प्रधानमंत्रियों के हर एक कार्यकाल की गहराई से रिसर्च करके डेटा जोड़ रहे हैं।'}</p>
-          </div>
         </div>
       </div>
     </div>
