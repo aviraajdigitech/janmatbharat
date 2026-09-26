@@ -52,8 +52,8 @@ export const Home = () => {
       <section className="relative overflow-hidden bg-slate-900 pb-20 pt-16 sm:pt-24 lg:pb-28 lg:pt-32">
         {/* Majestic Flag Background */}
         <div className="absolute inset-0 z-0">
-          <img src="/assets/pms/majestic_flag.jpg" alt="Indian Flag" className="w-full h-full object-cover opacity-30 mix-blend-overlay" />
-          <div className="absolute inset-0 bg-gradient-to-br from-blue-900/90 via-slate-900/95 to-slate-900/90"></div>
+          <img src="/assets/pms/majestic_flag.jpg" alt="Indian Flag" className="w-full h-full object-cover opacity-80" />
+          <div className="absolute inset-0 bg-blue-900/30"></div>
         </div>
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
