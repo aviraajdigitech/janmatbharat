@@ -315,5 +315,52 @@ export const pmHistory = [
       "इलाहाबाद उच्च न्यायालय के उस फैसले को पलट दिया जिसमें उनके चुनाव को अमान्य घोषित किया गया था।",
       "सुप्रीम कोर्ट के वरिष्ठ जजों को नजरअंदाज कर अपनी पसंद के मुख्य न्यायाधीश (CJ) की नियुक्ति की।"
     ]
+  },
+  {
+    id: "term_8_6th_loksabha_morarji",
+    pm_name_en: "Morarji Desai",
+    pm_name_hi: "मोरारजी देसाई",
+    term_en: "24 March 1977 – 28 July 1979",
+    term_hi: "24 मार्च 1977 – 28 जुलाई 1979",
+    period_en: "6th Lok Sabha",
+    period_hi: "छठी लोकसभा",
+    party_en: "Janata Party",
+    party_hi: "जनता पार्टी",
+    coalition_en: "Coalition Majority (Janata Alliance)",
+    coalition_hi: "गठबंधन बहुमत (जनता एलायंस)",
+    symbol: "🧑‍🌾", // Farmer with plough symbol
+    image: "/assets/pms/morarji.jpg",
+    achievements_en: [
+      "Became the first non-Congress Prime Minister of India, proving the maturity of Indian democracy.",
+      "Restored democratic rights, civil liberties, and freedom of the press suspended during the Emergency.",
+      "Passed the 44th Constitutional Amendment Act (1978) to restore judicial independence and prevent future abuse of Emergency powers.",
+      "Demonetized high-value currency notes (Rs 1,000, Rs 5,000, Rs 10,000) in 1978 to curb black money.",
+      "Significantly improved diplomatic relations with neighbors, including Pakistan and China. He is the only Indian to receive Pakistan's highest civilian award, Nishan-e-Pakistan.",
+      "Shifted economic focus from heavy industrialization to rural development, agriculture, and small-scale industries.",
+      "Ended the controversial forced sterilization programs completely."
+    ],
+    achievements_hi: [
+      "भारत के पहले गैर-कांग्रेसी प्रधानमंत्री बने, जिसने भारतीय लोकतंत्र की परिपक्वता को साबित किया।",
+      "आपातकाल (Emergency) के दौरान छीने गए लोकतांत्रिक अधिकारों, नागरिक स्वतंत्रता और प्रेस की आजादी को बहाल किया।",
+      "भविष्य में आपातकाल के दुरुपयोग को रोकने और न्यायपालिका की स्वतंत्रता वापस लाने के लिए 44वां संविधान संशोधन (1978) पास किया।",
+      "काले धन पर लगाम लगाने के लिए 1978 में बड़े नोटों (1,000, 5,000 और 10,000 रुपये) की नोटबंदी (Demonetization) की।",
+      "पाकिस्तान और चीन सहित पड़ोसियों के साथ राजनयिक संबंधों में सुधार किया। वे पाकिस्तान के सर्वोच्च नागरिक सम्मान 'निशान-ए-पाकिस्तान' से सम्मानित एकमात्र भारतीय हैं।",
+      "आर्थिक फोकस को भारी उद्योगों से हटाकर ग्रामीण विकास, कृषि और लघु उद्योगों (Small-scale industries) पर केंद्रित किया।",
+      "विवादास्पद जबरन नसबंदी कार्यक्रमों को पूरी तरह से समाप्त कर दिया।"
+    ],
+    criticisms_en: [
+      "The Janata Party was a highly unstable coalition of ideologically completely different parties (Socialists, Jan Sangh, Congress-O).",
+      "Severe internal power struggles and ego clashes between Morarji Desai, Charan Singh, and Jagjivan Ram paralyzed governance.",
+      "Economic policies were considered rigid and backward-looking (e.g., throwing multinational companies like Coca-Cola and IBM out of India).",
+      "The government failed to establish a cohesive national vision beyond merely being 'Anti-Indira'.",
+      "The government collapsed within just 2.5 years due to internal rebellion and defection led by Charan Singh."
+    ],
+    criticisms_hi: [
+      "जनता पार्टी वैचारिक रूप से बिल्कुल अलग-अलग दलों (समाजवादी, जनसंघ, कांग्रेस-ओ) का एक बेहद अस्थिर गठबंधन थी।",
+      "मोरारजी देसाई, चरण सिंह और जगजीवन राम के बीच भयंकर आंतरिक सत्ता संघर्ष और अहंकार की लड़ाई ने सरकार के काम-काज को पंगु बना दिया।",
+      "आर्थिक नीतियां कठोर मानी गईं (जैसे: कोका-कोला और IBM जैसी बहुराष्ट्रीय कंपनियों को भारत से बाहर निकाल देना)।",
+      "सरकार 'इंदिरा-विरोधी' होने के अलावा कोई बड़ा राष्ट्रीय विज़न स्थापित करने में विफल रही।",
+      "चरण सिंह के नेतृत्व में हुए आंतरिक विद्रोह (Defection) के कारण सरकार महज 2.5 साल में ही गिर गई।"
+    ]
   }
 ];
