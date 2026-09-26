@@ -755,5 +755,140 @@ export const pmHistory = [
       "26/11 मुंबई हमले (2008): इन खौफनाक आतंकी हमलों के बाद पाकिस्तान के खिलाफ कोई भी 'सैन्य जवाबी कार्रवाई' (Military retaliation) न करने पर सरकार को भारी जनता के गुस्से का सामना करना पड़ा।",
       "निर्भया कांड (2012): दिल्ली में हुए क्रूर गैंगरेप के बाद सरकार की शुरुआती असंवेदनशीलता के कारण महिला सुरक्षा को लेकर पूरे देश में भयंकर विरोध प्रदर्शन हुए।"
     ]
+  },
+  {
+    id: "term_18_16th_loksabha_modi1",
+    pm_name_en: "Narendra Modi",
+    pm_name_hi: "नरेंद्र मोदी",
+    term_en: "26 May 2014 – 30 May 2019",
+    term_hi: "26 मई 2014 – 30 मई 2019",
+    period_en: "16th Lok Sabha",
+    period_hi: "सोलहवीं लोकसभा",
+    party_en: "Bharatiya Janata Party (BJP)",
+    party_hi: "भारतीय जनता पार्टी (BJP)",
+    coalition_en: "Absolute Majority (282/543 seats)",
+    coalition_hi: "प्रचंड बहुमत (543 में से 282 सीटें)",
+    symbol: "🪷", 
+    image: "/assets/pms/modi.jpg",
+    achievements_en: [
+      "Secured the first single-party absolute majority in 30 years (since 1984), completely changing the landscape of Indian politics.",
+      "Swachh Bharat Abhiyan (2014): Launched a massive, unprecedented nationwide cleanliness drive, building over 100 million toilets to eradicate open defecation.",
+      "Pradhan Mantri Jan Dhan Yojana: Executed the world's largest financial inclusion drive, opening over 400 million zero-balance bank accounts for the poor.",
+      "GST Implementation (2017): Successfully rolled out the Goods and Services Tax, replacing a complex web of state and central taxes with the 'One Nation, One Tax' system.",
+      "Ujjwala Yojana: Provided millions of free LPG gas connections to women below the poverty line, drastically improving rural health and lifestyle.",
+      "Military Retaliation: Changed India's strategic posture with the 2016 'Surgical Strikes' in PoK (after Uri) and the 2019 Balakot Airstrikes (after Pulwama).",
+      "Insolvency and Bankruptcy Code (IBC, 2016): Passed massive economic reforms to resolve mounting bad loans (NPAs) in the banking sector."
+    ],
+    achievements_hi: [
+      "30 वर्षों (1984) के बाद पहली बार किसी एक पार्टी को पूर्ण बहुमत (282 सीटें) दिलाया, जिसने भारतीय राजनीति की दिशा हमेशा के लिए बदल दी।",
+      "स्वच्छ भारत अभियान (2014): खुले में शौच (Open defecation) को खत्म करने के लिए देशव्यापी सफाई अभियान चलाया और 10 करोड़ से ज्यादा शौचालय बनाए।",
+      "प्रधानमंत्री जन-धन योजना: दुनिया का सबसे बड़ा वित्तीय समावेशन (Financial inclusion) अभियान चलाया, जिसमें गरीबों के 40 करोड़ से ज्यादा 'जीरो-बैलेंस' बैंक खाते खोले गए।",
+      "GST लागू करना (2017): दर्जनों अलग-अलग टैक्स हटाकर देश भर में ऐतिहासिक 'वन नेशन, वन टैक्स' (गुड्स एंड सर्विसेज टैक्स) लागू किया।",
+      "उज्ज्वला योजना: गरीबी रेखा से नीचे (BPL) की करोड़ों महिलाओं को मुफ्त LPG गैस कनेक्शन दिए, जिससे ग्रामीण महिलाओं के स्वास्थ्य में बड़ा सुधार आया।",
+      "सशक्त सैन्य जवाब: उरी हमले के बाद PoK में 2016 की 'सर्जिकल स्ट्राइक' और पुलवामा के बाद 2019 की 'बालाकोट एयरस्ट्राइक' के साथ भारत की कूटनीतिक और सैन्य नीति को आक्रामक बनाया।",
+      "इन्सॉल्वेंसी एंड बैंकरप्सी कोड (IBC, 2016): बैंकों के डूबते कर्ज (NPA) की समस्या को सुलझाने के लिए बहुत बड़ा आर्थिक सुधार पास किया।"
+    ],
+    criticisms_en: [
+      "2016 Demonetization (Notebandi): The sudden overnight ban of 86% of India's currency (₹500 & ₹1000 notes) caused immense hardship, wiped out millions of informal jobs, and failed its primary stated objective of eliminating black money.",
+      "Flawed GST Rollout: The initial implementation of GST was highly complex, technologically glitchy, and featured multiple high tax slabs, causing immense distress to small and medium enterprises (MSMEs).",
+      "Rising Intolerance & Lynchings: The tenure saw a sharp rise in hate crimes, cow vigilantism (Gau Rakshaks), and mob lynchings targeting minorities, drawing severe domestic and international criticism.",
+      "Data Manipulation Allegations: The government faced massive backlash for allegedly suppressing critical reports on soaring unemployment rates and farmer suicides.",
+      "Institutional Undermining: Critics accused the government of undermining the autonomy of institutions like the RBI (forcing two Governors to resign), the CBI, and the Election Commission."
+    ],
+    criticisms_hi: [
+      "2016 नोटबंदी (Demonetization): रातों-रात 86% करेंसी (₹500 और ₹1000 के नोट) बैन करने से देश में भयंकर अफरा-तफरी मची। इससे करोड़ों अनौपचारिक नौकरियां (Informal jobs) खत्म हो गईं, और यह काले धन को खत्म करने के अपने मुख्य लक्ष्य में पूरी तरह विफल रही।",
+      "GST में शुरुआती कमियां: GST को लागू करने का शुरुआती तरीका बहुत जटिल था, इसमें कई तकनीकी खामियां थीं, जिससे छोटे और मंझोले व्यापारियों (MSME) को भारी नुकसान और परेशानी उठानी पड़ी।",
+      "बढ़ती असहिष्णुता और मॉब लिंचिंग: इस कार्यकाल में नफरत भरे अपराधों, 'गौरक्षकों' द्वारा हिंसा और अल्पसंख्यकों की मॉब लिंचिंग (Mob lynching) के मामलों में भारी वृद्धि हुई, जिसकी देश-विदेश में कड़ी आलोचना हुई।",
+      "डेटा छिपाने के आरोप: बढ़ती बेरोजगारी दर (Unemployment rate) और किसानों की आत्महत्या के महत्वपूर्ण सरकारी आंकड़ों को कथित रूप से दबाने और छिपाने के लिए सरकार की भारी आलोचना हुई।",
+      "संस्थानों को कमजोर करना: आलोचकों ने सरकार पर RBI (जिसके कारण दो गवर्नरों ने इस्तीफा दिया), CBI और चुनाव आयोग जैसी स्वायत्त संस्थाओं की स्वतंत्रता को खत्म करने का आरोप लगाया।"
+    ]
+  },
+  {
+    id: "term_19_17th_loksabha_modi2",
+    pm_name_en: "Narendra Modi",
+    pm_name_hi: "नरेंद्र मोदी",
+    term_en: "30 May 2019 – 9 June 2024",
+    term_hi: "30 मई 2019 – 9 जून 2024",
+    period_en: "17th Lok Sabha",
+    period_hi: "सत्रहवीं लोकसभा",
+    party_en: "Bharatiya Janata Party (BJP)",
+    party_hi: "भारतीय जनता पार्टी (BJP)",
+    coalition_en: "Bigger Absolute Majority (303/543 seats)",
+    coalition_hi: "और भी बड़ा प्रचंड बहुमत (543 में से 303 सीटें)",
+    symbol: "🪷", 
+    image: "/assets/pms/modi.jpg",
+    achievements_en: [
+      "Abrogation of Article 370 (August 2019): Fulfilled a core ideological promise by removing the special status of Jammu & Kashmir and fully integrating it into the Indian Union.",
+      "Ram Mandir Construction: Overseaw the peaceful legal resolution of the Ayodhya dispute (Supreme Court 2019 verdict) and presided over the historic 'Pran Pratishtha' (consecration) of the Ram Mandir in 2024.",
+      "Massive Infrastructure Push: Revolutionized Indian Railways with the indigenous 'Vande Bharat' express trains, executed the 'Gati Shakti' masterplan, and built world-class highways at a record pace.",
+      "Chandrayaan-3 Success (2023): Under his administration, ISRO successfully landed on the Moon's South Pole, making India the first country in the world to do so.",
+      "G20 Presidency (2023): Elevated India's geopolitical stature globally by flawlessly hosting the G20 Summit in New Delhi and successfully adopting the New Delhi Leaders' Declaration.",
+      "Covid-19 Vaccination (CoWIN): Overcoming the horrific second wave, India executed the world's largest and fastest COVID-19 vaccination drive, delivering over 2 billion doses using the digital CoWIN platform.",
+      "Women's Reservation Bill (2023): Passed the historic 'Nari Shakti Vandan Adhiniyam' reserving 33% of seats for women in the Lok Sabha and State Assemblies."
+    ],
+    achievements_hi: [
+      "अनुच्छेद 370 हटाना (अगस्त 2019): जम्मू-कश्मीर का विशेष राज्य का दर्जा समाप्त करके उसे पूरी तरह से भारत संघ (Indian Union) में शामिल कर अपना मुख्य वैचारिक वादा पूरा किया।",
+      "राम मंदिर का निर्माण: अयोध्या विवाद के शांतिपूर्ण कानूनी समाधान (सुप्रीम कोर्ट 2019) का मार्ग प्रशस्त किया और 2024 में राम मंदिर की ऐतिहासिक 'प्राण प्रतिष्ठा' संपन्न की।",
+      "इंफ्रास्ट्रक्चर में महा-क्रांति: स्वदेशी 'वंदे भारत' (Vande Bharat) एक्सप्रेस ट्रेनों से भारतीय रेलवे को आधुनिक बनाया, 'गति शक्ति' (Gati Shakti) मास्टरप्लान लागू किया और रिकॉर्ड गति से हाईवे बनाए।",
+      "चंद्रयान-3 की सफलता (2023): उनके प्रशासन के दौरान, ISRO ने चंद्रमा के दक्षिणी ध्रुव पर सफलतापूर्वक लैंडिंग की, जिससे भारत ऐसा करने वाला दुनिया का पहला देश बन गया।",
+      "G20 अध्यक्षता (2023): नई दिल्ली में G20 शिखर सम्मेलन की शानदार मेजबानी की, जिससे वैश्विक मंच पर भारत की भू-राजनीतिक (Geopolitical) ताकत और सम्मान बहुत बढ़ गया।",
+      "कोविड-19 टीकाकरण (CoWIN): भयानक दूसरी लहर के बाद, भारत ने डिजिटल 'कोविन' प्लेटफॉर्म का उपयोग करके 200 करोड़ से अधिक खुराक देकर दुनिया का सबसे बड़ा और सबसे तेज टीकाकरण अभियान चलाया।",
+      "महिला आरक्षण बिल (2023): लोकसभा और राज्य विधानसभाओं में महिलाओं के लिए 33% सीटें आरक्षित करने वाला ऐतिहासिक 'नारी शक्ति वंदन अधिनियम' पास किया।"
+    ],
+    criticisms_en: [
+      "COVID-19 Second Wave Catastrophe: The government faced intense global and domestic outrage for severe unpreparedness during the 2021 Delta wave, leading to massive oxygen shortages, collapsed healthcare, and tragic images of floating bodies in the Ganga.",
+      "The Three Farm Laws & Historic Protests: Passed major agricultural reforms without parliamentary debate, leading to a massive, year-long farmer protest at Delhi's borders, eventually forcing the PM to repeal the laws on national television.",
+      "Manipur Ethnic Violence (2023): The Prime Minister maintained a prolonged, controversial silence as the northeastern state of Manipur burned in violent ethnic clashes for over a year.",
+      "Weaponization of Central Agencies: The government was widely accused of creating an 'undeclared emergency' by weaponizing the ED, CBI, and Income Tax departments to jail opposition leaders (e.g., Hemant Soren, Arvind Kejriwal) and crush dissent.",
+      "CAA/NRC Protests: The passage of the religiously-discriminatory Citizenship Amendment Act (2019) sparked massive nationwide protests and deadly communal riots in Delhi (2020).",
+      "Electoral Bonds Scam: The Supreme Court struck down the anonymous Electoral Bonds scheme as 'unconstitutional', revealing massive, legalized corporate-political quid pro quo funding predominantly benefiting the ruling BJP."
+    ],
+    criticisms_hi: [
+      "कोविड-19 दूसरी लहर की त्रासदी: 2021 में सरकार की भारी लापरवाही के कारण ऑक्सीजन की कमी, टूटता स्वास्थ्य तंत्र और गंगा में तैरती लाशों की तस्वीरों ने देश और दुनिया में सरकार की भारी आलोचना कराई।",
+      "तीन कृषि कानून और ऐतिहासिक आंदोलन: बिना संसद में चर्चा के कृषि कानून पास किए गए, जिसके कारण दिल्ली की सीमाओं पर 1 साल से भी अधिक समय तक किसानों का ऐतिहासिक आंदोलन चला। अंततः पीएम को टीवी पर आकर कानून वापस लेने पड़े।",
+      "मणिपुर जातीय हिंसा (2023): जब पूर्वोत्तर राज्य मणिपुर एक साल से अधिक समय तक हिंसक जातीय संघर्ष (Ethnic violence) में जलता रहा, तब प्रधानमंत्री की लंबी और विवादास्पद चुप्पी की भारी आलोचना हुई।",
+      "केंद्रीय एजेंसियों का दुरुपयोग: विपक्ष ने सरकार पर ED, CBI और इनकम टैक्स का दुरुपयोग करके अघोषित 'इमरजेंसी' लगाने, विपक्ष के नेताओं (जैसे: हेमंत सोरेन, अरविंद केजरीवाल) को जेल में डालने और विरोध की आवाज कुचलने का आरोप लगाया।",
+      "CAA/NRC प्रदर्शन: धर्म के आधार पर भेदभाव करने वाले 'नागरिकता संशोधन अधिनियम' (CAA, 2019) के पास होने से देश भर में भारी विरोध प्रदर्शन हुए और 2020 में दिल्ली में भयंकर सांप्रदायिक दंगे भड़क उठे।",
+      "इलेक्टोरल बॉन्ड घोटाला (Electoral Bonds): सुप्रीम कोर्ट ने अनाम चंदे की इस योजना को 'असंवैधानिक' बताकर रद्द कर दिया। इसके डेटा से पता चला कि यह सरकार और कॉरपोरेट के बीच 'वसूली' का एक बड़ा साधन था, जिसका सबसे ज्यादा फायदा सत्ताधारी BJP को हुआ।"
+    ]
+  },
+  {
+    id: "term_20_18th_loksabha_modi3",
+    pm_name_en: "Narendra Modi",
+    pm_name_hi: "नरेंद्र मोदी",
+    term_en: "9 June 2024 – Present",
+    term_hi: "9 जून 2024 – वर्तमान",
+    period_en: "18th Lok Sabha (Coalition Era)",
+    period_hi: "अठारहवीं लोकसभा (गठबंधन का दौर)",
+    party_en: "Bharatiya Janata Party (BJP)",
+    party_hi: "भारतीय जनता पार्टी (BJP)",
+    coalition_en: "Coalition Gov (Dependent on TDP & JDU)",
+    coalition_hi: "गठबंधन सरकार (TDP और JDU पर निर्भर)",
+    symbol: "🪷", 
+    image: "/assets/pms/modi.jpg",
+    achievements_en: [
+      "Matched Jawaharlal Nehru's historic record by becoming only the second Prime Minister of India to secure a third consecutive term.",
+      "Maintained complete continuity in core ministries (Home, Defense, Finance, External Affairs) despite losing the absolute majority, projecting political stability.",
+      "Pushed forward the 'One Nation, One Election' agenda, with the Union Cabinet clearing the Kovind committee report for simultaneous polls.",
+      "Continued strong macroeconomic fundamentals with robust GDP growth projections, strong forex reserves, and a booming stock market."
+    ],
+    achievements_hi: [
+      "जवाहरलाल नेहरू के ऐतिहासिक रिकॉर्ड की बराबरी करते हुए, लगातार तीसरी बार भारत के प्रधानमंत्री बनने वाले केवल दूसरे व्यक्ति बने।",
+      "लोकसभा में पूर्ण बहुमत खोने (240 सीटें) के बावजूद, सरकार के मुख्य मंत्रालयों (गृह, रक्षा, वित्त, विदेश) में पूर्ण निरंतरता (Continuity) बनाए रखी, जो राजनीतिक स्थिरता को दर्शाता है।",
+      "'वन नेशन, वन इलेक्शन' (एक देश, एक चुनाव) के एजेंडे को मजबूती से आगे बढ़ाया और केंद्रीय कैबिनेट ने कोविंद समिति की रिपोर्ट को मंजूरी दी।",
+      "मजबूत विदेशी मुद्रा भंडार, बढ़ते शेयर बाजार और शानदार GDP वृद्धि के साथ देश की अर्थव्यवस्था को मजबूती से आगे बढ़ाते रहे।"
+    ],
+    criticisms_en: [
+      "Loss of Absolute Majority: The BJP fell short of the 272-mark (securing only 240 seats) in the 2024 elections following public backlash against inflation, unemployment, and fears of constitution-altering mandates.",
+      "Coalition Compulsions: The loss of a single-party majority forced the government into 'U-turns', such as rolling back lateral entry in UPSC and sending the controversial Waqf Amendment Bill to a Joint Parliamentary Committee (JPC) due to pressure from allies (TDP/JDU).",
+      "NEET Paper Leak Scandal (2024): The government's credibility took a massive hit when widespread paper leaks and corruption were exposed in the NEET-UG medical entrance exams, destroying the future of millions of students.",
+      "Infrastructure Collapses: A series of embarrassing infrastructure failures in early 2024, including multiple new bridges collapsing in Bihar, train derailments, and the roof collapse at Delhi's Terminal 1 airport, severely dented the government's development narrative."
+    ],
+    criticisms_hi: [
+      "पूर्ण बहुमत का खोना: 2024 के चुनावों में महंगाई, बेरोजगारी और 'संविधान बदले जाने' के डर के कारण जनता की नाराजगी के चलते BJP बहुमत के आंकड़े (272) से काफी दूर 240 सीटों पर सिमट गई।",
+      "गठबंधन की मजबूरियां और 'यू-टर्न': पूर्ण बहुमत न होने के कारण सरकार को कई फैसलों पर पीछे हटना पड़ा, जैसे UPSC में 'लेटरल एंट्री' (Lateral entry) रद्द करना और सहयोगियों (TDP/JDU) के दबाव में विवादास्पद 'वक्फ संशोधन बिल' को JPC के पास भेजना।",
+      "NEET पेपर लीक कांड (2024): देश की सबसे बड़ी मेडिकल प्रवेश परीक्षा (NEET-UG) में व्यापक पेपर लीक और भ्रष्टाचार उजागर होने से लाखों छात्रों का भविष्य दांव पर लग गया, जिससे सरकार की साख को गहरा धक्का लगा।",
+      "इंफ्रास्ट्रक्चर का ढहना: 2024 की शुरुआत में बिहार में कई नए पुलों का गिरना, ट्रेन हादसे, और भारी बारिश से दिल्ली एयरपोर्ट के टर्मिनल-1 की छत गिरने जैसी घटनाओं ने सरकार के 'विकास मॉडल' (Development narrative) पर गंभीर सवाल खड़े कर दिए।"
+    ]
   }
 ];
