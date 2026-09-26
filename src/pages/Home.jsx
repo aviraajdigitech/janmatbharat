@@ -78,9 +78,7 @@ const ThreeFlag = () => (
   </div>
 );
 
-/* helper: proxy Wikipedia images so CORS never blocks */
-const wikiProxy = (url) =>
-  `https://wsrv.nl/?url=${encodeURIComponent(url)}&w=300&h=300&fit=cover&output=jpg`;
+
 
 /* ────────────────────────────────────────────
    HOME PAGE
@@ -234,14 +232,10 @@ export const Home = () => {
               >
                 <div className="w-28 h-28 rounded-full border-4 border-white shadow-lg overflow-hidden mb-4 group-hover:scale-105 transition-transform duration-300 bg-slate-200">
                   <img
-                    src={wikiProxy(pm.image)}
+                    src={pm.image}
                     alt={pm.pm_name_en}
                     className="w-full h-full object-cover"
                     loading="lazy"
-                    onError={(e) => {
-                      e.target.onerror = null;
-                      e.target.src = pm.image; // fallback to original URL
-                    }}
                   />
                 </div>
                 <div className="bg-blue-100 text-blue-700 font-bold px-3 py-1 rounded-full text-xs uppercase mb-2 border border-blue-200">

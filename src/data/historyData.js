@@ -12,7 +12,7 @@ export const pmHistory = [
     coalition_en: "Single Party Majority",
     coalition_hi: "पूर्ण बहुमत",
     symbol: "✋", 
-    image: "https://upload.wikimedia.org/wikipedia/commons/5/53/Jawaharlal_Nehru.jpg",
+    image: "/assets/pms/nehru.jpg",
     achievements_en: [
       "Led the newly independent nation and stabilized the country post-partition.",
       "Oversaw the drafting and adoption of the Indian Constitution in 1950.",
@@ -63,7 +63,7 @@ export const pmHistory = [
     coalition_en: "Absolute Majority (364/489 seats)",
     coalition_hi: "प्रचंड बहुमत (489 में से 364 सीटें)",
     symbol: "🐂", // Two bullocks was the symbol then
-    image: "https://upload.wikimedia.org/wikipedia/commons/5/53/Jawaharlal_Nehru.jpg",
+    image: "/assets/pms/nehru.jpg",
     achievements_en: [
       "Successfully led the first democratically elected government of India.",
       "Passed the States Reorganisation Act (1956), restructuring states on linguistic lines.",
@@ -114,7 +114,7 @@ export const pmHistory = [
     coalition_en: "Absolute Majority (371/494 seats)",
     coalition_hi: "प्रचंड बहुमत (494 में से 371 सीटें)",
     symbol: "🐂", 
-    image: "https://upload.wikimedia.org/wikipedia/commons/5/53/Jawaharlal_Nehru.jpg",
+    image: "/assets/pms/nehru.jpg",
     achievements_en: [
       "Successfully held the second general elections, solidifying democratic roots.",
       "Liberation and annexation of Goa from Portuguese rule (Operation Vijay, 1961).",
@@ -161,7 +161,7 @@ export const pmHistory = [
     coalition_en: "Absolute Majority (361/494 seats)",
     coalition_hi: "प्रचंड बहुमत (494 में से 361 सीटें)",
     symbol: "🐂", 
-    image: "https://upload.wikimedia.org/wikipedia/commons/5/53/Jawaharlal_Nehru.jpg",
+    image: "/assets/pms/nehru.jpg",
     achievements_en: [
       "Initiated modernization of the Indian Armed Forces post-1962.",
       "Laid the foundation for India's space program (INCOSPAR formed in 1962).",
@@ -196,7 +196,7 @@ export const pmHistory = [
     coalition_en: "Absolute Majority",
     coalition_hi: "प्रचंड बहुमत",
     symbol: "🐂", 
-    image: "https://upload.wikimedia.org/wikipedia/commons/9/91/Lal_Bahadur_Shastri_%28cropped%29.jpg",
+    image: "/assets/pms/shastri.jpg",
     achievements_en: [
       "Coined the immortal slogan 'Jai Jawan Jai Kisan' during the 1965 war.",
       "Led India to a decisive psychological and tactical victory in the Indo-Pakistani War of 1965.",
@@ -241,7 +241,7 @@ export const pmHistory = [
     coalition_en: "Minority Gov (Supported by CPI)",
     coalition_hi: "अल्पमत सरकार (CPI के समर्थन से)",
     symbol: "🐄", // Cow and Calf symbol
-    image: "https://upload.wikimedia.org/wikipedia/commons/6/6f/Indira_Gandhi.jpg",
+    image: "/assets/pms/indira.jpg",
     achievements_en: [
       "Nationalized 14 major private banks in 1969 to increase agricultural lending.",
       "Abolished the 'Privy Purse' (royalties given to former kings) to promote equality.",
@@ -282,7 +282,7 @@ export const pmHistory = [
     coalition_en: "Absolute Majority (352/518 seats)",
     coalition_hi: "प्रचंड बहुमत (518 में से 352 सीटें)",
     symbol: "🐄", 
-    image: "https://upload.wikimedia.org/wikipedia/commons/6/6f/Indira_Gandhi.jpg",
+    image: "/assets/pms/indira.jpg",
     achievements_en: [
       "Led India to its greatest military victory in the 1971 war, resulting in the creation of Bangladesh.",
       "Conducted India's first successful nuclear test 'Smiling Buddha' at Pokhran (1974).",
@@ -329,7 +329,7 @@ export const pmHistory = [
     coalition_en: "Coalition Majority (Janata Alliance)",
     coalition_hi: "गठबंधन बहुमत (जनता एलायंस)",
     symbol: "🧑‍🌾", // Farmer with plough symbol
-    image: "https://upload.wikimedia.org/wikipedia/commons/9/9c/Morarji_Desai.jpg",
+    image: "/assets/pms/morarji.jpg",
     achievements_en: [
       "Became the first non-Congress Prime Minister of India, proving the maturity of Indian democracy.",
       "Restored democratic rights, civil liberties, and freedom of the press suspended during the Emergency.",
@@ -376,7 +376,7 @@ export const pmHistory = [
     coalition_en: "Minority Gov (Backed by Congress-I initially)",
     coalition_hi: "अल्पमत सरकार (शुरुआत में कांग्रेस-I का समर्थन)",
     symbol: "🌾",
-    image: "https://upload.wikimedia.org/wikipedia/commons/f/f7/Chaudhary_Charan_Singh_%281%29.jpg",
+    image: "/assets/pms/charan.jpg",
     achievements_en: [
       "Championed the cause of the Indian peasantry and farmers, earning him the title 'Champion of India's Peasants'.",
       "Prepared foundational blueprints for pro-farmer agricultural policies, emphasizing rural development over heavy industrialization.",
@@ -417,7 +417,7 @@ export const pmHistory = [
     coalition_en: "Absolute Majority (353/529 seats)",
     coalition_hi: "प्रचंड बहुमत (529 में से 353 सीटें)",
     symbol: "✋", 
-    image: "https://upload.wikimedia.org/wikipedia/commons/6/6f/Indira_Gandhi.jpg",
+    image: "/assets/pms/indira.jpg",
     achievements_en: [
       "Made a spectacular political comeback in 1980 under the powerful slogan 'Elect a Government that Works', capitalizing on the Janata Party's catastrophic failures.",
       "Successfully hosted the 1982 Asian Games in New Delhi, which catalyzed massive infrastructural development in the capital and introduced Color Television broadcasting to India.",
@@ -464,7 +464,7 @@ export const pmHistory = [
     coalition_en: "Historic Absolute Majority (404/514 seats)",
     coalition_hi: "ऐतिहासिक प्रचंड बहुमत (514 में से 404 सीटें)",
     symbol: "✋", 
-    image: "https://upload.wikimedia.org/wikipedia/commons/6/67/Rajiv_Gandhi_in_1986.jpg",
+    image: "/assets/pms/rajiv.jpg",
     achievements_en: [
       "Secured the largest electoral mandate in Indian political history (404 seats) following the assassination of his mother, becoming India's youngest Prime Minister at age 40.",
       "Pioneered India's IT and Telecommunications revolution. He established C-DOT, MTNL, and VSNL, and introduced computerized railway tickets, laying the absolute foundation for modern Digital India.",
@@ -511,7 +511,7 @@ export const pmHistory = [
     coalition_en: "Minority Gov (Backed externally by BJP & Left CPI/CPM)",
     coalition_hi: "अल्पमत सरकार (BJP और वामदलों का बाहरी समर्थन)",
     symbol: "⚙️", 
-    image: "https://upload.wikimedia.org/wikipedia/commons/a/a2/V._P._Singh.jpg",
+    image: "/assets/pms/vp_singh.jpg",
     achievements_en: [
       "The 'Mandal Messiah': Implemented the long-pending Mandal Commission Report in August 1990, providing 27% reservation for Other Backward Classes (OBCs) in government jobs, fundamentally transforming the social justice landscape of Indian politics forever.",
       "Passed the historic SC/ST (Prevention of Atrocities) Act, 1989, providing stringent legal protections against discrimination and violence targeted at marginalized Dalit and Adivasi communities.",
@@ -550,7 +550,7 @@ export const pmHistory = [
     coalition_en: "Minority Gov (Backed externally by Congress-I)",
     coalition_hi: "अल्पमत सरकार (कांग्रेस-I का बाहरी समर्थन)",
     symbol: "🌳", 
-    image: "https://upload.wikimedia.org/wikipedia/commons/2/23/Chandra_Shekhar_in_1990.jpg",
+    image: "/assets/pms/chandra_shekhar.jpg",
     achievements_en: [
       "Known as the 'Young Turk' of Indian politics, he fiercely maintained his ideological stance despite leading a fragile coalition.",
       "Took incredibly bold, albeit deeply unpopular, economic decisions to prevent India from defaulting on its sovereign debt during the massive 1991 Balance of Payments crisis.",
@@ -589,7 +589,7 @@ export const pmHistory = [
     coalition_en: "Minority turned Majority (Engineered Defections)",
     coalition_hi: "अल्पमत से बहुमत (दलबदल द्वारा)",
     symbol: "✋", 
-    image: "https://upload.wikimedia.org/wikipedia/commons/2/22/P._V._Narasimha_Rao.jpg",
+    image: "/assets/pms/rao.jpg",
     achievements_en: [
       "Known as the 'Father of Indian Economic Reforms' and the 'Chanakya of Indian Politics'. He was the first Prime Minister from South India (Andhra Pradesh).",
       "Orchestrated the monumental 1991 LPG Reforms (Liberalization, Privatization, Globalization) alongside Finance Minister Dr. Manmohan Singh, dismantling the draconian 'License Raj' and transforming India into a modern, fast-growing capitalist economy.",
@@ -634,7 +634,7 @@ export const pmHistory = [
     coalition_en: "Minority Gov (Externally backed by Congress)",
     coalition_hi: "अल्पमत सरकार (कांग्रेस का बाहरी समर्थन)",
     symbol: "⚙️", 
-    image: "https://upload.wikimedia.org/wikipedia/commons/c/cd/H._D._Deve_Gowda_%28cropped%29.jpg",
+    image: "/assets/pms/deve_gowda.jpg",
     achievements_en: [
       "H.D. Deve Gowda, known as 'Mannina Maga' (Son of the Soil), became the first Prime Minister from Karnataka and heavily championed farmers' causes and agricultural subsidies.",
       "The 'Gujral Doctrine' (formulated by I.K. Gujral): A milestone in India's foreign policy emphasizing peaceful, non-reciprocal, and generous relations with smaller neighboring countries (like Bangladesh, Nepal, and Sri Lanka) to build regional trust.",
@@ -673,7 +673,7 @@ export const pmHistory = [
     coalition_en: "National Democratic Alliance (NDA)",
     coalition_hi: "राष्ट्रीय जनतांत्रिक गठबंधन (NDA)",
     symbol: "🪷", 
-    image: "https://upload.wikimedia.org/wikipedia/commons/9/9f/Atal_Bihari_Vajpayee.jpg",
+    image: "/assets/pms/vajpayee.jpg",
     achievements_en: [
       "Pokhran-II (Operation Shakti, 1998): Successfully conducted five underground nuclear tests, officially declaring India a nuclear weapon state and boldly defying global sanctions.",
       "Kargil War Victory (1999): Led the nation to a decisive military and diplomatic victory against Pakistani infiltrators in the treacherous high-altitude peaks of Kargil (Operation Vijay).",
@@ -720,7 +720,7 @@ export const pmHistory = [
     coalition_en: "United Progressive Alliance (UPA I & II)",
     coalition_hi: "संयुक्त प्रगतिशील गठबंधन (UPA I & II)",
     symbol: "✋", 
-    image: "https://upload.wikimedia.org/wikipedia/commons/1/12/Dr._Manmohan_Singh_%283%29.jpg",
+    image: "/assets/pms/manmohan.jpg",
     achievements_en: [
       "Golden Era of GDP Growth: Oversaw India's highest sustained economic growth period in history, with GDP consistently growing at 8-9% before the 2008 global financial crisis.",
       "Right to Information (RTI) Act, 2005: Passed the landmark transparency law, fundamentally empowering Indian citizens to question government authorities and expose corruption.",
@@ -769,7 +769,7 @@ export const pmHistory = [
     coalition_en: "Absolute Majority (282/543 seats)",
     coalition_hi: "प्रचंड बहुमत (543 में से 282 सीटें)",
     symbol: "🪷", 
-    image: "https://upload.wikimedia.org/wikipedia/commons/8/80/Prime_Minister_Narendra_Modi_Official_Portrait.jpg",
+    image: "/assets/pms/modi.jpg",
     achievements_en: [
       "Secured the first single-party absolute majority in 30 years (since 1984), completely changing the landscape of Indian politics.",
       "Swachh Bharat Abhiyan (2014): Launched a massive, unprecedented nationwide cleanliness drive, building over 100 million toilets to eradicate open defecation.",
@@ -816,7 +816,7 @@ export const pmHistory = [
     coalition_en: "Bigger Absolute Majority (303/543 seats)",
     coalition_hi: "और भी बड़ा प्रचंड बहुमत (543 में से 303 सीटें)",
     symbol: "🪷", 
-    image: "https://upload.wikimedia.org/wikipedia/commons/8/80/Prime_Minister_Narendra_Modi_Official_Portrait.jpg",
+    image: "/assets/pms/modi.jpg",
     achievements_en: [
       "Abrogation of Article 370 (August 2019): Fulfilled a core ideological promise by removing the special status of Jammu & Kashmir and fully integrating it into the Indian Union.",
       "Ram Mandir Construction: Overseaw the peaceful legal resolution of the Ayodhya dispute (Supreme Court 2019 verdict) and presided over the historic 'Pran Pratishtha' (consecration) of the Ram Mandir in 2024.",
@@ -865,7 +865,7 @@ export const pmHistory = [
     coalition_en: "Coalition Gov (Dependent on TDP & JDU)",
     coalition_hi: "गठबंधन सरकार (TDP और JDU पर निर्भर)",
     symbol: "🪷", 
-    image: "https://upload.wikimedia.org/wikipedia/commons/8/80/Prime_Minister_Narendra_Modi_Official_Portrait.jpg",
+    image: "/assets/pms/modi.jpg",
     achievements_en: [
       "Matched Jawaharlal Nehru's historic record by becoming only the second Prime Minister of India to secure a third consecutive term.",
       "Maintained complete continuity in core ministries (Home, Defense, Finance, External Affairs) despite losing the absolute majority, projecting political stability.",
