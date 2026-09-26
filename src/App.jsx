@@ -6,6 +6,8 @@ import { Home } from './pages/Home';
 import { EVMSecurity } from './pages/EVMSecurity';
 import { DataDeletion } from './pages/DataDeletion';
 import { VoterAwareness } from './pages/VoterAwareness';
+import { PrivacyPolicy } from './pages/PrivacyPolicy';
+import { Contact } from './pages/Contact';
 
 export default function App() {
   return (
@@ -18,10 +20,8 @@ export default function App() {
             <Route path="/evm-security" element={<EVMSecurity />} />
             <Route path="/data-deletion" element={<DataDeletion />} />
             <Route path="/voter-awareness" element={<VoterAwareness />} />
-            
-            {/* Fallbacks */}
-            <Route path="/privacy" element={<DataDeletion />} />
-            <Route path="/contact" element={<DataDeletion />} />
+            <Route path="/privacy" element={<PrivacyPolicy />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
         <Footer />
