@@ -362,5 +362,93 @@ export const pmHistory = [
       "सरकार 'इंदिरा-विरोधी' होने के अलावा कोई बड़ा राष्ट्रीय विज़न स्थापित करने में विफल रही।",
       "चरण सिंह के नेतृत्व में हुए आंतरिक विद्रोह (Defection) के कारण सरकार महज 2.5 साल में ही गिर गई।"
     ]
+  },
+  {
+    id: "term_9_6th_loksabha_charan",
+    pm_name_en: "Chaudhary Charan Singh",
+    pm_name_hi: "चौधरी चरण सिंह",
+    term_en: "28 July 1979 – 14 January 1980",
+    term_hi: "28 जुलाई 1979 – 14 जनवरी 1980",
+    period_en: "6th Lok Sabha (Caretaker)",
+    period_hi: "छठी लोकसभा (कार्यवाहक)",
+    party_en: "Janata Party (Secular)",
+    party_hi: "जनता पार्टी (सेक्युलर)",
+    coalition_en: "Minority Gov (Backed by Congress-I initially)",
+    coalition_hi: "अल्पमत सरकार (शुरुआत में कांग्रेस-I का समर्थन)",
+    symbol: "🌾",
+    image: "/assets/pms/charan.jpg",
+    achievements_en: [
+      "Championed the cause of the Indian peasantry and farmers, earning him the title 'Champion of India's Peasants'.",
+      "Prepared foundational blueprints for pro-farmer agricultural policies, emphasizing rural development over heavy industrialization.",
+      "His earlier work as Finance Minister produced a profoundly farmer-centric budget that shaped rural economic discourse for decades.",
+      "Maintained a fierce, unyielding stance against the 'Zamindari' system and landlordism, successfully advocating for land rights for the tiller."
+    ],
+    achievements_hi: [
+      "भारतीय किसानों और मजदूरों के हकों की पुरजोर वकालत की, जिसके कारण उन्हें 'किसानों का मसीहा' (Champion of India's Peasants) कहा जाता है।",
+      "भारी औद्योगीकरण (Heavy Industrialization) के बजाय ग्रामीण विकास और कृषि-समर्थक नीतियों का मजबूत बुनियादी ढांचा तैयार किया।",
+      "वित्त मंत्री के रूप में उनके पहले के कार्यकाल में पेश किया गया किसान-केंद्रित बजट आने वाले दशकों तक ग्रामीण आर्थिक विमर्श का हिस्सा बना रहा।",
+      "ज़मींदारी प्रथा और सामंतवाद के खिलाफ एक भयंकर और समझौता न करने वाला रुख अपनाया, तथा किसानों के भूमि अधिकारों के लिए सफलतापूर्वक लड़ाई लड़ी।"
+    ],
+    criticisms_en: [
+      "Holds the record of being the only Prime Minister of India who never faced the Lok Sabha (Parliament).",
+      "His government was entirely dependent on outside support from Indira Gandhi's Congress (I), which withdrew support precisely one day before the trust vote.",
+      "Heated accusations of political opportunism and defection, as he broke away from the Janata Party merely to fulfill his ambition of becoming Prime Minister.",
+      "Operating strictly as a caretaker government for 170 days, his administration was legally and politically paralyzed, failing to pass any major legislation.",
+      "The political instability during his brief tenure led to soaring inflation and administrative chaos at the national level."
+    ],
+    criticisms_hi: [
+      "भारत के इतिहास में वे एकमात्र ऐसे प्रधानमंत्री हैं जिन्होंने कभी लोकसभा (संसद) का सामना नहीं किया।",
+      "उनकी सरकार पूरी तरह से इंदिरा गांधी की कांग्रेस (I) के बाहरी समर्थन पर निर्भर थी, जिसने विश्वास मत से ठीक एक दिन पहले ही अपना समर्थन वापस ले लिया।",
+      "उन पर 'राजनीतिक अवसरवाद' और दलबदल (Defection) के गंभीर आरोप लगे, क्योंकि वे केवल प्रधानमंत्री बनने की महत्वाकांक्षा पूरी करने के लिए जनता पार्टी से अलग हुए थे।",
+      "170 दिनों तक केवल एक 'कार्यवाहक' (Caretaker) सरकार के रूप में काम करने के कारण उनका प्रशासन कानूनी और राजनीतिक रूप से पंगु था, जो कोई भी बड़ा कानून पास नहीं कर सका।",
+      "उनके छोटे से कार्यकाल के दौरान हुई भयंकर राजनीतिक अस्थिरता के कारण राष्ट्रीय स्तर पर महंगाई आसमान छूने लगी और प्रशासनिक अराजकता फैल गई।"
+    ]
+  },
+  {
+    id: "term_10_7th_loksabha_indira",
+    pm_name_en: "Indira Gandhi",
+    pm_name_hi: "इंदिरा गांधी",
+    term_en: "14 January 1980 – 31 October 1984",
+    term_hi: "14 जनवरी 1980 – 31 अक्टूबर 1984",
+    period_en: "7th Lok Sabha",
+    period_hi: "सातवीं लोकसभा",
+    party_en: "Indian National Congress (I)",
+    party_hi: "भारतीय राष्ट्रीय कांग्रेस (I)",
+    coalition_en: "Absolute Majority (353/529 seats)",
+    coalition_hi: "प्रचंड बहुमत (529 में से 353 सीटें)",
+    symbol: "✋", 
+    image: "/assets/pms/indira.jpg",
+    achievements_en: [
+      "Made a spectacular political comeback in 1980 under the powerful slogan 'Elect a Government that Works', capitalizing on the Janata Party's catastrophic failures.",
+      "Successfully hosted the 1982 Asian Games in New Delhi, which catalyzed massive infrastructural development in the capital and introduced Color Television broadcasting to India.",
+      "Launched the INSAT-1B satellite in 1983, which sparked a massive revolution in India's telecommunications, weather forecasting, and national television (Doordarshan) networks.",
+      "Under her leadership, Rakesh Sharma became the first Indian cosmonaut to travel to space in 1984 aboard the Soviet T-11.",
+      "Solidified India's position on the global stage by successfully hosting the Non-Aligned Movement (NAM) summit (1983) and the Commonwealth Heads of Government Meeting (CHOGM).",
+      "Established the Department of Environment (1980) and pushed for critical ecological legislations, setting the foundation for India's modern environmental protection frameworks.",
+      "Maintained a masterclass diplomatic balancing act during the Soviet invasion of Afghanistan, retaining strong USSR ties without entirely alienating the West."
+    ],
+    achievements_hi: [
+      "जनता पार्टी की विनाशकारी विफलताओं का फायदा उठाते हुए 'वह सरकार चुनें जो काम करे' (Elect a Government that Works) के शक्तिशाली नारे के साथ 1980 में एक शानदार राजनीतिक वापसी की।",
+      "नई दिल्ली में 1982 के एशियाई खेलों (Asian Games) का सफलतापूर्वक आयोजन किया, जिससे राजधानी में बड़े पैमाने पर इंफ्रास्ट्रक्चर का विकास हुआ और भारत में 'रंगीन टीवी' (Color TV) प्रसारण की शुरुआत हुई।",
+      "1983 में INSAT-1B सैटेलाइट लॉन्च किया, जिसने भारत के दूरसंचार (Telecom), मौसम पूर्वानुमान और राष्ट्रीय टेलीविजन (दूरदर्शन) नेटवर्क में एक बड़ी क्रांति ला दी।",
+      "उन्हीं के नेतृत्व में 1984 में राकेश शर्मा सोवियत T-11 मिशन के जरिए अंतरिक्ष में जाने वाले पहले भारतीय अंतरिक्ष यात्री बने।",
+      "गुटनिरपेक्ष आंदोलन (NAM) शिखर सम्मेलन (1983) और राष्ट्रमंडल शासनाध्यक्षों की बैठक (CHOGM) की सफल मेजबानी करके वैश्विक मंच पर भारत की स्थिति को बेहद मजबूत किया।",
+      "1980 में पर्यावरण विभाग (Department of Environment) की स्थापना की और महत्वपूर्ण पारिस्थितिक कानूनों (Ecological legislations) को आगे बढ़ाया, जिससे भारत में पर्यावरण संरक्षण की नींव रखी गई।",
+      "सोवियत संघ (USSR) द्वारा अफगानिस्तान पर आक्रमण के दौरान कूटनीति का बेहतरीन संतुलन बनाए रखा (रूस के साथ मजबूत संबंध रखे, लेकिन पश्चिमी देशों को पूरी तरह नाराज नहीं किया)।"
+    ],
+    criticisms_en: [
+      "The catastrophic handling of the Punjab insurgency. The rise of Jarnail Singh Bhindranwale was initially quietly tolerated by the Congress to counter the Akali Dal, completely backfiring into a violent militant movement.",
+      "Operation Blue Star (June 1984): The decision to send the Indian Army into the Golden Temple (Harmandir Sahib) to flush out militants deeply wounded the religious sentiments of the global Sikh community and caused massive structural damage to the holy shrine.",
+      "Severe mishandling of the Assam Agitation against illegal immigrants. The rushed 1983 state elections led to horrific ethnic violence, culminating in the tragic Nellie Massacre where over 2,000 people were killed in a single day.",
+      "Centralization of absolute political power reached its peak. Chief Ministers of states were repeatedly dismissed or appointed directly by the 'High Command' in Delhi, severely damaging federalism.",
+      "The tragic culmination of her policies led to her brutal assassination on October 31, 1984, by her own Sikh bodyguards, which in turn triggered the horrifying 1984 Anti-Sikh riots."
+    ],
+    criticisms_hi: [
+      "पंजाब उग्रवाद (Punjab insurgency) का विनाशकारी प्रबंधन। अकाली दल का मुकाबला करने के लिए शुरुआत में कांग्रेस ने ही जरनैल सिंह भिंडरावाले को मौन समर्थन दिया था, जो बाद में एक हिंसक उग्रवादी आंदोलन में बदल गया और सरकार पर भारी पड़ा।",
+      "ऑपरेशन ब्लू स्टार (जून 1984): उग्रवादियों को बाहर निकालने के लिए स्वर्ण मंदिर (हरमंदिर साहिब) में भारतीय सेना भेजने के फैसले ने दुनिया भर के सिख समुदाय की धार्मिक भावनाओं को गहरी ठेस पहुंचाई और पवित्र मंदिर को भारी नुकसान हुआ।",
+      "अवैध प्रवासियों के खिलाफ चल रहे 'असम आंदोलन' (Assam Agitation) को बहुत बुरी तरह हैंडल किया गया। 1983 में जल्दबाजी में कराए गए राज्य चुनावों के कारण भयंकर जातीय हिंसा हुई, जिसका अंत 'नेल्ली नरसंहार' (Nellie Massacre) के रूप में हुआ, जहाँ एक ही दिन में 2,000 से अधिक लोग मारे गए।",
+      "सत्ता का केंद्रीकरण अपने चरम पर पहुँच गया था। राज्यों के मुख्यमंत्रियों को बार-बार बर्खास्त किया गया या सीधे दिल्ली 'हाईकमान' द्वारा नियुक्त किया गया, जिससे भारत के संघीय ढांचे (Federalism) को गहरा नुकसान हुआ।",
+      "उनकी इन्ही कठोर नीतियों का अंत बेहद दुखद रहा। 31 अक्टूबर 1984 को उनके ही सिख अंगरक्षकों द्वारा उनकी क्रूर हत्या कर दी गई, जिसके परिणामस्वरूप 1984 के भयावह सिख विरोधी दंगे भड़क उठे।"
+    ]
   }
 ];
