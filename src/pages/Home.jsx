@@ -1,12 +1,34 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
-import { Vote, ShieldCheck, BarChart3, Users, Landmark, Smartphone, Lock, Globe, ChevronRight, Activity } from 'lucide-react';
+import { Vote, ShieldCheck, BarChart3, Users, Landmark, Smartphone, Lock, Globe, ChevronRight, Activity, TrendingUp, MessageSquare, HelpCircle, CheckCircle2 } from 'lucide-react';
 import { pmHistory } from '../data/historyData';
 
 export const Home = () => {
-  // Reverse the history to show newest first (Modi -> Manmohan -> ... -> Nehru)
+  // Reverse the history to show newest first
   const reversedHistory = [...pmHistory].reverse();
+
+  // Simple state for FAQ accordion
+  const [openFaq, setOpenFaq] = useState(0);
+
+  const faqs = [
+    {
+      q: "क्या मेरा वोट सच में गुप्त (Anonymous) है?",
+      a: "बिल्कुल! हम 256-bit बैंक-ग्रेड एन्क्रिप्शन (Encryption) और ज़ीरो-नॉलेज (Zero-Knowledge) आर्किटेक्चर का इस्तेमाल करते हैं। आपका वोट आपके व्यक्तिगत पहचान (नाम या नंबर) से कभी नहीं जोड़ा जाता। यहाँ तक कि हमारे डेवलपर्स भी नहीं जान सकते कि आपने किसे वोट दिया है।"
+    },
+    {
+      q: "क्या कोई फर्जी अकाउंट (Fake Account) बनाकर कई बार वोट कर सकता है?",
+      a: "नहीं। हमारी एंटी-फ्रॉड टेक्नोलॉजी (Anti-Fraud Technology) बहुत सख्त है। हम 'वन डिवाइस, वन वोट' (एक फोन, एक वोट) नीति का पालन करते हैं। वोट करने के लिए मोबाइल OTP वेरिफिकेशन अनिवार्य है, जिससे IT सेल या बॉट्स (Bots) डेटा को प्रभावित नहीं कर सकते।"
+    },
+    {
+      q: "क्या जनमत भारत किसी राजनीतिक पार्टी (Political Party) से जुड़ा है?",
+      a: "बिल्कुल नहीं। जनमत भारत एक 100% स्वतंत्र (Independent) और तटस्थ (Neutral) तकनीकी प्लेटफॉर्म है। हमारा एकमात्र उद्देश्य भारतीय लोकतंत्र में पारदर्शिता लाना और जनता के असली मिजाज को सामने रखना है।"
+    },
+    {
+      q: "क्या मैं अपना दिया हुआ वोट बाद में बदल सकता हूँ?",
+      a: "हाँ! राजनीति समय के साथ बदलती है, और हमारी ऐप भी। अगर किसी नेता या सरकार के काम से आपका विचार बदलता है, तो आप ऐप में जाकर अपना वोट अपडेट कर सकते हैं। लाइव चार्ट्स तुरंत आपके नए फैसले को दर्शाने लगेंगे।"
+    }
+  ];
 
   return (
     <div className="min-h-screen bg-slate-50 font-sans overflow-hidden">
@@ -15,7 +37,7 @@ export const Home = () => {
         <meta name="description" content="India's most secure and comprehensive political polling application." />
       </Helmet>
 
-      {/* Hero Section with 30% Blue Overlay on Majestic Flag */}
+      {/* Hero Section */}
       <section className="relative min-h-[90vh] flex items-center justify-center pt-20">
         <div 
           className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
@@ -73,7 +95,94 @@ export const Home = () => {
         </div>
       </section>
 
-      {/* NEW: PM History Showcase Section */}
+      {/* NEW: Live Trend Preview */}
+      <section className="py-20 bg-slate-50 border-b border-slate-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <div className="inline-flex items-center justify-center gap-2 text-saffron-600 font-bold tracking-widest uppercase mb-4 bg-saffron-100 px-4 py-1.5 rounded-full">
+              <TrendingUp size={18} /> Live Sneak Peek
+            </div>
+            <h3 className="text-4xl md:text-5xl font-extrabold text-slate-900 mb-6">Current National Mood</h3>
+            <p className="text-lg text-slate-600">Get a glimpse of the powerful data analytics available inside the Janmat Bharat app. Real-time updates driven by verified citizens.</p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+            {/* Chart 1: Election Projection */}
+            <div className="bg-white rounded-[2rem] p-8 shadow-xl border border-slate-100 relative overflow-hidden">
+              <div className="absolute top-0 right-0 p-6 opacity-5"><BarChart3 size={100} /></div>
+              <h4 className="text-xl font-bold text-slate-900 mb-6">Projected Lok Sabha Sentiment (Simulated)</h4>
+              
+              <div className="space-y-6 relative z-10">
+                <div>
+                  <div className="flex justify-between text-sm font-bold text-slate-700 mb-2">
+                    <span className="flex items-center gap-2"><div className="w-3 h-3 rounded-full bg-saffron-500"></div> NDA (Alliance)</span>
+                    <span>42%</span>
+                  </div>
+                  <div className="w-full bg-slate-100 rounded-full h-3">
+                    <div className="bg-saffron-500 h-3 rounded-full" style={{ width: '42%' }}></div>
+                  </div>
+                </div>
+                <div>
+                  <div className="flex justify-between text-sm font-bold text-slate-700 mb-2">
+                    <span className="flex items-center gap-2"><div className="w-3 h-3 rounded-full bg-blue-500"></div> I.N.D.I.A (Alliance)</span>
+                    <span>38%</span>
+                  </div>
+                  <div className="w-full bg-slate-100 rounded-full h-3">
+                    <div className="bg-blue-500 h-3 rounded-full" style={{ width: '38%' }}></div>
+                  </div>
+                </div>
+                <div>
+                  <div className="flex justify-between text-sm font-bold text-slate-700 mb-2">
+                    <span className="flex items-center gap-2"><div className="w-3 h-3 rounded-full bg-slate-400"></div> Others / Undecided</span>
+                    <span>20%</span>
+                  </div>
+                  <div className="w-full bg-slate-100 rounded-full h-3">
+                    <div className="bg-slate-400 h-3 rounded-full" style={{ width: '20%' }}></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Chart 2: Top Issues */}
+            <div className="bg-white rounded-[2rem] p-8 shadow-xl border border-slate-100 relative overflow-hidden">
+              <div className="absolute top-0 right-0 p-6 opacity-5"><Users size={100} /></div>
+              <h4 className="text-xl font-bold text-slate-900 mb-6">Top Issues Impacting Youth Vote</h4>
+              
+              <div className="space-y-6 relative z-10">
+                <div>
+                  <div className="flex justify-between text-sm font-bold text-slate-700 mb-2">
+                    <span>1. Employment & Job Creation</span>
+                    <span className="text-indigo-600">65%</span>
+                  </div>
+                  <div className="w-full bg-slate-100 rounded-full h-3">
+                    <div className="bg-indigo-500 h-3 rounded-full" style={{ width: '65%' }}></div>
+                  </div>
+                </div>
+                <div>
+                  <div className="flex justify-between text-sm font-bold text-slate-700 mb-2">
+                    <span>2. Inflation & Cost of Living</span>
+                    <span className="text-red-500">52%</span>
+                  </div>
+                  <div className="w-full bg-slate-100 rounded-full h-3">
+                    <div className="bg-red-500 h-3 rounded-full" style={{ width: '52%' }}></div>
+                  </div>
+                </div>
+                <div>
+                  <div className="flex justify-between text-sm font-bold text-slate-700 mb-2">
+                    <span>3. Infrastructure & Development</span>
+                    <span className="text-green-500">45%</span>
+                  </div>
+                  <div className="w-full bg-slate-100 rounded-full h-3">
+                    <div className="bg-green-500 h-3 rounded-full" style={{ width: '45%' }}></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* PM History Showcase Section */}
       <section className="py-20 bg-white border-b border-slate-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-12">
@@ -250,6 +359,100 @@ export const Home = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* NEW: Voices of India (Testimonials) */}
+      <section className="py-24 bg-slate-50 border-b border-slate-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <MessageSquare size={48} className="mx-auto text-blue-300 mb-6" />
+            <h3 className="text-4xl font-extrabold text-slate-900 mb-4">Voices of India</h3>
+            <p className="text-lg text-slate-600">See what early users and politically aware citizens are saying about the Janmat Bharat platform.</p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="bg-white p-8 rounded-3xl shadow-lg border border-slate-100">
+              <div className="flex text-saffron-500 mb-4">
+                {[...Array(5)].map((_, i) => <svg key={i} className="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg>)}
+              </div>
+              <p className="text-slate-700 text-lg font-medium italic mb-6 leading-relaxed">
+                "Janmat Bharat is the only app where I can voice my political opinion without any fear of being trolled or targeted. The anonymity feature is absolutely brilliant."
+              </p>
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center text-blue-700 font-bold text-xl">R</div>
+                <div>
+                  <h5 className="font-bold text-slate-900">Rahul Sharma</h5>
+                  <p className="text-sm text-slate-500 flex items-center gap-1"><CheckCircle2 size={14} className="text-green-500"/> Verified Voter, Delhi</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white p-8 rounded-3xl shadow-lg border border-slate-100">
+              <div className="flex text-saffron-500 mb-4">
+                {[...Array(5)].map((_, i) => <svg key={i} className="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg>)}
+              </div>
+              <p className="text-slate-700 text-lg font-medium italic mb-6 leading-relaxed">
+                "As a political science student, the History encyclopedia feature is unmatched. I love how I can read about every PM's term completely unbiased. Great initiative!"
+              </p>
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 bg-saffron-100 rounded-full flex items-center justify-center text-saffron-700 font-bold text-xl">A</div>
+                <div>
+                  <h5 className="font-bold text-slate-900">Ananya Patel</h5>
+                  <p className="text-sm text-slate-500 flex items-center gap-1"><CheckCircle2 size={14} className="text-green-500"/> First-Time Voter, Gujarat</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white p-8 rounded-3xl shadow-lg border border-slate-100">
+              <div className="flex text-saffron-500 mb-4">
+                {[...Array(5)].map((_, i) => <svg key={i} className="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg>)}
+              </div>
+              <p className="text-slate-700 text-lg font-medium italic mb-6 leading-relaxed">
+                "Finally, an app that stops fake IT cell accounts. Since mobile OTP is mandatory, the polling data here is the most accurate reflection of the ground reality."
+              </p>
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center text-green-700 font-bold text-xl">V</div>
+                <div>
+                  <h5 className="font-bold text-slate-900">Vikram Singh</h5>
+                  <p className="text-sm text-slate-500 flex items-center gap-1"><CheckCircle2 size={14} className="text-green-500"/> Verified Voter, UP</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* NEW: FAQ Section */}
+      <section className="py-24 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <HelpCircle size={48} className="mx-auto text-saffron-500 mb-6" />
+            <h3 className="text-4xl font-extrabold text-slate-900 mb-4">Frequently Asked Questions</h3>
+            <p className="text-lg text-slate-600">Got questions about your security and privacy? We value full transparency.</p>
+          </div>
+
+          <div className="space-y-4">
+            {faqs.map((faq, index) => (
+              <div 
+                key={index} 
+                className="bg-slate-50 border border-slate-200 rounded-2xl overflow-hidden transition-all duration-300"
+              >
+                <button 
+                  className="w-full px-8 py-6 text-left flex justify-between items-center focus:outline-none"
+                  onClick={() => setOpenFaq(openFaq === index ? -1 : index)}
+                >
+                  <span className="font-bold text-lg text-slate-900">{faq.q}</span>
+                  <ChevronRight size={20} className={`text-slate-400 transition-transform duration-300 ${openFaq === index ? 'rotate-90' : ''}`} />
+                </button>
+                <div className={`px-8 overflow-hidden transition-all duration-300 ease-in-out ${openFaq === index ? 'max-h-96 pb-6 opacity-100' : 'max-h-0 opacity-0'}`}>
+                  <p className="text-slate-600 leading-relaxed font-medium text-lg">
+                    {faq.a}
+                  </p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
