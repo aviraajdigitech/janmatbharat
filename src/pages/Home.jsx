@@ -18,7 +18,7 @@ export const Home = () => {
     },
     {
       q: "क्या कोई फर्जी अकाउंट (Fake Account) बनाकर कई बार वोट कर सकता है?",
-      a: "नहीं। हमारी एंटी-फ्रॉड टेक्नोलॉजी (Anti-Fraud Technology) बहुत सख्त है। हम 'वन डिवाइस, वन वोट' (एक फोन, एक वोट) नीति का पालन करते हैं। वोट करने के लिए मोबाइल OTP वेरिफिकेशन अनिवार्य है, जिससे IT सेल या बॉट्स (Bots) डेटा को प्रभावित नहीं कर सकते।"
+      a: "नहीं।"
     },
     {
       q: "क्या जनमत भारत किसी राजनीतिक पार्टी (Political Party) से जुड़ा है?",
@@ -378,12 +378,12 @@ export const Home = () => {
                 {[...Array(5)].map((_, i) => <svg key={i} className="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg>)}
               </div>
               <p className="text-slate-700 text-lg font-medium italic mb-6 leading-relaxed">
-                "Janmat Bharat is the only app where I can voice my political opinion without any fear of being trolled or targeted. The anonymity feature is absolutely brilliant."
+                "This is exactly the digital revolution India needed! The depth of the political encyclopedia and the live analytics feature are completely mind-blowing."
               </p>
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center text-blue-700 font-bold text-xl">R</div>
+                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center text-blue-700 font-bold text-xl">A</div>
                 <div>
-                  <h5 className="font-bold text-slate-900">Rahul Sharma</h5>
+                  <h5 className="font-bold text-slate-900">Aman Kumar</h5>
                   <p className="text-sm text-slate-500 flex items-center gap-1"><CheckCircle2 size={14} className="text-green-500"/> Verified Voter, Delhi</p>
                 </div>
               </div>
@@ -410,12 +410,12 @@ export const Home = () => {
                 {[...Array(5)].map((_, i) => <svg key={i} className="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg>)}
               </div>
               <p className="text-slate-700 text-lg font-medium italic mb-6 leading-relaxed">
-                "Finally, an app that stops fake IT cell accounts. Since mobile OTP is mandatory, the polling data here is the most accurate reflection of the ground reality."
+                "Bhai, ye app toh sach me kamaal hai! IT cell wale fake vote nahi daal sakte kyunki OTP mandatory hai. Yahan UP ka asli mood dikh raha hai."
               </p>
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center text-green-700 font-bold text-xl">V</div>
+                <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center text-green-700 font-bold text-xl">P</div>
                 <div>
-                  <h5 className="font-bold text-slate-900">Vikram Singh</h5>
+                  <h5 className="font-bold text-slate-900">Pawan</h5>
                   <p className="text-sm text-slate-500 flex items-center gap-1"><CheckCircle2 size={14} className="text-green-500"/> Verified Voter, UP</p>
                 </div>
               </div>
