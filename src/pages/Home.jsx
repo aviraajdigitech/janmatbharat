@@ -41,7 +41,7 @@ export const Home = () => {
       <section className="relative min-h-[90vh] flex items-center justify-center pt-20">
         <div 
           className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: "url('/assets/majestic_flag.jpg')" }}
+          style={{ backgroundImage: "url('https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg')" }}
         />
         <div className="absolute inset-0 z-10 bg-blue-900/30" />
         
@@ -206,6 +206,7 @@ export const Home = () => {
                     src={pm.image} 
                     alt={pm.pm_name_en} 
                     className="w-full h-full object-cover" 
+                    loading="lazy"
                     onError={(e) => { e.target.src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/300px-No_image_available.svg.png' }}
                   />
                 </div>
