@@ -2,8 +2,12 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import { Vote, ShieldCheck, BarChart3, Users, Landmark, Smartphone, Lock, Globe, ChevronRight, Activity } from 'lucide-react';
+import { pmHistory } from '../data/historyData';
 
 export const Home = () => {
+  // Reverse the history to show newest first (Modi -> Manmohan -> ... -> Nehru)
+  const reversedHistory = [...pmHistory].reverse();
+
   return (
     <div className="min-h-screen bg-slate-50 font-sans overflow-hidden">
       <Helmet>
@@ -50,7 +54,7 @@ export const Home = () => {
       </section>
 
       {/* Live Trust Metrics Section */}
-      <section className="relative z-30 -mt-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative z-30 -mt-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-10">
         <div className="bg-white rounded-3xl shadow-2xl p-8 border border-slate-100 flex flex-wrap justify-around items-center gap-8">
           <div className="text-center">
             <h4 className="text-4xl font-extrabold text-blue-600 mb-1">543</h4>
@@ -65,6 +69,58 @@ export const Home = () => {
           <div className="text-center">
             <h4 className="text-4xl font-extrabold text-green-500 mb-1">256-bit</h4>
             <p className="text-slate-500 font-bold uppercase text-xs tracking-wider">Bank-Grade Encryption</p>
+          </div>
+        </div>
+      </section>
+
+      {/* NEW: PM History Showcase Section */}
+      <section className="py-20 bg-white border-b border-slate-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center max-w-3xl mx-auto mb-12">
+            <h2 className="text-sm font-bold text-saffron-600 tracking-widest uppercase mb-2">The Digital Encyclopedia</h2>
+            <h3 className="text-3xl md:text-5xl font-extrabold text-slate-900 mb-6">Explore India's Leadership</h3>
+            <p className="text-lg text-slate-600">
+              We don't just predict the future; we archive the past. Click on any Prime Minister below to read an unbiased, highly-researched history of their exact term in office.
+            </p>
+          </div>
+
+          {/* Horizontal Scrolling Avatar List */}
+          <div className="flex overflow-x-auto pb-10 pt-4 gap-6 snap-x flex-nowrap [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+            {reversedHistory.map((pm) => (
+              <Link 
+                to={`/history/${pm.id}`} 
+                key={pm.id} 
+                className="snap-start shrink-0 w-64 bg-slate-50 rounded-3xl p-6 border border-slate-200 hover:shadow-2xl hover:border-blue-300 transition-all duration-300 group flex flex-col items-center text-center cursor-pointer"
+              >
+                <div className="w-32 h-32 rounded-full border-4 border-white shadow-lg overflow-hidden mb-5 group-hover:scale-105 transition-transform duration-300 bg-slate-200">
+                  <img 
+                    src={pm.image} 
+                    alt={pm.pm_name_en} 
+                    className="w-full h-full object-cover" 
+                    onError={(e) => { e.target.src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/300px-No_image_available.svg.png' }}
+                  />
+                </div>
+                <div className="bg-blue-100 text-blue-700 font-bold px-3 py-1 rounded-full text-xs uppercase mb-3 border border-blue-200">
+                  {pm.period_en}
+                </div>
+                <h4 className="font-extrabold text-slate-900 text-lg mb-2 leading-tight group-hover:text-blue-600 transition-colors">
+                  {pm.pm_name_en}
+                </h4>
+                <p className="text-sm text-slate-500 font-medium line-clamp-2">
+                  {pm.term_en}
+                </p>
+                <div className="mt-4 text-saffron-500 font-bold text-sm flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity transform translate-y-2 group-hover:translate-y-0">
+                  Read History <ChevronRight size={16} />
+                </div>
+              </Link>
+            ))}
+          </div>
+          
+          <div className="text-center mt-4">
+            <Link to="/history" className="inline-flex items-center gap-2 bg-slate-900 text-white px-8 py-3 rounded-full font-bold hover:bg-slate-800 transition-colors shadow-lg">
+              <Landmark size={18} />
+              View Full Political History
+            </Link>
           </div>
         </div>
       </section>
