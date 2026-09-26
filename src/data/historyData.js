@@ -450,5 +450,91 @@ export const pmHistory = [
       "सत्ता का केंद्रीकरण अपने चरम पर पहुँच गया था। राज्यों के मुख्यमंत्रियों को बार-बार बर्खास्त किया गया या सीधे दिल्ली 'हाईकमान' द्वारा नियुक्त किया गया, जिससे भारत के संघीय ढांचे (Federalism) को गहरा नुकसान हुआ।",
       "उनकी इन्ही कठोर नीतियों का अंत बेहद दुखद रहा। 31 अक्टूबर 1984 को उनके ही सिख अंगरक्षकों द्वारा उनकी क्रूर हत्या कर दी गई, जिसके परिणामस्वरूप 1984 के भयावह सिख विरोधी दंगे भड़क उठे।"
     ]
+  },
+  {
+    id: "term_11_8th_loksabha_rajiv",
+    pm_name_en: "Rajiv Gandhi",
+    pm_name_hi: "राजीव गांधी",
+    term_en: "31 October 1984 – 2 December 1989",
+    term_hi: "31 अक्टूबर 1984 – 2 दिसंबर 1989",
+    period_en: "8th Lok Sabha",
+    period_hi: "आठवीं लोकसभा",
+    party_en: "Indian National Congress (I)",
+    party_hi: "भारतीय राष्ट्रीय कांग्रेस (I)",
+    coalition_en: "Historic Absolute Majority (404/514 seats)",
+    coalition_hi: "ऐतिहासिक प्रचंड बहुमत (514 में से 404 सीटें)",
+    symbol: "✋", 
+    image: "/assets/pms/rajiv.jpg",
+    achievements_en: [
+      "Secured the largest electoral mandate in Indian political history (404 seats) following the assassination of his mother, becoming India's youngest Prime Minister at age 40.",
+      "Pioneered India's IT and Telecommunications revolution. He established C-DOT, MTNL, and VSNL, and introduced computerized railway tickets, laying the absolute foundation for modern Digital India.",
+      "Introduced the groundbreaking National Policy on Education (1986), expanding higher education and creating the 'Jawahar Navodaya Vidyalayas' system for gifted rural students.",
+      "Lowered the legal voting age from 21 to 18 years (61st Constitutional Amendment, 1988), massively empowering the youth to participate in democracy.",
+      "Passed the crucial Anti-Defection Law (52nd Amendment, 1985) to stop the infamous 'Aaya Ram Gaya Ram' culture of politicians switching parties for bribes.",
+      "Worked extensively for peace by signing the Punjab Accord (1985), the Assam Accord (1985), and the Mizoram Peace Accord (1986) to quell decades of violent regional insurgencies.",
+      "Initiated the Panchayati Raj revolution (which later became the 73rd and 74th amendments), transferring real democratic power to village and municipal levels."
+    ],
+    achievements_hi: [
+      "अपनी मां की हत्या के बाद 1984 में भारतीय राजनीतिक इतिहास का सबसे बड़ा जनादेश (404 सीटें) हासिल किया और 40 वर्ष की आयु में भारत के सबसे कम उम्र के प्रधानमंत्री बने।",
+      "भारत में सूचना प्रौद्योगिकी (IT) और टेलीकॉम क्रांति की शुरुआत की। सैम पित्रोदा के साथ मिलकर C-DOT, MTNL और VSNL की स्थापना की, कंप्यूटर और कंप्यूटरीकृत रेलवे टिकट की शुरुआत की, जिसने आज के 'डिजिटल इंडिया' की नींव रखी।",
+      "राष्ट्रीय शिक्षा नीति (1986) लागू की, जिसके तहत प्रतिभाशाली ग्रामीण छात्रों के लिए 'जवाहर नवोदय विद्यालय' (Navodaya Vidyalayas) की स्थापना की गई।",
+      "मतदान करने की कानूनी उम्र 21 साल से घटाकर 18 साल कर दी (61वां संविधान संशोधन, 1988), जिससे युवाओं को लोकतंत्र में भाग लेने का भारी अधिकार मिला।",
+      "नेताओं को रिश्वत के लिए पार्टी बदलने से रोकने के लिए 1985 में ऐतिहासिक 'दल-बदल विरोधी कानून' (Anti-Defection Law) पास किया।",
+      "दशकों पुराने क्षेत्रीय उग्रवाद को शांत करने के लिए पंजाब समझौता (1985), असम समझौता (1985) और मिजोरम शांति समझौता (1986) करके देश में शांति स्थापित करने का प्रयास किया।",
+      "पंचायती राज (Panchayati Raj) क्रांति की शुरुआत की (जो बाद में 73वें संशोधन के रूप में पास हुआ), जिसका उद्देश्य गांवों को वास्तविक सत्ता और अधिकार देना था।"
+    ],
+    criticisms_en: [
+      "The Bofors Scandal: Massive allegations of kickbacks in a Swedish Howitzer gun deal destroyed his 'Mr. Clean' image and ultimately led to his crushing defeat in the 1989 elections.",
+      "Shah Bano Case (1986): Passed legislation to override a progressive Supreme Court judgment protecting divorced Muslim women's rights, widely criticized as minority appeasement bowing to orthodox clerics.",
+      "Ayodhya Dispute: In an attempt to balance the Hindu backlash from the Shah Bano case, his government allowed the opening of the locks of the disputed Babri Masjid/Ram Janmabhoomi site, dangerously inflaming communal tensions across India.",
+      "Indian Peace Keeping Force (IPKF) Disaster: Sending the Indian army to intervene in the Sri Lankan Civil War (1987) was a massive strategic failure, leading to the deaths of over 1,200 Indian soldiers and eventually resulting in his tragic assassination by the LTTE in 1991.",
+      "Insensitive handling of the 1984 Anti-Sikh Riots, particularly his deeply controversial remark: 'When a big tree falls, the earth shakes', which was seen as justifying the brutal massacre of thousands of innocent Sikhs."
+    ],
+    criticisms_hi: [
+      "बोफोर्स घोटाला (Bofors Scandal): स्वीडिश तोप सौदे में दलाली और भ्रष्टाचार के भारी आरोपों ने उनकी 'मिस्टर क्लीन' की छवि को पूरी तरह नष्ट कर दिया और अंततः 1989 के चुनावों में उनकी हार का सबसे बड़ा कारण बना।",
+      "शाहबानो मामला (1986): तलाकशुदा मुस्लिम महिला के अधिकारों की रक्षा करने वाले सुप्रीम कोर्ट के फैसले को पलटने के लिए संसद में कानून पास किया, जिसकी कट्टरपंथी मौलवियों के तुष्टिकरण (Appeasement) के रूप में भारी आलोचना हुई।",
+      "अयोध्या विवाद: शाहबानो मामले से नाराज हिंदुओं को खुश करने (Balancing act) की कोशिश में, उनकी सरकार ने विवादित बाबरी मस्जिद/राम जन्मभूमि के ताले खोलने की अनुमति दे दी, जिसने पूरे भारत में सांप्रदायिक तनाव की आग भड़का दी।",
+      "श्रीलंका में IPKF की नाकामी: श्रीलंकाई गृहयुद्ध (1987) में 'भारतीय शांति सेना' (IPKF) भेजना एक बहुत बड़ी रणनीतिक भूल साबित हुई। इसमें 1,200 से अधिक भारतीय सैनिक शहीद हुए और इसी कारण 1991 में LTTE द्वारा उनकी बेरहमी से हत्या कर दी गई।",
+      "1984 के सिख-विरोधी दंगों पर उनका असंवेदनशील बयान: 'जब कोई बड़ा पेड़ गिरता है, तो धरती कांपती है'। इसे हजारों निर्दोष सिखों के क्रूर नरसंहार को सही ठहराने के रूप में देखा गया, जिसकी आज भी भारी आलोचना होती है।"
+    ]
+  },
+  {
+    id: "term_12_9th_loksabha_vpsingh",
+    pm_name_en: "Vishwanath Pratap Singh (V.P. Singh)",
+    pm_name_hi: "विश्वनाथ प्रताप सिंह (वी. पी. सिंह)",
+    term_en: "2 December 1989 – 10 November 1990",
+    term_hi: "2 दिसंबर 1989 – 10 नवंबर 1990",
+    period_en: "9th Lok Sabha (Part 1)",
+    period_hi: "नौवीं लोकसभा (भाग 1)",
+    party_en: "Janata Dal (National Front)",
+    party_hi: "जनता दल (राष्ट्रीय मोर्चा)",
+    coalition_en: "Minority Gov (Backed externally by BJP & Left CPI/CPM)",
+    coalition_hi: "अल्पमत सरकार (BJP और वामदलों का बाहरी समर्थन)",
+    symbol: "⚙️", 
+    image: "/assets/pms/vp_singh.jpg",
+    achievements_en: [
+      "The 'Mandal Messiah': Implemented the long-pending Mandal Commission Report in August 1990, providing 27% reservation for Other Backward Classes (OBCs) in government jobs, fundamentally transforming the social justice landscape of Indian politics forever.",
+      "Passed the historic SC/ST (Prevention of Atrocities) Act, 1989, providing stringent legal protections against discrimination and violence targeted at marginalized Dalit and Adivasi communities.",
+      "As a former Finance and Defense Minister under Rajiv Gandhi who resigned over the Bofors scandal, he successfully united the fractured opposition to defeat the mighty Congress party on an anti-corruption crusade.",
+      "Managed a highly complex and contradictory coalition government, keeping both the right-wing BJP and the left-wing CPI/CPM together (from the outside) to form the National Front government."
+    ],
+    achievements_hi: [
+      "'मंडल मसीहा' (Mandal Messiah): अगस्त 1990 में लंबे समय से लंबित 'मंडल आयोग की रिपोर्ट' (Mandal Commission) लागू की। इसके तहत सरकारी नौकरियों में अन्य पिछड़ा वर्ग (OBC) को 27% आरक्षण दिया गया, जिसने भारतीय राजनीति और सामाजिक न्याय की पूरी रूपरेखा हमेशा के लिए बदल दी।",
+      "समाज के सबसे हाशिए पर रहने वाले दलित और आदिवासी समुदायों (SC/ST) के खिलाफ होने वाले भेदभाव और हिंसा को रोकने के लिए ऐतिहासिक 'SC/ST (अत्याचार निवारण) अधिनियम, 1989' पास किया।",
+      "वे राजीव गांधी सरकार में वित्त और रक्षा मंत्री थे, जिन्होंने बोफोर्स घोटाले पर इस्तीफा देकर भ्रष्टाचार के खिलाफ एक बड़ा आंदोलन खड़ा किया और बिखरे हुए विपक्ष को एकजुट करके शक्तिशाली कांग्रेस को हराने में सफलता पाई।",
+      "एक बेहद जटिल और विरोधाभासी गठबंधन सरकार का प्रबंधन किया, जिसमें उन्होंने घोर-दक्षिणपंथी (BJP) और वामपंथी (CPI/CPM) दोनों को बाहर से समर्थन देने के लिए एक साथ (National Front) बांध कर रखा था।"
+    ],
+    criticisms_en: [
+      "The Mandal Commission implementation led to massive, violent, and unprecedented anti-reservation protests across North India, causing deep societal divisions and tragic incidents of self-immolation by upper-caste students (e.g., Rajiv Goswami).",
+      "His tenure saw the horrific escalation of militancy in Kashmir. The tragic targeted killings and the mass exodus of Kashmiri Pandits from the Kashmir Valley began during his watch (early 1990), drawing heavy criticism for the government's inability to protect minorities in the state.",
+      "The controversial handling of the kidnapping of Rubaiya Sayeed (daughter of his Home Minister, Mufti Mohammad Sayeed), where the government released dreaded JKLF terrorists in exchange for her freedom, which massively emboldened Kashmiri militants.",
+      "The government fell within 11 months when L.K. Advani's 'Ram Rath Yatra' was stopped and he was arrested in Bihar (by Lalu Prasad Yadav on VP Singh's orders). The BJP immediately withdrew its support, leading to the collapse of the government."
+    ],
+    criticisms_hi: [
+      "मंडल आयोग के लागू होने से पूरे उत्तर भारत में आरक्षण के खिलाफ भारी, हिंसक और अभूतपूर्व विरोध प्रदर्शन (Mandal Agitation) हुए। इससे समाज में गहरा विभाजन पैदा हुआ और सवर्ण छात्रों द्वारा आत्मदाह (जैसे: राजीव गोस्वामी) की बेहद दुखद घटनाएं हुईं।",
+      "उनके कार्यकाल में कश्मीर में आतंकवाद बहुत खतरनाक स्तर पर पहुंच गया। कश्मीरी पंडितों की लक्षित हत्याएं (Targeted killings) और कश्मीर घाटी से उनका सामूहिक पलायन (Exodus) 1990 में उन्हीं के शासनकाल में शुरू हुआ। अल्पसंख्यकों को बचाने में विफल रहने पर सरकार की भारी आलोचना हुई।",
+      "उनके गृह मंत्री मुफ्ती मोहम्मद सईद की बेटी (रुबैया सईद) के अपहरण के मामले को बेहद विवादास्पद तरीके से संभाला गया। उनकी रिहाई के बदले खूंखार JKLF आतंकवादियों को रिहा कर दिया गया, जिससे कश्मीर में आतंकवादियों का हौसला बहुत बढ़ गया।",
+      "L.K. आडवाणी की 'राम रथ यात्रा' को रोकने और उन्हें बिहार में गिरफ्तार (वीपी सिंह के आदेश पर लालू यादव द्वारा) करने के बाद सरकार महज 11 महीने में गिर गई। BJP ने तुरंत अपना समर्थन वापस ले लिया, जिससे वीपी सिंह की सरकार का पतन हो गया।"
+    ]
   }
 ];
