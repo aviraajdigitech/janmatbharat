@@ -346,7 +346,7 @@ export const Home = () => {
             {[
               { initial: 'A', bg: 'bg-blue-100', text: 'text-blue-700', name: 'Aman Kumar', loc: 'Delhi', review: "This is exactly the digital revolution India needed! The depth of the political encyclopedia and the live analytics are completely mind-blowing." },
               { initial: 'A', bg: 'bg-saffron-100', text: 'text-saffron-700', name: 'Ananya Patel', loc: 'Gujarat', review: "As a political science student, the History encyclopedia is unmatched. Unbiased, term-by-term analysis of every PM is absolutely brilliant." },
-              { initial: 'P', bg: 'bg-green-100', text: 'text-green-700', name: 'Pawan', loc: 'UP', review: "Bhai, ye app toh sach me kamaal hai! IT cell wale fake vote nahi daal sakte kyunki OTP mandatory hai. Yahan UP ka asli mood dikh raha hai." },
+              { initial: 'P', bg: 'bg-green-100', text: 'text-green-700', name: 'Pawan', loc: 'UP', review: "Bhai, ye app sach me kamaal hai! Yahan koi fake vote nahi hota. UP ka asli mood pehli baar itne sahi tarike se dikh raha hai." },
             ].map((t) => (
               <div key={t.name} className="bg-white p-8 rounded-3xl shadow-lg border border-slate-100">
                 <div className="flex text-saffron-500 mb-4">
