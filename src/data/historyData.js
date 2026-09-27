@@ -1,6 +1,6 @@
 export const pmHistory = [
   {
-    id: "term_1_provisional",
+    id: "jawaharlal-nehru-1947-1952",
     pm_name_en: "Jawaharlal Nehru",
     pm_name_hi: "जवाहरलाल नेहरू",
     term_en: "15 August 1947 – 15 April 1952",
@@ -61,7 +61,7 @@ export const pmHistory = [
     ]
   },
   {
-    id: "term_2_1st_loksabha",
+    id: "jawaharlal-nehru-1952-1957",
     pm_name_en: "Jawaharlal Nehru",
     pm_name_hi: "जवाहरलाल नेहरू",
     term_en: "15 April 1952 – 17 April 1957",
@@ -122,7 +122,7 @@ export const pmHistory = [
     ]
   },
   {
-    id: "term_3_2nd_loksabha",
+    id: "jawaharlal-nehru-1957-1962",
     pm_name_en: "Jawaharlal Nehru",
     pm_name_hi: "जवाहरलाल नेहरू",
     term_en: "17 April 1957 – 2 April 1962",
@@ -179,7 +179,7 @@ export const pmHistory = [
     ]
   },
   {
-    id: "term_4_3rd_loksabha_nehru",
+    id: "jawaharlal-nehru-1962-1964",
     pm_name_en: "Jawaharlal Nehru",
     pm_name_hi: "जवाहरलाल नेहरू",
     term_en: "2 April 1962 – 27 May 1964",
@@ -224,7 +224,7 @@ export const pmHistory = [
     ]
   },
   {
-    id: "term_5_3rd_loksabha_shastri",
+    id: "lal-bahadur-shastri-1964-1966",
     pm_name_en: "Lal Bahadur Shastri",
     pm_name_hi: "लाल बहादुर शास्त्री",
     term_en: "9 June 1964 – 11 January 1966",
@@ -279,7 +279,7 @@ export const pmHistory = [
     ]
   },
   {
-    id: "term_6_4th_loksabha_indira",
+    id: "indira-gandhi-1966-1971",
     pm_name_en: "Indira Gandhi",
     pm_name_hi: "इंदिरा गांधी",
     term_en: "4 March 1967 – 15 March 1971",
@@ -330,7 +330,7 @@ export const pmHistory = [
     ]
   },
   {
-    id: "term_7_5th_loksabha_indira",
+    id: "indira-gandhi-1971-1977",
     pm_name_en: "Indira Gandhi",
     pm_name_hi: "इंदिरा गांधी",
     term_en: "15 March 1971 – 24 March 1977",
@@ -387,7 +387,7 @@ export const pmHistory = [
     ]
   },
   {
-    id: "term_8_6th_loksabha_morarji",
+    id: "morarji-desai-1977-1979",
     pm_name_en: "Morarji Desai",
     pm_name_hi: "मोरारजी देसाई",
     term_en: "24 March 1977 – 28 July 1979",
@@ -444,7 +444,7 @@ export const pmHistory = [
     ]
   },
   {
-    id: "term_9_6th_loksabha_charan",
+    id: "charan-singh-1979-1980",
     pm_name_en: "Chaudhary Charan Singh",
     pm_name_hi: "चौधरी चरण सिंह",
     term_en: "28 July 1979 – 14 January 1980",
@@ -495,7 +495,7 @@ export const pmHistory = [
     ]
   },
   {
-    id: "term_10_7th_loksabha_indira",
+    id: "indira-gandhi-1980-1984",
     pm_name_en: "Indira Gandhi",
     pm_name_hi: "इंदिरा गांधी",
     term_en: "14 January 1980 – 31 October 1984",
@@ -552,7 +552,7 @@ export const pmHistory = [
     ]
   },
   {
-    id: "term_11_8th_loksabha_rajiv",
+    id: "rajiv-gandhi-1984-1989",
     pm_name_en: "Rajiv Gandhi",
     pm_name_hi: "राजीव गांधी",
     term_en: "31 October 1984 – 2 December 1989",
@@ -609,7 +609,7 @@ export const pmHistory = [
     ]
   },
   {
-    id: "term_12_9th_loksabha_vpsingh",
+    id: "vp-singh-1989-1990",
     pm_name_en: "Vishwanath Pratap Singh (V.P. Singh)",
     pm_name_hi: "विश्वनाथ प्रताप सिंह (वी. पी. सिंह)",
     term_en: "2 December 1989 – 10 November 1990",
@@ -658,7 +658,7 @@ export const pmHistory = [
     ]
   },
   {
-    id: "term_13_9th_loksabha_chandrashekhar",
+    id: "chandra-shekhar-1990-1991",
     pm_name_en: "Chandra Shekhar",
     pm_name_hi: "चंद्रशेखर",
     term_en: "10 November 1990 – 21 June 1991",
@@ -707,7 +707,7 @@ export const pmHistory = [
     ]
   },
   {
-    id: "term_14_10th_loksabha_rao",
+    id: "pv-narasimha-rao-1991-1996",
     pm_name_en: "P. V. Narasimha Rao",
     pm_name_hi: "पी. वी. नरसिम्हा राव",
     term_en: "21 June 1991 – 16 May 1996",
@@ -762,7 +762,7 @@ export const pmHistory = [
     ]
   },
   {
-    id: "term_15_11th_loksabha_devegowda_gujral",
+    id: "deve-gowda-ik-gujral-1996-1998",
     pm_name_en: "H.D. Deve Gowda & I.K. Gujral",
     pm_name_hi: "एच. डी. देवेगौड़ा और आई. के. गुजराल",
     term_en: "1 June 1996 – 19 March 1998",
@@ -812,7 +812,7 @@ export const pmHistory = [
   },
   
     {
-      id: "term_16a_12th_loksabha_vajpayee1",
+      id: "atal-bihari-vajpayee-1998-1999",
       pm_name_en: "Atal Bihari Vajpayee",
       pm_name_hi: "अटल बिहारी वाजपेयी",
       term_en: "19 March 1998 – 13 October 1999",
@@ -855,7 +855,7 @@ export const pmHistory = [
       ]
     },
     {
-      id: "term_16b_13th_loksabha_vajpayee2",
+      id: "atal-bihari-vajpayee-1999-2004",
       pm_name_en: "Atal Bihari Vajpayee",
       pm_name_hi: "अटल बिहारी वाजपेयी",
       term_en: "13 October 1999 – 22 May 2004",
@@ -912,7 +912,7 @@ export const pmHistory = [
 
   
     {
-      id: "term_17_14th_loksabha_manmohan1",
+      id: "manmohan-singh-2004-2009",
       pm_name_en: "Dr. Manmohan Singh",
       pm_name_hi: "डॉ. मनमोहन सिंह",
       term_en: "22 May 2004 – 22 May 2009",
@@ -971,7 +971,7 @@ export const pmHistory = [
       ]
     },
     {
-      id: "term_17b_15th_loksabha_manmohan2",
+      id: "manmohan-singh-2009-2014",
       pm_name_en: "Dr. Manmohan Singh",
       pm_name_hi: "डॉ. मनमोहन सिंह",
       term_en: "22 May 2009 – 26 May 2014",
@@ -1027,7 +1027,7 @@ export const pmHistory = [
     },
 
   {
-    id: "term_18_16th_loksabha_modi1",
+    id: "narendra-modi-2014-2019",
     pm_name_en: "Narendra Modi",
     pm_name_hi: "नरेंद्र मोदी",
     term_en: "26 May 2014 – 30 May 2019",
@@ -1082,7 +1082,7 @@ export const pmHistory = [
 ]
   },
   {
-    id: "term_19_17th_loksabha_modi2",
+    id: "narendra-modi-2019-2024",
     pm_name_en: "Narendra Modi",
     pm_name_hi: "नरेंद्र मोदी",
     term_en: "30 May 2019 – 9 June 2024",
@@ -1143,7 +1143,7 @@ export const pmHistory = [
 ]
   },
   {
-    id: "term_20_18th_loksabha_modi3",
+    id: "narendra-modi-2024-present",
     pm_name_en: "Narendra Modi",
     pm_name_hi: "नरेंद्र मोदी",
     term_en: "9 June 2024 – Present",
