@@ -951,37 +951,33 @@ export const pmHistory = [
       profile: "स्वतंत्र भारत में जन्म लेने वाले पहले प्रधानमंत्री, जिन्होंने 2014 और 2019 में पूर्ण बहुमत के साथ भारतीय राजनीति की दिशा बदल दी। वे अपनी मजबूत नेतृत्व शैली के लिए जाने जाते हैं। उनके कार्यकाल में धारा 370 हटाना, राम मंदिर निर्माण, GST लागू करना और डिजिटल इंडिया जैसी बड़ी योजनाएं शामिल हैं।"
     },
     achievements_en: [
-      "Secured the first single-party absolute majority in 30 years (since 1984), completely changing the landscape of Indian politics.",
-      "Swachh Bharat Abhiyan (2014): Launched a massive, unprecedented nationwide cleanliness drive, building over 100 million toilets to eradicate open defecation.",
-      "Pradhan Mantri Jan Dhan Yojana: Executed the world's largest financial inclusion drive, opening over 400 million zero-balance bank accounts for the poor.",
-      "GST Implementation (2017): Successfully rolled out the Goods and Services Tax, replacing a complex web of state and central taxes with the 'One Nation, One Tax' system.",
-      "Ujjwala Yojana: Provided millions of free LPG gas connections to women below the poverty line, drastically improving rural health and lifestyle.",
-      "Military Retaliation: Changed India's strategic posture with the 2016 'Surgical Strikes' in PoK (after Uri) and the 2019 Balakot Airstrikes (after Pulwama).",
-      "Insolvency and Bankruptcy Code (IBC, 2016): Passed massive economic reforms to resolve mounting bad loans (NPAs) in the banking sector."
-    ],
-    achievements_hi: [
-      "30 वर्षों (1984) के बाद पहली बार किसी एक पार्टी को पूर्ण बहुमत (282 सीटें) दिलाया, जिसने भारतीय राजनीति की दिशा हमेशा के लिए बदल दी।",
-      "स्वच्छ भारत अभियान (2014): खुले में शौच (Open defecation) को खत्म करने के लिए देशव्यापी सफाई अभियान चलाया और 10 करोड़ से ज्यादा शौचालय बनाए।",
-      "प्रधानमंत्री जन-धन योजना: दुनिया का सबसे बड़ा वित्तीय समावेशन (Financial inclusion) अभियान चलाया, जिसमें गरीबों के 40 करोड़ से ज्यादा 'जीरो-बैलेंस' बैंक खाते खोले गए।",
-      "GST लागू करना (2017): दर्जनों अलग-अलग टैक्स हटाकर देश भर में ऐतिहासिक 'वन नेशन, वन टैक्स' (गुड्स एंड सर्विसेज टैक्स) लागू किया।",
-      "उज्ज्वला योजना: गरीबी रेखा से नीचे (BPL) की करोड़ों महिलाओं को मुफ्त LPG गैस कनेक्शन दिए, जिससे ग्रामीण महिलाओं के स्वास्थ्य में बड़ा सुधार आया।",
-      "सशक्त सैन्य जवाब: उरी हमले के बाद PoK में 2016 की 'सर्जिकल स्ट्राइक' और पुलवामा के बाद 2019 की 'बालाकोट एयरस्ट्राइक' के साथ भारत की कूटनीतिक और सैन्य नीति को आक्रामक बनाया।",
-      "इन्सॉल्वेंसी एंड बैंकरप्सी कोड (IBC, 2016): बैंकों के डूबते कर्ज (NPA) की समस्या को सुलझाने के लिए बहुत बड़ा आर्थिक सुधार पास किया।"
-    ],
-    criticisms_en: [
-      "2016 Demonetization (Notebandi): The sudden overnight ban of 86% of India's currency (₹500 & ₹1000 notes) caused immense hardship, wiped out millions of informal jobs, and failed its primary stated objective of eliminating black money.",
-      "Flawed GST Rollout: The initial implementation of GST was highly complex, technologically glitchy, and featured multiple high tax slabs, causing immense distress to small and medium enterprises (MSMEs).",
-      "Rising Intolerance & Lynchings: The tenure saw a sharp rise in hate crimes, cow vigilantism (Gau Rakshaks), and mob lynchings targeting minorities, drawing severe domestic and international criticism.",
-      "Data Manipulation Allegations: The government faced massive backlash for allegedly suppressing critical reports on soaring unemployment rates and farmer suicides.",
-      "Institutional Undermining: Critics accused the government of undermining the autonomy of institutions like the RBI (forcing two Governors to resign), the CBI, and the Election Commission."
-    ],
-    criticisms_hi: [
-      "2016 नोटबंदी (Demonetization): रातों-रात 86% करेंसी (₹500 और ₹1000 के नोट) बैन करने से देश में भयंकर अफरा-तफरी मची। इससे करोड़ों अनौपचारिक नौकरियां (Informal jobs) खत्म हो गईं, और यह काले धन को खत्म करने के अपने मुख्य लक्ष्य में पूरी तरह विफल रही।",
-      "GST में शुरुआती कमियां: GST को लागू करने का शुरुआती तरीका बहुत जटिल था, इसमें कई तकनीकी खामियां थीं, जिससे छोटे और मंझोले व्यापारियों (MSME) को भारी नुकसान और परेशानी उठानी पड़ी।",
-      "बढ़ती असहिष्णुता और मॉब लिंचिंग: इस कार्यकाल में नफरत भरे अपराधों, 'गौरक्षकों' द्वारा हिंसा और अल्पसंख्यकों की मॉब लिंचिंग (Mob lynching) के मामलों में भारी वृद्धि हुई, जिसकी देश-विदेश में कड़ी आलोचना हुई।",
-      "डेटा छिपाने के आरोप: बढ़ती बेरोजगारी दर (Unemployment rate) और किसानों की आत्महत्या के महत्वपूर्ण सरकारी आंकड़ों को कथित रूप से दबाने और छिपाने के लिए सरकार की भारी आलोचना हुई।",
-      "संस्थानों को कमजोर करना: आलोचकों ने सरकार पर RBI (जिसके कारण दो गवर्नरों ने इस्तीफा दिया), CBI और चुनाव आयोग जैसी स्वायत्त संस्थाओं की स्वतंत्रता को खत्म करने का आरोप लगाया।"
-    ]
+      "Historic Mandate: Secured the first single-party absolute majority in 30 years, providing strong political stability to the central government.",
+      "Financial Inclusion (JAM Trinity): Connected millions to the formal economy via Jan Dhan accounts, Aadhaar, and Mobile, enabling transparent Direct Benefit Transfers (DBT) and reducing corruption.",
+      "Swachh Bharat Abhiyan: Launched an unprecedented nationwide sanitation mission, building over 100 million toilets to drastically reduce open defecation and improve rural health.",
+      "Structural Economic Reforms: Implemented the landmark Goods and Services Tax (GST) for a 'One Nation, One Tax' system and the Insolvency and Bankruptcy Code (IBC) to clean up banking NPAs.",
+      "Women's Welfare & Electrification: Provided millions of free LPG connections (Ujjwala Yojana) and achieved the milestone of 100% village electrification (Saubhagya).",
+      "Robust National Security: Adopted a zero-tolerance policy on terrorism, marked by decisive cross-border retaliations (2016 Surgical Strikes and 2019 Balakot Airstrikes)."
+],
+      achievements_hi: [
+      "ऐतिहासिक जनादेश: 30 वर्षों में पहली बार किसी एक पार्टी को पूर्ण बहुमत मिला, जिससे केंद्र में एक मजबूत और स्थिर सरकार की स्थापना हुई।",
+      "वित्तीय समावेशन (JAM ट्रिनिटी): जन धन खातों, आधार और मोबाइल (JAM) के जरिए करोड़ों गरीबों को बैंकिंग से जोड़ा। डायरेक्ट बेनिफिट ट्रांसफर (DBT) से भ्रष्टाचार पर लगाम कसी।",
+      "स्वच्छ भारत अभियान: देशव्यापी स्वच्छता मिशन के तहत 10 करोड़ से अधिक शौचालय बनाए गए, जिससे ग्रामीण स्वास्थ्य और महिलाओं की सुरक्षा में बड़ा सुधार आया।",
+      "ऐतिहासिक आर्थिक सुधार: भारत को 'एक राष्ट्र, एक कर' (One Nation, One Tax) से जोड़ने के लिए GST और बैंकों के फंसे कर्ज (NPA) को सुलझाने के लिए IBC जैसे कड़े सुधार लागू किए।",
+      "महिला कल्याण और विद्युतीकरण: उज्ज्वला योजना के तहत करोड़ों महिलाओं को मुफ्त LPG कनेक्शन दिए और 'सौभाग्य' योजना से 100% गांवों तक बिजली पहुंचाई।",
+      "सशक्त राष्ट्रीय सुरक्षा: आतंकवाद पर 'जीरो टॉलरेंस' नीति अपनाते हुए 2016 में सर्जिकल स्ट्राइक और 2019 में बालाकोट एयर स्ट्राइक के जरिए कड़ा जवाब दिया।"
+],
+      criticisms_en: [
+      "Demonetization Economic Shock (2016): The sudden withdrawal of high-value currency caused a severe short-term liquidity crunch, heavily disrupting the informal economy and MSMEs, while arguably falling short of its primary goal to eradicate black money.",
+      "Initial GST Complexities: Although a historic reform, the initial rollout of GST involved a complex multi-slab structure and compliance hurdles that created significant transitional pain for small and medium businesses.",
+      "Job Creation Shortfalls: Despite being one of the world's fastest-growing major economies, the government faced persistent criticism for 'jobless growth' and not meeting its ambitious employment generation targets.",
+      "Agrarian Distress: The agriculture sector saw periods of suppressed crop prices and rural distress, sparking several farmer protests demanding better Minimum Support Prices (MSP)."
+],
+      criticisms_hi: [
+      "नोटबंदी का आर्थिक असर (2016): अचानक बड़े नोटों को बंद करने से कैश की भारी कमी हो गई, जिससे असंगठित क्षेत्र और छोटे कारोबारियों (MSME) को भारी नुकसान झेलना पड़ा। आलोचकों के अनुसार यह काले धन को पूरी तरह खत्म करने के अपने मुख्य लक्ष्य में भी पूरी तरह सफल नहीं रही।",
+      "शुरुआती GST की जटिलताएं: एक ऐतिहासिक सुधार होने के बावजूद, शुरुआत में GST का ढांचा और कंप्लायंस बहुत जटिल था, जिससे छोटे और मंझोले व्यापारियों (MSME) को काफी दिक्कतों का सामना करना पड़ा।",
+      "रोजगार सृजन में कमी: दुनिया की सबसे तेजी से बढ़ती अर्थव्यवस्था होने के बावजूद, सरकार पर 'जॉबलेस ग्रोथ' (बिना रोजगार वाली वृद्धि) का आरोप लगा। विपक्ष ने हमेशा युवाओं के लिए पर्याप्त नौकरियां पैदा न कर पाने पर सरकार को घेरा।",
+      "कृषि संकट और नाराजगी: कृषि क्षेत्र में फसलों के सही दाम न मिलने और ग्रामीण संकट के कारण सरकार को आलोचनाओं का सामना करना पड़ा, जिसके चलते कई किसान आंदोलन भी हुए।"
+]
   },
   {
     id: "term_19_17th_loksabha_modi2",
