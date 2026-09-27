@@ -129,7 +129,7 @@ export const HistoryDetail = () => {
                     <CheckCircle2 size={28} />
                   </div>
                   <h3 className="text-3xl font-extrabold text-slate-900">
-                    {lang === 'en' ? 'Major Achievements' : 'सबसे शानदार काम'}
+                    {lang === 'en' ? 'Major Achievements' : 'प्रमुख उपलब्धियाँ'}
                   </h3>
                 </div>
                 <ul className="space-y-4 bg-green-50/50 p-6 rounded-3xl border border-green-100">
@@ -149,7 +149,7 @@ export const HistoryDetail = () => {
                     <XCircle size={28} />
                   </div>
                   <h3 className="text-3xl font-extrabold text-slate-900">
-                    {lang === 'en' ? 'Controversies' : 'विवाद'}
+                    {lang === 'en' ? 'Controversies' : 'विवाद और प्रमुख आलोचनाएँ'}
                   </h3>
                 </div>
                 <ul className="space-y-4 bg-red-50/50 p-6 rounded-3xl border border-red-100">
