@@ -24,23 +24,23 @@ export const Navbar = () => {
   return (
     <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${
       scrolled 
-        ? 'bg-white/85 backdrop-blur-2xl border-b border-slate-200/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)] py-2' 
-        : 'bg-white/95 backdrop-blur-md border-b border-transparent py-4'
+        ? 'bg-white/85 backdrop-blur-2xl border-b border-slate-200/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)]' 
+        : 'bg-white/95 backdrop-blur-md border-b border-transparent'
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-12">
+        <div className={`flex justify-between items-center transition-all duration-300 ${scrolled ? 'h-12' : 'h-14'}`}>
           {/* Logo */}
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2.5">
             <div className="bg-white p-1 rounded-xl shadow-sm border border-slate-100">
-              <img src="/logo.png" alt="Janmat Bharat" className="w-8 h-8 object-contain" />
+              <img src="/logo.png" alt="Janmat Bharat" className="w-6 h-6 md:w-7 md:h-7 object-contain" />
             </div>
-            <Link to="/" className="text-[1.4rem] font-black text-slate-900 tracking-tighter leading-none">
-              Janmat<span className="text-saffron-500">Bharat</span><span className="text-blue-600 text-3xl leading-[0]">.</span>
+            <Link to="/" className="text-[1.2rem] md:text-[1.3rem] font-black text-slate-900 tracking-tighter leading-none">
+              Janmat<span className="text-saffron-500">Bharat</span><span className="text-blue-600 text-2xl leading-[0]">.</span>
             </Link>
           </div>
           
           {/* Desktop Links */}
-          <div className="hidden md:flex items-center space-x-1 lg:space-x-2">
+          <div className="hidden md:flex items-center space-x-1">
             {[
               { name: 'Home', path: '/' },
               { name: 'Political History', path: '/history' },
@@ -51,7 +51,7 @@ export const Navbar = () => {
               <Link 
                 key={link.name} 
                 to={link.path} 
-                className={`px-4 py-2 rounded-full text-[13px] uppercase tracking-wider font-bold transition-all duration-300 ${
+                className={`px-3 py-1.5 rounded-full text-[12px] uppercase tracking-wider font-bold transition-all duration-300 ${
                   location.pathname === link.path 
                     ? 'bg-slate-900 text-white shadow-md' 
                     : 'text-slate-500 hover:text-slate-900 hover:bg-slate-100'
@@ -68,10 +68,10 @@ export const Navbar = () => {
               href="https://play.google.com/store/apps/details?id=com.aviraajdigitech.janmatbharat" 
               target="_blank" 
               rel="noopener noreferrer" 
-              className="group relative inline-flex items-center justify-center gap-2 px-6 py-3 text-sm font-extrabold text-white bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full overflow-hidden transition-all hover:scale-105 hover:shadow-[0_8px_25px_rgba(37,99,235,0.4)]"
+              className="group relative inline-flex items-center justify-center gap-2 px-5 py-2 text-[13px] font-extrabold text-white bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full overflow-hidden transition-all hover:scale-105 hover:shadow-[0_8px_25px_rgba(37,99,235,0.4)]"
             >
               <div className="absolute inset-0 w-full h-full bg-white/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-              <Smartphone size={16} className="relative z-10" />
+              <Smartphone size={14} className="relative z-10" />
               <span className="relative z-10 tracking-wide">Download App</span>
             </a>
           </div>
@@ -80,9 +80,9 @@ export const Navbar = () => {
           <div className="md:hidden flex items-center">
             <button 
               onClick={() => setIsOpen(!isOpen)} 
-              className="p-2 rounded-full text-slate-600 hover:bg-slate-100 hover:text-slate-900 transition-all focus:outline-none focus:ring-2 focus:ring-blue-500/20"
+              className="p-1.5 rounded-full text-slate-600 hover:bg-slate-100 hover:text-slate-900 transition-all focus:outline-none focus:ring-2 focus:ring-blue-500/20"
             >
-              {isOpen ? <X size={26} strokeWidth={2.5} /> : <Menu size={26} strokeWidth={2.5} />}
+              {isOpen ? <X size={24} strokeWidth={2.5} /> : <Menu size={24} strokeWidth={2.5} />}
             </button>
           </div>
         </div>
