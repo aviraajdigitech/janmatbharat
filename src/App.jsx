@@ -10,6 +10,7 @@ import { PrivacyPolicy } from './pages/PrivacyPolicy';
 import { Contact } from './pages/Contact';
 import { History } from './pages/History';
 import { HistoryDetail } from './pages/HistoryDetail';
+import { HowPollWorks } from './pages/HowPollWorks';
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
             <Route path="/evm-security" element={<EVMSecurity />} />
             <Route path="/data-deletion" element={<DataDeletion />} />
             <Route path="/voter-awareness" element={<VoterAwareness />} />
+            <Route path="/how-it-works" element={<HowPollWorks />} />
             <Route path="/privacy" element={<PrivacyPolicy />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/history" element={<History />} />

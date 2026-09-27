@@ -24,8 +24,14 @@ export const Footer = () => {
           
           {/* Quick Links */}
           <div className="md:col-span-3">
-            <h3 className="text-white font-bold mb-6 text-lg tracking-wide">Legal & Privacy</h3>
+            <h3 className="text-white font-bold mb-6 text-lg tracking-wide">Transparency & Legal</h3>
             <ul className="space-y-4">
+              <li>
+                <Link to="/how-it-works" className="group flex items-center gap-2 hover:text-white transition-colors">
+                  <ChevronRight size={14} className="text-slate-600 group-hover:text-blue-500 transition-colors" />
+                  How Our Poll Works
+                </Link>
+              </li>
               <li>
                 <Link to="/privacy" className="group flex items-center gap-2 hover:text-white transition-colors">
                   <ChevronRight size={14} className="text-slate-600 group-hover:text-blue-500 transition-colors" />
