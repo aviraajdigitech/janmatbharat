@@ -52,14 +52,14 @@ export const Home = () => {
           </div>
 
           <h1 className="text-5xl sm:text-6xl md:text-7xl font-extrabold text-white mb-6 tracking-tight drop-shadow-2xl leading-tight">
-            Awaaz Aapki,{' '}
+            The True Voice of{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-saffron-400 via-white to-green-400">
-              Bharat Ki Pehchaan.
+              Indian Youth.
             </span>
           </h1>
 
-          <p className="mt-4 text-lg md:text-xl text-slate-100 max-w-3xl mx-auto font-medium leading-relaxed drop-shadow-lg mb-10">
-            Pehli baar, ek aisa platform jahan har naagrik apni raay nishchint hokar de sakta hai. Lok Sabha se lekar Vidhan Sabha tak — apna mock vote daalo, live results dekho, aur apne neta ki poori history ek jagah padho.
+          <p className="mt-4 text-lg md:text-xl text-slate-200 max-w-3xl mx-auto font-medium leading-relaxed drop-shadow-lg mb-10">
+            Experience India’s premier digital polling network. Step into the future of democracy with a <span className="text-white font-bold">100% unbiased</span> and secure platform. Janmat Bharat empowers you to cast mock votes, track <span className="text-white font-bold">real-time</span> political trends, and explore <span className="text-white font-bold">honest</span> political history. Your voice, your platform.
           </p>
 
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
