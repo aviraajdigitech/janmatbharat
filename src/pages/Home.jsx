@@ -229,22 +229,36 @@ export const Home = () => {
       </section>
 
       {/* ── HOW IT WORKS ── */}
-      <section className="py-24 bg-white border-y border-slate-100">
+      <section className="py-24 bg-white border-y border-slate-100 overflow-hidden">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col lg:flex-row items-center gap-16">
+          <div className="flex flex-col lg:flex-row items-center gap-16 lg:gap-24">
             <div className="lg:w-1/2">
-              <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-6">How Janmat Bharat Works</h2>
-              <p className="text-slate-600 text-lg mb-10">As simple as sending a message. As secure as a bank vault.</p>
-              <div className="space-y-8">
+              <div className="inline-block px-4 py-1.5 rounded-full bg-blue-50 border border-blue-100 text-blue-600 font-bold text-sm tracking-wide mb-6">
+                Simple & Secure
+              </div>
+              <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-6 tracking-tight">How Janmat Bharat Works</h2>
+              <p className="text-slate-500 text-[17px] mb-12 leading-relaxed">
+                We've built a platform that is as simple as sending a message, yet as secure as a bank vault. Your voice matters, and making it heard has never been easier.
+              </p>
+              
+              <div className="relative space-y-10">
+                {/* Timeline connecting line */}
+                <div className="absolute left-6 top-6 bottom-6 w-[2px] bg-slate-100"></div>
+                
                 {[
-                  { n: '1', color: 'bg-blue-100 text-blue-600 border-blue-200', title: 'Download & Register', desc: 'Get the app from the Play Store. Verify your mobile via OTP.' },
-                  { n: '2', color: 'bg-blue-100 text-blue-600 border-blue-200', title: 'Select Your Constituency', desc: 'Choose your state & local area for hyper-local, accurate polls.' },
-                  { n: '3', color: 'bg-saffron-100 text-saffron-600 border-saffron-200', title: 'Cast Your Mock Vote', desc: 'Tap your preferred party. Your choice is encrypted instantly.' },
-                  { n: '4', color: 'bg-green-100 text-green-600 border-green-200', title: 'View Live Results', desc: 'Unlock stunning live charts showing real-time national trends.' },
+                  { n: '1', color: 'bg-white text-blue-600 border-blue-200 shadow-blue-100', title: 'Download & Join', desc: 'Get the app from the Play Store and set up your secure profile instantly.' },
+                  { n: '2', color: 'bg-white text-blue-600 border-blue-200 shadow-blue-100', title: 'Select Constituency', desc: 'Choose your state and local area for hyper-local, accurate polling data.' },
+                  { n: '3', color: 'bg-white text-saffron-600 border-saffron-200 shadow-saffron-100', title: 'Cast Your Mock Vote', desc: 'Tap your preferred party. Your choice is fully encrypted and 100% anonymous.' },
+                  { n: '4', color: 'bg-white text-green-600 border-green-200 shadow-green-100', title: 'View Live Results', desc: 'Unlock stunning live charts showing real-time national and state political trends.' },
                 ].map((s) => (
-                  <div key={s.n} className="flex gap-4">
-                    <div className={`w-12 h-12 rounded-full ${s.color} font-extrabold flex items-center justify-center flex-shrink-0 text-xl border-2 shadow-sm`}>{s.n}</div>
-                    <div><h4 className="text-lg font-bold text-slate-900 mb-1">{s.title}</h4><p className="text-slate-600 text-sm">{s.desc}</p></div>
+                  <div key={s.n} className="group relative flex gap-6 z-10">
+                    <div className={`w-12 h-12 rounded-2xl ${s.color} font-black flex items-center justify-center flex-shrink-0 text-xl border-2 shadow-lg transition-transform duration-300 group-hover:scale-110 group-hover:-rotate-3`}>
+                      {s.n}
+                    </div>
+                    <div className="pt-2">
+                      <h4 className="text-[19px] font-extrabold text-slate-900 mb-1.5 group-hover:text-blue-600 transition-colors">{s.title}</h4>
+                      <p className="text-slate-500 text-[15px] leading-relaxed">{s.desc}</p>
+                    </div>
                   </div>
                 ))}
               </div>
