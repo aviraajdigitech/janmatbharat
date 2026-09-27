@@ -967,16 +967,14 @@ export const pmHistory = [
       "सशक्त राष्ट्रीय सुरक्षा: आतंकवाद पर 'जीरो टॉलरेंस' नीति अपनाते हुए 2016 में सर्जिकल स्ट्राइक और 2019 में बालाकोट एयर स्ट्राइक के जरिए कड़ा जवाब दिया।"
 ],
       criticisms_en: [
-      "Demonetization Economic Shock (2016): The sudden withdrawal of high-value currency caused a severe short-term liquidity crunch, heavily disrupting the informal economy and MSMEs, while arguably falling short of its primary goal to eradicate black money.",
-      "Initial GST Complexities: Although a historic reform, the initial rollout of GST involved a complex multi-slab structure and compliance hurdles that created significant transitional pain for small and medium businesses.",
-      "Job Creation Shortfalls: Despite being one of the world's fastest-growing major economies, the government faced persistent criticism for 'jobless growth' and not meeting its ambitious employment generation targets.",
-      "Agrarian Distress: The agriculture sector saw periods of suppressed crop prices and rural distress, sparking several farmer protests demanding better Minimum Support Prices (MSP)."
+      "Demonetization & Opposition Allegations (2016): The sudden withdrawal of high-value currency was strongly targeted by the opposition, who alleged that it caused unnecessary hardship to the informal sector without completely eradicating black money.",
+      "Initial GST Complexities: While recognized as a historic reform, the early rollout of GST faced criticism for its complex multi-slab structure, which created transitional compliance hurdles for small and medium enterprises (MSMEs).",
+      "Job Creation Debates: The opposition frequently criticized the government on the issue of unemployment, alleging that the rapid economic growth did not generate sufficient new jobs for the youth."
 ],
       criticisms_hi: [
-      "नोटबंदी का आर्थिक असर (2016): अचानक बड़े नोटों को बंद करने से कैश की भारी कमी हो गई, जिससे असंगठित क्षेत्र और छोटे कारोबारियों (MSME) को भारी नुकसान झेलना पड़ा। आलोचकों के अनुसार यह काले धन को पूरी तरह खत्म करने के अपने मुख्य लक्ष्य में भी पूरी तरह सफल नहीं रही।",
-      "शुरुआती GST की जटिलताएं: एक ऐतिहासिक सुधार होने के बावजूद, शुरुआत में GST का ढांचा और कंप्लायंस बहुत जटिल था, जिससे छोटे और मंझोले व्यापारियों (MSME) को काफी दिक्कतों का सामना करना पड़ा।",
-      "रोजगार सृजन में कमी: दुनिया की सबसे तेजी से बढ़ती अर्थव्यवस्था होने के बावजूद, सरकार पर 'जॉबलेस ग्रोथ' (बिना रोजगार वाली वृद्धि) का आरोप लगा। विपक्ष ने हमेशा युवाओं के लिए पर्याप्त नौकरियां पैदा न कर पाने पर सरकार को घेरा।",
-      "कृषि संकट और नाराजगी: कृषि क्षेत्र में फसलों के सही दाम न मिलने और ग्रामीण संकट के कारण सरकार को आलोचनाओं का सामना करना पड़ा, जिसके चलते कई किसान आंदोलन भी हुए।"
+      "नोटबंदी पर विपक्ष का आरोप (2016): अचानक बड़े नोटों को बंद करने के फैसले पर विपक्ष ने तीखा हमला किया। विपक्ष का आरोप था कि इससे काले धन पर पूरी तरह लगाम नहीं लगी, बल्कि असंगठित क्षेत्र और छोटे कारोबारियों को बेवजह परेशानी उठानी पड़ी।",
+      "शुरुआती GST की जटिलताएं: एक ऐतिहासिक सुधार होने के बावजूद, शुरुआत में GST का ढांचा काफी जटिल था, जिससे छोटे और मंझोले व्यापारियों (MSMEs) को समझने और कंप्लायंस में शुरुआती दिक्कतों का सामना करना पड़ा।",
+      "रोजगार के मुद्दे पर आलोचना: विपक्ष ने रोजगार के मुद्दे पर सरकार को लगातार घेरा और आरोप लगाया कि तेज आर्थिक विकास के बावजूद युवाओं के लिए पर्याप्त नई नौकरियां पैदा नहीं हो पाईं।"
 ]
   },
   {
