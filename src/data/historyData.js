@@ -74,6 +74,16 @@ export const pmHistory = [
     coalition_hi: "प्रचंड बहुमत (489 में से 364 सीटें)",
     symbol: "🐂", // Two bullocks was the symbol then
     image: "/assets/pms/nehru.jpg",
+    biography_en: {
+      born: "November 14, 1889, in Prayagraj (Allahabad).",
+      education: "Honors in Natural Science from Trinity College, Cambridge, and Barrister-at-Law from Inner Temple, London.",
+      profile: "Jawaharlal Nehru was the first and longest-serving Prime Minister of independent India. A central figure in the Indian independence movement and a close associate of Mahatma Gandhi, he is widely regarded as the architect of the modern Indian nation-state. He laid the scientific and industrial foundations of modern India, though several of his policies (such as Kashmir and socialist economics) remain subjects of intense debate today."
+    },
+    biography_hi: {
+      born: "14 नवंबर 1889 को प्रयागराज (इलाहाबाद) में।",
+      education: "ट्रिनिटी कॉलेज, कैम्ब्रिज (इंग्लैंड) से नेचुरल साइंस में ऑनर्स और इनर टेम्पल (लंदन) से बैरिस्टर की पढ़ाई।",
+      profile: "जवाहरलाल नेहरू स्वतंत्र भारत के पहले और सबसे लंबे समय तक सेवा करने वाले प्रधानमंत्री थे। वे भारतीय स्वतंत्रता संग्राम के सबसे प्रमुख नेताओं में से एक थे और महात्मा गांधी के करीबी सहयोगी थे। उन्हें आधुनिक भारत की वैज्ञानिक और औद्योगिक नींव रखने का श्रेय दिया जाता है, हालांकि कश्मीर और समाजवादी अर्थनीति जैसी उनकी कई नीतियों पर आज भी तीखी बहस होती है।"
+    },
     achievements_en: [
       "Successfully led the first democratically elected government of India.",
       "Passed the States Reorganisation Act (1956), restructuring states on linguistic lines.",
@@ -125,6 +135,16 @@ export const pmHistory = [
     coalition_hi: "प्रचंड बहुमत (494 में से 371 सीटें)",
     symbol: "🐂", 
     image: "/assets/pms/nehru.jpg",
+    biography_en: {
+      born: "November 14, 1889, in Prayagraj (Allahabad).",
+      education: "Honors in Natural Science from Trinity College, Cambridge, and Barrister-at-Law from Inner Temple, London.",
+      profile: "Jawaharlal Nehru was the first and longest-serving Prime Minister of independent India. A central figure in the Indian independence movement and a close associate of Mahatma Gandhi, he is widely regarded as the architect of the modern Indian nation-state. He laid the scientific and industrial foundations of modern India, though several of his policies (such as Kashmir and socialist economics) remain subjects of intense debate today."
+    },
+    biography_hi: {
+      born: "14 नवंबर 1889 को प्रयागराज (इलाहाबाद) में।",
+      education: "ट्रिनिटी कॉलेज, कैम्ब्रिज (इंग्लैंड) से नेचुरल साइंस में ऑनर्स और इनर टेम्पल (लंदन) से बैरिस्टर की पढ़ाई।",
+      profile: "जवाहरलाल नेहरू स्वतंत्र भारत के पहले और सबसे लंबे समय तक सेवा करने वाले प्रधानमंत्री थे। वे भारतीय स्वतंत्रता संग्राम के सबसे प्रमुख नेताओं में से एक थे और महात्मा गांधी के करीबी सहयोगी थे। उन्हें आधुनिक भारत की वैज्ञानिक और औद्योगिक नींव रखने का श्रेय दिया जाता है, हालांकि कश्मीर और समाजवादी अर्थनीति जैसी उनकी कई नीतियों पर आज भी तीखी बहस होती है।"
+    },
     achievements_en: [
       "Successfully held the second general elections, solidifying democratic roots.",
       "Liberation and annexation of Goa from Portuguese rule (Operation Vijay, 1961).",
@@ -172,6 +192,16 @@ export const pmHistory = [
     coalition_hi: "प्रचंड बहुमत (494 में से 361 सीटें)",
     symbol: "🐂", 
     image: "/assets/pms/nehru.jpg",
+    biography_en: {
+      born: "November 14, 1889, in Prayagraj (Allahabad).",
+      education: "Honors in Natural Science from Trinity College, Cambridge, and Barrister-at-Law from Inner Temple, London.",
+      profile: "Jawaharlal Nehru was the first and longest-serving Prime Minister of independent India. A central figure in the Indian independence movement and a close associate of Mahatma Gandhi, he is widely regarded as the architect of the modern Indian nation-state. He laid the scientific and industrial foundations of modern India, though several of his policies (such as Kashmir and socialist economics) remain subjects of intense debate today."
+    },
+    biography_hi: {
+      born: "14 नवंबर 1889 को प्रयागराज (इलाहाबाद) में।",
+      education: "ट्रिनिटी कॉलेज, कैम्ब्रिज (इंग्लैंड) से नेचुरल साइंस में ऑनर्स और इनर टेम्पल (लंदन) से बैरिस्टर की पढ़ाई।",
+      profile: "जवाहरलाल नेहरू स्वतंत्र भारत के पहले और सबसे लंबे समय तक सेवा करने वाले प्रधानमंत्री थे। वे भारतीय स्वतंत्रता संग्राम के सबसे प्रमुख नेताओं में से एक थे और महात्मा गांधी के करीबी सहयोगी थे। उन्हें आधुनिक भारत की वैज्ञानिक और औद्योगिक नींव रखने का श्रेय दिया जाता है, हालांकि कश्मीर और समाजवादी अर्थनीति जैसी उनकी कई नीतियों पर आज भी तीखी बहस होती है।"
+    },
     achievements_en: [
       "Initiated modernization of the Indian Armed Forces post-1962.",
       "Laid the foundation for India's space program (INCOSPAR formed in 1962).",
@@ -207,6 +237,16 @@ export const pmHistory = [
     coalition_hi: "प्रचंड बहुमत",
     symbol: "🐂", 
     image: "/assets/pms/shastri.jpg",
+    biography_en: {
+      born: "October 2, 1904, in Mughalsarai, UP.",
+      education: "Graduated from Kashi Vidyapeeth with the title 'Shastri' (Scholar).",
+      profile: "Known for his deep simplicity and integrity, Shastri led India during the critical 1965 Indo-Pak war. He coined the legendary slogan 'Jai Jawan Jai Kisan' and initiated the White Revolution to boost milk production."
+    },
+    biography_hi: {
+      born: "2 अक्टूबर 1904, मुग़लसराय, उत्तर प्रदेश।",
+      education: "काशी विद्यापीठ से स्नातक (उपाधि: 'शास्त्री')।",
+      profile: "अपनी सादगी और ईमानदारी के लिए विख्यात, शास्त्री जी ने 1965 के भारत-पाकिस्तान युद्ध में देश का नेतृत्व किया। उन्होंने 'जय जवान जय किसान' का ऐतिहासिक नारा दिया और दुग्ध उत्पादन बढ़ाने के लिए श्वेत क्रांति (White Revolution) की शुरुआत की।"
+    },
     achievements_en: [
       "Coined the immortal slogan 'Jai Jawan Jai Kisan' during the 1965 war.",
       "Led India to a decisive psychological and tactical victory in the Indo-Pakistani War of 1965.",
@@ -252,6 +292,16 @@ export const pmHistory = [
     coalition_hi: "अल्पमत सरकार (CPI के समर्थन से)",
     symbol: "🐄", // Cow and Calf symbol
     image: "/assets/pms/indira.png",
+    biography_en: {
+      born: "November 19, 1917, in Prayagraj (Allahabad).",
+      education: "Studied at Visva-Bharati University and Somerville College, Oxford.",
+      profile: "The first and only female Prime Minister of India, often referred to as the 'Iron Lady of India'. She was known for her unprecedented political centralization, the decisive 1971 war that created Bangladesh, and the controversial imposition of the Emergency (1975-1977)."
+    },
+    biography_hi: {
+      born: "19 नवंबर 1917, प्रयागराज (इलाहाबाद)।",
+      education: "विश्व-भारती विश्वविद्यालय और सोमरविले कॉलेज, ऑक्सफोर्ड में पढ़ाई।",
+      profile: "भारत की पहली और एकमात्र महिला प्रधानमंत्री, जिन्हें 'भारत की आयरन लेडी' कहा जाता है। उन्हें ऐतिहासिक 1971 के युद्ध (जिससे बांग्लादेश बना) और राजनीतिक केंद्रीकरण के साथ-साथ 1975 में विवादास्पद आपातकाल (Emergency) लगाने के लिए जाना जाता है।"
+    },
     achievements_en: [
       "Nationalized 14 major private banks in 1969 to increase agricultural lending.",
       "Abolished the 'Privy Purse' (royalties given to former kings) to promote equality.",
@@ -293,6 +343,16 @@ export const pmHistory = [
     coalition_hi: "प्रचंड बहुमत (518 में से 352 सीटें)",
     symbol: "🐄", 
     image: "/assets/pms/indira.png",
+    biography_en: {
+      born: "November 19, 1917, in Prayagraj (Allahabad).",
+      education: "Studied at Visva-Bharati University and Somerville College, Oxford.",
+      profile: "The first and only female Prime Minister of India, often referred to as the 'Iron Lady of India'. She was known for her unprecedented political centralization, the decisive 1971 war that created Bangladesh, and the controversial imposition of the Emergency (1975-1977)."
+    },
+    biography_hi: {
+      born: "19 नवंबर 1917, प्रयागराज (इलाहाबाद)।",
+      education: "विश्व-भारती विश्वविद्यालय और सोमरविले कॉलेज, ऑक्सफोर्ड में पढ़ाई।",
+      profile: "भारत की पहली और एकमात्र महिला प्रधानमंत्री, जिन्हें 'भारत की आयरन लेडी' कहा जाता है। उन्हें ऐतिहासिक 1971 के युद्ध (जिससे बांग्लादेश बना) और राजनीतिक केंद्रीकरण के साथ-साथ 1975 में विवादास्पद आपातकाल (Emergency) लगाने के लिए जाना जाता है।"
+    },
     achievements_en: [
       "Led India to its greatest military victory in the 1971 war, resulting in the creation of Bangladesh.",
       "Conducted India's first successful nuclear test 'Smiling Buddha' at Pokhran (1974).",
@@ -340,6 +400,16 @@ export const pmHistory = [
     coalition_hi: "गठबंधन बहुमत (जनता एलायंस)",
     symbol: "🧑‍🌾", // Farmer with plough symbol
     image: "/assets/pms/morarji.jpg",
+    biography_en: {
+      born: "February 29, 1896, in Bhadeli, Gujarat.",
+      education: "Graduated from Wilson College, Mumbai.",
+      profile: "The first non-Congress Prime Minister of India, leading the Janata Party government after the Emergency. A strict Gandhian and disciplinarian, he focused on restoring democratic freedoms, improving relations with neighbors, and implementing prohibition."
+    },
+    biography_hi: {
+      born: "29 फरवरी 1896, भदेली, गुजरात।",
+      education: "विल्सन कॉलेज, मुंबई से स्नातक।",
+      profile: "आपातकाल के बाद जनता पार्टी सरकार का नेतृत्व करने वाले भारत के पहले गैर-कांग्रेसी प्रधानमंत्री। एक सख्त गांधीवादी और अनुशासित नेता, जिन्होंने लोकतांत्रिक अधिकारों की बहाली और पड़ोसियों के साथ संबंध सुधारने पर जोर दिया।"
+    },
     achievements_en: [
       "Became the first non-Congress Prime Minister of India, proving the maturity of Indian democracy.",
       "Restored democratic rights, civil liberties, and freedom of the press suspended during the Emergency.",
@@ -387,6 +457,16 @@ export const pmHistory = [
     coalition_hi: "अल्पमत सरकार (शुरुआत में कांग्रेस-I का समर्थन)",
     symbol: "🌾",
     image: "/assets/pms/charan.jpg",
+    biography_en: {
+      born: "December 23, 1902, in Noorpur, UP.",
+      education: "M.A. and Law degree from Agra University.",
+      profile: "A champion of the Indian peasants and rural economy, often remembered as the 'Champion of India's Peasants'. Though his tenure as PM was brief and he never faced the Parliament, his legacy in land reforms and agricultural advocacy remains profound."
+    },
+    biography_hi: {
+      born: "23 दिसंबर 1902, नूरपुर, उत्तर प्रदेश।",
+      education: "आगरा विश्वविद्यालय से एम.ए. और कानून की डिग्री।",
+      profile: "भारतीय किसानों और ग्रामीण अर्थव्यवस्था के बड़े समर्थक, जिन्हें 'किसानों का मसीहा' कहा जाता है। हालांकि उनका कार्यकाल बहुत छोटा रहा और उन्होंने कभी संसद का सामना नहीं किया, लेकिन भूमि सुधारों में उनका योगदान अहम है।"
+    },
     achievements_en: [
       "Championed the cause of the Indian peasantry and farmers, earning him the title 'Champion of India's Peasants'.",
       "Prepared foundational blueprints for pro-farmer agricultural policies, emphasizing rural development over heavy industrialization.",
@@ -428,6 +508,16 @@ export const pmHistory = [
     coalition_hi: "प्रचंड बहुमत (529 में से 353 सीटें)",
     symbol: "✋", 
     image: "/assets/pms/indira.png",
+    biography_en: {
+      born: "November 19, 1917, in Prayagraj (Allahabad).",
+      education: "Studied at Visva-Bharati University and Somerville College, Oxford.",
+      profile: "The first and only female Prime Minister of India, often referred to as the 'Iron Lady of India'. She was known for her unprecedented political centralization, the decisive 1971 war that created Bangladesh, and the controversial imposition of the Emergency (1975-1977)."
+    },
+    biography_hi: {
+      born: "19 नवंबर 1917, प्रयागराज (इलाहाबाद)।",
+      education: "विश्व-भारती विश्वविद्यालय और सोमरविले कॉलेज, ऑक्सफोर्ड में पढ़ाई।",
+      profile: "भारत की पहली और एकमात्र महिला प्रधानमंत्री, जिन्हें 'भारत की आयरन लेडी' कहा जाता है। उन्हें ऐतिहासिक 1971 के युद्ध (जिससे बांग्लादेश बना) और राजनीतिक केंद्रीकरण के साथ-साथ 1975 में विवादास्पद आपातकाल (Emergency) लगाने के लिए जाना जाता है।"
+    },
     achievements_en: [
       "Made a spectacular political comeback in 1980 under the powerful slogan 'Elect a Government that Works', capitalizing on the Janata Party's catastrophic failures.",
       "Successfully hosted the 1982 Asian Games in New Delhi, which catalyzed massive infrastructural development in the capital and introduced Color Television broadcasting to India.",
@@ -475,6 +565,16 @@ export const pmHistory = [
     coalition_hi: "ऐतिहासिक प्रचंड बहुमत (514 में से 404 सीटें)",
     symbol: "✋", 
     image: "/assets/pms/rajiv.jpg",
+    biography_en: {
+      born: "August 20, 1944, in Mumbai.",
+      education: "Attended Trinity College, Cambridge, and Imperial College London.",
+      profile: "Becoming the youngest PM at 40 after his mother's assassination, he is credited with ushering India into the computer and telecom era. His term saw historic accords (Assam, Punjab, Mizoram) but was also marred by the Bofors scandal and Sri Lankan intervention."
+    },
+    biography_hi: {
+      born: "20 अगस्त 1944, मुंबई।",
+      education: "ट्रिनिटी कॉलेज (कैम्ब्रिज) और इंपीरियल कॉलेज लंदन (डिग्री पूरी नहीं की)।",
+      profile: "40 साल की उम्र में प्रधानमंत्री बनने वाले सबसे युवा नेता, जिन्हें भारत में कंप्यूटर और टेलीकॉम क्रांति लाने का श्रेय दिया जाता है। उनके कार्यकाल में ऐतिहासिक शांति समझौते हुए, लेकिन यह बोफोर्स घोटाले और श्रीलंका विवाद के लिए भी जाना जाता है।"
+    },
     achievements_en: [
       "Secured the largest electoral mandate in Indian political history (404 seats) following the assassination of his mother, becoming India's youngest Prime Minister at age 40.",
       "Pioneered India's IT and Telecommunications revolution. He established C-DOT, MTNL, and VSNL, and introduced computerized railway tickets, laying the absolute foundation for modern Digital India.",
@@ -522,6 +622,16 @@ export const pmHistory = [
     coalition_hi: "अल्पमत सरकार (BJP और वामदलों का बाहरी समर्थन)",
     symbol: "⚙️", 
     image: "/assets/pms/vp_singh.jpg",
+    biography_en: {
+      born: "June 25, 1931, in Allahabad.",
+      education: "B.A., LL.B. from Allahabad University and Pune University.",
+      profile: "A former royal and a crusader against corruption, he led the National Front coalition. His most enduring and controversial legacy is the implementation of the Mandal Commission report, which introduced OBC reservations and permanently reshaped Indian social politics."
+    },
+    biography_hi: {
+      born: "25 जून 1931, इलाहाबाद।",
+      education: "इलाहाबाद और पुणे विश्वविद्यालय से बी.ए. और एलएलबी।",
+      profile: "भ्रष्टाचार के खिलाफ लड़ने वाले नेता, जिन्होंने राष्ट्रीय मोर्चा सरकार का नेतृत्व किया। उनका सबसे बड़ा और विवादास्पद कदम 'मंडल आयोग' की सिफारिशों को लागू करना था, जिसने भारत की सामाजिक और चुनावी राजनीति को हमेशा के लिए बदल दिया।"
+    },
     achievements_en: [
       "The 'Mandal Messiah': Implemented the long-pending Mandal Commission Report in August 1990, providing 27% reservation for Other Backward Classes (OBCs) in government jobs, fundamentally transforming the social justice landscape of Indian politics forever.",
       "Passed the historic SC/ST (Prevention of Atrocities) Act, 1989, providing stringent legal protections against discrimination and violence targeted at marginalized Dalit and Adivasi communities.",
@@ -561,6 +671,16 @@ export const pmHistory = [
     coalition_hi: "अल्पमत सरकार (कांग्रेस-I का बाहरी समर्थन)",
     symbol: "🌳", 
     image: "/assets/pms/chandra_shekhar.jpg",
+    biography_en: {
+      born: "April 17, 1927, in Ibrahimpatti, UP.",
+      education: "M.A. in Political Science from Allahabad University.",
+      profile: "Known as a 'Young Turk' for his rebellious and firebrand socialist politics within the Congress before forming his own path. His brief stint as PM was marked by severe economic instability and the historic pledging of India's gold reserves to avoid a sovereign default."
+    },
+    biography_hi: {
+      born: "17 अप्रैल 1927, इब्राहिमपट्टी, उत्तर प्रदेश।",
+      education: "इलाहाबाद विश्वविद्यालय से राजनीति विज्ञान में एम.ए.।",
+      profile: "अपनी बेबाक और समाजवादी राजनीति के कारण उन्हें 'यंग तुर्क' कहा जाता था। उनके छोटे से कार्यकाल के दौरान भारत को गंभीर आर्थिक संकट का सामना करना पड़ा, जिसमें देश को डिफ़ॉल्ट से बचाने के लिए सोना गिरवी रखना पड़ा था।"
+    },
     achievements_en: [
       "Known as the 'Young Turk' of Indian politics, he fiercely maintained his ideological stance despite leading a fragile coalition.",
       "Took incredibly bold, albeit deeply unpopular, economic decisions to prevent India from defaulting on its sovereign debt during the massive 1991 Balance of Payments crisis.",
@@ -600,6 +720,16 @@ export const pmHistory = [
     coalition_hi: "अल्पमत से बहुमत (दलबदल द्वारा)",
     symbol: "✋", 
     image: "/assets/pms/rao.jpg",
+    biography_en: {
+      born: "June 28, 1921, in Laknepalli, Telangana.",
+      education: "Bachelor's in Arts from Osmania University and Law from Fergusson College, Pune.",
+      profile: "Highly intellectual and fluent in multiple languages, Rao is universally acknowledged as the 'Father of Indian Economic Reforms'. Alongside Manmohan Singh, he dismantled the License Raj in 1991, rescuing India from bankruptcy and unleashing unprecedented economic growth."
+    },
+    biography_hi: {
+      born: "28 जून 1921, लक्नेपल्ली, तेलंगाना।",
+      education: "उस्मानिया विश्वविद्यालय से बी.ए. और फर्ग्यूसन कॉलेज (पुणे) से कानून की पढ़ाई।",
+      profile: "कई भाषाओं के ज्ञाता और एक प्रखर विद्वान, जिन्हें 'भारतीय आर्थिक सुधारों का जनक' (Father of Indian Economic Reforms) कहा जाता है। उन्होंने 1991 में लाइसेंस राज खत्म किया और भारत को आर्थिक दिवालिएपन से उबारा।"
+    },
     achievements_en: [
       "Known as the 'Father of Indian Economic Reforms' and the 'Chanakya of Indian Politics'. He was the first Prime Minister from South India (Andhra Pradesh).",
       "Orchestrated the monumental 1991 LPG Reforms (Liberalization, Privatization, Globalization) alongside Finance Minister Dr. Manmohan Singh, dismantling the draconian 'License Raj' and transforming India into a modern, fast-growing capitalist economy.",
@@ -645,6 +775,16 @@ export const pmHistory = [
     coalition_hi: "अल्पमत सरकार (कांग्रेस का बाहरी समर्थन)",
     symbol: "⚙️", 
     image: "/assets/pms/deve_gowda.png",
+    biography_en: {
+      born: "Deve Gowda (May 18, 1933) | I.K. Gujral (Dec 4, 1919)",
+      education: "Deve Gowda: Diploma in Civil Engineering | I.K. Gujral: M.A. from Forman Christian College.",
+      profile: "Representing the volatile United Front coalition, both leaders served brief terms. Deve Gowda, a farmer-focused leader from Karnataka, heavily subsidized agriculture. I.K. Gujral, a seasoned diplomat, formulated the 'Gujral Doctrine', emphasizing peaceful and generous relations with India's immediate neighbors."
+    },
+    biography_hi: {
+      born: "देवगौड़ा (18 मई 1933) | आई.के. गुजराल (4 दिसंबर 1919)",
+      education: "देवगौड़ा: सिविल इंजीनियरिंग में डिप्लोमा | आई.के. गुजराल: फोरमैन क्रिश्चियन कॉलेज से एम.ए.",
+      profile: "दोनों नेताओं ने अस्थिर 'संयुक्त मोर्चा' सरकार में एक के बाद एक प्रधानमंत्री पद संभाला। देवगौड़ा एक किसान-समर्थक नेता थे। वहीं, अनुभवी राजनयिक आई.के. गुजराल को 'गुजराल डॉक्ट्रिन' के लिए जाना जाता है, जिसमें पड़ोसी देशों के साथ शांतिपूर्ण और उदार संबंधों पर जोर दिया गया था।"
+    },
     achievements_en: [
       "H.D. Deve Gowda, known as 'Mannina Maga' (Son of the Soil), became the first Prime Minister from Karnataka and heavily championed farmers' causes and agricultural subsidies.",
       "The 'Gujral Doctrine' (formulated by I.K. Gujral): A milestone in India's foreign policy emphasizing peaceful, non-reciprocal, and generous relations with smaller neighboring countries (like Bangladesh, Nepal, and Sri Lanka) to build regional trust.",
@@ -684,6 +824,16 @@ export const pmHistory = [
     coalition_hi: "राष्ट्रीय जनतांत्रिक गठबंधन (NDA)",
     symbol: "🪷", 
     image: "/assets/pms/vajpayee.jpg",
+    biography_en: {
+      born: "December 25, 1924, in Gwalior, MP.",
+      education: "M.A. in Political Science from DAV College, Kanpur.",
+      profile: "A legendary orator, poet, and the first non-Congress PM to complete a full term. He is credited with leading India to become a declared nuclear weapons state (Pokhran-II), winning the Kargil War, driving massive infrastructure growth (Golden Quadrilateral), and pushing aggressive privatization."
+    },
+    biography_hi: {
+      born: "25 दिसंबर 1924, ग्वालियर, मध्य प्रदेश।",
+      education: "डीएवी कॉलेज (कानपुर) से राजनीति विज्ञान में एम.ए.।",
+      profile: "एक महान वक्ता, कवि और अपना पूरा कार्यकाल पूरा करने वाले पहले गैर-कांग्रेसी प्रधानमंत्री। उनके नेतृत्व में भारत ने पोखरण-II परमाणु परीक्षण किया, कारगिल युद्ध जीता, और स्वर्णिम चतुर्भुज (Golden Quadrilateral) जैसी विशाल इंफ्रास्ट्रक्चर परियोजनाओं की नींव रखी।"
+    },
     achievements_en: [
       "Pokhran-II (Operation Shakti, 1998): Successfully conducted five underground nuclear tests, officially declaring India a nuclear weapon state and boldly defying global sanctions.",
       "Kargil War Victory (1999): Led the nation to a decisive military and diplomatic victory against Pakistani infiltrators in the treacherous high-altitude peaks of Kargil (Operation Vijay).",
@@ -731,6 +881,16 @@ export const pmHistory = [
     coalition_hi: "संयुक्त प्रगतिशील गठबंधन (UPA I & II)",
     symbol: "✋", 
     image: "/assets/pms/manmohan.jpg",
+    biography_en: {
+      born: "September 26, 1932, in Gah (now Pakistan).",
+      education: "Economics degrees from Panjab University, Cambridge, and a D.Phil from Oxford.",
+      profile: "A world-renowned economist who served two full terms leading the UPA coalition. He masterminded the 1991 reforms as Finance Minister and later as PM oversaw the historic Indo-US Civil Nuclear Deal, massive poverty alleviation programs (MNREGA), and the Right to Information (RTI) Act."
+    },
+    biography_hi: {
+      born: "26 सितंबर 1932, गाह (अब पाकिस्तान में)।",
+      education: "पंजाब विश्वविद्यालय, कैम्ब्रिज और ऑक्सफोर्ड से अर्थशास्त्र में उच्च डिग्री।",
+      profile: "एक विश्व-प्रसिद्ध अर्थशास्त्री जिन्होंने यूपीए सरकार का दो बार नेतृत्व किया। उनके कार्यकाल में ऐतिहासिक भारत-अमेरिका परमाणु समझौता, मनरेगा (MNREGA) जैसी गरीबी उन्मूलन योजनाएँ, और सूचना का अधिकार (RTI) लागू किए गए।"
+    },
     achievements_en: [
       "Golden Era of GDP Growth: Oversaw India's highest sustained economic growth period in history, with GDP consistently growing at 8-9% before the 2008 global financial crisis.",
       "Right to Information (RTI) Act, 2005: Passed the landmark transparency law, fundamentally empowering Indian citizens to question government authorities and expose corruption.",
@@ -780,6 +940,16 @@ export const pmHistory = [
     coalition_hi: "प्रचंड बहुमत (543 में से 282 सीटें)",
     symbol: "🪷", 
     image: "/assets/pms/modi.jpg",
+    biography_en: {
+      born: "September 17, 1950, in Vadnagar, Gujarat.",
+      education: "M.A. in Political Science from Gujarat University.",
+      profile: "The first PM born in independent India, he led the BJP to absolute majorities in 2014 and 2019. Known for a heavily centralized leadership style and digital push, his tenure includes landmark moments like the abrogation of Article 370, GST implementation, construction of the Ram Mandir, and expansive welfare schemes."
+    },
+    biography_hi: {
+      born: "17 सितंबर 1950, वडनगर, गुजरात।",
+      education: "गुजरात विश्वविद्यालय से राजनीति विज्ञान में एम.ए.।",
+      profile: "स्वतंत्र भारत में जन्म लेने वाले पहले प्रधानमंत्री, जिन्होंने 2014 और 2019 में पूर्ण बहुमत के साथ भारतीय राजनीति की दिशा बदल दी। वे अपनी मजबूत नेतृत्व शैली के लिए जाने जाते हैं। उनके कार्यकाल में धारा 370 हटाना, राम मंदिर निर्माण, GST लागू करना और डिजिटल इंडिया जैसी बड़ी योजनाएं शामिल हैं।"
+    },
     achievements_en: [
       "Secured the first single-party absolute majority in 30 years (since 1984), completely changing the landscape of Indian politics.",
       "Swachh Bharat Abhiyan (2014): Launched a massive, unprecedented nationwide cleanliness drive, building over 100 million toilets to eradicate open defecation.",
@@ -827,6 +997,16 @@ export const pmHistory = [
     coalition_hi: "और भी बड़ा प्रचंड बहुमत (543 में से 303 सीटें)",
     symbol: "🪷", 
     image: "/assets/pms/modi.jpg",
+    biography_en: {
+      born: "September 17, 1950, in Vadnagar, Gujarat.",
+      education: "M.A. in Political Science from Gujarat University.",
+      profile: "The first PM born in independent India, he led the BJP to absolute majorities in 2014 and 2019. Known for a heavily centralized leadership style and digital push, his tenure includes landmark moments like the abrogation of Article 370, GST implementation, construction of the Ram Mandir, and expansive welfare schemes."
+    },
+    biography_hi: {
+      born: "17 सितंबर 1950, वडनगर, गुजरात।",
+      education: "गुजरात विश्वविद्यालय से राजनीति विज्ञान में एम.ए.।",
+      profile: "स्वतंत्र भारत में जन्म लेने वाले पहले प्रधानमंत्री, जिन्होंने 2014 और 2019 में पूर्ण बहुमत के साथ भारतीय राजनीति की दिशा बदल दी। वे अपनी मजबूत नेतृत्व शैली के लिए जाने जाते हैं। उनके कार्यकाल में धारा 370 हटाना, राम मंदिर निर्माण, GST लागू करना और डिजिटल इंडिया जैसी बड़ी योजनाएं शामिल हैं।"
+    },
     achievements_en: [
       "Abrogation of Article 370 (August 2019): Fulfilled a core ideological promise by removing the special status of Jammu & Kashmir and fully integrating it into the Indian Union.",
       "Ram Mandir Construction: Overseaw the peaceful legal resolution of the Ayodhya dispute (Supreme Court 2019 verdict) and presided over the historic 'Pran Pratishtha' (consecration) of the Ram Mandir in 2024.",
@@ -876,6 +1056,16 @@ export const pmHistory = [
     coalition_hi: "गठबंधन सरकार (TDP और JDU पर निर्भर)",
     symbol: "🪷", 
     image: "/assets/pms/modi.jpg",
+    biography_en: {
+      born: "September 17, 1950, in Vadnagar, Gujarat.",
+      education: "M.A. in Political Science from Gujarat University.",
+      profile: "The first PM born in independent India, he led the BJP to absolute majorities in 2014 and 2019. Known for a heavily centralized leadership style and digital push, his tenure includes landmark moments like the abrogation of Article 370, GST implementation, construction of the Ram Mandir, and expansive welfare schemes."
+    },
+    biography_hi: {
+      born: "17 सितंबर 1950, वडनगर, गुजरात।",
+      education: "गुजरात विश्वविद्यालय से राजनीति विज्ञान में एम.ए.।",
+      profile: "स्वतंत्र भारत में जन्म लेने वाले पहले प्रधानमंत्री, जिन्होंने 2014 और 2019 में पूर्ण बहुमत के साथ भारतीय राजनीति की दिशा बदल दी। वे अपनी मजबूत नेतृत्व शैली के लिए जाने जाते हैं। उनके कार्यकाल में धारा 370 हटाना, राम मंदिर निर्माण, GST लागू करना और डिजिटल इंडिया जैसी बड़ी योजनाएं शामिल हैं।"
+    },
     achievements_en: [
       "Matched Jawaharlal Nehru's historic record by becoming only the second Prime Minister of India to secure a third consecutive term.",
       "Maintained complete continuity in core ministries (Home, Defense, Finance, External Affairs) despite losing the absolute majority, projecting political stability.",
