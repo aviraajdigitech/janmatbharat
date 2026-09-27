@@ -59,7 +59,7 @@ export const Home = () => {
           </h1>
 
           <p className="mt-4 text-lg md:text-xl text-slate-200 max-w-3xl mx-auto font-medium leading-relaxed drop-shadow-lg mb-10">
-            Experience India’s premier digital polling network. Step into the future of democracy with a <span className="text-white font-bold">100% unbiased</span> and secure platform. Janmat Bharat empowers you to cast mock votes, track <span className="text-white font-bold">real-time</span> political trends, and explore <span className="text-white font-bold">honest</span> political history. Your voice, your platform.
+            Experience India’s premier digital polling network. Step into the future of democracy with a <span className="text-white font-bold">100% unbiased</span> and secure platform. Janmat Bharat empowers you to cast mock votes, explore <span className="text-white font-bold">political trends</span> inside the app, and discover <span className="text-white font-bold">honest</span> political history. Your voice, your platform.
           </p>
 
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
@@ -215,7 +215,7 @@ export const Home = () => {
             {[
               { icon: Vote, color: 'text-blue-600', bg: 'bg-blue-50', title: '3-Tier Voting System', desc: 'Vote for your local MLA, your MP, and your choice for the Next Prime Minister of India.' },
               { icon: Landmark, color: 'text-saffron-500', bg: 'bg-saffron-50', title: 'Deep Political Encyclopedia', desc: 'Wikipedia-grade, unbiased, term-by-term analysis of every Indian PM from 1947 to today.', link: '/history' },
-              { icon: BarChart3, color: 'text-green-600', bg: 'bg-green-50', title: 'Live Polling Analytics', desc: 'Real-time charts filtered by state, constituency & demographics. See what India is thinking.' },
+              { icon: BarChart3, color: 'text-green-600', bg: 'bg-green-50', title: 'In-App Polling Analytics', desc: 'Explore political trends inside the app. Charts filtered by state, constituency & demographics.' },
               { icon: ShieldCheck, color: 'text-purple-600', bg: 'bg-purple-50', title: '100% Anonymous & Safe', desc: 'Zero-knowledge architecture ensures your mock vote can never be traced to your identity.' },
               { icon: Lock, color: 'text-red-600', bg: 'bg-red-50', title: 'Anti-Fraud Technology', desc: 'One Device, One Vote. OTP verification blocks bots and IT cell manipulation.' },
               { icon: Users, color: 'text-indigo-600', bg: 'bg-indigo-50', title: 'Youth Empowerment', desc: 'We educate first-time voters on EVM security, VVPAT, and their constitutional rights.', link: '/voter-awareness' },
@@ -258,7 +258,7 @@ export const Home = () => {
                   { n: '1', color: 'bg-white text-blue-600 border-blue-200 shadow-blue-100', title: 'Download & Join', desc: 'Get the app from the Play Store and set up your secure profile instantly.' },
                   { n: '2', color: 'bg-white text-blue-600 border-blue-200 shadow-blue-100', title: 'Select Constituency', desc: 'Choose your state and local area for hyper-local, accurate polling data.' },
                   { n: '3', color: 'bg-white text-saffron-600 border-saffron-200 shadow-saffron-100', title: 'Cast Your Mock Vote', desc: 'Tap your preferred party. Your choice is fully encrypted and 100% anonymous.' },
-                  { n: '4', color: 'bg-white text-green-600 border-green-200 shadow-green-100', title: 'View Live Results', desc: 'Unlock stunning live charts showing real-time national and state political trends.' },
+                  { n: '4', color: 'bg-white text-green-600 border-green-200 shadow-green-100', title: 'View App Results', desc: 'Unlock stunning charts inside the app showing national and state political trends.' },
                 ].map((s) => (
                   <div key={s.n} className="group relative flex gap-6 z-10">
                     <div className={`w-12 h-12 rounded-2xl ${s.color} font-black flex items-center justify-center flex-shrink-0 text-xl border-2 shadow-lg transition-transform duration-300 group-hover:scale-110 group-hover:-rotate-3`}>
