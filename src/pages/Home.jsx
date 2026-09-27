@@ -53,8 +53,8 @@ export const Home = () => {
 
           <h1 className="text-5xl sm:text-6xl md:text-7xl font-extrabold text-white mb-6 tracking-tight drop-shadow-2xl leading-tight">
             The True Voice of{' '}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-saffron-400 via-white to-green-400">
-              Indian Youth.
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-saffron-500 via-white to-green-500">
+              Indian Voters.
             </span>
           </h1>
 
