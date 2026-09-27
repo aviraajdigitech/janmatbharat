@@ -11,7 +11,7 @@ export const Footer = () => {
           <div className="md:col-span-5">
             <div className="flex items-center gap-3 mb-6">
               <div className="bg-white p-1.5 rounded-xl shadow-sm">
-                <img src="/logo.png" alt="Janmat Bharat Logo" className="w-8 h-8 object-contain" />
+                <img src="/logo.webp" alt="Janmat Bharat Logo" className="w-8 h-8 object-contain" />
               </div>
               <span className="text-[1.4rem] font-black text-white tracking-tighter leading-none">
                 Janmat<span className="text-saffron-500">Bharat</span><span className="text-blue-500 text-2xl leading-[0]">.</span>

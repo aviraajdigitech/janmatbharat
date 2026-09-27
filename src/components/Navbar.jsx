@@ -32,7 +32,7 @@ export const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center gap-2.5">
             <div className="bg-white p-1 rounded-xl shadow-sm border border-slate-100">
-              <img src="/logo.png" alt="Janmat Bharat" className="w-6 h-6 md:w-7 md:h-7 object-contain" />
+              <img src="/logo.webp" alt="Janmat Bharat" className="w-6 h-6 md:w-7 md:h-7 object-contain" />
             </div>
             <Link to="/" className="text-[1.2rem] md:text-[1.3rem] font-black text-slate-900 tracking-tighter leading-none">
               Janmat<span className="text-saffron-500">Bharat</span><span className="text-blue-600 text-2xl leading-[0]">.</span>
