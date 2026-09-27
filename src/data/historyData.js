@@ -951,30 +951,34 @@ export const pmHistory = [
       profile: "स्वतंत्र भारत में जन्म लेने वाले पहले प्रधानमंत्री, जिन्होंने 2014 और 2019 में पूर्ण बहुमत के साथ भारतीय राजनीति की दिशा बदल दी। वे अपनी मजबूत नेतृत्व शैली के लिए जाने जाते हैं। उनके कार्यकाल में धारा 370 हटाना, राम मंदिर निर्माण, GST लागू करना और डिजिटल इंडिया जैसी बड़ी योजनाएं शामिल हैं।"
     },
     achievements_en: [
-      "Historic Mandate: Secured the first single-party absolute majority in 30 years, providing strong political stability to the central government.",
-      "Financial Inclusion (JAM Trinity): Connected millions to the formal economy via Jan Dhan accounts, Aadhaar, and Mobile, enabling transparent Direct Benefit Transfers (DBT) and reducing corruption.",
-      "Swachh Bharat Abhiyan: Launched an unprecedented nationwide sanitation mission, building over 100 million toilets to drastically reduce open defecation and improve rural health.",
-      "Structural Economic Reforms: Implemented the landmark Goods and Services Tax (GST) for a 'One Nation, One Tax' system and the Insolvency and Bankruptcy Code (IBC) to clean up banking NPAs.",
-      "Women's Welfare & Electrification: Provided millions of free LPG connections (Ujjwala Yojana) and achieved the milestone of 100% village electrification (Saubhagya).",
-      "Robust National Security: Adopted a zero-tolerance policy on terrorism, marked by decisive cross-border retaliations (2016 Surgical Strikes and 2019 Balakot Airstrikes)."
+      "Financial Inclusion (JAM Trinity): Launched PM Jan-Dhan Yojana (opening 35.99 crore accounts by 2019), linking Aadhaar and Mobile (JAM) to expand Direct Benefit Transfers (DBT) and reduce leakages.",
+      "Swachh Bharat Mission: Made sanitation a national priority, building over 8.95 crore household toilets and declaring the country ODF in 2019.",
+      "Basic Amenities (Ujjwala & Saubhagya): Provided deposit-free LPG connections to approx 7 crore poor women (Ujjwala) and massively expanded household electricity connectivity (Saubhagya).",
+      "Structural Economic Reforms (GST & IBC): Rolled out the historic Goods and Services Tax (GST) in 2017 to unify indirect taxes, and enacted the Insolvency and Bankruptcy Code (IBC) in 2016 to resolve bad loans.",
+      "Digital India & UPI: Laid the foundational infrastructure for India's digital payment revolution with the launch of UPI, reaching 1 billion monthly transactions by October 2019.",
+      "Infrastructure Push: Accelerated National Highway construction (reaching nearly 30 km/day by 2019) and significantly expanded railway electrification compared to previous decades.",
+      "Make in India & FDI: Boosted FDI inflows to $62 billion by 2018-19 and dramatically improved India's World Bank 'Ease of Doing Business' ranking to 77.",
+      "National Security & Foreign Policy: Adopted an assertive military posture with the 2016 cross-border Surgical Strikes, and co-founded the International Solar Alliance (ISA) to lead global climate diplomacy."
 ],
       achievements_hi: [
-      "ऐतिहासिक जनादेश: 30 वर्षों में पहली बार किसी एक पार्टी को पूर्ण बहुमत मिला, जिससे केंद्र में एक मजबूत और स्थिर सरकार की स्थापना हुई।",
-      "वित्तीय समावेशन (JAM ट्रिनिटी): जन धन खातों, आधार और मोबाइल (JAM) के जरिए करोड़ों गरीबों को बैंकिंग से जोड़ा। डायरेक्ट बेनिफिट ट्रांसफर (DBT) से भ्रष्टाचार पर लगाम कसी।",
-      "स्वच्छ भारत अभियान: देशव्यापी स्वच्छता मिशन के तहत 10 करोड़ से अधिक शौचालय बनाए गए, जिससे ग्रामीण स्वास्थ्य और महिलाओं की सुरक्षा में बड़ा सुधार आया।",
-      "ऐतिहासिक आर्थिक सुधार: भारत को 'एक राष्ट्र, एक कर' (One Nation, One Tax) से जोड़ने के लिए GST और बैंकों के फंसे कर्ज (NPA) को सुलझाने के लिए IBC जैसे कड़े सुधार लागू किए।",
-      "महिला कल्याण और विद्युतीकरण: उज्ज्वला योजना के तहत करोड़ों महिलाओं को मुफ्त LPG कनेक्शन दिए और 'सौभाग्य' योजना से 100% गांवों तक बिजली पहुंचाई।",
-      "सशक्त राष्ट्रीय सुरक्षा: आतंकवाद पर 'जीरो टॉलरेंस' नीति अपनाते हुए 2016 में सर्जिकल स्ट्राइक और 2019 में बालाकोट एयर स्ट्राइक के जरिए कड़ा जवाब दिया।"
+      "वित्तीय समावेशन (JAM ट्रिनिटी): PM जन-धन योजना के तहत 35.99 करोड़ से अधिक बैंक खाते खोले। जन धन-आधार-मोबाइल (JAM) के जरिए सरकारी लाभ सीधे (DBT) लाभार्थियों तक पहुँचाकर लीकेज कम की।",
+      "स्वच्छ भारत मिशन: स्वच्छता को राष्ट्रीय राजनीतिक प्राथमिकता बनाया; 8.95 करोड़ से अधिक शौचालय बनाए गए और 2019 में देश को ODF घोषित किया गया।",
+      "बुनियादी सुविधाएं (उज्ज्वला व सौभाग्य): उज्ज्वला योजना से करीब 7 करोड़ गरीब महिलाओं को मुफ्त LPG कनेक्शन मिले और 'सौभाग्य' योजना से घर-घर बिजली पहुंचाई गई।",
+      "ऐतिहासिक आर्थिक सुधार (GST और IBC): भारत को 'एक राष्ट्र, एक कर' से जोड़ने के लिए 2017 में GST लागू किया। डूबती कंपनियों और NPA को सुलझाने के लिए 2016 में IBC लागू किया।",
+      "डिजिटल पेमेंट क्रांति (UPI): UPI और BHIM लॉन्च करके भारत के डिजिटल पेमेंट्स इकोसिस्टम की मजबूत नींव रखी, जिसने अक्टूबर 2019 तक 1 बिलियन मासिक ट्रांजैक्शन पार किए।",
+      "इंफ्रास्ट्रक्चर और निवेश: हाईवे निर्माण की गति को रिकॉर्ड स्तर (लगभग 30 किमी/दिन) पर पहुँचाया और पिछले दशकों की तुलना में रेलवे विद्युतीकरण में कई गुना तेजी लाई।",
+      "Make in India और व्यापार: 'मेक इन इंडिया' के जरिए रिकॉर्ड $62 बिलियन का FDI हासिल किया और ईज ऑफ डूइंग बिजनेस रैंकिंग (77वीं रैंक) में बड़ी छलांग लगाई।",
+      "राष्ट्रीय सुरक्षा और कूटनीति: 2016 की सर्जिकल स्ट्राइक के जरिए आक्रामक सैन्य नीति (Assertive posture) अपनाई। जलवायु कूटनीति के लिए 'इंटरनेशनल सोलर अलायंस' (ISA) की स्थापना की।"
 ],
       criticisms_en: [
-      "Demonetization & Opposition Allegations (2016): The sudden withdrawal of high-value currency was strongly targeted by the opposition, who alleged that it caused unnecessary hardship to the informal sector without completely eradicating black money.",
-      "Initial GST Complexities: While recognized as a historic reform, the early rollout of GST faced criticism for its complex multi-slab structure, which created transitional compliance hurdles for small and medium enterprises (MSMEs).",
-      "Job Creation Debates: The opposition frequently criticized the government on the issue of unemployment, alleging that the rapid economic growth did not generate sufficient new jobs for the youth."
+      "Demonetization Controversy (Nov 2016): The sudden ban on ₹500 and ₹1,000 notes aimed to curb black money and terror financing, but sparked massive controversy when RBI data later revealed that almost all the demonetized currency returned to the banking system.",
+      "Initial GST Implementation: While GST was a major structural reform, its early implementation was marred by portal glitches, complex return filing, and multiple tax slabs, creating severe compliance difficulties for small traders and MSMEs.",
+      "Economic Slowdown & Employment: Despite strong growth initially, the later years of the term saw growth slowing down. The government faced severe political criticism over rural/agricultural distress and questions regarding insufficient job creation."
 ],
       criticisms_hi: [
-      "नोटबंदी पर विपक्ष का आरोप (2016): अचानक बड़े नोटों को बंद करने के फैसले पर विपक्ष ने तीखा हमला किया। विपक्ष का आरोप था कि इससे काले धन पर पूरी तरह लगाम नहीं लगी, बल्कि असंगठित क्षेत्र और छोटे कारोबारियों को बेवजह परेशानी उठानी पड़ी।",
-      "शुरुआती GST की जटिलताएं: एक ऐतिहासिक सुधार होने के बावजूद, शुरुआत में GST का ढांचा काफी जटिल था, जिससे छोटे और मंझोले व्यापारियों (MSMEs) को समझने और कंप्लायंस में शुरुआती दिक्कतों का सामना करना पड़ा।",
-      "रोजगार के मुद्दे पर आलोचना: विपक्ष ने रोजगार के मुद्दे पर सरकार को लगातार घेरा और आरोप लगाया कि तेज आर्थिक विकास के बावजूद युवाओं के लिए पर्याप्त नई नौकरियां पैदा नहीं हो पाईं।"
+      "नोटबंदी का विवाद (8 नवंबर 2016): काले धन और टेरर फंडिंग को रोकने के लिए ₹500 और ₹1,000 के नोटों को बंद किया गया। लेकिन यह सबसे बड़ा विवाद तब बना जब बाद में लगभग पूरी पुरानी करेंसी बैंकिंग सिस्टम में वापस लौट आई।",
+      "GST का शुरुआती क्रियान्वयन: GST एक बड़ा संरचनात्मक सुधार था, लेकिन शुरुआत में IT पोर्टल की दिक्कतों, रिटर्न फाइलिंग की जटिलता और कई टैक्स स्लैब के कारण छोटे व्यापारियों (MSMEs) को भारी कंप्लायंस का बोझ उठाना पड़ा।",
+      "आर्थिक विकास, रोजगार और कृषि: शुरुआती तेज विकास के बाद कार्यकाल के आखिरी सालों में ग्रोथ धीमी हुई। युवाओं के लिए पर्याप्त नौकरियां (Jobs) पैदा न होने और कृषि व ग्रामीण संकट (Rural distress) को लेकर सरकार को भारी राजनीतिक आलोचना का सामना करना पड़ा।"
 ]
   },
   {
