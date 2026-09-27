@@ -48,7 +48,7 @@ export const Home = () => {
         <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center" style={{ zIndex: 10 }}>
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/20 backdrop-blur-md border border-white/30 text-white font-semibold mb-8 shadow-2xl text-sm uppercase tracking-wider">
             <Activity size={16} />
-            India's #1 Digital Polling Platform
+            A Digital Public Opinion Platform for India
           </div>
 
           <h1 className="text-5xl sm:text-6xl md:text-7xl font-extrabold text-white mb-6 tracking-tight drop-shadow-2xl leading-tight">
