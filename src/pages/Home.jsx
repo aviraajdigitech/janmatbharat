@@ -273,13 +273,16 @@ export const Home = () => {
           <div className="text-center mb-14">
             <MessageSquare size={44} className="mx-auto text-blue-300 mb-5" />
             <h3 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-3">Voices of India</h3>
-            <p className="text-slate-600">What early users are saying about Janmat Bharat.</p>
+            <p className="text-slate-600">What citizens are saying about Janmat Bharat.</p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               { initial: 'A', bg: 'bg-blue-100', text: 'text-blue-700', name: 'Aman Kumar', loc: 'Delhi', review: "This is exactly the digital revolution India needed! The depth of the political encyclopedia and the live analytics are completely mind-blowing." },
               { initial: 'A', bg: 'bg-saffron-100', text: 'text-saffron-700', name: 'Ananya Patel', loc: 'Gujarat', review: "As a political science student, the History encyclopedia is unmatched. Unbiased, term-by-term analysis of every PM is absolutely brilliant." },
               { initial: 'P', bg: 'bg-green-100', text: 'text-green-700', name: 'Pawan', loc: 'UP', review: "Bhai, ye app sach me kamaal hai! Yahan koi fake vote nahi hota. UP ka asli mood pehli baar itne sahi tarike se dikh raha hai." },
+              { initial: 'R', bg: 'bg-red-100', text: 'text-red-700', name: 'Rakesh Yadav', loc: 'Bihar', review: "Youth trends dekhna bahut accha lagta hai. Pata chalta hai ki sach me mudde kya hain—jobs ya education. 10/10 app!" },
+              { initial: 'P', bg: 'bg-purple-100', text: 'text-purple-700', name: 'Priya Sharma', loc: 'Maharashtra', review: "Very transparent platform. I love the EVM security breakdown. It gave me a lot of confidence in how modern voting can be secured digitally." },
+              { initial: 'S', bg: 'bg-teal-100', text: 'text-teal-700', name: 'Sneha Reddy', loc: 'Telangana', review: "The mock voting interface is incredibly smooth. I feel like I'm actually participating in shaping the nation's future before elections even begin." },
             ].map((t) => (
               <div key={t.name} className="bg-white p-8 rounded-3xl shadow-lg border border-slate-100">
                 <div className="flex text-saffron-500 mb-4">
