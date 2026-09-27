@@ -824,7 +824,7 @@ export const pmHistory = [
       coalition_en: "NDA - Formed govt with 254 seats (BJP: 182)",
       coalition_hi: "NDA गठबंधन - 254 सीटों के साथ (BJP: 182)",
       symbol: "🪷", 
-      image: "/assets/pms/vajpayee.png",
+      image: "/assets/pms/vajpayee.jpg",
       biography_en: {
         born: "December 25, 1924, in Gwalior, Madhya Pradesh.",
         education: "M.A. in Political Science from DAV College, Kanpur.",
@@ -867,7 +867,7 @@ export const pmHistory = [
       coalition_en: "NDA - Strong majority with ~298 seats (BJP: 182)",
       coalition_hi: "NDA गठबंधन - पूर्ण बहुमत ~298 सीटें (BJP: 182)",
       symbol: "🪷", 
-      image: "/assets/pms/vajpayee.png",
+      image: "/assets/pms/vajpayee.jpg",
       biography_en: {
         born: "December 25, 1924, in Gwalior, Madhya Pradesh.",
         education: "M.A. in Political Science from DAV College, Kanpur.",
