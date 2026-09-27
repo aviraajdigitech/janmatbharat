@@ -1027,18 +1027,14 @@ export const pmHistory = [
       "COVID-19 Second Wave Catastrophe: The government faced intense global and domestic outrage for severe unpreparedness during the 2021 Delta wave, leading to massive oxygen shortages, collapsed healthcare, and tragic images of floating bodies in the Ganga.",
       "The Three Farm Laws & Historic Protests: Passed major agricultural reforms without parliamentary debate, leading to a massive, year-long farmer protest at Delhi's borders, eventually forcing the PM to repeal the laws on national television.",
       "Manipur Ethnic Violence (2023): The Prime Minister maintained a prolonged, controversial silence as the northeastern state of Manipur burned in violent ethnic clashes for over a year.",
-      "Weaponization of Central Agencies: The government was widely accused of creating an 'undeclared emergency' by weaponizing the ED, CBI, and Income Tax departments to jail opposition leaders (e.g., Hemant Soren, Arvind Kejriwal) and crush dissent.",
-      "CAA/NRC Protests: The passage of the religiously-discriminatory Citizenship Amendment Act (2019) sparked massive nationwide protests and deadly communal riots in Delhi (2020).",
-      "Electoral Bonds Scam: The Supreme Court struck down the anonymous Electoral Bonds scheme as 'unconstitutional', revealing massive, legalized corporate-political quid pro quo funding predominantly benefiting the ruling BJP."
-    ],
-    criticisms_hi: [
+      "CAA/NRC Protests: The passage of the Citizenship Amendment Act (CAA, 2019) sparked massive nationwide protests."
+],
+      criticisms_hi: [
       "कोविड-19 दूसरी लहर की त्रासदी: 2021 में सरकार की भारी लापरवाही के कारण ऑक्सीजन की कमी, टूटता स्वास्थ्य तंत्र और गंगा में तैरती लाशों की तस्वीरों ने देश और दुनिया में सरकार की भारी आलोचना कराई।",
       "तीन कृषि कानून और ऐतिहासिक आंदोलन: बिना संसद में चर्चा के कृषि कानून पास किए गए, जिसके कारण दिल्ली की सीमाओं पर 1 साल से भी अधिक समय तक किसानों का ऐतिहासिक आंदोलन चला। अंततः पीएम को टीवी पर आकर कानून वापस लेने पड़े।",
-      "मणिपुर जातीय हिंसा (2023): जब पूर्वोत्तर राज्य मणिपुर एक साल से अधिक समय तक हिंसक जातीय संघर्ष (Ethnic violence) में जलता रहा, तब प्रधानमंत्री की लंबी और विवादास्पद चुप्पी की भारी आलोचना हुई।",
-      "केंद्रीय एजेंसियों का दुरुपयोग: विपक्ष ने सरकार पर ED, CBI और इनकम टैक्स का दुरुपयोग करके अघोषित 'इमरजेंसी' लगाने, विपक्ष के नेताओं (जैसे: हेमंत सोरेन, अरविंद केजरीवाल) को जेल में डालने और विरोध की आवाज कुचलने का आरोप लगाया।",
-      "CAA/NRC प्रदर्शन: धर्म के आधार पर भेदभाव करने वाले 'नागरिकता संशोधन अधिनियम' (CAA, 2019) के पास होने से देश भर में भारी विरोध प्रदर्शन हुए और 2020 में दिल्ली में भयंकर सांप्रदायिक दंगे भड़क उठे।",
-      "इलेक्टोरल बॉन्ड घोटाला (Electoral Bonds): सुप्रीम कोर्ट ने अनाम चंदे की इस योजना को 'असंवैधानिक' बताकर रद्द कर दिया। इसके डेटा से पता चला कि यह सरकार और कॉरपोरेट के बीच 'वसूली' का एक बड़ा साधन था, जिसका सबसे ज्यादा फायदा सत्ताधारी BJP को हुआ।"
-    ]
+      "मणिपुर जातीय हिंसा (2023): जब पूर्वोत्तर राज्य मणिपुर एक साल से अधिक समय तक हिंसक जातीय संघर्ष में जलता रहा, तब प्रधानमंत्री की लंबी और विवादास्पद चुप्पी की भारी आलोचना हुई।",
+      "CAA/NRC प्रदर्शन: नागरिकता संशोधन अधिनियम (CAA, 2019) के पास होने के बाद देश भर में भारी विरोध प्रदर्शन हुए।"
+]
   },
   {
     id: "term_20_18th_loksabha_modi3",
