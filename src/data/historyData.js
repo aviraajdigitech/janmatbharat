@@ -1067,17 +1067,27 @@ export const pmHistory = [
       profile: "स्वतंत्र भारत में जन्म लेने वाले पहले प्रधानमंत्री, जिन्होंने 2014 और 2019 में पूर्ण बहुमत के साथ भारतीय राजनीति की दिशा बदल दी। वे अपनी मजबूत नेतृत्व शैली के लिए जाने जाते हैं। उनके कार्यकाल में धारा 370 हटाना, राम मंदिर निर्माण, GST लागू करना और डिजिटल इंडिया जैसी बड़ी योजनाएं शामिल हैं।"
     },
     achievements_en: [
-      "Matched Jawaharlal Nehru's historic record by becoming only the second Prime Minister of India to secure a third consecutive term.",
-      "Maintained complete continuity in core ministries (Home, Defense, Finance, External Affairs) despite losing the absolute majority, projecting political stability.",
-      "Pushed forward the 'One Nation, One Election' agenda, with the Union Cabinet clearing the Kovind committee report for simultaneous polls.",
-      "Continued strong macroeconomic fundamentals with robust GDP growth projections, strong forex reserves, and a booming stock market."
-    ],
+      "Middle-Class Relief & Welfare (Tax & Health): Restructured the income tax regime (effectively zero tax up to ₹12.75 lakh with conditions) and expanded Ayushman Bharat to provide universal ₹5 lakh health cover to all senior citizens aged 70+.",
+      "Youth Employment & Internships: Launched a massive ₹2 Lakh Crore 'PM Package for Employment' targeting 4.1 crore youth, along with the 'PM Internship Scheme' to provide corporate work experience to 1 crore youth.",
+      "Manufacturing & Semiconductor Push: Initiated 'Make in India 2.0' with the National Manufacturing Mission and 'India Semiconductor Mission 2.0', backed by massive ₹40,000 crore outlays for electronics component manufacturing.",
+      "Housing & Solar Energy: Sanctioned 3 crore new homes under PM Awas Yojana and rolled out the ₹75,021 crore 'PM Surya Ghar' scheme to provide rooftop solar electricity to 1 crore households.",
+      "Agriculture & Rural Development: Continued PM-KISAN distributions, launched the 'PM Dhan-Dhaanya Krishi Yojana' in 100 districts, and pushed for self-reliance in Pulses. Also launched a ₹79,156 crore tribal development mission.",
+      "Infrastructure & Urban Hubs: Maintained massive capital expenditure (₹11.21 lakh crore in 2025-26), integrating projects via PM GatiShakti, and launched a ₹1 Lakh Crore Urban Challenge Fund.",
+      "Future-Ready Tech (AI, Nuclear, Space, EV): Accelerated India's future-readiness with the Nuclear Energy Mission (focusing on SMRs), IndiaAI Mission, space privatization, and the ₹10,900 crore PM E-DRIVE scheme for EVs.",
+      "Government Reforms (UPS & Criminal Laws): Implemented the three new modern Criminal Laws (BNS, BNSS, BSA) on July 1, 2024, and approved the Unified Pension Scheme (UPS) to assure guaranteed pensions for government employees.",
+      "Strategic Autonomy & Legislative Moves: Advanced the 'One Nation, One Election' proposal and amended the Waqf Law (though politically debated) while maintaining strong domestic manufacturing pushes in Defence and Biopharma (SHAKTI)."
+],
     achievements_hi: [
-      "जवाहरलाल नेहरू के ऐतिहासिक रिकॉर्ड की बराबरी करते हुए, लगातार तीसरी बार भारत के प्रधानमंत्री बनने वाले केवल दूसरे व्यक्ति बने।",
-      "लोकसभा में पूर्ण बहुमत खोने (240 सीटें) के बावजूद, सरकार के मुख्य मंत्रालयों (गृह, रक्षा, वित्त, विदेश) में पूर्ण निरंतरता (Continuity) बनाए रखी, जो राजनीतिक स्थिरता को दर्शाता है।",
-      "'वन नेशन, वन इलेक्शन' (एक देश, एक चुनाव) के एजेंडे को मजबूती से आगे बढ़ाया और केंद्रीय कैबिनेट ने कोविंद समिति की रिपोर्ट को मंजूरी दी।",
-      "मजबूत विदेशी मुद्रा भंडार, बढ़ते शेयर बाजार और शानदार GDP वृद्धि के साथ देश की अर्थव्यवस्था को मजबूती से आगे बढ़ाते रहे।"
-    ],
+      "मध्यम वर्ग और बुजुर्गों को बड़ी राहत: नई टैक्स रिजीम के तहत ₹12.75 लाख तक की आय को टैक्स-फ्री (शर्तों के साथ) किया और 70 वर्ष से ऊपर के सभी बुजुर्गों को आयुष्मान भारत के तहत ₹5 लाख का मुफ्त हेल्थ कवर दिया।",
+      "युवा रोजगार और इंटर्नशिप: युवाओं के लिए ₹2 लाख करोड़ का 'PM एंप्लॉयमेंट पैकेज' घोषित किया (लक्ष्य: 4.1 करोड़ युवा), साथ ही 1 करोड़ युवाओं को बड़ी कंपनियों में काम सिखाने के लिए 'PM इंटर्नशिप स्कीम' शुरू की।",
+      "मैन्युफैक्चरिंग और सेमीकंडक्टर (Make in India 2.0): 'नेशनल मैन्युफैक्चरिंग मिशन' और 'इंडिया सेमीकंडक्टर मिशन 2.0' लॉन्च किया। इलेक्ट्रॉनिक्स और चिप इकोसिस्टम बनाने के लिए भारी भरकम बजट आवंटित किए।",
+      "PM आवास और 'पीएम सूर्य घर' योजना: 3 करोड़ नए ग्रामीण व शहरी घरों (PM आवास) की मंजूरी दी और 1 करोड़ घरों की छतों पर सोलर पैनल लगाने के लिए ₹75,021 करोड़ की 'पीएम सूर्य घर मुफ्त बिजली योजना' लागू की।",
+      "कृषि और ग्रामीण विकास: PM-KISAN योजना को जारी रखा। खेती की पैदावार बढ़ाने के लिए 'PM धन-धान्य कृषि योजना', दालों में आत्मनिर्भरता मिशन और आदिवासियों के लिए ₹79,156 करोड़ का 'जनजातीय उन्नत ग्राम अभियान' शुरू किया।",
+      "इंफ्रास्ट्रक्चर और अर्बन डेवलपमेंट: कैपिटल एक्सपेंडिचर को ₹11.21 लाख करोड़ (2025-26) तक बढ़ाया, PM गतिशक्ति से प्रोजेक्ट्स को जोड़ा, और शहरों को ग्रोथ हब बनाने के लिए ₹1 लाख करोड़ का 'अर्बन चैलेंज फंड' लॉन्च किया।",
+      "भविष्य की तकनीक (AI, न्यूक्लियर, EV, स्पेस): 'न्यूक्लियर एनर्जी मिशन' (SMRs का लक्ष्य), 'इंडिया AI मिशन', प्राइवेट स्पेस इकोनॉमी और इलेक्ट्रिक वाहनों (EV) के लिए ₹10,900 करोड़ की 'PM E-DRIVE' योजना लागू की।",
+      "प्रशासनिक व कानूनी सुधार: 1 जुलाई 2024 से अंग्रेजों के जमाने के कानूनों को हटाकर 3 नए आपराधिक कानून लागू किए। साथ ही सरकारी कर्मचारियों के लिए 'यूनिफाइड पेंशन स्कीम' (UPS) को मंजूरी दी।",
+      "बड़े राजनीतिक/विधायी कदम: 'वन नेशन, वन इलेक्शन' की दिशा में प्रस्ताव को आगे बढ़ाया और वक्फ बोर्ड (Waqf Law) के प्रबंधन में पारदर्शिता लाने के लिए संशोधनों को संसद में पेश किया, जो एक बड़ा राजनीतिक मुद्दा भी बना।"
+],
     criticisms_en: [
       "Loss of Absolute Majority: The BJP fell short of the 272-mark (securing only 240 seats) in the 2024 elections following public backlash against inflation, unemployment, and fears of constitution-altering mandates.",
       "Coalition Compulsions: The loss of a single-party majority forced the government into 'U-turns', such as rolling back lateral entry in UPSC and sending the controversial Waqf Amendment Bill to a Joint Parliamentary Committee (JPC) due to pressure from allies (TDP/JDU).",
