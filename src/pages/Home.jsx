@@ -81,21 +81,30 @@ export const Home = () => {
       </section>
 
       {/* ── TRUST METRICS ── */}
-      <section className="relative z-30 -mt-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-6">
-        <div className="bg-white rounded-3xl shadow-2xl p-6 sm:p-8 border border-slate-100 flex flex-wrap justify-around items-center gap-6">
-          <div className="text-center">
-            <h4 className="text-4xl font-extrabold text-blue-600">543</h4>
-            <p className="text-slate-500 font-bold uppercase text-xs tracking-wider mt-1">Lok Sabha Seats</p>
-          </div>
-          <div className="w-px h-12 bg-slate-200 hidden sm:block" />
-          <div className="text-center">
-            <h4 className="text-4xl font-extrabold text-saffron-500">100%</h4>
-            <p className="text-slate-500 font-bold uppercase text-xs tracking-wider mt-1">Verified Users</p>
-          </div>
-          <div className="w-px h-12 bg-slate-200 hidden sm:block" />
-          <div className="text-center">
-            <h4 className="text-4xl font-extrabold text-green-500">256-bit</h4>
-            <p className="text-slate-500 font-bold uppercase text-xs tracking-wider mt-1">Bank-Grade Encryption</p>
+      <section className="relative z-30 -mt-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
+        <div className="bg-white/95 backdrop-blur-xl rounded-[2rem] shadow-[0_20px_50px_rgba(0,0,0,0.15)] p-8 border border-white/60">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-y-10 gap-x-4">
+            
+            <div className="text-center px-4 flex flex-col justify-center">
+              <h4 className="text-3xl lg:text-4xl font-black text-blue-600 tracking-tight">National & Local</h4>
+              <p className="text-slate-500 font-extrabold uppercase text-[11px] tracking-[0.2em] mt-3">Lok Sabha & All States</p>
+            </div>
+            
+            <div className="text-center px-4 border-l border-slate-100 flex flex-col justify-center">
+              <h4 className="text-3xl lg:text-4xl font-black text-saffron-500 tracking-tight">100% Authentic</h4>
+              <p className="text-slate-500 font-extrabold uppercase text-[11px] tracking-[0.2em] mt-3">Verified Indians Only</p>
+            </div>
+            
+            <div className="text-center px-4 lg:border-l border-slate-100 pt-8 lg:pt-0 border-t lg:border-t-0 flex flex-col justify-center">
+              <h4 className="text-3xl lg:text-4xl font-black text-purple-600 tracking-tight">Live Mood</h4>
+              <p className="text-slate-500 font-extrabold uppercase text-[11px] tracking-[0.2em] mt-3">Change Vote on Current Mudde</p>
+            </div>
+            
+            <div className="text-center px-4 border-l border-slate-100 pt-8 lg:pt-0 border-t lg:border-t-0 flex flex-col justify-center">
+              <h4 className="text-3xl lg:text-4xl font-black text-green-500 tracking-tight">256-bit</h4>
+              <p className="text-slate-500 font-extrabold uppercase text-[11px] tracking-[0.2em] mt-3">Bank-Grade Encryption</p>
+            </div>
+            
           </div>
         </div>
       </section>
