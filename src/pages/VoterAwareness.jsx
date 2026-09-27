@@ -1,161 +1,185 @@
-import React, { useState } from 'react';
-import { Helmet } from 'react-helmet-async';
-import { BookOpen, CheckCircle, ExternalLink, FileText, UserPlus, MapPin } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { voterData } from '../data/voterData';
+import { BookOpen, UserCheck, UserPlus, Globe, Link as LinkIcon, Trash2, FileEdit, Files, Search, ShieldAlert, ArrowRight, HelpCircle } from 'lucide-react';
 
 export const VoterAwareness = () => {
   const [lang, setLang] = useState('hi');
 
-  const voterSchema = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "Voter Awareness: How to get Voter ID and Vote in India",
-    "description": "Complete guide on how to apply for a new Voter ID in India, check voter list, and understand your voting rights.",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Janmat Bharat"
+  // Scroll to top on mount
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  const content = voterData[lang];
+
+  const getIcon = (iconName) => {
+    switch (iconName) {
+      case 'UserCheck': return <UserCheck className="text-blue-500 w-6 h-6" />;
+      case 'UserPlus': return <UserPlus className="text-green-500 w-6 h-6" />;
+      case 'Globe': return <Globe className="text-indigo-500 w-6 h-6" />;
+      case 'Link': return <LinkIcon className="text-cyan-500 w-6 h-6" />;
+      case 'Trash2': return <Trash2 className="text-rose-500 w-6 h-6" />;
+      case 'FileEdit': return <FileEdit className="text-amber-500 w-6 h-6" />;
+      case 'Files': return <Files className="text-slate-500 w-6 h-6" />;
+      default: return <BookOpen className="text-blue-500 w-6 h-6" />;
     }
   };
 
   return (
-    <div className="min-h-screen pt-28 pb-20 bg-slate-50 font-sans">
-      <Helmet>
-        <title>Voter Awareness: How to Apply for Voter ID | Janmat Bharat</title>
-        <meta name="description" content="Ultimate guide to getting a new Voter ID card in India. Learn about Form 6, checking the voter list, and understanding your constitutional voting rights." />
-        <meta name="keywords" content="voter id apply online, voting app, election result app, voter list india, how to vote, election commission of india, Janmat Bharat" />
-        <script type="application/ld+json">{JSON.stringify(voterSchema)}</script>
-      </Helmet>
+    <div className="min-h-screen bg-slate-50 pt-28 pb-20 font-sans">
+      
+      {/* Top Language Toggle */}
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-6 flex justify-end">
+        <div className="bg-white p-1 rounded-full shadow-sm border border-slate-200 inline-flex">
+          <button 
+            onClick={() => setLang('hi')}
+            className={`px-4 py-1.5 rounded-full text-sm font-bold transition-all ${lang === 'hi' ? 'bg-saffron-500 text-white shadow-md' : 'text-slate-500 hover:bg-slate-100'}`}
+          >
+            हिंदी (Hindi)
+          </button>
+          <button 
+            onClick={() => setLang('en')}
+            className={`px-4 py-1.5 rounded-full text-sm font-bold transition-all ${lang === 'en' ? 'bg-blue-600 text-white shadow-md' : 'text-slate-500 hover:bg-slate-100'}`}
+          >
+            English
+          </button>
+        </div>
+      </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      {/* Main Container */}
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        {/* Language Toggle */}
-        <div className="flex justify-end mb-8 sticky top-24 z-40">
-          <div className="bg-white/90 backdrop-blur-md rounded-full p-1.5 shadow-lg border border-gray-200 flex gap-1">
-            <button 
-              onClick={() => setLang('hi')}
-              className={`px-6 py-2 rounded-full text-sm font-bold transition-all ${lang === 'hi' ? 'bg-saffron-500 text-white shadow-md' : 'text-gray-600 hover:bg-gray-100'}`}
-            >
-              हिंदी (Hindi)
-            </button>
-            <button 
-              onClick={() => setLang('en')}
-              className={`px-6 py-2 rounded-full text-sm font-bold transition-all ${lang === 'en' ? 'bg-blue-600 text-white shadow-md' : 'text-gray-600 hover:bg-gray-100'}`}
-            >
-              English
-            </button>
-          </div>
-        </div>
-
-        <div className="bg-white rounded-3xl p-8 md:p-16 shadow-2xl border border-gray-100">
-          <header className="mb-12 border-b border-gray-100 pb-12 text-center max-w-4xl mx-auto">
-            <div className="w-20 h-20 bg-blue-50 text-blue-600 rounded-3xl flex items-center justify-center mx-auto mb-6">
-              <BookOpen size={40} />
+        {/* Paper Container */}
+        <article className="bg-white rounded-3xl shadow-xl shadow-slate-200/50 border border-slate-100 overflow-hidden">
+          
+          {/* Hero Header */}
+          <div className="px-8 pt-12 pb-10 border-b border-slate-100 text-center relative overflow-hidden">
+            <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-saffron-500 via-white to-green-500"></div>
+            <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-blue-50 text-blue-600 mb-6 border border-blue-100 shadow-sm">
+               <BookOpen size={32} strokeWidth={2} />
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-slate-900 mb-6 leading-tight tracking-tight">
-              {lang === 'hi' ? 'वोटर जागरूकता (Voter Awareness Guide)' : 'Voter Awareness & Complete Guide'}
+            <h1 className="text-3xl md:text-5xl font-black text-slate-900 tracking-tight leading-tight mb-4">
+              {content.title}
             </h1>
-            <p className="text-xl text-slate-600 font-medium">
-              {lang === 'hi' 
-                ? 'नया वोटर कार्ड बनाने से लेकर वोटर लिस्ट में नाम चेक करने तक की पूरी जानकारी। अपने अधिकारों को जानें और एक ज़िम्मेदार नागरिक बनें।' 
-                : 'From applying for a new Voter ID to checking your name on the electoral roll. Know your rights and become a responsible citizen.'}
+            <p className="text-slate-500 text-lg md:text-xl font-medium max-w-2xl mx-auto">
+              {content.subtitle}
             </p>
-          </header>
+          </div>
 
-          <article className="prose prose-lg prose-slate max-w-4xl mx-auto prose-headings:font-bold prose-headings:text-slate-900 prose-a:text-blue-600">
+          <div className="p-8 md:p-12 space-y-12">
             
-            {/* Form 6 Guide */}
-            <section className="mb-16">
-              <div className="flex items-center gap-4 mb-6">
-                <UserPlus className="text-blue-600" size={32} />
-                <h2 className="text-3xl m-0">{lang === 'hi' ? '1. नया वोटर आईडी कार्ड कैसे बनाएं (Form 6)?' : '1. How to Apply for a New Voter ID (Form 6)?'}</h2>
+            {/* Introduction Section */}
+            <section className="bg-orange-50/50 rounded-2xl p-6 md:p-8 border border-orange-100">
+              <div className="flex items-center gap-3 mb-4">
+                 <ShieldAlert className="text-orange-500 w-6 h-6" />
+                 <h2 className="text-2xl font-extrabold text-slate-900">Attention</h2>
               </div>
-              <p>
-                {lang === 'hi'
-                  ? 'अगर आपकी उम्र 18 वर्ष या उससे अधिक हो गई है, तो आपको अपना नाम वोटर लिस्ट में जुड़वाना चाहिए। नया वोटर कार्ड बनवाने के लिए आपको चुनाव आयोग का Form 6 (फॉर्म 6) भरना होता है।'
-                  : 'If you have reached the age of 18, you are constitutionally eligible to vote. To get a new Voter ID card, you need to fill out Form 6 of the Election Commission of India.'}
-              </p>
-              
-              <h4 className="font-bold">{lang === 'hi' ? 'ज़रूरी दस्तावेज़ (Required Documents):' : 'Required Documents:'}</h4>
-              <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4 list-none pl-0">
-                <li className="flex items-center gap-2 bg-slate-50 p-3 rounded-lg"><CheckCircle size={18} className="text-green-500" /> {lang === 'hi' ? 'पासपोर्ट साइज फोटो' : 'Passport Size Photo'}</li>
-                <li className="flex items-center gap-2 bg-slate-50 p-3 rounded-lg"><CheckCircle size={18} className="text-green-500" /> {lang === 'hi' ? 'आयु प्रमाण पत्र (Aadhar/10th Marksheet)' : 'Age Proof (Aadhar/10th Marksheet)'}</li>
-                <li className="flex items-center gap-2 bg-slate-50 p-3 rounded-lg"><CheckCircle size={18} className="text-green-500" /> {lang === 'hi' ? 'पते का प्रमाण (बिजली बिल/पासपोर्ट)' : 'Address Proof (Electricity Bill/Passport)'}</li>
-                <li className="flex items-center gap-2 bg-slate-50 p-3 rounded-lg"><CheckCircle size={18} className="text-green-500" /> {lang === 'hi' ? 'परिवार के किसी सदस्य का वोटर नंबर' : 'Family Member\'s Voter ID (Optional)'}</li>
-              </ul>
-              
-              <div className="mt-6">
-                <a href="https://voters.eci.gov.in/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-xl no-underline hover:bg-blue-700 transition-colors">
-                  {lang === 'hi' ? 'राष्ट्रीय मतदाता पोर्टल पर अप्लाई करें' : 'Apply on National Voters Portal'} <ExternalLink size={18} />
-                </a>
+              <div className="prose prose-slate prose-lg max-w-none text-slate-700 whitespace-pre-wrap leading-relaxed font-medium">
+                {content.introText}
               </div>
             </section>
 
-            {/* Other Forms */}
-            <section className="mb-16">
-              <div className="flex items-center gap-4 mb-6">
-                <FileText className="text-saffron-600" size={32} />
-                <h2 className="text-3xl m-0">{lang === 'hi' ? '2. वोटर आईडी में बदलाव और अन्य फॉर्म' : '2. Voter ID Corrections & Other Forms'}</h2>
-              </div>
-              <div className="space-y-6">
-                <div className="border-l-4 border-saffron-500 pl-6 py-2">
-                  <h4 className="text-xl font-bold m-0 mb-2">{lang === 'hi' ? 'Form 7 (नाम हटाने के लिए)' : 'Form 7 (For Deletion of Name)'}</h4>
-                  <p className="m-0 text-slate-600">
-                    {lang === 'hi' 
-                      ? 'यदि किसी वोटर की मृत्यु हो गई है, या कोई स्थायी रूप से दूसरी जगह शिफ्ट हो गया है, तो वोटर लिस्ट से नाम कटवाने के लिए फॉर्म 7 भरा जाता है।'
-                      : 'Used to object to the inclusion of a name or request the deletion of a name due to death or permanent shifting.'}
-                  </p>
+            {/* Sections */}
+            <section className="space-y-8">
+              {content.sections.map((section, index) => (
+                <div key={index} className="flex flex-col md:flex-row gap-4 md:gap-6 group">
+                  <div className="flex-shrink-0">
+                    <div className="w-12 h-12 rounded-xl bg-slate-50 border border-slate-200 flex items-center justify-center shadow-sm group-hover:scale-110 group-hover:shadow-md transition-all duration-300">
+                      {getIcon(section.icon)}
+                    </div>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold text-slate-900 mb-3 leading-snug">{section.title}</h3>
+                    <div className="text-slate-600 leading-relaxed whitespace-pre-wrap font-medium">
+                      {section.content}
+                    </div>
+                  </div>
                 </div>
-                <div className="border-l-4 border-blue-500 pl-6 py-2">
-                  <h4 className="text-xl font-bold m-0 mb-2">{lang === 'hi' ? 'Form 8 (सुधार या पता बदलने के लिए)' : 'Form 8 (For Corrections or Shifting)'}</h4>
-                  <p className="m-0 text-slate-600">
-                    {lang === 'hi' 
-                      ? 'यदि आपके वोटर आईडी में नाम, फोटो, उम्र या पता गलत है, या आप एक ही विधानसभा में किसी दूसरे घर में शिफ्ट हो गए हैं, तो सुधार के लिए फॉर्म 8 भरें।'
-                      : 'Used for correction of entries (name, age, photo, address) or for shifting residence within or outside the constituency.'}
-                  </p>
+              ))}
+            </section>
+
+            {/* Quick Guide Grid */}
+            <section className="bg-slate-50 rounded-2xl border border-slate-200 p-6 md:p-8">
+              <div className="flex items-center gap-3 mb-6">
+                <HelpCircle className="text-indigo-600 w-7 h-7" />
+                <h2 className="text-2xl font-black text-slate-900">{content.quickGuide.title}</h2>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {content.quickGuide.items.map((item, idx) => (
+                  <div key={idx} className="bg-white p-4 rounded-xl border border-slate-100 shadow-sm flex flex-col gap-2">
+                    <span className="text-slate-600 font-medium text-sm">{item.q}</span>
+                    <div className="flex items-center gap-2 text-blue-600 font-bold">
+                      <ArrowRight size={16} />
+                      {item.a}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </section>
+
+            {/* Forms Table */}
+            <section className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm">
+              <div className="bg-blue-50 p-6 border-b border-blue-100">
+                <h2 className="text-2xl font-black text-slate-900">{content.formsTable.title}</h2>
+              </div>
+              <div className="overflow-x-auto">
+                <table className="w-full text-left border-collapse">
+                  <thead>
+                    <tr className="bg-slate-50">
+                      <th className="py-4 px-6 font-bold text-slate-800 border-b border-slate-200">{content.formsTable.headers[0]}</th>
+                      <th className="py-4 px-6 font-bold text-slate-700 border-b border-slate-200">{content.formsTable.headers[1]}</th>
+                      <th className="py-4 px-6 font-bold text-slate-600 border-b border-slate-200">{content.formsTable.headers[2]}</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {content.formsTable.rows.map((row, idx) => (
+                      <tr key={idx} className="hover:bg-slate-50 transition-colors">
+                        <td className="py-4 px-6 border-b border-slate-100 font-bold text-blue-700 whitespace-nowrap">{row[0]}</td>
+                        <td className="py-4 px-6 border-b border-slate-100 font-semibold text-slate-700">{row[1]}</td>
+                        <td className="py-4 px-6 border-b border-slate-100 text-slate-600 font-medium">{row[2]}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </section>
+
+            {/* How to check name */}
+            <section className="flex flex-col md:flex-row gap-6 bg-slate-900 text-white rounded-2xl p-8 shadow-2xl relative overflow-hidden">
+              <div className="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-blue-600/30 to-purple-600/30 rounded-full blur-3xl -mr-20 -mt-20"></div>
+              <div className="relative z-10 flex-shrink-0">
+                <div className="w-14 h-14 bg-white/10 rounded-2xl flex items-center justify-center border border-white/20">
+                  <Search size={28} className="text-blue-300" />
+                </div>
+              </div>
+              <div className="relative z-10">
+                <h3 className="text-2xl font-black mb-4 text-white leading-tight">
+                  {content.howToCheck.title}
+                </h3>
+                <div className="text-slate-300 text-lg font-medium leading-relaxed whitespace-pre-wrap">
+                  {content.howToCheck.content}
                 </div>
               </div>
             </section>
 
-            {/* Check Voter List */}
-            <section className="mb-16">
-              <div className="flex items-center gap-4 mb-6">
-                <MapPin className="text-green-600" size={32} />
-                <h2 className="text-3xl m-0">{lang === 'hi' ? '3. वोटर लिस्ट में अपना नाम कैसे चेक करें?' : '3. How to Check Your Name in the Voter List?'}</h2>
-              </div>
-              <p>
-                {lang === 'hi'
-                  ? 'चुनाव के दिन पोलिंग बूथ पर जाने से पहले यह सुनिश्चित कर लें कि आपका नाम वोटर लिस्ट (Electoral Roll) में मौजूद है। आप चुनाव आयोग की वेबसाइट या वोटर हेल्पलाइन ऐप (Voter Helpline App) से इसे ऑनलाइन चेक कर सकते हैं।'
-                  : 'Before heading to the polling booth on election day, it is critical to ensure your name exists on the Electoral Roll. You can easily check it online.'}
-              </p>
-              
-              <div className="bg-slate-100 p-6 rounded-2xl">
-                <p className="font-bold mb-4">{lang === 'hi' ? 'नाम चेक करने के 3 तरीके:' : '3 Ways to check your name:'}</p>
-                <ol className="list-decimal pl-6 space-y-2">
-                  <li><strong>EPIC Number (वोटर आईडी नंबर):</strong> {lang === 'hi' ? 'अपने कार्ड पर लिखे EPIC नंबर से सर्च करें।' : 'Search using the EPIC number written on your Voter Card.'}</li>
-                  <li><strong>By Details (नाम और पते से):</strong> {lang === 'hi' ? 'अपना नाम, पिता का नाम और राज्य डालकर सर्च करें।' : 'Search by entering your Name, Father\'s name, and State.'}</li>
-                  <li><strong>By Mobile Number:</strong> {lang === 'hi' ? 'अपने रजिस्टर्ड मोबाइल नंबर से सर्च करें।' : 'Search using your registered mobile number.'}</li>
-                </ol>
-              </div>
+            {/* Conclusion / Summary */}
+            <section className="text-center pt-8 border-t border-slate-200">
+               <h3 className="text-2xl font-bold text-slate-900 mb-4">{content.conclusion.title}</h3>
+               <p className="text-lg text-slate-600 font-medium whitespace-pre-wrap max-w-2xl mx-auto">
+                 {content.conclusion.text}
+               </p>
+               <a 
+                 href="https://voters.eci.gov.in" 
+                 target="_blank" 
+                 rel="noopener noreferrer"
+                 className="inline-flex items-center gap-2 mt-8 px-8 py-3 bg-blue-600 text-white rounded-full font-bold shadow-lg shadow-blue-600/30 hover:bg-blue-700 hover:scale-105 transition-all"
+               >
+                 Visit ECI Voters' Portal <ArrowRight size={18} />
+               </a>
             </section>
 
-            {/* Constitutional Rights */}
-            <section className="mb-16 border-t border-gray-200 pt-16">
-              <h2>{lang === 'hi' ? '4. आपका संवैधानिक अधिकार (Your Constitutional Right)' : '4. Your Constitutional Right'}</h2>
-              <p>
-                {lang === 'hi'
-                  ? 'भारतीय संविधान का अनुच्छेद 326 (Article 326) हर वयस्क नागरिक (18+ वर्ष) को सार्वभौमिक वयस्क मताधिकार (Universal Adult Suffrage) का अधिकार देता है। इसका मतलब है कि जाति, धर्म, लिंग या वित्तीय स्थिति के आधार पर किसी भी नागरिक को वोट देने से नहीं रोका जा सकता।'
-                  : 'Article 326 of the Indian Constitution grants Universal Adult Suffrage to every citizen above the age of 18. This means no citizen can be denied the right to vote on grounds of religion, race, caste, sex, or financial status.'}
-              </p>
-              <div className="bg-gradient-to-r from-blue-900 to-indigo-900 text-white p-8 rounded-3xl mt-8">
-                <h3 className="text-white mt-0">{lang === 'hi' ? 'एक वोट की ताकत' : 'The Power of One Vote'}</h3>
-                <p className="text-blue-100 mb-0">
-                  {lang === 'hi'
-                    ? 'आपका एक वोट देश की नीतियां, शिक्षा, स्वास्थ्य और भविष्य तय करता है। जब आप जनमत भारत (Janmat Bharat) जैसे ओपिनियन पोल ऐप पर अपनी राय देते हैं, तो यह एक रुझान बताता है, लेकिन असली बदलाव पोलिंग बूथ पर बटन दबाने से ही आता है। इसलिए वोट ज़रूर करें!'
-                    : 'Your single vote determines the policies, education, healthcare, and future of the nation. While opinion polls on Janmat Bharat show trends, real change only happens when you press the button at the polling booth. Go out and vote!'}
-                </p>
-              </div>
-            </section>
-          </article>
-        </div>
+          </div>
+        </article>
       </div>
     </div>
   );
