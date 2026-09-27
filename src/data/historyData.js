@@ -810,63 +810,106 @@ export const pmHistory = [
       "लगातार राजनीतिक अस्थिरता ने बड़े आर्थिक सुधारों को रोक दिया और केंद्र में 'नीतिगत शून्यता' (Policy vacuum) पैदा कर दी, जिससे 1998 में जल्द चुनाव कराने पड़े।"
     ]
   },
-  {
-    id: "term_16_12th_13th_loksabha_vajpayee",
-    pm_name_en: "Atal Bihari Vajpayee",
-    pm_name_hi: "अटल बिहारी वाजपेयी",
-    term_en: "19 March 1998 – 22 May 2004",
-    term_hi: "19 मार्च 1998 – 22 मई 2004",
-    period_en: "12th & 13th Lok Sabha",
-    period_hi: "12वीं और 13वीं लोकसभा",
-    party_en: "Bharatiya Janata Party (BJP)",
-    party_hi: "भारतीय जनता पार्टी (BJP)",
-    coalition_en: "National Democratic Alliance (NDA)",
-    coalition_hi: "राष्ट्रीय जनतांत्रिक गठबंधन (NDA)",
-    symbol: "🪷", 
-    image: "/assets/pms/vajpayee.jpg",
-    biography_en: {
-      born: "December 25, 1924, in Gwalior, MP.",
-      education: "M.A. in Political Science from DAV College, Kanpur.",
-      profile: "A legendary orator, poet, and the first non-Congress PM to complete a full term. He is credited with leading India to become a declared nuclear weapons state (Pokhran-II), winning the Kargil War, driving massive infrastructure growth (Golden Quadrilateral), and pushing aggressive privatization."
+  
+    {
+      id: "term_16a_12th_loksabha_vajpayee1",
+      pm_name_en: "Atal Bihari Vajpayee",
+      pm_name_hi: "अटल बिहारी वाजपेयी",
+      term_en: "19 March 1998 – 13 October 1999",
+      term_hi: "19 मार्च 1998 – 13 अक्टूबर 1999",
+      period_en: "12th Lok Sabha (13 Months)",
+      period_hi: "12वीं लोकसभा (13 महीने की सरकार)",
+      party_en: "Bharatiya Janata Party (BJP)",
+      party_hi: "भारतीय जनता पार्टी (BJP)",
+      coalition_en: "NDA - Formed govt with 254 seats (BJP: 182)",
+      coalition_hi: "NDA गठबंधन - 254 सीटों के साथ (BJP: 182)",
+      symbol: "🪷", 
+      image: "/assets/pms/vajpayee.png",
+      biography_en: {
+        born: "December 25, 1924, in Gwalior, Madhya Pradesh.",
+        education: "M.A. in Political Science from DAV College, Kanpur.",
+        profile: "In this crucial 13-month term, Vajpayee established India as a nuclear weapons state, initiated peace talks with Pakistan, and led the country to victory in the Kargil War before his government fell by a single vote."
+      },
+      biography_hi: {
+        born: "25 दिसंबर 1924, ग्वालियर, मध्य प्रदेश",
+        education: "डीएवी कॉलेज, कानपुर से राजनीति विज्ञान में एम.ए.",
+        profile: "अपने इस 13 महीने के अहम कार्यकाल में वाजपेयी जी ने भारत को परमाणु शक्ति बनाया, लाहौर बस कूटनीति शुरू की और करगिल युद्ध में ऐतिहासिक जीत दिलाई, हालांकि यह सरकार महज़ 1 वोट से गिर गई थी।"
+      },
+      achievements_en: [
+        "Pokhran-II Nuclear Tests (1998): Made the historic strategic decision to conduct underground nuclear tests on May 11 and 13, officially establishing India as a nuclear-armed state despite severe global economic sanctions.",
+        "Lahore Bus Diplomacy (1999): Initiated a major peace process with Pakistan by launching the Delhi-Lahore bus service and signing the Lahore Declaration.",
+        "Kargil War Victory (1999): Successfully led the Indian armed forces to recapture all occupied positions from Pakistan-backed infiltrators during the intense three-month Kargil conflict."
+      ],
+      achievements_hi: [
+        "पोखरण-II परमाणु परीक्षण (1998): 11 और 13 मई 1998 को परमाणु परीक्षण करने का सबसे बड़ा रणनीतिक फैसला लिया और भारी वैश्विक प्रतिबंधों (Sanctions) के बावजूद भारत को खुले तौर पर परमाणु शक्ति संपन्न राष्ट्र (Nuclear-armed state) घोषित किया।",
+        "लाहौर बस कूटनीति (1999): पाकिस्तान के साथ संबंध सुधारने के लिए 'दिल्ली-लाहौर बस सेवा' शुरू की और 'लाहौर घोषणापत्र' पर समझौता किया।",
+        "करगिल युद्ध में ऐतिहासिक जीत (1999): पाकिस्तान द्वारा घुसपैठ के बाद हुए करगिल युद्ध में लगभग तीन महीने की लड़ाई के बाद भारतीय सेना ने सभी चौकियों पर वापस कब्जा हासिल किया।"
+      ],
+      criticisms_en: [
+        "Global Economic Sanctions: The immediate aftermath of Pokhran-II saw severe economic sanctions imposed by the US and other nations, heavily straining the Indian economy and diplomacy.",
+        "Government Fell by 1 Vote: The coalition proved highly unstable, and the government dramatically collapsed in April 1999 after losing a parliamentary trust vote by a single vote when the AIADMK withdrew support."
+      ],
+      criticisms_hi: [
+        "वैश्विक आर्थिक प्रतिबंध (Sanctions): पोखरण परीक्षणों के तुरंत बाद अमेरिका और कई अन्य देशों ने भारत पर कड़े आर्थिक प्रतिबंध लगाए, जिससे कूटनीतिक और आर्थिक दबाव बना।",
+        "1 वोट से सरकार का गिरना (April 1999): यह गठबंधन काफी अस्थिर रहा। AIADMK द्वारा समर्थन वापस लेने के कारण सरकार मात्र 1 वोट से विश्वास मत हार गई, जिसके बाद वाजपेयी को इस्तीफा देना पड़ा।"
+      ]
     },
-    biography_hi: {
-      born: "25 दिसंबर 1924, ग्वालियर, मध्य प्रदेश।",
-      education: "डीएवी कॉलेज (कानपुर) से राजनीति विज्ञान में एम.ए.।",
-      profile: "एक महान वक्ता, कवि और अपना पूरा कार्यकाल पूरा करने वाले पहले गैर-कांग्रेसी प्रधानमंत्री। उनके नेतृत्व में भारत ने पोखरण-II परमाणु परीक्षण किया, कारगिल युद्ध जीता, और स्वर्णिम चतुर्भुज (Golden Quadrilateral) जैसी विशाल इंफ्रास्ट्रक्चर परियोजनाओं की नींव रखी।"
+    {
+      id: "term_16b_13th_loksabha_vajpayee2",
+      pm_name_en: "Atal Bihari Vajpayee",
+      pm_name_hi: "अटल बिहारी वाजपेयी",
+      term_en: "13 October 1999 – 22 May 2004",
+      term_hi: "13 अक्टूबर 1999 – 22 मई 2004",
+      period_en: "13th Lok Sabha",
+      period_hi: "13वीं लोकसभा",
+      party_en: "Bharatiya Janata Party (BJP)",
+      party_hi: "भारतीय जनता पार्टी (BJP)",
+      coalition_en: "NDA - Strong majority with ~298 seats (BJP: 182)",
+      coalition_hi: "NDA गठबंधन - पूर्ण बहुमत ~298 सीटें (BJP: 182)",
+      symbol: "🪷", 
+      image: "/assets/pms/vajpayee.png",
+      biography_en: {
+        born: "December 25, 1924, in Gwalior, Madhya Pradesh.",
+        education: "M.A. in Political Science from DAV College, Kanpur.",
+        profile: "Following the 1999 elections, Vajpayee led a stable NDA coalition for a full five-year term, ushering in a distinct development model focused on massive infrastructure (Highways & PMGSY), telecom revolution, and economic reforms."
+      },
+      biography_hi: {
+        born: "25 दिसंबर 1924, ग्वालियर, मध्य प्रदेश",
+        education: "डीएवी कॉलेज, कानपुर से राजनीति विज्ञान में एम.ए.",
+        profile: "1999 के चुनाव के बाद NDA सरकार ने अपना पूरा कार्यकाल पूरा किया। इस दौरान उन्होंने इंफ्रास्ट्रक्चर (हाईवे और ग्रामीण सड़कें), टेलीकॉम क्रांति और कड़े आर्थिक सुधारों के जरिए विकास का एक नया मॉडल पेश किया।"
+      },
+      achievements_en: [
+        "Golden Quadrilateral (NHDP): Launched a massive highway revolution connecting Delhi, Mumbai, Chennai, and Kolkata, laying the foundation for modern Indian infrastructure.",
+        "Pradhan Mantri Gram Sadak Yojana (PMGSY): Launched on Dec 25, 2000, to provide all-weather road connectivity to unconnected rural habitations across India.",
+        "Telecom & IT Revolution: Implemented structural telecom reforms that massively expanded mobile connectivity, slashed prices, and catapulted India's IT and knowledge economy globally.",
+        "Sarva Shiksha Abhiyan (SSA): Launched a transformational initiative for universal elementary education to massively boost school enrolment and infrastructure.",
+        "Economic Reforms & Disinvestment: Aggressively pushed strategic disinvestments (creating a separate ministry), passed the FRBM Act (2003) for fiscal discipline, and initiated electricity sector reforms.",
+        "Strong Economic Recovery: Overcame the 2000-02 slowdown to achieve a stellar 7.9% GDP growth in 2003-04, leaving the economy in a highly robust position."
+      ],
+      achievements_hi: [
+        "स्वर्णिम चतुर्भुज (Golden Quadrilateral): दिल्ली, मुंबई, चेन्नई और कोलकाता को जोड़ने वाली 5,846 किमी लंबी 'हाईवे क्रांति' की शुरुआत की, जिसने भारत के इंफ्रास्ट्रक्चर की तस्वीर बदल दी।",
+        "प्रधानमंत्री ग्राम सड़क योजना (PMGSY): 25 दिसंबर 2000 को शुरू की गई इस योजना ने भारत के गांवों को पक्की सड़कों (All-weather roads) से जोड़ने का ऐतिहासिक काम किया।",
+        "टेलीकॉम और IT क्रांति: संरचनात्मक टेलीकॉम सुधारों (Telecom Reforms) के जरिए मोबाइल व इंटरनेट सेवाओं का जबरदस्त विस्तार किया और भारत को एक ग्लोबल IT इकॉनमी के रूप में स्थापित किया।",
+        "सर्व शिक्षा अभियान (SSA): हर बच्चे तक प्रारंभिक शिक्षा पहुँचाने, स्कूलों का इंफ्रास्ट्रक्चर बढ़ाने और ड्रॉपआउट कम करने के लिए यह बहुत बड़ा ट्रांसफॉर्मेशनल प्रोग्राम शुरू किया।",
+        "आर्थिक सुधार और विनिवेश (Disinvestment): सरकारी कंपनियों के 'विनिवेश' के लिए अलग मंत्रालय बनाया, राजकोषीय घाटे को कंट्रोल करने के लिए FRBM Act (2003) और इलेक्ट्रिसिटी एक्ट (2003) लागू किए।",
+        "अर्थव्यवस्था में शानदार रिकवरी: 2000-02 की सुस्ती के बाद इकॉनमी में शानदार वापसी की और 2003-04 में लगभग 7.9% की ग्रोथ हासिल कर मजबूत अर्थव्यवस्था छोड़ी।"
+      ],
+      criticisms_en: [
+        "2002 Gujarat Riots: The massive communal riots in Gujarat cast a heavy shadow over the central government, sparking intense political debate regarding its response and handling of the state administration.",
+        "Kandahar Hijacking (1999): The decision to release three jailed militants in exchange for the passengers of the hijacked IC-814 flight sparked a massive national security debate.",
+        "Parliament Attack & Agra Summit: Despite peace efforts at the 2001 Agra Summit, the devastating terrorist attack on the Indian Parliament in December 2001 pushed India and Pakistan to the brink of war.",
+        "Tehelka Sting & Disinvestment Controversies: Faced political heat over alleged defence deal corruption in the 2001 Tehelka sting and severe opposition from trade unions regarding strategic disinvestments (like BALCO).",
+        "Alliance Constraints on Ideology: Leading a vast coalition meant the BJP had to heavily compromise on its core ideological issues (like the Ram Temple in Ayodhya) due to pressure from secular NDA allies."
+      ],
+      criticisms_hi: [
+        "2002 गुजरात दंगे: गुजरात में हुए भयंकर सांप्रदायिक दंगों से केंद्र सरकार पर भी भारी राजनीतिक दबाव पड़ा और तत्कालीन राज्य सरकार की कार्यप्रणाली को लेकर केंद्र के रुख की कड़ी आलोचना हुई।",
+        "कंधार विमान अपहरण (IC-814, 1999): अगवा किए गए यात्रियों को छुड़ाने के लिए 3 खूंखार आतंकियों को रिहा करने के फैसले ने राष्ट्रीय सुरक्षा (National Security) पर बड़ी बहस खड़ी कर दी।",
+        "संसद पर हमला (2001): 2001 के 'आगरा शिखर सम्मेलन' में शांति प्रयासों के बावजूद, दिसंबर 2001 में संसद पर हुए आतंकी हमले ने भारत और पाकिस्तान को युद्ध की कगार पर ला खड़ा किया।",
+        "तहलका स्टिंग और विनिवेश विवाद: 2001 के 'तहलका स्टिंग' में रक्षा सौदों में कथित भ्रष्टाचार के कारण रक्षामंत्री को इस्तीफा देना पड़ा। साथ ही, BALCO जैसी कंपनियों के विनिवेश पर यूनियनों ने भारी विरोध किया।",
+        "राम मंदिर और गठबंधन की मजबूरियां: एक बड़ा गठबंधन (NDA) चलाने के कारण वाजपेयी सरकार को अयोध्या राम मंदिर जैसे अपने मुख्य वैचारिक मुद्दों पर समझौता (Alliance constraints) करना पड़ा।"
+      ]
     },
-    achievements_en: [
-      "Pokhran-II (Operation Shakti, 1998): Successfully conducted five underground nuclear tests, officially declaring India a nuclear weapon state and boldly defying global sanctions.",
-      "Kargil War Victory (1999): Led the nation to a decisive military and diplomatic victory against Pakistani infiltrators in the treacherous high-altitude peaks of Kargil (Operation Vijay).",
-      "Golden Quadrilateral & PMGSY: Launched massive infrastructure projects, connecting India's four major metros via a world-class highway network, and the Pradhan Mantri Gram Sadak Yojana for rural road connectivity.",
-      "Telecom Revolution: Implemented the New Telecom Policy (1999), shifting from fixed license fees to a revenue-sharing model, which triggered the massive mobile phone boom in India.",
-      "Sarva Shiksha Abhiyan: Launched a massive nationwide scheme in 2001 to make free and compulsory education a fundamental right for children aged 6 to 14.",
-      "Passed the Fiscal Responsibility and Budget Management (FRBM) Act to institutionalize financial discipline and massively reduced inflation.",
-      "First non-Congress Prime Minister to complete a full five-year term, proving that a massive coalition (NDA) could provide stable, pro-growth governance."
-    ],
-    achievements_hi: [
-      "पोखरण-II (ऑपरेशन शक्ति, 1998): वैश्विक प्रतिबंधों की परवाह न करते हुए पांच सफल भूमिगत परमाणु परीक्षण किए और भारत को आधिकारिक तौर पर एक 'परमाणु हथियार संपन्न देश' (Nuclear state) घोषित किया।",
-      "कारगिल युद्ध विजय (1999): कारगिल की ऊंची चोटियों पर पाकिस्तानी घुसपैठियों के खिलाफ (ऑपरेशन विजय) देश को एक निर्णायक सैन्य और कूटनीतिक जीत दिलाई।",
-      "स्वर्णिम चतुर्भुज (Golden Quadrilateral) और PMGSY: भारत के चार प्रमुख महानगरों को विश्व स्तरीय राजमार्गों से जोड़ने और ग्रामीण सड़कों के लिए 'प्रधानमंत्री ग्राम सड़क योजना' की शुरुआत की।",
-      "दूरसंचार क्रांति (Telecom Revolution): नई दूरसंचार नीति (1999) लागू की, जिसने भारत में मोबाइल फोन के जबरदस्त विस्तार (Boom) का रास्ता साफ किया।",
-      "सर्व शिक्षा अभियान (2001): 6 से 14 वर्ष के बच्चों के लिए मुफ्त और अनिवार्य शिक्षा को मौलिक अधिकार बनाने के लिए देशव्यापी योजना शुरू की।",
-      "वित्तीय अनुशासन (Financial discipline) लाने के लिए FRBM एक्ट पास किया और महंगाई को बहुत कम स्तर पर बनाए रखा।",
-      "पूरा 5 साल का कार्यकाल पूरा करने वाले पहले 'गैर-कांग्रेसी' प्रधानमंत्री बने, और साबित किया कि एक बड़ा गठबंधन (NDA) भी स्थिर और विकासवादी सरकार दे सकता है।"
-    ],
-    criticisms_en: [
-      "2002 Gujarat Riots: His government faced extreme global and domestic criticism for failing to prevent the horrific communal riots in Gujarat. Vajpayee publicly reminded the state government to follow 'Raj Dharma' (the duty of rulers).",
-      "IC-814 Hijacking (1999): The decision to release three dreaded terrorists (including Maulana Masood Azhar, who later founded Jaish-e-Mohammed) in exchange for the hostages of the hijacked Indian Airlines flight in Kandahar remains highly controversial.",
-      "Kargil Intelligence Failure: While the war was won, the initial failure of Indian intelligence to detect massive Pakistani infiltration on Indian territory was a major security lapse.",
-      "The 'India Shining' Campaign: The overly optimistic 2004 election slogan completely alienated the rural poor and farmers facing agrarian distress, leading to the NDA's shock defeat.",
-      "Agra Summit Failure (2001): The highly publicized peace talks with Pakistan's Pervez Musharraf collapsed completely without any agreement."
-    ],
-    criticisms_hi: [
-      "2002 के गुजरात दंगे: गुजरात में हुए भयानक सांप्रदायिक दंगों को न रोक पाने के लिए उनकी सरकार को भारी आलोचना का सामना करना पड़ा। वाजपेयी जी ने सार्वजनिक रूप से राज्य सरकार को 'राजधर्म' का पालन करने की याद दिलाई थी।",
-      "IC-814 हाईजैक (1999): कंधार में अपहृत विमान के यात्रियों को छुड़ाने के बदले तीन खूंखार आतंकवादियों (जिसमें मसूद अजहर भी था, जिसने बाद में जैश-ए-मोहम्मद बनाया) को रिहा करने का फैसला आज भी बेहद विवादास्पद माना जाता है।",
-      "कारगिल इंटेलिजेंस विफलता: हालांकि युद्ध जीता गया, लेकिन भारतीय खुफिया एजेंसियों (Intelligence) का पाकिस्तानी घुसपैठ का पता न लगा पाना एक बड़ी सुरक्षा चूक (Security lapse) थी।",
-      "'इंडिया शाइनिंग' अभियान (2004): यह चुनाव प्रचार का नारा ग्रामीण गरीबों और किसानों की वास्तविक परेशानियों से बिल्कुल कटा हुआ था, जिसके कारण 2004 के चुनाव में NDA को चौंकाने वाली हार मिली।",
-      "आगरा शिखर सम्मेलन (2001) की विफलता: पाकिस्तान के परवेज मुशर्रफ के साथ शांति वार्ता पूरी तरह से विफल रही और कोई समझौता नहीं हो सका।"
-    ]
-  },
+
   
     {
       id: "term_17_14th_loksabha_manmohan1",
