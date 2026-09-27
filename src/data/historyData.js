@@ -952,27 +952,35 @@ export const pmHistory = [
         profile: "उनका पहला कार्यकाल ऐतिहासिक ग्रोथ का था, लेकिन दूसरा कार्यकाल महा-घोटालों और पॉलिसी पैरालिसिस के कारण बुरी तरह प्रभावित हुआ, जिसने 2014 में ऐतिहासिक हार की नींव रखी।"
       },
       achievements_en: [
-        "Aadhaar (UIDAI): Launched the world's largest biometric ID system, laying the groundwork for Direct Benefit Transfers (DBT) and removing middlemen from welfare distribution.",
-        "Right to Education (RTE) Act: Implemented the RTE in 2010, making education a fundamental, legally enforceable right for every child between the ages of 6 and 14."
-      ],
+      "National Food Security Act (2013): Passed a monumental welfare law providing highly subsidized food grains (₹3/₹2/₹1 for Rice/Wheat/Coarse grains) to nearly 67% of the population.",
+      "Aadhaar & Direct Benefit Transfer (DBT): Oversaw the massive rollout of Aadhaar (generating over 70 crore IDs by 2014) and initiated the DBT ecosystem (like DBTL for LPG in 2013) to curb subsidy leakages.",
+      "Right to Education (RTE) Act: Enforced the historic RTE Act from April 2010, making elementary education a fundamental, legally enforceable right for children aged 6–14.",
+      "Rights-Based Legislative Overhauls: Passed landmark laws modernizing India, including the Land Acquisition Act (2013) for fair compensation, the Companies Act (2013) mandating CSR, and the Lokpal Act (2013) for anti-corruption.",
+      "Rural Welfare & Livelihoods: Launched the National Rural Livelihoods Mission (NRLM) in 2011 to empower rural women through Self-Help Groups (SHGs) and expanded existing welfare schemes like MGNREGA and NRHM.",
+      "Infrastructure & Green Energy: Initiated the National Solar Mission in 2010 to kickstart India's solar ecosystem and advanced long-term infrastructure megaprojects like the Delhi-Mumbai Industrial Corridor (DMIC).",
+      "Economic Trajectory: Started with a strong post-crisis recovery (8.5% growth in 2010) before facing a severe slowdown in later years."
+],
       achievements_hi: [
-        "आधार (Aadhaar / UIDAI): दुनिया की सबसे बड़ी बायोमेट्रिक पहचान प्रणाली शुरू की, जिसने 'डायरेक्ट बेनिफिट ट्रांसफर' (DBT) की नींव रखी और बिचौलियों को खत्म किया।",
-        "शिक्षा का अधिकार (RTE) अधिनियम: 2010 से इसे लागू किया, जिसने 6 से 14 वर्ष की आयु के प्रत्येक बच्चे के लिए शिक्षा को एक मौलिक और कानूनी अधिकार बनाया।"
-      ],
+      "राष्ट्रीय खाद्य सुरक्षा अधिनियम (2013): देश की लगभग 67% आबादी को बेहद सस्ती दरों (₹3/₹2/₹1 प्रति किलो चावल/गेहूं/मोटा अनाज) पर खाद्यान्न का कानूनी अधिकार देने वाला ऐतिहासिक कानून पास किया।",
+      "आधार (Aadhaar) और DBT की शुरुआत: 2014 तक 70 करोड़ से ज्यादा आधार नंबर जारी किए और सब्सिडी लीकेज रोकने के लिए 2013 में 'डायरेक्ट बेनिफिट ट्रांसफर' (DBT) की नींव रखी।",
+      "शिक्षा का अधिकार (RTE Act): 1 अप्रैल 2010 से इसे लागू किया, जिसने 6 से 14 वर्ष की आयु के प्रत्येक बच्चे के लिए मुफ्त और अनिवार्य शिक्षा को कानूनी अधिकार बनाया।",
+      "ऐतिहासिक कानूनी सुधार: किसानों के लिए 'भूमि अधिग्रहण कानून 2013', कॉर्पोरेट गवर्नेंस के लिए 'कंपनी एक्ट 2013' और भ्रष्टाचार रोकने के लिए 'लोकपाल एक्ट 2013' जैसे बड़े ढांचागत सुधार लागू किए।",
+      "ग्रामीण आजीविका (NRLM) और कल्याण: ग्रामीण महिलाओं को स्व-सहायता समूहों (SHGs) से जोड़ने के लिए 2011 में 'राष्ट्रीय ग्रामीण आजीविका मिशन' शुरू किया और मनरेगा (MGNREGA) का विस्तार जारी रखा।",
+      "इंफ्रास्ट्रक्चर और सोलर एनर्जी: भारत के सोलर इकोसिस्टम को शुरू करने के लिए 2010 में 'नेशनल सोलर मिशन' लॉन्च किया और 'दिल्ली-मुंबई इंडस्ट्रियल कॉरिडोर' (DMIC) जैसे बड़े प्रोजेक्ट्स को आगे बढ़ाया।",
+      "आर्थिक विकास की दिशा: 2010 में वैश्विक मंदी के बाद (8.5% की ग्रोथ) मजबूत रिकवरी की, हालांकि कार्यकाल के अंतिम वर्षों में आर्थिक विकास धीमा (Slowdown) हो गया।"
+],
       criticisms_en: [
-        "Massive Corruption Scandals (UPA-II): His second term was entirely derailed by astronomical corruption allegations, including the 2G Spectrum Scam, Coalgate (Coal block allocation), and the 2010 Commonwealth Games (CWG) scam.",
-        "Perception of Weakness: He was widely perceived as a 'remote-controlled' Prime Minister, lacking real political authority, with power concentrated in the hands of Congress President Sonia Gandhi.",
-        "Policy Paralysis: The avalanche of scams led to extreme bureaucratic caution, causing severe 'policy paralysis', stalling infrastructure projects and crashing economic growth.",
-        "Runaway Inflation: The later years of UPA-II saw double-digit inflation (especially in food prices) and a sharply depreciating Rupee, devastating the middle class.",
-        "The 'Nirbhaya' Protests (2012): The government's initially insensitive response to the brutal Delhi gang-rape sparked nationwide, unprecedented protests against women's safety failures."
-      ],
+      "Major Corruption Scandals: The government was engulfed by allegations of astronomical corruption, most notably the 2G Spectrum allocation controversy, the Coal block allocation (Coalgate), and the 2010 Commonwealth Games (CWG) scam.",
+      "Anti-Corruption Movement & Political Fallout: The massive Anna Hazare-led nationwide anti-corruption movement severely damaged the government's credibility and public trust.",
+      "Economic Slowdown & Policy Paralysis: Growth crashed from 8.5% in 2010 to just 5.2% in 2011. The barrage of scams led to extreme bureaucratic caution, sparking intense criticism over 'policy paralysis' and a decline in investments.",
+      "High Inflation: Consistently high double-digit consumer inflation and soaring food prices severely hurt the middle class and poor, becoming a massive political liability."
+],
       criticisms_hi: [
-        "महा-घोटाले (UPA-II): उनका दूसरा कार्यकाल 2G स्पेक्ट्रम घोटाला, कोयला घोटाला (Coalgate), और 2010 कॉमनवेल्थ गेम्स (CWG) घोटाले जैसे भ्रष्टाचार के भारी आरोपों से पूरी तरह बर्बाद हो गया।",
-        "कमजोर प्रधानमंत्री की छवि: जनता में यह धारणा बन गई थी कि वे एक 'रिमोट-कंट्रोल' प्रधानमंत्री हैं और असली सत्ता कांग्रेस अध्यक्ष सोनिया गांधी के हाथों में है।",
-        "पॉलिसी पैरालिसिस (Policy Paralysis): घोटालों के डर से नौकरशाही में इतना खौफ आ गया कि सरकारी फैसले लेने बंद हो गए। इससे इंफ्रास्ट्रक्चर प्रोजेक्ट रुक गए और आर्थिक विकास दर धड़ाम हो गई।",
-        "बेकाबू महंगाई: UPA-II के अंतिम वर्षों में दोहरे अंकों की महंगाई (Double-digit inflation) और गिरते रुपये ने आम आदमी और मध्यम वर्ग की कमर तोड़ दी।",
-        "निर्भया कांड (2012): दिल्ली में हुए क्रूर गैंगरेप के बाद सरकार की शुरुआती असंवेदनशीलता के कारण महिला सुरक्षा को लेकर पूरे देश में भयंकर विरोध प्रदर्शन हुए।"
-      ]
+      "महा-घोटाले (2G, कोयला, CWG): सरकार को भ्रष्टाचार के भारी आरोपों का सामना करना पड़ा। इनमें 2G स्पेक्ट्रम आवंटन विवाद, कोयला आवंटन (Coalgate), और 2010 कॉमनवेल्थ गेम्स घोटाले सबसे प्रमुख थे, जिनकी CAG रिपोर्ट ने भूचाल ला दिया।",
+      "अन्ना हजारे आंदोलन: भ्रष्टाचार के खिलाफ अन्ना हजारे के नेतृत्व में हुए देशव्यापी जन-आंदोलन ने सरकार की साख (Credibility) को भारी नुकसान पहुँचाया।",
+      "आर्थिक सुस्ती और पॉलिसी पैरालिसिस: ग्रोथ 2010 के 8.5% से गिरकर 2011 में 5.2% हो गई। घोटालों के डर से नौकरशाही में फैसले लेने की गति धीमी हो गई, जिससे सरकार पर 'पॉलिसी पैरालिसिस' और गिरते निवेश का कड़ा आरोप लगा।",
+      "बेकाबू महंगाई: कार्यकाल के आखिरी सालों में दोहरे अंकों की महंगाई (Inflation) और लगातार बढ़ती खाद्य कीमतों ने आम जनता की कमर तोड़ दी, जो UPA-II की सबसे बड़ी राजनीतिक कमजोरी बनी।"
+]
     },
 
   {
