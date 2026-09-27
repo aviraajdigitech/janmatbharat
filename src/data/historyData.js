@@ -951,24 +951,24 @@ export const pmHistory = [
       profile: "स्वतंत्र भारत में जन्म लेने वाले पहले प्रधानमंत्री, जिन्होंने 2014 और 2019 में पूर्ण बहुमत के साथ भारतीय राजनीति की दिशा बदल दी। वे अपनी मजबूत नेतृत्व शैली के लिए जाने जाते हैं। उनके कार्यकाल में धारा 370 हटाना, राम मंदिर निर्माण, GST लागू करना और डिजिटल इंडिया जैसी बड़ी योजनाएं शामिल हैं।"
     },
     achievements_en: [
-      "Financial Inclusion (JAM Trinity): Launched PM Jan-Dhan Yojana (opening 35.99 crore accounts by 2019), linking Aadhaar and Mobile (JAM) to expand Direct Benefit Transfers (DBT) and reduce leakages.",
+      "Historic Mandate: Secured the first single-party absolute majority in 30 years, establishing a strong and stable central government.",
+      "Financial Inclusion (JAM Trinity): Launched PM Jan-Dhan Yojana (opening 35.99 crore accounts by 2019), linking Aadhaar and Mobile to expand Direct Benefit Transfers (DBT) and reduce leakages.",
       "Swachh Bharat Mission: Made sanitation a national priority, building over 8.95 crore household toilets and declaring the country ODF in 2019.",
-      "Basic Amenities (Ujjwala & Saubhagya): Provided deposit-free LPG connections to approx 7 crore poor women (Ujjwala) and massively expanded household electricity connectivity (Saubhagya).",
-      "Structural Economic Reforms (GST & IBC): Rolled out the historic Goods and Services Tax (GST) in 2017 to unify indirect taxes, and enacted the Insolvency and Bankruptcy Code (IBC) in 2016 to resolve bad loans.",
+      "Women's Welfare & Electrification: Provided free LPG connections to millions of women under the Ujjwala Yojana and achieved 100% village electrification through the 'Saubhagya' scheme.",
+      "Structural Economic Reforms: Rolled out the historic Goods and Services Tax (GST) in 2017 to unify indirect taxes, and enacted the Insolvency and Bankruptcy Code (IBC) in 2016 to resolve bad loans.",
       "Digital India & UPI: Laid the foundational infrastructure for India's digital payment revolution with the launch of UPI, reaching 1 billion monthly transactions by October 2019.",
-      "Infrastructure Push: Accelerated National Highway construction (reaching nearly 30 km/day by 2019) and significantly expanded railway electrification compared to previous decades.",
-      "Make in India & FDI: Boosted FDI inflows to $62 billion by 2018-19 and dramatically improved India's World Bank 'Ease of Doing Business' ranking to 77.",
-      "National Security & Foreign Policy: Adopted an assertive military posture with the 2016 cross-border Surgical Strikes, and co-founded the International Solar Alliance (ISA) to lead global climate diplomacy."
+      "Infrastructure & Investment: Accelerated National Highway construction (reaching nearly 30 km/day by 2019) and boosted FDI inflows to a record $62 billion under 'Make in India'.",
+      "Robust National Security: Adopted a 'zero tolerance' policy on terrorism, marked by decisive cross-border retaliations via the 2016 Surgical Strikes and 2019 Balakot Airstrikes."
 ],
       achievements_hi: [
+      "ऐतिहासिक जनादेश: 30 वर्षों में पहली बार किसी एक पार्टी को पूर्ण बहुमत मिला, जिससे केंद्र में एक मजबूत और स्थिर सरकार की स्थापना हुई।",
       "वित्तीय समावेशन (JAM ट्रिनिटी): PM जन-धन योजना के तहत 35.99 करोड़ से अधिक बैंक खाते खोले। जन धन-आधार-मोबाइल (JAM) के जरिए सरकारी लाभ सीधे (DBT) लाभार्थियों तक पहुँचाकर लीकेज कम की।",
       "स्वच्छ भारत मिशन: स्वच्छता को राष्ट्रीय राजनीतिक प्राथमिकता बनाया; 8.95 करोड़ से अधिक शौचालय बनाए गए और 2019 में देश को ODF घोषित किया गया।",
-      "बुनियादी सुविधाएं (उज्ज्वला व सौभाग्य): उज्ज्वला योजना से करीब 7 करोड़ गरीब महिलाओं को मुफ्त LPG कनेक्शन मिले और 'सौभाग्य' योजना से घर-घर बिजली पहुंचाई गई।",
+      "महिला कल्याण और विद्युतीकरण: उज्ज्वला योजना के तहत करोड़ों महिलाओं को मुफ्त LPG कनेक्शन दिए और 'सौभाग्य' योजना से 100% गांवों तक बिजली पहुंचाई।",
       "ऐतिहासिक आर्थिक सुधार (GST और IBC): भारत को 'एक राष्ट्र, एक कर' से जोड़ने के लिए 2017 में GST लागू किया। डूबती कंपनियों और NPA को सुलझाने के लिए 2016 में IBC लागू किया।",
       "डिजिटल पेमेंट क्रांति (UPI): UPI और BHIM लॉन्च करके भारत के डिजिटल पेमेंट्स इकोसिस्टम की मजबूत नींव रखी, जिसने अक्टूबर 2019 तक 1 बिलियन मासिक ट्रांजैक्शन पार किए।",
-      "इंफ्रास्ट्रक्चर और निवेश: हाईवे निर्माण की गति को रिकॉर्ड स्तर (लगभग 30 किमी/दिन) पर पहुँचाया और पिछले दशकों की तुलना में रेलवे विद्युतीकरण में कई गुना तेजी लाई।",
-      "Make in India और व्यापार: 'मेक इन इंडिया' के जरिए रिकॉर्ड $62 बिलियन का FDI हासिल किया और ईज ऑफ डूइंग बिजनेस रैंकिंग (77वीं रैंक) में बड़ी छलांग लगाई।",
-      "राष्ट्रीय सुरक्षा और कूटनीति: 2016 की सर्जिकल स्ट्राइक के जरिए आक्रामक सैन्य नीति (Assertive posture) अपनाई। जलवायु कूटनीति के लिए 'इंटरनेशनल सोलर अलायंस' (ISA) की स्थापना की।"
+      "इंफ्रास्ट्रक्चर और निवेश: हाईवे निर्माण की गति को रिकॉर्ड स्तर (लगभग 30 किमी/दिन) पर पहुँचाया और 'मेक इन इंडिया' के जरिए रिकॉर्ड $62 बिलियन का FDI हासिल किया।",
+      "सशक्त राष्ट्रीय सुरक्षा: आतंकवाद पर 'जीरो टॉलरेंस' नीति अपनाते हुए 2016 में सर्जिकल स्ट्राइक और 2019 में बालाकोट एयर स्ट्राइक के जरिए कड़ा जवाब दिया।"
 ],
       criticisms_en: [
       "Demonetization Controversy (Nov 2016): The sudden ban on ₹500 and ₹1,000 notes aimed to curb black money and terror financing, but sparked massive controversy when RBI data later revealed that almost all the demonetized currency returned to the banking system.",
