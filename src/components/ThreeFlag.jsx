@@ -50,24 +50,24 @@ const FlagMesh = () => {
     for (let i = 0; i < positions.count; i++) {
       const x = positions.getX(i);
       const y = positions.getY(i);
-      // Slower, more elegant, full-cloth wave (Silk effect)
-      const wave1 = 1.2 * Math.sin(x * 0.15 - time * 1.0);
-      const wave2 = 0.8 * Math.sin(y * 0.2 - time * 0.8);
-      const wave3 = 0.4 * Math.sin((x + y) * 0.2 - time * 1.2);
+      // Sweeping, majestic cloth wave (scaled for wider view)
+      const wave1 = 1.8 * Math.sin(x * 0.1 - time * 0.8);
+      const wave2 = 1.0 * Math.sin(y * 0.15 - time * 0.6);
+      const wave3 = 0.5 * Math.sin((x + y) * 0.1 - time * 1.0);
       positions.setZ(i, wave1 + wave2 + wave3);
     }
     positions.needsUpdate = true;
   });
 
   return (
-    <mesh ref={mesh} rotation={[-0.1, 0, 0]} position={[0, 0, -10]}>
-      {/* Massive geometry to cover entire background. 100x60 units. 80x50 segments. */}
-      <planeGeometry args={[100, 60, 80, 50]} />
+    <mesh ref={mesh} rotation={[-0.05, 0, 0]} position={[0, 0, 0]}>
+      {/* 90x60 is exactly 3:2 aspect ratio, matches flag perfectly */}
+      <planeGeometry args={[90, 60, 64, 48]} />
       <meshStandardMaterial 
         map={texture || fallbackTexture} 
         side={THREE.DoubleSide} 
-        roughness={0.7} 
-        metalness={0.15} 
+        roughness={0.6} 
+        metalness={0.1} 
       />
     </mesh>
   );
@@ -77,21 +77,23 @@ export const ThreeFlag = () => {
   return (
     <div className="absolute inset-0 overflow-hidden" style={{ zIndex: 0 }}>
       {/* Dark background */}
-      <div className="absolute inset-0 bg-slate-900" />
+      <div className="absolute inset-0 bg-slate-950" />
 
       {/* 3D Canvas filling the background */}
       <div className="absolute inset-0">
-        <Canvas camera={{ position: [0, 0, 10], fov: 50 }}>
-          <ambientLight intensity={1.2} />
-          <directionalLight position={[-10, 20, 10]} intensity={2.5} castShadow />
-          <directionalLight position={[10, -10, -10]} intensity={1.0} />
+        {/* Pulled camera back to Z=35 to reveal Saffron and Green bands! */}
+        <Canvas camera={{ position: [0, 0, 35], fov: 45 }}>
+          <ambientLight intensity={1.8} />
+          <directionalLight position={[-10, 20, 15]} intensity={3.0} castShadow />
+          <directionalLight position={[10, -10, -10]} intensity={1.5} />
           <FlagMesh />
         </Canvas>
       </div>
 
-      {/* Deep blue gradient overlay to blend it perfectly with text and give premium SaaS feel */}
-      <div className="absolute inset-0 bg-gradient-to-r from-slate-900/90 via-blue-950/70 to-slate-900/90" style={{ zIndex: 1 }} />
-      <div className="absolute inset-0 bg-blue-900/20" style={{ zIndex: 1 }} />
+      {/* Elegant vignette overlay: Dark edges for text readability, clear center to show flag colors */}
+      <div className="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-900/10 to-slate-950/90" style={{ zIndex: 1 }} />
+      <div className="absolute inset-0 bg-gradient-to-b from-slate-950/50 via-transparent to-slate-950/60" style={{ zIndex: 1 }} />
+      <div className="absolute inset-0 bg-slate-900/40" style={{ zIndex: 1 }} />
     </div>
   );
 };
