@@ -149,7 +149,7 @@ export const HistoryDetail = () => {
                     <XCircle size={28} />
                   </div>
                   <h3 className="text-3xl font-extrabold text-slate-900">
-                    {lang === 'en' ? 'Controversies & Failures' : 'विवाद और कमियां'}
+                    {lang === 'en' ? 'Controversies' : 'विवाद'}
                   </h3>
                 </div>
                 <ul className="space-y-4 bg-red-50/50 p-6 rounded-3xl border border-red-100">
