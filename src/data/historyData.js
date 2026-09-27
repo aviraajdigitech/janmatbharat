@@ -867,65 +867,114 @@ export const pmHistory = [
       "आगरा शिखर सम्मेलन (2001) की विफलता: पाकिस्तान के परवेज मुशर्रफ के साथ शांति वार्ता पूरी तरह से विफल रही और कोई समझौता नहीं हो सका।"
     ]
   },
-  {
-    id: "term_17_14th_15th_loksabha_manmohan",
-    pm_name_en: "Dr. Manmohan Singh",
-    pm_name_hi: "डॉ. मनमोहन सिंह",
-    term_en: "22 May 2004 – 26 May 2014",
-    term_hi: "22 मई 2004 – 26 मई 2014",
-    period_en: "14th & 15th Lok Sabha",
-    period_hi: "14वीं और 15वीं लोकसभा",
-    party_en: "Indian National Congress (INC)",
-    party_hi: "भारतीय राष्ट्रीय कांग्रेस (INC)",
-    coalition_en: "United Progressive Alliance (UPA I & II)",
-    coalition_hi: "संयुक्त प्रगतिशील गठबंधन (UPA I & II)",
-    symbol: "✋", 
-    image: "/assets/pms/manmohan.jpg",
-    biography_en: {
-      born: "September 26, 1932, in Gah (now Pakistan).",
-      education: "Economics degrees from Panjab University, Cambridge, and a D.Phil from Oxford.",
-      profile: "A world-renowned economist who served two full terms leading the UPA coalition. He masterminded the 1991 reforms as Finance Minister and later as PM oversaw the historic Indo-US Civil Nuclear Deal, massive poverty alleviation programs (MNREGA), and the Right to Information (RTI) Act."
+  
+    {
+      id: "term_17_14th_loksabha_manmohan1",
+      pm_name_en: "Dr. Manmohan Singh",
+      pm_name_hi: "डॉ. मनमोहन सिंह",
+      term_en: "22 May 2004 – 22 May 2009",
+      term_hi: "22 मई 2004 – 22 मई 2009",
+      period_en: "14th Lok Sabha",
+      period_hi: "14वीं लोकसभा",
+      party_en: "Indian National Congress (UPA-I)",
+      party_hi: "भारतीय राष्ट्रीय कांग्रेस (UPA-I)",
+      coalition_en: "United Progressive Alliance (UPA-I)",
+      coalition_hi: "संयुक्त प्रगतिशील गठबंधन (UPA-I)",
+      symbol: "✋", 
+      image: "/assets/pms/manmohan.jpg",
+      biography_en: {
+        born: "September 26, 1932, in Gah, Punjab (now Pakistan).",
+        education: "D.Phil from Nuffield College, Oxford and Economics Tripos from Cambridge.",
+        profile: "A world-renowned economist who shifted India's governance to a rights-based model. His first term is noted for historic economic growth, the Indo-US Nuclear Deal, and welfare legislations like MGNREGA and RTI."
+      },
+      biography_hi: {
+        born: "26 सितंबर 1932, गाह, पंजाब (अब पाकिस्तान में)",
+        education: "कैम्ब्रिज विश्वविद्यालय से अर्थशास्त्र और ऑक्सफोर्ड से डी.फिल।",
+        profile: "एक विश्व-प्रसिद्ध अर्थशास्त्री जिन्होंने शासन को 'अधिकार-आधारित' (Rights-based) मॉडल में बदला। उनका पहला कार्यकाल ऐतिहासिक आर्थिक विकास, भारत-अमेरिका परमाणु समझौते, मनरेगा और RTI के लिए जाना जाता है।"
+      },
+      achievements_en: [
+        "High GDP Growth & Economic Boom: Oversaw India's high-growth phase, with GDP consistently growing around 9% between 2005-2008, massively boosting domestic investment and tax-to-GDP ratios.",
+        "MGNREGA (2005): Launched the historic rural employment guarantee act, creating a legal entitlement to 100 days of wage employment and generating over 600 crore person-days of work by 2009.",
+        "Right to Information (RTI) Act, 2005: Established a landmark legal mechanism for transparency, fundamentally empowering citizens to hold the government accountable.",
+        "Indo-US Civil Nuclear Deal (2008): Secured India's entry into global civilian nuclear commerce despite not being an NPT signatory, a massive strategic foreign-policy achievement.",
+        "Rural Health & Infrastructure: Launched the National Rural Health Mission (NRHM) introducing ASHA workers, and heavily expanded rural roads and infrastructure investments.",
+        "Education Expansion: Expanded the Sarva Shiksha Abhiyan and Mid-Day Meal schemes, while launching a massive expansion of higher education (new IITs, IIMs, and NITs).",
+        "Farmers' Debt Relief (2008): Implemented a massive ₹60,000 crore+ agricultural debt waiver scheme, providing significant institutional debt relief to small and marginal farmers.",
+        "Navigated the 2008 Global Financial Crisis: Successfully deployed fiscal stimulus and monetary measures to shield the Indian economy from the global recession, rebounding growth back to 8.6% by 2009."
+      ],
+      achievements_hi: [
+        "आर्थिक विकास (High GDP Growth): 2005 से 2008 के बीच लगातार लगभग 9% की शानदार आर्थिक वृद्धि दर हासिल की, जिससे घरेलू निवेश और अर्थव्यवस्था में भारी तेजी आई।",
+        "मनरेगा (MGNREGA, 2005): ग्रामीण गरीबों को साल में 100 दिन के रोजगार का कानूनी अधिकार दिया, जिसने ग्रामीण मजदूरों की सौदेबाजी की ताकत (Bargaining power) को बढ़ाया।",
+        "सूचना का अधिकार (RTI Act, 2005): आम नागरिकों को सरकारी रिकॉर्ड तक कानूनी पहुंच देकर सरकार की जवाबदेही तय करने का ऐतिहासिक काम किया।",
+        "भारत-अमेरिका सिविल परमाणु समझौता: NPT पर हस्ताक्षर किए बिना भारत को वैश्विक असैन्य परमाणु व्यापार में एंट्री दिलाई, जो एक बहुत बड़ी रणनीतिक (Strategic) कूटनीतिक जीत थी।",
+        "ग्रामीण स्वास्थ्य (NRHM) और इंफ्रास्ट्रक्चर: 'नेशनल रूरल हेल्थ मिशन' (NRHM) शुरू कर ASHA वर्कर्स का नेटवर्क बनाया और ग्रामीण सड़कों व इंफ्रास्ट्रक्चर पर भारी निवेश किया।",
+        "शिक्षा का व्यापक विस्तार: मिड-डे मील और सर्व शिक्षा अभियान का विस्तार किया, और उच्च शिक्षा में कई नए IITs, IIMs और NITs खोलने की प्रक्रिया शुरू की।",
+        "किसानों की कर्जमाफी (2008): छोटे और सीमांत किसानों को राहत देने के लिए ₹60,000 करोड़ से ज्यादा की ऐतिहासिक कृषि ऋण माफी योजना लागू की।",
+        "2008 के वैश्विक वित्तीय संकट से निपटना: दुनिया भर में आई भयंकर आर्थिक मंदी के बावजूद फिस्कल स्टिमुलस के जरिए भारत की अर्थव्यवस्था को बचाया और ग्रोथ वापस पटरी पर लाई।"
+      ],
+      criticisms_en: [
+        "Indo-US Nuclear Deal Political Crisis: The deal triggered a massive political crisis when Left parties withdrew support, forcing a trust vote that the government barely survived.",
+        "Cash-for-Votes Scandal (2008): The 2008 trust vote was deeply marred by the 'cash-for-votes' scandal, with allegations of rampant horse-trading and bribery to save the government.",
+        "26/11 Mumbai Terror Attacks: The horrific 2008 terror attacks exposed severe intelligence and coastal security failures, sparking immense national outrage over the government's preparedness.",
+        "Runaway Inflation & Food Prices: Despite high growth, soaring global commodity prices around 2008 led to severe domestic inflation, making food and fuel excessively expensive for the common man.",
+        "Coalition Politics & Policy Compromises: Ruling through a complex coalition often led to policy constraints and allegations that the government had to make continuous political compromises to survive."
+      ],
+      criticisms_hi: [
+        "परमाणु समझौते पर राजनीतिक संकट: भारत-अमेरिका परमाणु समझौते के विरोध में वामपंथी (Left) दलों ने समर्थन वापस ले लिया, जिससे सरकार गिरने की नौबत आ गई।",
+        "कैश-फॉर-वोट (Cash-for-Votes) स्कैंडल: 2008 के विश्वास मत (Trust Vote) के दौरान सांसदों की खरीद-फरोख्त (Horse-trading) और रिश्वतखोरी के गंभीर आरोप लगे।",
+        "26/11 मुंबई आतंकी हमले: 2008 के खौफनाक आतंकी हमलों ने सरकार की खुफिया (Intelligence) और सुरक्षा तंत्र की भारी विफलताओं को उजागर किया।",
+        "बेकाबू महंगाई: शानदार ग्रोथ के बावजूद 2008 के आसपास खाद्य पदार्थों और ईंधन की कीमतें तेजी से बढ़ीं, जिससे आम जनता पर महंगाई की भारी मार पड़ी।",
+        "गठबंधन राजनीति का दबाव: वामपंथी और क्षेत्रीय दलों के दबाव में सरकार को कई बार अपनी नीतियों से समझौता (Policy compromise) करना पड़ा।"
+      ]
     },
-    biography_hi: {
-      born: "26 सितंबर 1932, गाह (अब पाकिस्तान में)।",
-      education: "पंजाब विश्वविद्यालय, कैम्ब्रिज और ऑक्सफोर्ड से अर्थशास्त्र में उच्च डिग्री।",
-      profile: "एक विश्व-प्रसिद्ध अर्थशास्त्री जिन्होंने यूपीए सरकार का दो बार नेतृत्व किया। उनके कार्यकाल में ऐतिहासिक भारत-अमेरिका परमाणु समझौता, मनरेगा (MNREGA) जैसी गरीबी उन्मूलन योजनाएँ, और सूचना का अधिकार (RTI) लागू किए गए।"
+    {
+      id: "term_17b_15th_loksabha_manmohan2",
+      pm_name_en: "Dr. Manmohan Singh",
+      pm_name_hi: "डॉ. मनमोहन सिंह",
+      term_en: "22 May 2009 – 26 May 2014",
+      term_hi: "22 मई 2009 – 26 मई 2014",
+      period_en: "15th Lok Sabha",
+      period_hi: "15वीं लोकसभा",
+      party_en: "Indian National Congress (UPA-II)",
+      party_hi: "भारतीय राष्ट्रीय कांग्रेस (UPA-II)",
+      coalition_en: "United Progressive Alliance (UPA-II)",
+      coalition_hi: "संयुक्त प्रगतिशील गठबंधन (UPA-II)",
+      symbol: "✋", 
+      image: "/assets/pms/manmohan.jpg",
+      biography_en: {
+        born: "September 26, 1932, in Gah, Punjab (now Pakistan).",
+        education: "D.Phil from Nuffield College, Oxford and Economics Tripos from Cambridge.",
+        profile: "While his first term saw historic growth, his second term was heavily marred by massive corruption scandals and policy paralysis, eventually leading to a historic defeat in 2014."
+      },
+      biography_hi: {
+        born: "26 सितंबर 1932, गाह, पंजाब (अब पाकिस्तान में)",
+        education: "कैम्ब्रिज विश्वविद्यालय से अर्थशास्त्र और ऑक्सफोर्ड से डी.फिल।",
+        profile: "उनका पहला कार्यकाल ऐतिहासिक ग्रोथ का था, लेकिन दूसरा कार्यकाल महा-घोटालों और पॉलिसी पैरालिसिस के कारण बुरी तरह प्रभावित हुआ, जिसने 2014 में ऐतिहासिक हार की नींव रखी।"
+      },
+      achievements_en: [
+        "Aadhaar (UIDAI): Launched the world's largest biometric ID system, laying the groundwork for Direct Benefit Transfers (DBT) and removing middlemen from welfare distribution.",
+        "Right to Education (RTE) Act: Implemented the RTE in 2010, making education a fundamental, legally enforceable right for every child between the ages of 6 and 14."
+      ],
+      achievements_hi: [
+        "आधार (Aadhaar / UIDAI): दुनिया की सबसे बड़ी बायोमेट्रिक पहचान प्रणाली शुरू की, जिसने 'डायरेक्ट बेनिफिट ट्रांसफर' (DBT) की नींव रखी और बिचौलियों को खत्म किया।",
+        "शिक्षा का अधिकार (RTE) अधिनियम: 2010 से इसे लागू किया, जिसने 6 से 14 वर्ष की आयु के प्रत्येक बच्चे के लिए शिक्षा को एक मौलिक और कानूनी अधिकार बनाया।"
+      ],
+      criticisms_en: [
+        "Massive Corruption Scandals (UPA-II): His second term was entirely derailed by astronomical corruption allegations, including the 2G Spectrum Scam, Coalgate (Coal block allocation), and the 2010 Commonwealth Games (CWG) scam.",
+        "Perception of Weakness: He was widely perceived as a 'remote-controlled' Prime Minister, lacking real political authority, with power concentrated in the hands of Congress President Sonia Gandhi.",
+        "Policy Paralysis: The avalanche of scams led to extreme bureaucratic caution, causing severe 'policy paralysis', stalling infrastructure projects and crashing economic growth.",
+        "Runaway Inflation: The later years of UPA-II saw double-digit inflation (especially in food prices) and a sharply depreciating Rupee, devastating the middle class.",
+        "The 'Nirbhaya' Protests (2012): The government's initially insensitive response to the brutal Delhi gang-rape sparked nationwide, unprecedented protests against women's safety failures."
+      ],
+      criticisms_hi: [
+        "महा-घोटाले (UPA-II): उनका दूसरा कार्यकाल 2G स्पेक्ट्रम घोटाला, कोयला घोटाला (Coalgate), और 2010 कॉमनवेल्थ गेम्स (CWG) घोटाले जैसे भ्रष्टाचार के भारी आरोपों से पूरी तरह बर्बाद हो गया।",
+        "कमजोर प्रधानमंत्री की छवि: जनता में यह धारणा बन गई थी कि वे एक 'रिमोट-कंट्रोल' प्रधानमंत्री हैं और असली सत्ता कांग्रेस अध्यक्ष सोनिया गांधी के हाथों में है।",
+        "पॉलिसी पैरालिसिस (Policy Paralysis): घोटालों के डर से नौकरशाही में इतना खौफ आ गया कि सरकारी फैसले लेने बंद हो गए। इससे इंफ्रास्ट्रक्चर प्रोजेक्ट रुक गए और आर्थिक विकास दर धड़ाम हो गई।",
+        "बेकाबू महंगाई: UPA-II के अंतिम वर्षों में दोहरे अंकों की महंगाई (Double-digit inflation) और गिरते रुपये ने आम आदमी और मध्यम वर्ग की कमर तोड़ दी।",
+        "निर्भया कांड (2012): दिल्ली में हुए क्रूर गैंगरेप के बाद सरकार की शुरुआती असंवेदनशीलता के कारण महिला सुरक्षा को लेकर पूरे देश में भयंकर विरोध प्रदर्शन हुए।"
+      ]
     },
-    achievements_en: [
-      "Golden Era of GDP Growth: Oversaw India's highest sustained economic growth period in history, with GDP consistently growing at 8-9% before the 2008 global financial crisis.",
-      "Right to Information (RTI) Act, 2005: Passed the landmark transparency law, fundamentally empowering Indian citizens to question government authorities and expose corruption.",
-      "MGNREGA (2005): Launched the world's largest social welfare scheme, guaranteeing 100 days of wage employment to rural households, massively reducing rural poverty.",
-      "Indo-US Civil Nuclear Agreement (2008): Staked his government's survival to sign this historic pact, effectively ending India's nuclear isolation and securing uranium for nuclear energy.",
-      "Aadhaar (UIDAI): Launched the world's largest biometric ID system, laying the groundwork for Direct Benefit Transfers (DBT) and removing middlemen from welfare distribution.",
-      "Right to Education (RTE) Act, 2009: Made education a fundamental, legally enforceable right for every child between the ages of 6 and 14.",
-      "Navigated the 2008 Global Financial Crisis with extreme prudence, insulating the Indian banking sector from the subprime mortgage collapse."
-    ],
-    achievements_hi: [
-      "GDP वृद्धि का सुनहरा दौर: उनके कार्यकाल में भारत ने अपने इतिहास की सबसे तेज और स्थिर आर्थिक वृद्धि (8-9% GDP growth) देखी।",
-      "सूचना का अधिकार (RTI) अधिनियम, 2005: पारदर्शिता लाने वाला यह ऐतिहासिक कानून पास किया, जिसने नागरिकों को सरकार से सवाल पूछने और भ्रष्टाचार को उजागर करने की ताकत दी।",
-      "मनरेगा (MGNREGA, 2005): दुनिया की सबसे बड़ी सामाजिक कल्याण योजना शुरू की, जिसमें ग्रामीण परिवारों को 100 दिनों के रोजगार की गारंटी दी गई और ग्रामीण गरीबी में भारी कमी आई।",
-      "भारत-अमेरिका असैन्य परमाणु समझौता (2008): इस ऐतिहासिक समझौते को पास कराने के लिए अपनी सरकार दांव पर लगा दी, जिससे भारत का 'परमाणु अलगाव' (Nuclear isolation) खत्म हुआ।",
-      "आधार (Aadhaar / UIDAI): दुनिया की सबसे बड़ी बायोमेट्रिक पहचान प्रणाली शुरू की, जिसने 'डायरेक्ट बेनिफिट ट्रांसफर' (DBT) की नींव रखी और बिचौलियों को खत्म किया।",
-      "शिक्षा का अधिकार (RTE) अधिनियम, 2009: 6 से 14 वर्ष की आयु के प्रत्येक बच्चे के लिए शिक्षा को एक मौलिक और कानूनी अधिकार बनाया।",
-      "2008 के वैश्विक वित्तीय संकट (Global Financial Crisis) का बहुत समझदारी से सामना किया और भारतीय बैंकिंग क्षेत्र को डूबने से बचाया।"
-    ],
-    criticisms_en: [
-      "Massive Corruption Scandals (UPA-II): His second term was entirely derailed by astronomical corruption allegations, including the 2G Spectrum Scam, Coalgate (Coal block allocation), and the 2010 Commonwealth Games (CWG) scam.",
-      "Perception of Weakness: He was widely perceived as a 'remote-controlled' Prime Minister, lacking real political authority, with power concentrated in the hands of Congress President Sonia Gandhi and the NAC.",
-      "Policy Paralysis: The avalanche of scams led to extreme bureaucratic caution, causing severe 'policy paralysis', stalling infrastructure projects and crashing economic growth in his final years.",
-      "Runaway Inflation: The later years of UPA-II saw double-digit inflation (especially in food prices) and a sharply depreciating Rupee, devastating the middle class.",
-      "Handling of 26/11 Mumbai Attacks (2008): The government faced immense public anger for its lack of military retaliation against Pakistan following the horrific terror attacks.",
-      "The 'Nirbhaya' Protests (2012): The government's initially insensitive response to the brutal Delhi gang-rape sparked nationwide, unprecedented protests against women's safety failures."
-    ],
-    criticisms_hi: [
-      "महा-घोटाले (UPA-II): उनका दूसरा कार्यकाल 2G स्पेक्ट्रम घोटाला, कोयला घोटाला (Coalgate), और 2010 कॉमनवेल्थ गेम्स (CWG) घोटाले जैसे भ्रष्टाचार के भारी आरोपों से पूरी तरह बर्बाद हो गया।",
-      "कमजोर प्रधानमंत्री की छवि: जनता में यह धारणा बन गई थी कि वे एक 'रिमोट-कंट्रोल' प्रधानमंत्री हैं और असली सत्ता कांग्रेस अध्यक्ष सोनिया गांधी के हाथों में है।",
-      "पॉलिसी पैरालिसिस (Policy Paralysis): घोटालों के डर से नौकरशाही में इतना खौफ आ गया कि सरकारी फैसले लेने बंद हो गए। इससे इंफ्रास्ट्रक्चर प्रोजेक्ट रुक गए और आर्थिक विकास दर धड़ाम हो गई।",
-      "बेकाबू महंगाई: UPA-II के अंतिम वर्षों में दोहरे अंकों की महंगाई (Double-digit inflation) और गिरते रुपये ने आम आदमी और मध्यम वर्ग की कमर तोड़ दी।",
-      "26/11 मुंबई हमले (2008): इन खौफनाक आतंकी हमलों के बाद पाकिस्तान के खिलाफ कोई भी 'सैन्य जवाबी कार्रवाई' (Military retaliation) न करने पर सरकार को भारी जनता के गुस्से का सामना करना पड़ा।",
-      "निर्भया कांड (2012): दिल्ली में हुए क्रूर गैंगरेप के बाद सरकार की शुरुआती असंवेदनशीलता के कारण महिला सुरक्षा को लेकर पूरे देश में भयंकर विरोध प्रदर्शन हुए।"
-    ]
-  },
+
   {
     id: "term_18_16th_loksabha_modi1",
     pm_name_en: "Narendra Modi",
