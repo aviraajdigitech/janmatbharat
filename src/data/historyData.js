@@ -241,7 +241,7 @@ export const pmHistory = [
     coalition_en: "Minority Gov (Supported by CPI)",
     coalition_hi: "अल्पमत सरकार (CPI के समर्थन से)",
     symbol: "🐄", // Cow and Calf symbol
-    image: "/assets/pms/indira.jpg",
+    image: "/assets/pms/indira.png",
     achievements_en: [
       "Nationalized 14 major private banks in 1969 to increase agricultural lending.",
       "Abolished the 'Privy Purse' (royalties given to former kings) to promote equality.",
@@ -282,7 +282,7 @@ export const pmHistory = [
     coalition_en: "Absolute Majority (352/518 seats)",
     coalition_hi: "प्रचंड बहुमत (518 में से 352 सीटें)",
     symbol: "🐄", 
-    image: "/assets/pms/indira.jpg",
+    image: "/assets/pms/indira.png",
     achievements_en: [
       "Led India to its greatest military victory in the 1971 war, resulting in the creation of Bangladesh.",
       "Conducted India's first successful nuclear test 'Smiling Buddha' at Pokhran (1974).",
@@ -417,7 +417,7 @@ export const pmHistory = [
     coalition_en: "Absolute Majority (353/529 seats)",
     coalition_hi: "प्रचंड बहुमत (529 में से 353 सीटें)",
     symbol: "✋", 
-    image: "/assets/pms/indira.jpg",
+    image: "/assets/pms/indira.png",
     achievements_en: [
       "Made a spectacular political comeback in 1980 under the powerful slogan 'Elect a Government that Works', capitalizing on the Janata Party's catastrophic failures.",
       "Successfully hosted the 1982 Asian Games in New Delhi, which catalyzed massive infrastructural development in the capital and introduced Color Television broadcasting to India.",
@@ -634,7 +634,7 @@ export const pmHistory = [
     coalition_en: "Minority Gov (Externally backed by Congress)",
     coalition_hi: "अल्पमत सरकार (कांग्रेस का बाहरी समर्थन)",
     symbol: "⚙️", 
-    image: "/assets/pms/deve_gowda.jpg",
+    image: "/assets/pms/deve_gowda.png",
     achievements_en: [
       "H.D. Deve Gowda, known as 'Mannina Maga' (Son of the Soil), became the first Prime Minister from Karnataka and heavily championed farmers' causes and agricultural subsidies.",
       "The 'Gujral Doctrine' (formulated by I.K. Gujral): A milestone in India's foreign policy emphasizing peaceful, non-reciprocal, and generous relations with smaller neighboring countries (like Bangladesh, Nepal, and Sri Lanka) to build regional trust.",
