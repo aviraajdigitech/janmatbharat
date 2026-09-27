@@ -1006,24 +1006,28 @@ export const pmHistory = [
       profile: "स्वतंत्र भारत में जन्म लेने वाले पहले प्रधानमंत्री, जिन्होंने 2014 और 2019 में पूर्ण बहुमत के साथ भारतीय राजनीति की दिशा बदल दी। वे अपनी मजबूत नेतृत्व शैली के लिए जाने जाते हैं। उनके कार्यकाल में धारा 370 हटाना, राम मंदिर निर्माण, GST लागू करना और डिजिटल इंडिया जैसी बड़ी योजनाएं शामिल हैं।"
     },
     achievements_en: [
-      "Abrogation of Article 370 (August 2019): Fulfilled a core ideological promise by removing the special status of Jammu & Kashmir and fully integrating it into the Indian Union.",
-      "Ram Mandir Construction: Overseaw the peaceful legal resolution of the Ayodhya dispute (Supreme Court 2019 verdict) and presided over the historic 'Pran Pratishtha' (consecration) of the Ram Mandir in 2024.",
-      "Massive Infrastructure Push: Revolutionized Indian Railways with the indigenous 'Vande Bharat' express trains, executed the 'Gati Shakti' masterplan, and built world-class highways at a record pace.",
-      "Chandrayaan-3 Success (2023): Under his administration, ISRO successfully landed on the Moon's South Pole, making India the first country in the world to do so.",
-      "G20 Presidency (2023): Elevated India's geopolitical stature globally by flawlessly hosting the G20 Summit in New Delhi and successfully adopting the New Delhi Leaders' Declaration.",
-      "Covid-19 Vaccination (CoWIN): Overcoming the horrific second wave, India executed the world's largest and fastest COVID-19 vaccination drive, delivering over 2 billion doses using the digital CoWIN platform.",
-      "Women's Reservation Bill (2023): Passed the historic 'Nari Shakti Vandan Adhiniyam' reserving 33% of seats for women in the Lok Sabha and State Assemblies."
-    ],
-    achievements_hi: [
-      "अनुच्छेद 370 हटाना (अगस्त 2019): जम्मू-कश्मीर का विशेष राज्य का दर्जा समाप्त करके उसे पूरी तरह से भारत संघ (Indian Union) में शामिल कर अपना मुख्य वैचारिक वादा पूरा किया।",
-      "राम मंदिर का निर्माण: अयोध्या विवाद के शांतिपूर्ण कानूनी समाधान (सुप्रीम कोर्ट 2019) का मार्ग प्रशस्त किया और 2024 में राम मंदिर की ऐतिहासिक 'प्राण प्रतिष्ठा' संपन्न की।",
-      "इंफ्रास्ट्रक्चर में महा-क्रांति: स्वदेशी 'वंदे भारत' (Vande Bharat) एक्सप्रेस ट्रेनों से भारतीय रेलवे को आधुनिक बनाया, 'गति शक्ति' (Gati Shakti) मास्टरप्लान लागू किया और रिकॉर्ड गति से हाईवे बनाए।",
-      "चंद्रयान-3 की सफलता (2023): उनके प्रशासन के दौरान, ISRO ने चंद्रमा के दक्षिणी ध्रुव पर सफलतापूर्वक लैंडिंग की, जिससे भारत ऐसा करने वाला दुनिया का पहला देश बन गया।",
-      "G20 अध्यक्षता (2023): नई दिल्ली में G20 शिखर सम्मेलन की शानदार मेजबानी की, जिससे वैश्विक मंच पर भारत की भू-राजनीतिक (Geopolitical) ताकत और सम्मान बहुत बढ़ गया।",
-      "कोविड-19 टीकाकरण (CoWIN): भयानक दूसरी लहर के बाद, भारत ने डिजिटल 'कोविन' प्लेटफॉर्म का उपयोग करके 200 करोड़ से अधिक खुराक देकर दुनिया का सबसे बड़ा और सबसे तेज टीकाकरण अभियान चलाया।",
-      "महिला आरक्षण बिल (2023): लोकसभा और राज्य विधानसभाओं में महिलाओं के लिए 33% सीटें आरक्षित करने वाला ऐतिहासिक 'नारी शक्ति वंदन अधिनियम' पास किया।"
-    ],
-    criticisms_en: [
+      "Article 370 & Ram Mandir: Executed historic socio-political changes by abrogating Article 370 (August 2019) to fully integrate Jammu & Kashmir, and overseeing the construction and Pran Pratishtha of the Ram Mandir in Ayodhya (2024).",
+      "Jal Jeevan Mission & PM-KISAN: Expanded rural welfare massively by providing tap-water connections to over 75% of rural households and transferring over ₹3 lakh crore directly to farmers' bank accounts (PM-KISAN).",
+      "COVID-19 Resilience (Vaccination & Welfare): Managed the pandemic fallout by running the world's largest digital vaccination drive (220+ crore doses via CoWIN) and providing free foodgrains to over 80 crore people through PMGKAY.",
+      "Digital Payments & UPI Boom: Oversaw the explosive mass adoption of UPI, which transformed into the backbone of India's everyday payment system, crossing a staggering 16 billion transactions a month by 2024.",
+      "Infrastructure & Vande Bharat: Continued a massive infrastructure push, rapidly expanding the National Highway network (over 1.46 lakh km) and modernizing railways with Vande Bharat trains and large-scale electrification.",
+      "Manufacturing & Semiconductors (PLI): Launched Production Linked Incentive (PLI) schemes and the 'Semicon India' mission under the 'Atmanirbhar Bharat' vision, transforming India into a major mobile manufacturer and initiating a domestic chip ecosystem.",
+      "Legislative Overhauls: Passed landmark reforms including the National Education Policy (NEP 2020), the Women's Reservation Law (33% seats), and replaced colonial-era penal codes with three new criminal laws (BNS, BNSS, BSA).",
+      "Global Leadership (G20 & Foreign Policy): Successfully hosted the 2023 G20 Summit (including the African Union's inclusion and IMEC announcement) and maintained strong 'Strategic Autonomy' in foreign policy amid the Russia-Ukraine war.",
+      "Economic Recovery & Banking Cleanup: Spearheaded a strong economic recovery post-COVID, and successfully reduced Gross NPAs in the banking sector from ₹10.36 lakh crore (2018) to ₹4.75 lakh crore (2024)."
+],
+      achievements_hi: [
+      "अनुच्छेद 370 और राम मंदिर: अगस्त 2019 में ऐतिहासिक फैसला लेते हुए जम्मू-कश्मीर से अनुच्छेद 370 हटाया। साथ ही, सुप्रीम कोर्ट के फैसले के बाद अयोध्या में भव्य राम मंदिर का निर्माण और 2024 में प्राण-प्रतिष्ठा की।",
+      "जल जीवन मिशन और PM-किसान: ग्रामीण भारत में बुनियादी सुविधाएं बढ़ाते हुए 'जल जीवन मिशन' से 75% से अधिक ग्रामीण घरों में नल का पानी पहुँचाया और PM-किसान सम्मान निधि के जरिए सीधे किसानों के खातों में 3 लाख करोड़ से ज्यादा भेजे।",
+      "कोविड-19 प्रबंधन (टीकाकरण व मुफ्त राशन): CoWIN के जरिए दुनिया का सबसे बड़ा टीकाकरण अभियान (220 करोड़+ डोज) चलाया और PM गरीब कल्याण अन्न योजना (PMGKAY) से 80 करोड़ से ज्यादा लोगों को मुफ्त राशन देकर सुरक्षा कवच दिया।",
+      "UPI और डिजिटल क्रांति: दूसरे कार्यकाल में UPI देश के हर नागरिक के लेन-देन का मुख्य हिस्सा बन गया। 2024 आते-आते यह हर महीने 16 बिलियन (1600 करोड़) से ज्यादा ट्रांजैक्शन पार कर गया।",
+      "इंफ्रास्ट्रक्चर और वंदे भारत: नेशनल हाईवे नेटवर्क का तेजी से विस्तार किया और 'वंदे भारत' ट्रेनों व रेलवे के व्यापक विद्युतीकरण के जरिए भारतीय रेल के आधुनिकीकरण (Modernization) को रफ्तार दी।",
+      "PLI स्कीम और सेमीकंडक्टर मिशन: 'आत्मनिर्भर भारत' के तहत PLI स्कीम्स और 'सेमीकॉन इंडिया' शुरू किया। इससे भारत मोबाइल मैन्युफैक्चरिंग का ग्लोबल हब बना और देश में सेमीकंडक्टर (चिप) इकोसिस्टम की नींव रखी गई।",
+      "ऐतिहासिक कानून (NEP, महिला आरक्षण, नए आपराधिक कानून): राष्ट्रीय शिक्षा नीति (NEP 2020), संसद में 33% महिला आरक्षण कानून, और अंग्रेजों के जमाने के कानूनों को हटाकर तीन नए आपराधिक कानून (BNS, BNSS, BSA) पास किए।",
+      "कूटनीति और G20 की अध्यक्षता: 2023 में सफल G20 शिखर सम्मेलन की मेजबानी की और रूस-यूक्रेन युद्ध के बीच कूटनीतिक 'स्ट्रैटेजिक ऑटोनॉमी' (Strategic Autonomy) बनाए रखी।",
+      "मजबूत अर्थव्यवस्था और बैंकिंग सुधार: कोविड की भारी गिरावट के बाद अर्थव्यवस्था की मजबूत रिकवरी (V-Shape Recovery) की, और कड़े सुधारों (IBC आदि) के चलते बैंकों का फंसा हुआ कर्ज (NPA) आधे से भी कम हो गया।"
+],
+      criticisms_en: [
       "COVID-19 Second Wave Catastrophe: The government faced intense global and domestic outrage for severe unpreparedness during the 2021 Delta wave, leading to massive oxygen shortages, collapsed healthcare, and tragic images of floating bodies in the Ganga.",
       "The Three Farm Laws & Historic Protests: Passed major agricultural reforms without parliamentary debate, leading to a massive, year-long farmer protest at Delhi's borders, eventually forcing the PM to repeal the laws on national television.",
       "Manipur Ethnic Violence (2023): The Prime Minister maintained a prolonged, controversial silence as the northeastern state of Manipur burned in violent ethnic clashes for over a year.",
