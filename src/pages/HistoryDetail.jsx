@@ -80,6 +80,48 @@ export const HistoryDetail = () => {
           {/* Detailed Content */}
           <div className="lg:w-2/3 p-10 lg:p-12">
             <div className="grid grid-cols-1 gap-12">
+              {/* Biography / Parichay */}
+              {(lang === 'en' ? termData.biography_en : termData.biography_hi) && (
+                <div>
+                  <div className="flex items-center gap-3 mb-6">
+                    <div className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 shadow-sm border border-blue-200">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    </div>
+                    <h3 className="text-3xl font-extrabold text-slate-900">
+                      {lang === 'en' ? 'Profile & Introduction' : 'परिचय एवं पृष्ठभूमि'}
+                    </h3>
+                  </div>
+                  <div className="bg-slate-50 p-6 rounded-3xl border border-slate-200 space-y-4">
+                    <div className="flex flex-col sm:flex-row gap-2 sm:gap-6">
+                      <div className="flex-1">
+                        <h4 className="text-sm font-bold text-slate-500 uppercase tracking-wider mb-1">
+                          {lang === 'en' ? 'Born' : 'जन्म'}
+                        </h4>
+                        <p className="text-slate-800 font-medium">
+                          {(lang === 'en' ? termData.biography_en : termData.biography_hi).born}
+                        </p>
+                      </div>
+                      <div className="flex-1 mt-4 sm:mt-0">
+                        <h4 className="text-sm font-bold text-slate-500 uppercase tracking-wider mb-1">
+                          {lang === 'en' ? 'Education' : 'शिक्षा'}
+                        </h4>
+                        <p className="text-slate-800 font-medium">
+                          {(lang === 'en' ? termData.biography_en : termData.biography_hi).education}
+                        </p>
+                      </div>
+                    </div>
+                    <div className="pt-4 border-t border-slate-200">
+                      <h4 className="text-sm font-bold text-slate-500 uppercase tracking-wider mb-2">
+                        {lang === 'en' ? 'About' : 'संक्षिप्त परिचय'}
+                      </h4>
+                      <p className="text-slate-800 font-medium leading-relaxed">
+                        {(lang === 'en' ? termData.biography_en : termData.biography_hi).profile}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              )}
+
               {/* Achievements */}
               <div>
                 <div className="flex items-center gap-3 mb-6">
