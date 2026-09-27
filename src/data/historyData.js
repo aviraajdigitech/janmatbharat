@@ -1028,13 +1028,15 @@ export const pmHistory = [
       "मजबूत अर्थव्यवस्था और बैंकिंग सुधार: कोविड की भारी गिरावट के बाद अर्थव्यवस्था की मजबूत रिकवरी (V-Shape Recovery) की, और कड़े सुधारों (IBC आदि) के चलते बैंकों का फंसा हुआ कर्ज (NPA) आधे से भी कम हो गया।"
 ],
       criticisms_en: [
-      "COVID-19 Second Wave Catastrophe: The government faced intense global and domestic outrage for severe unpreparedness during the 2021 Delta wave, leading to massive oxygen shortages, collapsed healthcare, and tragic images of floating bodies in the Ganga.",
+      "Sudden Lockdown & Migrant Crisis: The abrupt nationwide lockdown in March 2020 triggered a massive humanitarian crisis, leaving millions of migrant workers stranded without income and forcing them to walk back to their home states.",
+      "COVID-19 Second Wave Catastrophe: The government faced intense global and domestic outrage for severe unpreparedness during the 2021 Delta wave, leading to massive oxygen shortages and collapsed healthcare.",
       "The Three Farm Laws & Historic Protests: Passed major agricultural reforms without parliamentary debate, leading to a massive, year-long farmer protest at Delhi's borders, eventually forcing the PM to repeal the laws on national television.",
       "Manipur Ethnic Violence (2023): The Prime Minister maintained a prolonged, controversial silence as the northeastern state of Manipur burned in violent ethnic clashes for over a year.",
       "CAA/NRC Protests: The passage of the Citizenship Amendment Act (CAA, 2019) sparked massive nationwide protests."
 ],
       criticisms_hi: [
-      "कोविड-19 दूसरी लहर की त्रासदी: 2021 में सरकार की भारी लापरवाही के कारण ऑक्सीजन की कमी, टूटता स्वास्थ्य तंत्र और गंगा में तैरती लाशों की तस्वीरों ने देश और दुनिया में सरकार की भारी आलोचना कराई।",
+      "अचानक लॉकडाउन और प्रवासी मजदूर संकट: मार्च 2020 में अचानक लगाए गए देशव्यापी लॉकडाउन के कारण लाखों प्रवासी मजदूरों का रोजगार छिन गया और उन्हें भारी परेशानियों के बीच पैदल ही अपने घरों की ओर लौटना पड़ा।",
+      "कोविड-19 दूसरी लहर की त्रासदी: 2021 में सरकार की भारी लापरवाही के कारण ऑक्सीजन की कमी और चरमराते स्वास्थ्य तंत्र ने देश और दुनिया में सरकार की भारी आलोचना कराई।",
       "तीन कृषि कानून और ऐतिहासिक आंदोलन: बिना संसद में चर्चा के कृषि कानून पास किए गए, जिसके कारण दिल्ली की सीमाओं पर 1 साल से भी अधिक समय तक किसानों का ऐतिहासिक आंदोलन चला। अंततः पीएम को टीवी पर आकर कानून वापस लेने पड़े।",
       "मणिपुर जातीय हिंसा (2023): जब पूर्वोत्तर राज्य मणिपुर एक साल से अधिक समय तक हिंसक जातीय संघर्ष में जलता रहा, तब प्रधानमंत्री की लंबी और विवादास्पद चुप्पी की भारी आलोचना हुई।",
       "CAA/NRC प्रदर्शन: नागरिकता संशोधन अधिनियम (CAA, 2019) के पास होने के बाद देश भर में भारी विरोध प्रदर्शन हुए।"
