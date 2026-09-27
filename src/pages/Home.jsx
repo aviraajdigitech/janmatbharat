@@ -37,8 +37,8 @@ export const Home = () => {
   return (
     <div className="min-h-screen bg-slate-50 font-sans overflow-x-hidden">
       <Helmet>
-        <title>Janmat Bharat | Indian Public Opinion, Voter Awareness & Political Research</title>
-        <meta name="description" content="Indian public opinion polls, voter awareness, EVM-VVPAT research, political history and election information." />
+        <title>Janmat Bharat | Vote for Next PM & Track India's Political Mood</title>
+        <meta name="description" content="Cast your mock vote for the Next PM! Explore real public opinion trends, check the current political mood of India, and read unbiased election research." />
       </Helmet>
 
       {/* ── HERO: 3D Waving Flag ── */}
