@@ -34,7 +34,7 @@ export const Contact = () => {
           'Accept': 'application/json'
         },
         body: JSON.stringify({
-          access_key: 'YOUR_WEB3FORMS_ACCESS_KEY', 
+          access_key: '56633a5d-3c5c-4bfc-a5ba-fcbb4324c074', 
           ...formData
         })
       });
