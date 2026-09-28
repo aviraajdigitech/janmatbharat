@@ -1,42 +1,36 @@
 import React, { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
-import { Map, Search, User, MapPin, Download, Target, ChevronRight } from 'lucide-react';
-import { constituencyData, mockPincodeDatabase } from '../data/constituencyData';
+import { Map, MapPin, Download, Target, ChevronDown } from 'lucide-react';
+import { realLokSabhaData, constituencyUI } from '../data/realConstituencyData';
 
 export const Constituency = () => {
   const [lang, setLang] = useState('hi');
-  const [pincode, setPincode] = useState('');
+  const [selectedState, setSelectedState] = useState('');
+  const [selectedConstituency, setSelectedConstituency] = useState('');
   const [result, setResult] = useState(null);
-  const [error, setError] = useState('');
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
-  const content = constituencyData[lang];
+  const content = constituencyUI[lang];
+  const states = Object.keys(realLokSabhaData).sort();
 
-  const handleSearch = (e) => {
-    e.preventDefault();
-    setError('');
+  const handleStateChange = (e) => {
+    setSelectedState(e.target.value);
+    setSelectedConstituency('');
     setResult(null);
+  };
 
-    if (pincode.length !== 6 || isNaN(pincode)) {
-      setError(content.errorLength);
-      return;
-    }
-
-    const data = mockPincodeDatabase[pincode];
-    if (data) {
-      setResult(data);
+  const handleConstituencyChange = (e) => {
+    const constituencyName = e.target.value;
+    setSelectedConstituency(constituencyName);
+    
+    if (constituencyName && selectedState) {
+      const mpData = realLokSabhaData[selectedState].find(c => c.constituency === constituencyName);
+      setResult(mpData);
     } else {
-      // If pincode not in mock db, show a generic dummy response to keep engagement high
-      setResult({
-        state: "Data Verified",
-        district: "Local Region",
-        mp: { name: "Live Data in App", party: "Multiple", constituency: "Your Lok Sabha" },
-        mla: { name: "Live Data in App", party: "Multiple", constituency: "Your Vidhan Sabha" },
-        isFallback: true
-      });
+      setResult(null);
     }
   };
 
@@ -44,7 +38,7 @@ export const Constituency = () => {
     <div className="min-h-screen bg-slate-50 pt-28 pb-20 font-sans">
       <Helmet>
         <title>{lang === 'hi' ? 'अपनी लोकसभा जानें | Janmat Bharat' : 'Know Your Constituency | Janmat Bharat'}</title>
-        <meta name="description" content="Find your current MP and MLA by entering your pincode. Check live political trends on Janmat Bharat." />
+        <meta name="description" content="Select your state and constituency to find your current Lok Sabha MP and cast your vote on Janmat Bharat." />
       </Helmet>
 
       {/* Language Toggle */}
@@ -78,97 +72,101 @@ export const Constituency = () => {
                 <Map size={40} className="text-saffron-400" />
               </div>
               <h1 className="text-3xl md:text-5xl font-black tracking-tight mb-4">{content.title}</h1>
-              <p className="text-lg text-slate-300 max-w-lg mx-auto font-medium">{content.subtitle}</p>
+              <p className="text-lg text-slate-300 max-w-xl mx-auto font-medium">{content.subtitle}</p>
             </div>
           </div>
 
           <div className="p-8 md:p-12">
             
-            {/* Search Form */}
-            <form onSubmit={handleSearch} className="max-w-xl mx-auto mb-12">
-              <div className="relative">
-                <input 
-                  type="text" 
-                  maxLength={6}
-                  value={pincode}
-                  onChange={(e) => setPincode(e.target.value.replace(/[^0-9]/g, ''))}
-                  placeholder={content.searchPlaceholder}
-                  className="w-full pl-6 pr-32 py-5 bg-slate-50 border-2 border-slate-200 rounded-2xl text-xl font-bold text-slate-900 focus:outline-none focus:border-blue-500 focus:ring-4 focus:ring-blue-500/20 transition-all shadow-inner"
-                />
-                <button 
-                  type="submit"
-                  className="absolute right-2 top-2 bottom-2 bg-blue-600 hover:bg-blue-700 text-white px-6 rounded-xl font-bold flex items-center gap-2 transition-colors shadow-md"
-                >
-                  <Search size={20} />
-                  <span className="hidden sm:inline">{content.searchButton}</span>
-                </button>
-              </div>
-              {error && <p className="text-red-500 font-bold text-sm mt-3 text-center">{error}</p>}
+            {/* Real Selection UI */}
+            <div className="max-w-2xl mx-auto mb-12 space-y-6">
               
-              <div className="flex gap-2 justify-center mt-4 text-xs font-medium text-slate-400">
-                <span>Try: 110001, 221001, 400001, 800001</span>
+              {/* State Dropdown */}
+              <div className="relative">
+                <label className="block text-sm font-bold text-slate-700 mb-2">{lang === 'hi' ? 'राज्य (State)' : 'State'}</label>
+                <div className="relative">
+                  <select 
+                    value={selectedState} 
+                    onChange={handleStateChange}
+                    className="w-full pl-6 pr-12 py-4 bg-slate-50 border-2 border-slate-200 rounded-2xl text-lg font-bold text-slate-900 appearance-none focus:outline-none focus:border-blue-500 focus:ring-4 focus:ring-blue-500/20 transition-all cursor-pointer"
+                  >
+                    <option value="">{content.statePlaceholder}</option>
+                    {states.map(state => (
+                      <option key={state} value={state}>{state}</option>
+                    ))}
+                  </select>
+                  <ChevronDown className="absolute right-4 top-1/2 transform -translate-y-1/2 text-slate-400 pointer-events-none" />
+                </div>
               </div>
-            </form>
+
+              {/* Constituency Dropdown */}
+              <div className={`relative transition-all duration-500 ${selectedState ? 'opacity-100 h-auto' : 'opacity-50 pointer-events-none'}`}>
+                <label className="block text-sm font-bold text-slate-700 mb-2">{lang === 'hi' ? 'लोकसभा क्षेत्र (Lok Sabha)' : 'Constituency'}</label>
+                <div className="relative">
+                  <select 
+                    value={selectedConstituency} 
+                    onChange={handleConstituencyChange}
+                    disabled={!selectedState}
+                    className="w-full pl-6 pr-12 py-4 bg-slate-50 border-2 border-slate-200 rounded-2xl text-lg font-bold text-slate-900 appearance-none focus:outline-none focus:border-blue-500 focus:ring-4 focus:ring-blue-500/20 transition-all cursor-pointer disabled:bg-slate-100 disabled:text-slate-400"
+                  >
+                    <option value="">{content.constituencyPlaceholder}</option>
+                    {selectedState && realLokSabhaData[selectedState].map(c => (
+                      <option key={c.constituency} value={c.constituency}>{c.constituency}</option>
+                    ))}
+                  </select>
+                  <ChevronDown className="absolute right-4 top-1/2 transform -translate-y-1/2 text-slate-400 pointer-events-none" />
+                </div>
+              </div>
+            </div>
 
             {/* Results Section */}
             {result && (
-              <div className="animate-fade-in">
+              <div className="animate-fade-in mt-12">
                 <div className="flex items-center justify-center gap-3 mb-8">
                   <div className="h-px bg-slate-200 flex-grow"></div>
-                  <h2 className="text-2xl font-black text-slate-900">{content.resultsTitle}</h2>
+                  <h2 className="text-xl md:text-2xl font-black text-slate-900 whitespace-nowrap px-4 text-center">{content.resultsTitle}</h2>
                   <div className="h-px bg-slate-200 flex-grow"></div>
                 </div>
 
-                <div className="bg-blue-50/50 rounded-3xl border border-blue-100 p-6 md:p-8 mb-10">
-                  <div className="flex items-center gap-2 text-blue-600 font-bold mb-6 justify-center bg-blue-100/50 py-2 px-4 rounded-full w-max mx-auto">
+                <div className="bg-blue-50/50 rounded-3xl border border-blue-100 p-6 md:p-8 mb-10 max-w-2xl mx-auto">
+                  <div className="flex items-center gap-2 text-blue-600 font-bold mb-8 justify-center bg-blue-100/50 py-2 px-6 rounded-full w-max mx-auto shadow-sm">
                     <MapPin size={18} />
-                    {result.district}, {result.state}
+                    {result.constituency}, {selectedState}
                   </div>
 
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    {/* MP Card */}
-                    <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 hover:shadow-md transition-shadow">
-                      <div className="flex items-center gap-3 mb-4 text-saffron-600 font-bold">
-                        <Target size={20} />
-                        {content.mpLabel}
-                      </div>
-                      <h3 className="text-2xl font-black text-slate-900 mb-2">{result.mp.name}</h3>
-                      <p className="text-slate-600 font-medium mb-1"><span className="text-slate-400">{content.partyLabel}:</span> {result.mp.party}</p>
-                      <p className="text-slate-600 font-medium"><span className="text-slate-400">{content.constituencyLabel}:</span> {result.mp.constituency}</p>
+                  {/* High Detail MP Card */}
+                  <div className="bg-white p-8 rounded-2xl shadow-md border-2 border-slate-100 relative overflow-hidden group">
+                    <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-blue-50 to-transparent rounded-bl-full -z-10 group-hover:scale-110 transition-transform"></div>
+                    
+                    <div className="flex items-center gap-3 mb-4 text-saffron-600 font-black tracking-wide uppercase text-sm">
+                      <Target size={20} />
+                      {content.mpLabel}
                     </div>
-
-                    {/* MLA Card */}
-                    <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 hover:shadow-md transition-shadow">
-                      <div className="flex items-center gap-3 mb-4 text-green-600 font-bold">
-                        <User size={20} />
-                        {content.mlaLabel}
-                      </div>
-                      <h3 className="text-2xl font-black text-slate-900 mb-2">{result.mla.name}</h3>
-                      <p className="text-slate-600 font-medium mb-1"><span className="text-slate-400">{content.partyLabel}:</span> {result.mla.party}</p>
-                      <p className="text-slate-600 font-medium"><span className="text-slate-400">{content.constituencyLabel}:</span> {result.mla.constituency}</p>
+                    
+                    <h3 className="text-3xl md:text-4xl font-black text-slate-900 mb-4">{result.mp}</h3>
+                    
+                    <div className="inline-block px-4 py-1.5 bg-slate-100 rounded-lg">
+                      <p className="text-slate-700 font-bold text-lg">
+                        <span className="text-slate-500 font-semibold text-sm mr-2">{content.partyLabel}:</span> 
+                        {result.party}
+                      </p>
                     </div>
                   </div>
-
-                  {result.isFallback && (
-                    <p className="text-center text-sm font-medium text-slate-500 mt-6 bg-white py-2 rounded-lg border border-slate-200">
-                      * {lang === 'hi' ? 'अपने पिनकोड का सटीक लाइव डेटा देखने के लिए ऐप डाउनलोड करें।' : 'Download the app to see exact live data for your pincode.'}
-                    </p>
-                  )}
                 </div>
 
                 {/* Viral CTA Box */}
-                <div className="bg-gradient-to-r from-saffron-500 via-green-600 to-blue-600 p-1 rounded-3xl shadow-2xl">
-                  <div className="bg-slate-900 rounded-[22px] p-8 md:p-12 text-center">
-                    <h3 className="text-2xl md:text-3xl font-black text-white mb-6 leading-tight">
+                <div className="bg-gradient-to-r from-saffron-500 via-green-600 to-blue-600 p-1.5 rounded-3xl shadow-2xl">
+                  <div className="bg-slate-900 rounded-[20px] p-8 md:p-12 text-center">
+                    <h3 className="text-2xl md:text-3xl font-black text-white mb-8 leading-tight">
                       {content.ctaText}
                     </h3>
                     <a 
                       href="https://play.google.com/store/apps/details?id=com.indian.vote.machine"
                       target="_blank"
                       rel="noopener noreferrer" 
-                      className="inline-flex items-center justify-center gap-3 bg-white text-slate-900 px-8 py-4 rounded-xl font-black text-lg hover:bg-blue-50 transition-colors hover:scale-105 transform duration-200"
+                      className="inline-flex items-center justify-center gap-3 bg-white text-slate-900 px-8 py-5 rounded-2xl font-black text-xl hover:bg-blue-50 transition-all hover:scale-105 transform duration-300 shadow-xl"
                     >
-                      <Download size={24} className="text-blue-600" />
+                      <Download size={26} className="text-blue-600" />
                       {content.ctaButton}
                     </a>
                   </div>
