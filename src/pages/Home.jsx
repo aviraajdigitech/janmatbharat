@@ -64,7 +64,7 @@ export const Home = () => {
 
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
             <a
-              href="https://play.google.com/store/apps/details?id=com.aviraajdigitech.janmatbharat"
+              href="https://play.google.com/store/apps/details?id=com.indian.vote.machine"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-saffron-500 hover:bg-saffron-600 text-white px-8 py-4 rounded-full font-extrabold text-lg transition-all shadow-lg flex items-center gap-2 transform hover:-translate-y-1 w-full sm:w-auto justify-center"
@@ -359,7 +359,7 @@ export const Home = () => {
           <h2 className="text-3xl md:text-5xl font-extrabold mb-5">Ready to Make Your Voice Heard?</h2>
           <p className="text-xl text-blue-100 mb-10">Join thousands of citizens already using Janmat Bharat.</p>
           <a
-            href="https://play.google.com/store/apps/details?id=com.aviraajdigitech.janmatbharat"
+            href="https://play.google.com/store/apps/details?id=com.indian.vote.machine"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-white text-blue-600 px-10 py-5 rounded-full font-extrabold text-xl hover:bg-slate-50 transition-colors shadow-2xl inline-flex items-center gap-3 hover:scale-105 transform"

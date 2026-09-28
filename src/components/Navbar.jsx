@@ -65,7 +65,7 @@ export const Navbar = () => {
           {/* CTA Button */}
           <div className="hidden md:flex items-center">
             <a 
-              href="https://play.google.com/store/apps/details?id=com.aviraajdigitech.janmatbharat" 
+              href="https://play.google.com/store/apps/details?id=com.indian.vote.machine" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="group relative inline-flex items-center justify-center gap-2 px-5 py-2 text-[13px] font-extrabold text-white bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full overflow-hidden transition-all hover:scale-105 hover:shadow-[0_8px_25px_rgba(37,99,235,0.4)]"
@@ -113,7 +113,7 @@ export const Navbar = () => {
           ))}
           <div className="pt-6 pb-2">
             <a 
-              href="https://play.google.com/store/apps/details?id=com.aviraajdigitech.janmatbharat" 
+              href="https://play.google.com/store/apps/details?id=com.indian.vote.machine" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="flex items-center justify-center gap-2 w-full px-6 py-4 text-[15px] tracking-wide font-extrabold text-white bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl shadow-xl shadow-blue-900/20 transition-transform active:scale-95"
