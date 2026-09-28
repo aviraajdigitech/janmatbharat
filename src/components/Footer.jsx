@@ -8,7 +8,7 @@ export const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 lg:gap-8">
           {/* Brand Section */}
-          <div className="md:col-span-5">
+          <div className="md:col-span-4">
             <div className="flex items-center gap-3 mb-6">
               <div className="bg-white p-1.5 rounded-xl shadow-sm">
                 <img src="/logo.webp" alt="Janmat Bharat Logo" className="w-8 h-8 object-contain" />
@@ -22,16 +22,42 @@ export const Footer = () => {
             </p>
           </div>
           
-          {/* Quick Links */}
+          {/* Platform & Tools */}
           <div className="md:col-span-3">
-            <h3 className="text-white font-bold mb-6 text-lg tracking-wide">Transparency & Legal</h3>
+            <h3 className="text-white font-bold mb-6 text-lg tracking-wide">Platform Tools</h3>
             <ul className="space-y-4">
+              <li>
+                <Link to="/upcoming-elections" className="group flex items-center gap-2 hover:text-white transition-colors">
+                  <ChevronRight size={14} className="text-slate-600 group-hover:text-blue-500 transition-colors" />
+                  Election Calendar
+                </Link>
+              </li>
+              <li>
+                <Link to="/constituency" className="group flex items-center gap-2 hover:text-white transition-colors">
+                  <ChevronRight size={14} className="text-slate-600 group-hover:text-blue-500 transition-colors" />
+                  Know Your Constituency
+                </Link>
+              </li>
+              <li>
+                <Link to="/history" className="group flex items-center gap-2 hover:text-white transition-colors">
+                  <ChevronRight size={14} className="text-slate-600 group-hover:text-blue-500 transition-colors" />
+                  PM History
+                </Link>
+              </li>
               <li>
                 <Link to="/how-it-works" className="group flex items-center gap-2 hover:text-white transition-colors">
                   <ChevronRight size={14} className="text-slate-600 group-hover:text-blue-500 transition-colors" />
-                  How Our Poll Works
+                  How Polls Work
                 </Link>
               </li>
+            </ul>
+          </div>
+          
+          {/* Quick Links */}
+          <div className="md:col-span-2">
+            <h3 className="text-white font-bold mb-6 text-lg tracking-wide">Transparency & Legal</h3>
+            <ul className="space-y-4">
+              
               <li>
                 <Link to="/privacy" className="group flex items-center gap-2 hover:text-white transition-colors">
                   <ChevronRight size={14} className="text-slate-600 group-hover:text-blue-500 transition-colors" />
@@ -54,7 +80,7 @@ export const Footer = () => {
           </div>
           
           {/* Contact */}
-          <div className="md:col-span-4">
+          <div className="md:col-span-3">
             <h3 className="text-white font-bold mb-6 text-lg tracking-wide">Contact Aviraaj Digitech</h3>
             <ul className="space-y-5">
               <li>
