@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 import { Vote, ShieldCheck, Fingerprint, Download, Target, BarChart3, Users, Landmark, Smartphone, Lock, Globe, ChevronRight, Activity, TrendingUp, MessageSquare, HelpCircle, CheckCircle2 } from 'lucide-react';
 import { pmHistory } from '../data/historyData';
-import { ThreeFlag } from '../components/ThreeFlag';
+const ThreeFlag = React.lazy(() => import('../components/ThreeFlag').then(m => ({ default: m.ThreeFlag })));
 
 
 
@@ -69,7 +69,7 @@ export const Home = () => {
 
       {/* ── HERO: 3D Waving Flag ── */}
       <section className="relative min-h-[92vh] flex items-center justify-center pt-20 overflow-hidden">
-        <ThreeFlag />
+        <React.Suspense fallback={<div className="w-full h-[60vh] flex items-center justify-center"><div className="w-8 h-8 border-4 border-blue-200 border-t-blue-600 rounded-full animate-spin"></div></div>}><ThreeFlag /></React.Suspense>
 
         <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center" style={{ zIndex: 10 }}>
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/20 backdrop-blur-md border border-white/30 text-white font-semibold mb-8 shadow-2xl text-sm uppercase tracking-wider">
