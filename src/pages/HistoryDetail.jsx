@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { SEO } from '../components/SEO';
 import { useParams, Link, Navigate } from 'react-router-dom';
+import { ImageWithSkeleton } from '../components/ImageWithSkeleton';
 import { pmHistory } from '../data/historyData';
 import { CheckCircle2, XCircle, Clock, Landmark, Users, Languages, ArrowLeft } from 'lucide-react';
 

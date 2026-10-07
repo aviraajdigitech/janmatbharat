@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { SEO } from '../components/SEO';
 
 import { Link } from 'react-router-dom';
+import { ImageWithSkeleton } from '../components/ImageWithSkeleton';
 import { pmHistory } from '../data/historyData';
 import { Languages, ArrowRight, Landmark } from 'lucide-react';
 

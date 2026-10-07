@@ -23,10 +23,21 @@ const Constituency = lazy(() => import('./pages/Constituency').then(module => ({
 
 // A premium loading fallback
 const PageLoader = () => (
-  <div className="min-h-screen flex items-center justify-center bg-slate-50">
-    <div className="flex flex-col items-center gap-4">
-      <div className="w-10 h-10 border-4 border-blue-200 border-t-blue-600 rounded-full animate-spin"></div>
-      <p className="text-slate-500 font-bold tracking-wider text-sm animate-pulse">LOADING...</p>
+  <div className="min-h-[70vh] flex items-center justify-center z-50">
+    <div className="flex flex-col items-center gap-6">
+      <div className="relative w-16 h-16">
+        <div className="absolute inset-0 border-4 border-slate-200 rounded-full"></div>
+        <div className="absolute inset-0 border-4 border-saffron-500 rounded-full border-t-transparent border-r-transparent animate-spin"></div>
+        <div className="absolute inset-0 border-4 border-blue-600 rounded-full border-b-transparent border-l-transparent animate-spin opacity-70" style={{ animationDirection: 'reverse', animationDuration: '1.5s' }}></div>
+      </div>
+      <p className="text-slate-800 font-bold tracking-wider text-sm flex items-center gap-1">
+        Loading Janmat Bharat
+        <span className="flex space-x-1 ml-1">
+          <span className="animate-bounce" style={{ animationDelay: '0ms' }}>.</span>
+          <span className="animate-bounce" style={{ animationDelay: '150ms' }}>.</span>
+          <span className="animate-bounce" style={{ animationDelay: '300ms' }}>.</span>
+        </span>
+      </p>
     </div>
   </div>
 );
