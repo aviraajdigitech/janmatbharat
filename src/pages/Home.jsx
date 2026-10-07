@@ -123,7 +123,7 @@ export const Home = () => {
                 Live Polling Data
               </div>
               <h3 className="text-3xl md:text-4xl font-black text-white mb-2 tracking-tight">
-                2029 PM Race: कौन चल रहा है आगे?
+                आप किसको Next PM बनाना चाहते हैं?
               </h3>
               <p className="text-slate-400 font-medium text-sm md:text-base max-w-xl">
                 रियल-टाइम में भारत की जनता किसे अगला प्रधानमंत्री देखना चाहती है, जानिए जनमत भारत ऐप पर।
