@@ -1,5 +1,5 @@
 import React, { useState, useRef, useMemo, Suspense } from 'react';
-import { Helmet } from 'react-helmet-async';
+import { SEO } from '../components/SEO';
 import { Link } from 'react-router-dom';
 
 import { Vote, ShieldCheck, Fingerprint, Download, Target, BarChart3, Users, Landmark, Smartphone, Lock, Globe, ChevronRight, Activity, TrendingUp, MessageSquare, HelpCircle, CheckCircle2 } from 'lucide-react';
@@ -36,10 +36,36 @@ export const Home = () => {
 
   return (
     <div className="min-h-screen bg-slate-50 font-sans overflow-x-hidden">
-      <Helmet>
-        <title>Janmat Bharat | Vote for Next PM & Track India's Political Mood</title>
-        <meta name="description" content="Cast your mock vote for the Next PM! Explore real public opinion trends, check the current political mood of India, and read unbiased election research." />
-      </Helmet>
+      <SEO 
+        title="Janmat Bharat | Vote for Next PM & Track India's Political Mood"
+        description="Cast your mock vote for the Next PM! Explore real public opinion trends, check the current political mood of India, and read unbiased election research."
+        canonicalPath="/"
+        jsonLd={[
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Janmat Bharat",
+            "url": "https://janmatbharat.com",
+            "logo": "https://janmatbharat.com/assets/images/logo.webp",
+            "description": "India's independent digital public opinion polling platform.",
+            "sameAs": [
+              "https://twitter.com/JanmatBharat",
+              "https://www.facebook.com/JanmatBharat"
+            ]
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "Janmat Bharat",
+            "url": "https://janmatbharat.com",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://janmatbharat.com/history?q={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          }
+        ]}
+      />
 
       {/* ── HERO: 3D Waving Flag ── */}
       <section className="relative min-h-[92vh] flex items-center justify-center pt-20 overflow-hidden">

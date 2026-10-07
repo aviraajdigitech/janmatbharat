@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Helmet } from 'react-helmet-async';
+import { SEO } from '../components/SEO';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { pmHistory } from '../data/historyData';
 import { CheckCircle2, XCircle, Clock, Landmark, Users, Languages, ArrowLeft } from 'lucide-react';
@@ -16,9 +16,62 @@ export const HistoryDetail = () => {
 
   return (
     <div className="min-h-screen pt-28 pb-20 bg-slate-50 font-sans">
-      <Helmet>
-        <title>{termData.pm_name_en} - {termData.period_en} | Janmat Bharat</title>
-      </Helmet>
+      {/* SEO Section */}
+      <SEO 
+        title={`${termData.pm_name_en} - ${termData.period_en} | Janmat Bharat`}
+        description={`Explore the prime ministerial term of ${termData.pm_name_en} (${termData.period_en}). Read unbiased political encyclopedia data on Janmat Bharat.`}
+        canonicalPath={`/history/${termId}`}
+        type="article"
+        image={termData.image}
+        jsonLd={[
+          {
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": `${termData.pm_name_en} - Prime Minister of India (${termData.period_en})`,
+            "image": [
+              `https://janmatbharat.com${termData.image}`
+            ],
+            "author": [{
+                "@type": "Organization",
+                "name": "Janmat Bharat",
+                "url": "https://janmatbharat.com"
+            }],
+            "publisher": {
+              "@type": "Organization",
+              "name": "Janmat Bharat",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://janmatbharat.com/assets/images/logo.webp"
+              }
+            },
+            "description": `Detailed historical analysis and term details of ${termData.pm_name_en}.`
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://janmatbharat.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "PM History",
+                "item": "https://janmatbharat.com/history"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": termData.pm_name_en,
+                "item": `https://janmatbharat.com/history/${termId}`
+              }
+            ]
+          }
+        ]}
+      />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         

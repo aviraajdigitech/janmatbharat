@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Helmet } from 'react-helmet-async';
+import { SEO } from '../components/SEO';
 import { pollWorksData } from '../data/pollWorksData';
 import { ShieldCheck, Users, Calculator, ShieldAlert, RefreshCw, Clock, BarChart3, MapPin, Lock, EyeOff, UserMinus, HelpCircle } from 'lucide-react';
 
@@ -31,10 +31,44 @@ export const HowPollWorks = () => {
 
   return (
     <div className="min-h-screen bg-slate-50 pt-28 pb-20 font-sans">
-      <Helmet>
-        <title>How Our Poll Works | Janmat Bharat</title>
-        <meta name="description" content="Understand the complete methodology, transparency, and security mechanisms behind Janmat Bharat's public opinion polls." />
-      </Helmet>
+      {/* SEO Section */}
+      <SEO 
+        title="How Our Poll Works | Janmat Bharat"
+        description="Understand the complete methodology, transparency, and security mechanisms behind Janmat Bharat's public opinion polls."
+        canonicalPath="/how-it-works"
+        jsonLd={[
+          {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": content.faqs.map(faq => ({
+              "@type": "Question",
+              "name": faq.question,
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": faq.answer
+              }
+            }))
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://janmatbharat.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "How Poll Works",
+                "item": "https://janmatbharat.com/how-it-works"
+              }
+            ]
+          }
+        ]}
+      />
 
       {/* Top Language Toggle */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-6 flex justify-end">
