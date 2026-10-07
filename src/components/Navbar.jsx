@@ -77,14 +77,21 @@ export const Navbar = () => {
 
   return (
     <>
-      <nav 
+            <nav 
         className={`fixed top-0 w-full z-[60] transition-all duration-300 ${
           scrolled || isOpen
-            ? 'bg-white/95 backdrop-blur-2xl border-b border-slate-200/60 shadow-[0_8px_30px_rgb(0,0,0,0.04)]' 
-            : 'bg-white/95 backdrop-blur-md border-b border-transparent'
+            ? 'bg-white/95 backdrop-blur-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)]' 
+            : 'bg-white/95 backdrop-blur-md'
         }`}
         aria-label="Main Navigation"
       >
+        {/* Top Legal Banner */}
+        <div className="bg-slate-900 text-slate-300 text-[10px] md:text-[11px] py-1.5 px-4 text-center font-medium tracking-wide w-full flex items-center justify-center gap-2">
+           <span className="w-1.5 h-1.5 rounded-full bg-blue-500 animate-pulse"></span>
+           <span>Independent digital opinion platform — not an official government or ECI service.</span>
+        </div>
+        
+        <div className="border-b border-slate-200/60">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className={`flex justify-between items-center transition-all duration-300 ${scrolled ? 'h-14' : 'h-16'}`}>
             {/* Logo */}
@@ -199,6 +206,7 @@ export const Navbar = () => {
             </div>
           </div>
         </div>
+      </div>
       </nav>
 
       {/* Background Overlay for Mobile Menu */}

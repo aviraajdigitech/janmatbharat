@@ -101,8 +101,21 @@ export const Footer = () => {
           </div>
         </div>
         
+        
+        {/* Official Disclaimer */}
+        <div className="mt-16 pt-8 border-t border-slate-800/60 text-center">
+          <div className="inline-block bg-slate-900/50 border border-slate-800 rounded-xl px-6 py-4 max-w-3xl">
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-3 text-slate-400">
+              <ShieldCheck size={20} className="text-slate-500 shrink-0" />
+              <p className="text-sm font-medium text-left sm:text-center leading-relaxed">
+                <strong className="text-slate-300">Disclaimer:</strong> Janmat Bharat is an independent digital opinion platform. It is <strong>not</strong> an official government service and is <strong>not affiliated with the Election Commission of India (ECI)</strong>.
+              </p>
+            </div>
+          </div>
+        </div>
+        
         {/* Bottom Bar */}
-        <div className="border-t border-slate-800/60 mt-16 pt-8 flex flex-col items-center text-center">
+        <div className="mt-8 flex flex-col items-center text-center">
           <p className="text-[15px] text-slate-300 mb-3 flex items-center justify-center flex-wrap gap-1.5">
             Built with <Heart size={16} className="text-red-500 fill-red-500" /> in India by 
             <a href="https://aviraajdigitech.com" target="_blank" rel="noopener noreferrer" className="text-saffron-400 hover:text-white font-bold tracking-wide transition-colors ml-1">
