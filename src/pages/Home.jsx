@@ -248,7 +248,7 @@ export const Home = () => {
                   { 
                     icon: <Fingerprint size={28} className="text-blue-500" />, 
                     title: "1 फ़ोन = 1 वोट (Anti-Fraud Tech)", 
-                    desc: "फर्जी वोटिंग पूरी तरह से असंभव। हर व्यक्ति सिर्फ एक ही वोट डाल सकता है (Only for Indians)।" 
+                    desc: "हमारे एडवांस्ड सिस्टम्स डुप्लीकेट या फर्जी वोटिंग (Abusive participation) को डिटेक्ट और सीमित करने के लिए डिज़ाइन किए गए हैं। 1 Phone = 1 Vote (Only for Indians)।" 
                   },
                   { 
                     icon: <BarChart3 size={28} className="text-saffron-500" />, 
