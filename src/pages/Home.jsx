@@ -222,7 +222,7 @@ export const Home = () => {
                   { 
                     icon: <Fingerprint size={28} className="text-blue-500" />, 
                     title: "1 फ़ोन = 1 वोट (Anti-Fraud Tech)", 
-                    desc: "फर्जी वोटिंग पूरी तरह से असंभव। डिवाइस फिंगरप्रिंटिंग से हर व्यक्ति सिर्फ एक ही वोट डाल सकता है।" 
+                    desc: "फर्जी वोटिंग पूरी तरह से असंभव। हर व्यक्ति सिर्फ एक ही वोट डाल सकता है (Only for Indians)।" 
                   },
                   { 
                     icon: <BarChart3 size={28} className="text-saffron-500" />, 
