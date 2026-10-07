@@ -13,6 +13,7 @@ const Terms = lazy(() => import('./pages/Terms').then(module => ({ default: modu
 const About = lazy(() => import('./pages/About').then(module => ({ default: module.About })));
 const Corrections = lazy(() => import('./pages/Corrections').then(module => ({ default: module.Corrections })));
 const PressKit = lazy(() => import('./pages/PressKit').then(module => ({ default: module.PressKit })));
+const NotFound = lazy(() => import('./pages/NotFound').then(module => ({ default: module.NotFound })));
 const Contact = lazy(() => import('./pages/Contact').then(module => ({ default: module.Contact })));
 const History = lazy(() => import('./pages/History').then(module => ({ default: module.History })));
 const HistoryDetail = lazy(() => import('./pages/HistoryDetail').then(module => ({ default: module.HistoryDetail })));
@@ -53,6 +54,7 @@ export default function App() {
               <Route path="/how-it-works" element={<HowPollWorks />} />
               <Route path="/upcoming-elections" element={<ElectionCalendar />} />
               <Route path="/constituency" element={<Constituency />} />
+              <Route path="*" element={<NotFound />} />
             </Routes>
           </Suspense>
         </main>
