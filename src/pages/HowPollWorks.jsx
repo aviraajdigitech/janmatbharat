@@ -101,6 +101,31 @@ export const HowPollWorks = () => {
               ))}
             </section>
 
+            
+            {/* Important Disclaimer Section */}
+            {content.importantDisclaimer && (
+              <section className="bg-red-50 border-l-4 border-red-500 rounded-r-2xl p-6 md:p-8 my-10 shadow-sm">
+                <div className="flex items-center gap-3 mb-6">
+                  <ShieldAlert className="text-red-600 w-8 h-8" />
+                  <h2 className="text-2xl md:text-3xl font-black text-red-900 tracking-tight">
+                    {content.importantDisclaimer.title}
+                  </h2>
+                </div>
+                <ul className="space-y-4">
+                  {content.importantDisclaimer.points.map((point, index) => (
+                    <li key={index} className="flex items-start gap-3">
+                      <div className="mt-1 flex-shrink-0 w-6 h-6 rounded-full bg-red-100 flex items-center justify-center border border-red-200">
+                        <span className="text-red-600 font-bold text-sm">!</span>
+                      </div>
+                      <p className="text-red-800 font-medium text-[16px] md:text-lg leading-relaxed">
+                        {point}
+                      </p>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )}
+
             {/* Conclusion */}
             <section className="bg-slate-900 text-white rounded-2xl p-8 shadow-2xl relative overflow-hidden text-center">
               <div className="absolute top-0 left-0 w-64 h-64 bg-gradient-to-br from-blue-600/30 to-indigo-600/30 rounded-full blur-3xl -ml-20 -mt-20"></div>
