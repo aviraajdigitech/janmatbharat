@@ -7,6 +7,7 @@ import { EVMSecurity } from './pages/EVMSecurity';
 import { DataDeletion } from './pages/DataDeletion';
 import { VoterAwareness } from './pages/VoterAwareness';
 import { PrivacyPolicy } from './pages/PrivacyPolicy';
+import { Terms } from './pages/Terms';
 import { Contact } from './pages/Contact';
 import { History } from './pages/History';
 import { HistoryDetail } from './pages/HistoryDetail';
@@ -29,6 +30,7 @@ export default function App() {
             <Route path="/upcoming-elections" element={<ElectionCalendar />} />
             <Route path="/constituency" element={<Constituency />} />
             <Route path="/privacy" element={<PrivacyPolicy />} />
+            <Route path="/terms" element={<Terms />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/history" element={<History />} />
             <Route path="/history/:termId" element={<HistoryDetail />} />
