@@ -37,8 +37,8 @@ export const Home = () => {
   return (
     <div className="min-h-screen bg-slate-50 font-sans overflow-x-hidden">
       <SEO 
-        title="Janmat Bharat | Vote for Next PM & Track India's Political Mood"
-        description="Cast your mock vote for the Next PM! Explore real public opinion trends, check the current political mood of India, and read unbiased election research."
+        title="Janmat Bharat | Track India's Political Mood & Opinion Polls, Election Data & Political Trends"
+        description="Participate in secure and anonymous digital polls. Vote for your favorite leaders, vote on state and national issues, explore India's political history, and discover the real public mood."
         canonicalPath="/"
         jsonLd={[
           {
