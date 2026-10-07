@@ -18,7 +18,7 @@ export const Home = () => {
   const faqs = [
     {
       q: "क्या मेरा वोट सच में गुप्त (Anonymous) है?",
-      a: "बिल्कुल! हम 256-bit बैंक-ग्रेड एन्क्रिप्शन और ज़ीरो-नॉलेज आर्किटेक्चर का इस्तेमाल करते हैं। आपका वोट आपकी व्यक्तिगत पहचान से कभी नहीं जोड़ा जाता।"
+      a: "बिल्कुल! आपका डेटा इंडस्ट्री-स्टैंडर्ड एन्क्रिप्टेड कनेक्शन्स (Industry-standard encryption) के ज़रिए सुरक्षित रखा जाता है। आपका वोट आपकी व्यक्तिगत पहचान से कभी नहीं जोड़ा जाता।"
     },
     {
       q: "क्या कोई फर्जी अकाउंट (Fake Account) बनाकर कई बार वोट कर सकता है?",
@@ -127,8 +127,8 @@ export const Home = () => {
             </div>
             
             <div className="text-center px-4 border-l border-slate-100 pt-8 lg:pt-0 border-t lg:border-t-0 flex flex-col justify-center">
-              <h4 className="text-3xl lg:text-4xl font-black text-green-500 tracking-tight">256-bit</h4>
-              <p className="text-slate-500 font-extrabold uppercase text-[11px] tracking-[0.2em] mt-3">Bank-Grade Encryption</p>
+              <h4 className="text-3xl lg:text-4xl font-black text-green-500 tracking-tight">Protected</h4>
+              <p className="text-slate-500 font-extrabold uppercase text-[11px] tracking-[0.2em] mt-3">Industry-Standard Encryption</p>
             </div>
             
           </div>
