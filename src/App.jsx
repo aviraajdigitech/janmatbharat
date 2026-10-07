@@ -12,6 +12,7 @@ const PrivacyPolicy = lazy(() => import('./pages/PrivacyPolicy').then(module => 
 const Terms = lazy(() => import('./pages/Terms').then(module => ({ default: module.Terms })));
 const About = lazy(() => import('./pages/About').then(module => ({ default: module.About })));
 const Corrections = lazy(() => import('./pages/Corrections').then(module => ({ default: module.Corrections })));
+const PressKit = lazy(() => import('./pages/PressKit').then(module => ({ default: module.PressKit })));
 const Contact = lazy(() => import('./pages/Contact').then(module => ({ default: module.Contact })));
 const History = lazy(() => import('./pages/History').then(module => ({ default: module.History })));
 const HistoryDetail = lazy(() => import('./pages/HistoryDetail').then(module => ({ default: module.HistoryDetail })));
@@ -45,6 +46,7 @@ export default function App() {
               <Route path="/terms" element={<Terms />} />
               <Route path="/about" element={<About />} />
               <Route path="/corrections" element={<Corrections />} />
+              <Route path="/press" element={<PressKit />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/history" element={<History />} />
               <Route path="/history/:termId" element={<HistoryDetail />} />

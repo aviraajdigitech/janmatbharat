@@ -33,6 +33,12 @@ export const Footer = () => {
                 </Link>
               </li>
               <li>
+                <Link to="/press" className="group flex items-center gap-2 hover:text-white transition-colors">
+                  <ChevronRight size={14} className="text-slate-600 group-hover:text-blue-500 transition-colors" />
+                  Press & Media Kit
+                </Link>
+              </li>
+              <li>
                 <Link to="/how-it-works" className="group flex items-center gap-2 hover:text-white transition-colors">
                   <ChevronRight size={14} className="text-slate-600 group-hover:text-blue-500 transition-colors" />
                   Poll Methodology

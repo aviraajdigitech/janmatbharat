@@ -16,6 +16,7 @@ const staticRoutes = [
   { url: '/upcoming-elections', changefreq: 'weekly', priority: 0.8 },
   { url: '/constituency', changefreq: 'monthly', priority: 0.7 },
   { url: '/about', changefreq: 'monthly', priority: 0.8 },
+  { url: '/press', changefreq: 'yearly', priority: 0.7 },
   { url: '/corrections', changefreq: 'yearly', priority: 0.6 },
   { url: '/data-deletion', changefreq: 'yearly', priority: 0.5 },
   { url: '/privacy', changefreq: 'yearly', priority: 0.5 },
