@@ -2,7 +2,7 @@ import React, { useState, useRef, useMemo, Suspense } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 
-import { Vote, ShieldCheck, BarChart3, Users, Landmark, Smartphone, Lock, Globe, ChevronRight, Activity, TrendingUp, MessageSquare, HelpCircle, CheckCircle2 } from 'lucide-react';
+import { Vote, ShieldCheck, Fingerprint, Download, Target, BarChart3, Users, Landmark, Smartphone, Lock, Globe, ChevronRight, Activity, TrendingUp, MessageSquare, HelpCircle, CheckCircle2 } from 'lucide-react';
 import { pmHistory } from '../data/historyData';
 import { ThreeFlag } from '../components/ThreeFlag';
 
