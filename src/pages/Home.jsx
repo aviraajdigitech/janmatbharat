@@ -172,7 +172,7 @@ export const Home = () => {
       </section>
 
       {/* 🛑 NEW: YOUR VOTE MATTERS SECTION */}
-      <section className="py-24 bg-white border-b border-slate-200">
+      <section className="py-16 bg-white border-b border-slate-200">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             
@@ -180,7 +180,7 @@ export const Home = () => {
               <div className="inline-flex items-center gap-2 text-blue-600 font-bold tracking-widest uppercase mb-4 bg-blue-50 px-4 py-1.5 rounded-full text-sm">
                 <Target size={16} /> The Power of One Vote
               </div>
-              <h3 className="text-4xl md:text-5xl font-black text-slate-900 mb-6 leading-tight">
+              <h3 className="text-3xl md:text-5xl font-black text-slate-900 mb-6 leading-[1.3] md:leading-tight">
                 आपका एक वोट देश को सही दिशा और सच्चे आँकड़े देगा!
               </h3>
               <p className="text-xl text-slate-600 mb-10 leading-relaxed">
@@ -242,6 +242,140 @@ export const Home = () => {
               </div>
             </div>
 
+          </div>
+        </div>
+      </section>
+
+
+      {/* ── PM HISTORY SHOWCASE ── */}
+      <section className="py-20 bg-slate-50 border-b border-slate-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center max-w-3xl mx-auto mb-12">
+            <h2 className="text-sm font-bold text-saffron-600 tracking-widest uppercase mb-2">The Digital Encyclopedia</h2>
+            <h3 className="text-3xl md:text-5xl font-extrabold text-slate-900 mb-4">Explore India's Leadership</h3>
+            <p className="text-slate-600 text-lg">Click any Prime Minister to read their full unbiased term-wise history.</p>
+          </div>
+
+          <div className="flex overflow-x-auto pb-8 gap-5 snap-x flex-nowrap [&::-webkit-scrollbar]:hidden">
+            {reversedHistory.map((pm) => (
+              <Link
+                to={`/history/${pm.id}`}
+                key={pm.id}
+                className="snap-start shrink-0 w-56 sm:w-64 bg-white rounded-3xl p-5 border border-slate-200 hover:shadow-2xl hover:border-blue-300 transition-all duration-300 group flex flex-col items-center text-center"
+              >
+                <div className="w-28 h-28 rounded-full border-4 border-white shadow-lg overflow-hidden mb-4 group-hover:scale-105 transition-transform duration-300 bg-slate-200">
+                  <img
+                    src={pm.image}
+                    alt={pm.pm_name_en}
+                    className="w-full h-full object-cover"
+                    loading="lazy"
+                  />
+                </div>
+                <div className="bg-blue-100 text-blue-700 font-bold px-3 py-1 rounded-full text-xs uppercase mb-2 border border-blue-200">
+                  {pm.period_en}
+                </div>
+                <h4 className="font-extrabold text-slate-900 text-base mb-1 leading-tight group-hover:text-blue-600 transition-colors">
+                  {pm.pm_name_en}
+                </h4>
+                <p className="text-xs text-slate-500 font-medium line-clamp-2">{pm.term_en}</p>
+                <div className="mt-4 text-blue-600 text-xs font-bold flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                  Read History <ChevronRight size={14} />
+                </div>
+              </Link>
+            ))}
+          </div>
+
+          <div className="text-center mt-4">
+            <Link to="/history" className="inline-flex items-center gap-2 bg-slate-900 text-white px-8 py-3 rounded-full font-bold hover:bg-slate-700 transition-colors shadow-lg">
+              <Landmark size={18} /> View Full Political History
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* ── INSIDE THE APP (6 FEATURES) ── */}
+      <section className="py-24 bg-white border-b border-slate-100">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <h2 className="text-sm font-bold text-blue-600 tracking-widest uppercase mb-2">Inside The App</h2>
+            <h3 className="text-3xl md:text-5xl font-extrabold text-slate-900 mb-4">Everything You Need to Understand Indian Politics</h3>
+            <p className="text-slate-600 text-lg">Deep analytics, historical data, and a secure platform to cast your mock vote.</p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            {[
+              { icon: Vote, color: 'text-blue-600', bg: 'bg-blue-50', title: '3-Tier Voting System', desc: 'Vote for your local MLA, your MP, and your choice for the Next Prime Minister of India.' },
+              { icon: Landmark, color: 'text-saffron-500', bg: 'bg-saffron-50', title: 'Deep Political Encyclopedia', desc: 'Wikipedia-grade, unbiased, term-by-term analysis of every Indian PM from 1947 to today.', link: '/history' },
+              { icon: BarChart3, color: 'text-green-600', bg: 'bg-green-50', title: 'In-App Polling Analytics', desc: 'Explore political trends inside the app. Charts filtered by state, constituency & demographics.' },
+              { icon: ShieldCheck, color: 'text-purple-600', bg: 'bg-purple-50', title: '100% Anonymous & Safe', desc: 'Zero-knowledge architecture ensures your mock vote can never be traced to your identity.' },
+              { icon: Lock, color: 'text-red-600', bg: 'bg-red-50', title: 'Anti-Fraud Technology', desc: 'One Device, One Vote. OTP verification blocks bots and IT cell manipulation.' },
+              { icon: Users, color: 'text-indigo-600', bg: 'bg-indigo-50', title: 'Youth Empowerment', desc: 'We educate first-time voters on EVM security, VVPAT, and their constitutional rights.', link: '/voter-awareness' },
+            ].map((f) => (
+              <div key={f.title} className="bg-slate-50 p-8 rounded-3xl shadow-sm border border-slate-200 hover:shadow-xl transition-shadow group">
+                <div className={`w-14 h-14 ${f.bg} rounded-2xl flex items-center justify-center ${f.color} mb-5 group-hover:scale-110 transition-transform`}>
+                  <f.icon size={28} />
+                </div>
+                <h3 className="text-xl font-bold text-slate-900 mb-3">{f.title}</h3>
+                <p className="text-slate-600 leading-relaxed text-sm">{f.desc}</p>
+                {f.link && (
+                  <Link to={f.link} className={`mt-3 ${f.color} font-bold flex items-center gap-1 text-sm`}>
+                    Explore <ChevronRight size={14} />
+                  </Link>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+      
+      {/* ── HOW IT WORKS ── */}
+      <section className="py-24 bg-slate-50 border-b border-slate-200 overflow-hidden">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col lg:flex-row items-center gap-16 lg:gap-24">
+            <div className="lg:w-1/2">
+              <div className="inline-block px-4 py-1.5 rounded-full bg-blue-100 border border-blue-200 text-blue-700 font-bold text-sm tracking-wide mb-6">
+                Simple & Secure
+              </div>
+              <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-6 tracking-tight">How Janmat Bharat Works</h2>
+              <p className="text-slate-600 text-[17px] mb-12 leading-relaxed">
+                We've built a platform that is as simple as sending a message, yet as secure as a bank vault. Your voice matters, and making it heard has never been easier.
+              </p>
+              
+              <div className="relative space-y-10">
+                <div className="absolute left-6 top-6 bottom-6 w-[2px] bg-slate-200"></div>
+                
+                {[
+                  { n: '1', color: 'bg-white text-blue-600 border-blue-200 shadow-blue-100', title: 'Download & Join', desc: 'Get the app from the Play Store and set up your secure profile instantly.' },
+                  { n: '2', color: 'bg-white text-blue-600 border-blue-200 shadow-blue-100', title: 'Select Constituency', desc: 'Choose your state and local area for hyper-local, accurate polling data.' },
+                  { n: '3', color: 'bg-white text-saffron-600 border-saffron-200 shadow-saffron-100', title: 'Cast Your Mock Vote', desc: 'Tap your preferred party. Your choice is fully encrypted and 100% anonymous.' },
+                  { n: '4', color: 'bg-white text-green-600 border-green-200 shadow-green-100', title: 'View App Results', desc: 'Unlock stunning charts inside the app showing national and state political trends.' },
+                ].map((s) => (
+                  <div key={s.n} className="group relative flex gap-6 z-10">
+                    <div className={`w-12 h-12 rounded-2xl ${s.color} font-black flex items-center justify-center flex-shrink-0 text-xl border-2 shadow-lg transition-transform duration-300 group-hover:scale-110 group-hover:-rotate-3`}>
+                      {s.n}
+                    </div>
+                    <div className="pt-2">
+                      <h4 className="text-[19px] font-extrabold text-slate-900 mb-1.5 group-hover:text-blue-600 transition-colors">{s.title}</h4>
+                      <p className="text-slate-500 text-[15px] leading-relaxed">{s.desc}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div className="lg:w-1/2 w-full">
+              <div className="bg-slate-900 rounded-[3rem] p-4 shadow-2xl relative">
+                <div className="absolute top-0 right-10 w-24 h-24 bg-saffron-500 rounded-full blur-3xl opacity-30" />
+                <div className="absolute bottom-10 left-10 w-32 h-32 bg-blue-500 rounded-full blur-3xl opacity-30" />
+                <div className="bg-slate-800 rounded-[2.5rem] p-8 relative z-10 border border-slate-700 aspect-[4/5] flex flex-col justify-center items-center text-center">
+                  <div className="w-20 h-20 bg-white rounded-2xl flex items-center justify-center mb-6 shadow-lg"><Vote size={40} className="text-blue-600" /></div>
+                  <h3 className="text-3xl font-extrabold text-white mb-3">India's Pulse</h3>
+                  <p className="text-slate-400 text-sm mb-8">The most intuitive polling interface designed for Indian voters.</p>
+                  {[{ color: 'bg-saffron-500', w: 'w-2/3' }, { color: 'bg-green-500', w: 'w-1/3' }, { color: 'bg-blue-500', w: 'w-1/2' }].map((b, i) => (
+                    <div key={i} className="w-full bg-slate-700/50 rounded-full h-4 mb-3 overflow-hidden"><div className={`${b.color} ${b.w} h-full rounded-full`} /></div>
+                  ))}
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
