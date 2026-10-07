@@ -64,7 +64,7 @@ export const Navbar = () => {
     { name: 'How It Works', path: '/how-it-works' },
     { name: 'Political History', path: '/history' },
     { name: 'Voter Awareness', path: '/voter-awareness' },
-    { name: 'About', path: '/contact' }
+    { name: 'About', path: '/about' }
   ];
 
   const exploreLinks = [

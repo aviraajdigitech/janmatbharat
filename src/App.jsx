@@ -10,6 +10,8 @@ const DataDeletion = lazy(() => import('./pages/DataDeletion').then(module => ({
 const VoterAwareness = lazy(() => import('./pages/VoterAwareness').then(module => ({ default: module.VoterAwareness })));
 const PrivacyPolicy = lazy(() => import('./pages/PrivacyPolicy').then(module => ({ default: module.PrivacyPolicy })));
 const Terms = lazy(() => import('./pages/Terms').then(module => ({ default: module.Terms })));
+const About = lazy(() => import('./pages/About').then(module => ({ default: module.About })));
+const Corrections = lazy(() => import('./pages/Corrections').then(module => ({ default: module.Corrections })));
 const Contact = lazy(() => import('./pages/Contact').then(module => ({ default: module.Contact })));
 const History = lazy(() => import('./pages/History').then(module => ({ default: module.History })));
 const HistoryDetail = lazy(() => import('./pages/HistoryDetail').then(module => ({ default: module.HistoryDetail })));
@@ -41,6 +43,8 @@ export default function App() {
               <Route path="/voter-awareness" element={<VoterAwareness />} />
               <Route path="/privacy" element={<PrivacyPolicy />} />
               <Route path="/terms" element={<Terms />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/corrections" element={<Corrections />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/history" element={<History />} />
               <Route path="/history/:termId" element={<HistoryDetail />} />

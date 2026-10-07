@@ -22,9 +22,52 @@ export const Footer = () => {
             </p>
           </div>
           
-          {/* Platform & Tools */}
+                    {/* Transparency Center */}
           <div className="md:col-span-3">
-            <h3 className="text-white font-bold mb-6 text-lg tracking-wide">Platform Tools</h3>
+            <h3 className="text-white font-bold mb-6 text-lg tracking-wide">Transparency Center</h3>
+            <ul className="space-y-4">
+              <li>
+                <Link to="/about" className="group flex items-center gap-2 hover:text-white transition-colors">
+                  <ChevronRight size={14} className="text-slate-600 group-hover:text-blue-500 transition-colors" />
+                  About Janmat Bharat
+                </Link>
+              </li>
+              <li>
+                <Link to="/how-it-works" className="group flex items-center gap-2 hover:text-white transition-colors">
+                  <ChevronRight size={14} className="text-slate-600 group-hover:text-blue-500 transition-colors" />
+                  Poll Methodology
+                </Link>
+              </li>
+              <li>
+                <Link to="/corrections" className="group flex items-center gap-2 hover:text-white transition-colors">
+                  <ChevronRight size={14} className="text-slate-600 group-hover:text-blue-500 transition-colors" />
+                  Corrections Policy
+                </Link>
+              </li>
+              <li>
+                <Link to="/privacy" className="group flex items-center gap-2 hover:text-white transition-colors">
+                  <ChevronRight size={14} className="text-slate-600 group-hover:text-blue-500 transition-colors" />
+                  Data & Privacy
+                </Link>
+              </li>
+              <li>
+                <Link to="/data-deletion" className="group flex items-center gap-2 hover:text-white transition-colors">
+                  <ShieldCheck size={16} className="text-emerald-500" /> 
+                  Data Deletion
+                </Link>
+              </li>
+              <li>
+                <Link to="/contact" className="group flex items-center gap-2 hover:text-white transition-colors">
+                  <ChevronRight size={14} className="text-slate-600 group-hover:text-blue-500 transition-colors" />
+                  Contact / Grievance
+                </Link>
+              </li>
+            </ul>
+          </div>
+          
+          {/* Platform & Tools */}
+          <div className="md:col-span-2">
+            <h3 className="text-white font-bold mb-6 text-lg tracking-wide">Explore</h3>
             <ul className="space-y-4">
               <li>
                 <Link to="/upcoming-elections" className="group flex items-center gap-2 hover:text-white transition-colors">
@@ -35,39 +78,19 @@ export const Footer = () => {
               <li>
                 <Link to="/constituency" className="group flex items-center gap-2 hover:text-white transition-colors">
                   <ChevronRight size={14} className="text-slate-600 group-hover:text-blue-500 transition-colors" />
-                  Know Your Constituency
+                  Constituency Info
                 </Link>
               </li>
               <li>
                 <Link to="/history" className="group flex items-center gap-2 hover:text-white transition-colors">
                   <ChevronRight size={14} className="text-slate-600 group-hover:text-blue-500 transition-colors" />
-                  PM History
+                  Political History
                 </Link>
               </li>
               <li>
-                <Link to="/how-it-works" className="group flex items-center gap-2 hover:text-white transition-colors">
+                <Link to="/evm-security" className="group flex items-center gap-2 hover:text-white transition-colors">
                   <ChevronRight size={14} className="text-slate-600 group-hover:text-blue-500 transition-colors" />
-                  How Polls Work
-                </Link>
-              </li>
-            </ul>
-          </div>
-          
-          {/* Quick Links */}
-          <div className="md:col-span-2">
-            <h3 className="text-white font-bold mb-6 text-lg tracking-wide">Transparency & Legal</h3>
-            <ul className="space-y-4">
-              
-              <li>
-                <Link to="/privacy" className="group flex items-center gap-2 hover:text-white transition-colors">
-                  <ChevronRight size={14} className="text-slate-600 group-hover:text-blue-500 transition-colors" />
-                  Privacy Policy
-                </Link>
-              </li>
-              <li>
-                <Link to="/data-deletion" className="group flex items-center gap-2 hover:text-white transition-colors">
-                  <ShieldCheck size={16} className="text-emerald-500" /> 
-                  Data Deletion
+                  Election Tech
                 </Link>
               </li>
               <li>

@@ -15,6 +15,8 @@ const staticRoutes = [
   { url: '/voter-awareness', changefreq: 'monthly', priority: 0.8 },
   { url: '/upcoming-elections', changefreq: 'weekly', priority: 0.8 },
   { url: '/constituency', changefreq: 'monthly', priority: 0.7 },
+  { url: '/about', changefreq: 'monthly', priority: 0.8 },
+  { url: '/corrections', changefreq: 'yearly', priority: 0.6 },
   { url: '/data-deletion', changefreq: 'yearly', priority: 0.5 },
   { url: '/privacy', changefreq: 'yearly', priority: 0.5 },
   { url: '/terms', changefreq: 'yearly', priority: 0.5 },
@@ -28,38 +30,37 @@ try {
   // Match all instances of id: "some-id"
   const regex = /id:\s*["']([^"']+)["']/g;
   let match;
+  
   while ((match = regex.exec(historyDataContent)) !== null) {
+    const termId = match[1];
     dynamicRoutes.push({
-      url: `/history/${match[1]}`,
+      url: '/history/' + termId,
       changefreq: 'monthly',
-      priority: 0.7
+      priority: 0.6
     });
   }
-  console.log(`Found ${dynamicRoutes.length} dynamic history routes.`);
+  
+  console.log("Found " + dynamicRoutes.length + " dynamic history routes.");
 } catch (error) {
-  console.error("Error reading historyData.js:", error);
+  console.error("Error reading history data for sitemap:", error);
 }
 
-// 3. Combine Routes
+// 3. Combine and Generate XML
 const allRoutes = [...staticRoutes, ...dynamicRoutes];
 
-// 4. Generate XML
-const today = new Date().toISOString().split('T')[0];
-let xml = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-`;
+let sitemapXml = '<?xml version="1.0" encoding="UTF-8"?>\n';
+sitemapXml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
 
 allRoutes.forEach(route => {
-  xml += `  <url>
-    <loc>${DOMAIN}${route.url}</loc>
-    <lastmod>${today}</lastmod>
-    <changefreq>${route.changefreq}</changefreq>
-    <priority>${route.priority}</priority>
-  </url>\n`;
+  sitemapXml += '  <url>\n';
+  sitemapXml += '    <loc>' + DOMAIN + route.url + '</loc>\n';
+  sitemapXml += '    <changefreq>' + route.changefreq + '</changefreq>\n';
+  sitemapXml += '    <priority>' + route.priority + '</priority>\n';
+  sitemapXml += '  </url>\n';
 });
 
-xml += `</urlset>`;
+sitemapXml += '</urlset>';
 
-// 5. Write to public/sitemap.xml
-fs.writeFileSync(SITEMAP_PATH, xml, 'utf8');
-console.log(`Successfully generated sitemap.xml with ${allRoutes.length} URLs at ${SITEMAP_PATH}`);
+// 4. Write to public/sitemap.xml
+fs.writeFileSync(SITEMAP_PATH, sitemapXml, 'utf8');
+console.log("Successfully generated sitemap.xml with " + allRoutes.length + " URLs at " + SITEMAP_PATH);
