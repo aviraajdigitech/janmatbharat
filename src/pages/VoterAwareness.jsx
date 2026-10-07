@@ -17,7 +17,7 @@ export const VoterAwareness = () => {
     switch (iconName) {
       case 'UserCheck': return <UserCheck className="text-blue-500 w-6 h-6" />;
       case 'UserPlus': return <UserPlus className="text-green-500 w-6 h-6" />;
-      case 'Globe': return <Globe className="text-deepNavy-500 w-6 h-6" />;
+      case 'Globe': return <Globe className="text-indigo-500 w-6 h-6" />;
       case 'Link': return <LinkIcon className="text-cyan-500 w-6 h-6" />;
       case 'Trash2': return <Trash2 className="text-rose-500 w-6 h-6" />;
       case 'FileEdit': return <FileEdit className="text-amber-500 w-6 h-6" />;
@@ -56,15 +56,15 @@ export const VoterAwareness = () => {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Paper Container */}
-        <article className="bg-white rounded-xl shadow-institutional border border-slate-100 shadow-slate-200/50 border border-slate-100 overflow-hidden">
+        <article className="bg-white rounded-3xl shadow-xl shadow-slate-200/50 border border-slate-100 overflow-hidden">
           
           {/* Hero Header */}
           <div className="px-8 pt-12 pb-10 border-b border-slate-100 text-center relative overflow-hidden">
-            <div className="absolute top-0 left-0 w-full h-1 bg-deepNavy-900"></div>
+            <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-saffron-500 via-white to-green-500"></div>
             <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-blue-50 text-blue-600 mb-6 border border-blue-100 shadow-sm">
                <BookOpen size={32} strokeWidth={2} />
             </div>
-            <h1 className="text-3xl md:text-5xl font-black text-deepNavy-900 tracking-tight leading-tight mb-4">
+            <h1 className="text-3xl md:text-5xl font-black text-slate-900 tracking-tight leading-tight mb-4">
               {content.title}
             </h1>
             <p className="text-slate-500 text-lg md:text-xl font-medium max-w-2xl mx-auto">
@@ -75,10 +75,10 @@ export const VoterAwareness = () => {
           <div className="p-8 md:p-12 space-y-12">
             
             {/* Introduction Section */}
-            <section className="bg-orange-50/50 rounded-xl p-6 md:p-8 border border-orange-100">
+            <section className="bg-orange-50/50 rounded-2xl p-6 md:p-8 border border-orange-100">
               <div className="flex items-center gap-3 mb-4">
                  <ShieldAlert className="text-orange-500 w-6 h-6" />
-                 <h2 className="text-2xl font-extrabold text-deepNavy-900">Attention</h2>
+                 <h2 className="text-2xl font-extrabold text-slate-900">Attention</h2>
               </div>
               <div className="prose prose-slate prose-lg max-w-none text-slate-700 whitespace-pre-wrap leading-relaxed font-medium">
                 {content.introText}
@@ -95,7 +95,7 @@ export const VoterAwareness = () => {
                     </div>
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-deepNavy-900 mb-3 leading-snug">{section.title}</h3>
+                    <h3 className="text-xl font-bold text-slate-900 mb-3 leading-snug">{section.title}</h3>
                     <div className="text-slate-600 leading-relaxed whitespace-pre-wrap font-medium">
                       {section.content}
                     </div>
@@ -105,10 +105,10 @@ export const VoterAwareness = () => {
             </section>
 
             {/* Quick Guide Grid */}
-            <section className="bg-slate-50 rounded-xl border border-slate-200 p-6 md:p-8">
+            <section className="bg-slate-50 rounded-2xl border border-slate-200 p-6 md:p-8">
               <div className="flex items-center gap-3 mb-6">
-                <HelpCircle className="text-deepNavy-600 w-7 h-7" />
-                <h2 className="text-2xl font-black text-deepNavy-900">{content.quickGuide.title}</h2>
+                <HelpCircle className="text-indigo-600 w-7 h-7" />
+                <h2 className="text-2xl font-black text-slate-900">{content.quickGuide.title}</h2>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {content.quickGuide.items.map((item, idx) => (
@@ -124,9 +124,9 @@ export const VoterAwareness = () => {
             </section>
 
             {/* Forms Table */}
-            <section className="bg-white rounded-xl border border-slate-200 overflow-hidden shadow-sm">
+            <section className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm">
               <div className="bg-blue-50 p-6 border-b border-blue-100">
-                <h2 className="text-2xl font-black text-deepNavy-900">{content.formsTable.title}</h2>
+                <h2 className="text-2xl font-black text-slate-900">{content.formsTable.title}</h2>
               </div>
               <div className="overflow-x-auto">
                 <table className="w-full text-left border-collapse">
@@ -151,10 +151,10 @@ export const VoterAwareness = () => {
             </section>
 
             {/* How to check name */}
-            <section className="flex flex-col md:flex-row gap-6 bg-deepNavy-900 text-white rounded-xl p-8 shadow-institutional-md border border-slate-200 relative overflow-hidden">
-              <div className="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-blue-600/30 to-purple-600/30 rounded-full hidden -mr-20 -mt-20"></div>
+            <section className="flex flex-col md:flex-row gap-6 bg-slate-900 text-white rounded-2xl p-8 shadow-2xl relative overflow-hidden">
+              <div className="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-blue-600/30 to-purple-600/30 rounded-full blur-3xl -mr-20 -mt-20"></div>
               <div className="relative z-10 flex-shrink-0">
-                <div className="w-14 h-14 bg-white/10 rounded-xl flex items-center justify-center border border-white/20">
+                <div className="w-14 h-14 bg-white/10 rounded-2xl flex items-center justify-center border border-white/20">
                   <Search size={28} className="text-blue-300" />
                 </div>
               </div>
@@ -170,7 +170,7 @@ export const VoterAwareness = () => {
 
             {/* Conclusion / Summary */}
             <section className="text-center pt-8 border-t border-slate-200">
-               <h3 className="text-2xl font-bold text-deepNavy-900 mb-4">{content.conclusion.title}</h3>
+               <h3 className="text-2xl font-bold text-slate-900 mb-4">{content.conclusion.title}</h3>
                <p className="text-lg text-slate-600 font-medium whitespace-pre-wrap max-w-2xl mx-auto">
                  {content.conclusion.text}
                </p>
@@ -178,7 +178,7 @@ export const VoterAwareness = () => {
                  href="https://voters.eci.gov.in" 
                  target="_blank" 
                  rel="noopener noreferrer"
-                 className="inline-flex items-center gap-2 mt-8 px-8 py-3 bg-blue-600 text-white rounded-full font-bold shadow-institutional border border-slate-100 shadow-blue-600/30 hover:bg-blue-700 hover:scale-105 transition-all"
+                 className="inline-flex items-center gap-2 mt-8 px-8 py-3 bg-blue-600 text-white rounded-full font-bold shadow-lg shadow-blue-600/30 hover:bg-blue-700 hover:scale-105 transition-all"
                >
                  Visit ECI Voters' Portal <ArrowRight size={18} />
                </a>

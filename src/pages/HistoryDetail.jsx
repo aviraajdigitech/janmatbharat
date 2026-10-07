@@ -92,14 +92,14 @@ export const HistoryDetail = () => {
           </button>
         </div>
 
-        <div className="bg-white rounded-[2.5rem] shadow-institutional border border-slate-100 border border-slate-100 overflow-hidden flex flex-col lg:flex-row">
+        <div className="bg-white rounded-[2.5rem] shadow-xl border border-slate-100 overflow-hidden flex flex-col lg:flex-row">
           {/* Profile Sidebar */}
-          <div className="lg:w-1/3 bg-deepNavy-900 text-white p-10 flex flex-col items-center text-center relative overflow-hidden">
+          <div className="lg:w-1/3 bg-slate-900 text-white p-10 flex flex-col items-center text-center relative overflow-hidden">
             <div className="absolute top-0 right-0 p-8 opacity-10">
               <Landmark size={120} />
             </div>
             <div className="relative z-10 w-full">
-              <div className="w-48 h-48 mx-auto rounded-full border-4 border-white/20 overflow-hidden mb-6 shadow-institutional-md border border-slate-200 bg-slate-800">
+              <div className="w-48 h-48 mx-auto rounded-full border-4 border-white/20 overflow-hidden mb-6 shadow-2xl bg-slate-800">
                 <img src={termData.image} alt={termData.pm_name_en} className="w-full h-full object-cover" width="600" height="400" loading="eager" decoding="async" onError={(e) => { e.target.src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/300px-No_image_available.svg.png' }} />
               </div>
               
@@ -115,13 +115,13 @@ export const HistoryDetail = () => {
               </div>
               
               <div className="space-y-4 w-full text-left">
-                <div className="bg-white/10 p-4 rounded-xl backdrop-blur-sm border border-white/10">
+                <div className="bg-white/10 p-4 rounded-2xl backdrop-blur-sm border border-white/10">
                   <div className="flex items-center gap-2 text-blue-300 text-sm font-bold uppercase mb-1">
                     <Clock size={16} /> {lang === 'en' ? 'Term Duration' : 'कार्यकाल'}
                   </div>
                   <p className="font-semibold">{lang === 'en' ? termData.term_en : termData.term_hi}</p>
                 </div>
-                <div className="bg-white/10 p-4 rounded-xl backdrop-blur-sm border border-white/10">
+                <div className="bg-white/10 p-4 rounded-2xl backdrop-blur-sm border border-white/10">
                   <div className="flex items-center gap-2 text-blue-300 text-sm font-bold uppercase mb-1">
                     <Users size={16} /> {lang === 'en' ? 'Government Type' : 'सरकार का स्वरूप'}
                   </div>
@@ -141,11 +141,11 @@ export const HistoryDetail = () => {
                     <div className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 shadow-sm border border-blue-200">
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
                     </div>
-                    <h3 className="text-3xl font-extrabold text-deepNavy-900">
+                    <h3 className="text-3xl font-extrabold text-slate-900">
                       {lang === 'en' ? 'Profile & Introduction' : 'परिचय एवं पृष्ठभूमि'}
                     </h3>
                   </div>
-                  <div className="bg-slate-50 p-6 rounded-xl border border-slate-200 space-y-4">
+                  <div className="bg-slate-50 p-6 rounded-3xl border border-slate-200 space-y-4">
                     <div className="flex flex-col sm:flex-row gap-2 sm:gap-6">
                       <div className="flex-1">
                         <h4 className="text-sm font-bold text-slate-500 uppercase tracking-wider mb-1">
@@ -182,11 +182,11 @@ export const HistoryDetail = () => {
                   <div className="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center text-green-600 shadow-sm border border-green-200">
                     <CheckCircle2 size={28} />
                   </div>
-                  <h3 className="text-3xl font-extrabold text-deepNavy-900">
+                  <h3 className="text-3xl font-extrabold text-slate-900">
                     {lang === 'en' ? 'Major Achievements' : 'प्रमुख उपलब्धियाँ'}
                   </h3>
                 </div>
-                <ul className="space-y-4 bg-green-50/50 p-6 rounded-xl border border-green-100">
+                <ul className="space-y-4 bg-green-50/50 p-6 rounded-3xl border border-green-100">
                   {(lang === 'en' ? termData.achievements_en : termData.achievements_hi).map((item, i) => (
                     <li key={i} className="flex items-start gap-4">
                       <span className="w-8 h-8 rounded-full bg-green-600 text-white flex items-center justify-center text-sm font-bold flex-shrink-0 mt-0.5 shadow-sm">{i+1}</span>
@@ -202,11 +202,11 @@ export const HistoryDetail = () => {
                   <div className="w-12 h-12 rounded-full bg-red-100 flex items-center justify-center text-red-600 shadow-sm border border-red-200">
                     <XCircle size={28} />
                   </div>
-                  <h3 className="text-3xl font-extrabold text-deepNavy-900">
+                  <h3 className="text-3xl font-extrabold text-slate-900">
                     {lang === 'en' ? 'Controversies' : 'विवाद और प्रमुख आलोचनाएँ'}
                   </h3>
                 </div>
-                <ul className="space-y-4 bg-red-50/50 p-6 rounded-xl border border-red-100">
+                <ul className="space-y-4 bg-red-50/50 p-6 rounded-3xl border border-red-100">
                   {(lang === 'en' ? termData.criticisms_en : termData.criticisms_hi).map((item, i) => (
                     <li key={i} className="flex items-start gap-4">
                       <span className="w-8 h-8 rounded-full bg-red-600 text-white flex items-center justify-center text-sm font-bold flex-shrink-0 mt-0.5 shadow-sm">!</span>

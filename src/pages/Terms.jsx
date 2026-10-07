@@ -12,14 +12,14 @@ export const Terms = () => {
       <SEO title="Terms & Conditions | Janmat Bharat" description="Read the Terms and Conditions for using Janmat Bharat, an independent public opinion polling platform." canonicalPath="/terms" />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="bg-white rounded-xl shadow-institutional border border-slate-100 border border-slate-200 overflow-hidden">
-          <div className="bg-deepNavy-900 text-white p-10 md:p-14 text-center">
+        <div className="bg-white rounded-3xl shadow-xl border border-slate-200 overflow-hidden">
+          <div className="bg-slate-900 text-white p-10 md:p-14 text-center">
             <FileText size={56} className="mx-auto mb-6 text-slate-400" />
             <h1 className="text-4xl md:text-5xl font-black mb-4">Terms & Conditions</h1>
             <p className="text-lg text-slate-400 font-medium">Last Updated: August 24, 2026</p>
           </div>
 
-          <div className="p-8 md:p-14 prose prose-slate max-w-none prose-headings:font-black prose-headings:text-deepNavy-900">
+          <div className="p-8 md:p-14 prose prose-slate max-w-none prose-headings:font-black prose-headings:text-slate-900">
             
             <div className="bg-red-50 border-l-4 border-red-600 p-6 rounded-r-xl mb-10">
               <h3 className="text-xl font-bold text-red-900 mt-0 flex items-center gap-2">

@@ -63,7 +63,7 @@ export const ElectionCalendar = () => {
           <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-blue-100 text-blue-600 mb-6 shadow-inner">
             <Calendar size={32} strokeWidth={2} />
           </div>
-          <h1 className="text-4xl md:text-5xl font-black text-deepNavy-900 tracking-tight mb-4">
+          <h1 className="text-4xl md:text-5xl font-black text-slate-900 tracking-tight mb-4">
             {content.title}
           </h1>
           <p className="text-lg md:text-xl text-slate-600 font-medium max-w-2xl mx-auto">
@@ -77,12 +77,12 @@ export const ElectionCalendar = () => {
             const countdown = getCountdown(election.targetDate);
             
             return (
-              <div key={election.id} className="bg-white rounded-xl overflow-hidden shadow-institutional border border-slate-100 border border-slate-100 flex flex-col group hover:shadow-institutional-md border border-slate-200 transition-all duration-300">
+              <div key={election.id} className="bg-white rounded-3xl overflow-hidden shadow-xl border border-slate-100 flex flex-col group hover:shadow-2xl transition-all duration-300">
                 
                 {/* Image Header */}
-                <div className="h-48 relative overflow-hidden bg-deepNavy-900">
+                <div className="h-48 relative overflow-hidden bg-slate-900">
                   <img src={election.image} alt={election.state} className="w-full h-full object-cover opacity-60 group-hover:scale-105 group-hover:opacity-80 transition-all duration-700" width="400" height="200" loading="lazy" decoding="async" />
-                  <div className="absolute top-0 left-0 w-full h-full bg-deepNavy-900"></div>
+                  <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-slate-900 via-transparent to-transparent"></div>
                   
                   <div className="absolute bottom-6 left-6 right-6">
                     <span className="inline-block px-3 py-1 bg-saffron-500 text-white text-xs font-bold rounded-full mb-2 uppercase tracking-wider">
@@ -96,7 +96,7 @@ export const ElectionCalendar = () => {
                 <div className="p-6 md:p-8 flex-grow flex flex-col">
                   
                   {/* Countdown Timer */}
-                  <div className="bg-slate-50 rounded-xl p-6 mb-6 border border-slate-200 text-center">
+                  <div className="bg-slate-50 rounded-2xl p-6 mb-6 border border-slate-200 text-center">
                     <div className="flex items-center justify-center gap-2 text-slate-500 font-bold text-sm mb-4 uppercase tracking-widest">
                       <Clock size={16} /> 
                       {lang === 'hi' ? 'अनुमानित समय' : 'Estimated Time Left'}
@@ -130,18 +130,18 @@ export const ElectionCalendar = () => {
                       <div className="bg-green-100 p-2 rounded-lg text-green-600"><Users size={18} /></div>
                       <div>
                         <p className="text-sm font-semibold text-slate-500">{lang === 'hi' ? 'कुल सीटें' : 'Total Seats'}</p>
-                        <p className="text-lg font-bold text-deepNavy-900">{election.totalSeats}</p>
+                        <p className="text-lg font-bold text-slate-900">{election.totalSeats}</p>
                       </div>
                     </li>
                     <li className="flex items-start gap-4">
                       <div className="bg-saffron-100 p-2 rounded-lg text-saffron-600"><MapPin size={18} /></div>
                       <div>
                         <p className="text-sm font-semibold text-slate-500">{lang === 'hi' ? 'वर्तमान सरकार' : 'Current Govt'}</p>
-                        <p className="text-lg font-bold text-deepNavy-900">{election.currentGovt}</p>
+                        <p className="text-lg font-bold text-slate-900">{election.currentGovt}</p>
                       </div>
                     </li>
                     <li className="flex items-start gap-4">
-                      <div className="bg-deepNavy-100 p-2 rounded-lg text-deepNavy-600"><AlertCircle size={18} /></div>
+                      <div className="bg-purple-100 p-2 rounded-lg text-purple-600"><AlertCircle size={18} /></div>
                       <div>
                         <p className="text-sm font-semibold text-slate-500">{lang === 'hi' ? 'महत्व' : 'Importance'}</p>
                         <p className="text-sm font-medium text-slate-700 leading-relaxed">{election.importance}</p>
@@ -154,7 +154,7 @@ export const ElectionCalendar = () => {
                     href="https://play.google.com/store/apps/details?id=com.indian.vote.machine" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="w-full py-4 rounded-xl font-bold text-white bg-deepNavy-900 hover:bg-blue-600 transition-colors flex items-center justify-center gap-2 shadow-institutional border border-slate-100"
+                    className="w-full py-4 rounded-xl font-bold text-white bg-slate-900 hover:bg-blue-600 transition-colors flex items-center justify-center gap-2 shadow-lg"
                   >
                     <Download size={20} />
                     {lang === 'hi' ? 'इस चुनाव का ओपिनियन पोल देखें' : 'View Opinion Polls in App'}

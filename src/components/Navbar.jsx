@@ -80,13 +80,13 @@ export const Navbar = () => {
             <nav 
         className={`fixed top-0 w-full z-[60] transition-all duration-300 ${
           scrolled || isOpen
-            ? 'bg-white/95 backdrop-hidden shadow-sm' 
+            ? 'bg-white/95 backdrop-blur-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)]' 
             : 'bg-white/95 backdrop-blur-md'
         }`}
         aria-label="Main Navigation"
       >
         {/* Top Legal Banner */}
-        <div className="bg-deepNavy-900 text-slate-300 text-[10px] md:text-[11px] py-1.5 px-4 text-center font-medium tracking-wide w-full flex items-center justify-center gap-2">
+        <div className="bg-slate-900 text-slate-300 text-[10px] md:text-[11px] py-1.5 px-4 text-center font-medium tracking-wide w-full flex items-center justify-center gap-2">
            <span className="w-1.5 h-1.5 rounded-full bg-blue-500 animate-pulse"></span>
            <span>Independent digital opinion platform — not an official government or ECI service.</span>
         </div>
@@ -99,7 +99,7 @@ export const Navbar = () => {
               <div className="bg-white p-1 rounded-xl shadow-sm border border-slate-100 flex-shrink-0">
                 <img src="/assets/images/logo.webp" alt="Janmat Bharat Logo" className="w-6 h-6 md:w-7 md:h-7 object-contain" width="28" height="28" loading="eager" decoding="async" onError={(e) => { e.target.src = '/logo.webp' }} />
               </div>
-              <Link to="/" className="text-[1.2rem] md:text-[1.3rem] font-black text-deepNavy-900 tracking-tighter leading-none shrink-0" aria-label="Janmat Bharat Home">
+              <Link to="/" className="text-[1.2rem] md:text-[1.3rem] font-black text-slate-900 tracking-tighter leading-none shrink-0" aria-label="Janmat Bharat Home">
                 Janmat<span className="text-saffron-500">Bharat</span><span className="text-blue-600 text-2xl leading-[0]">.</span>
               </Link>
             </div>
@@ -113,8 +113,8 @@ export const Navbar = () => {
                   to={link.path} 
                   className={`px-3 xl:px-4 py-2 rounded-full text-[13px] uppercase tracking-wider font-bold transition-all duration-300 ${
                     location.pathname === link.path 
-                      ? 'bg-deepNavy-900 text-white shadow-md' 
-                      : 'text-slate-500 hover:text-deepNavy-900 hover:bg-slate-100'
+                      ? 'bg-slate-900 text-white shadow-md' 
+                      : 'text-slate-500 hover:text-slate-900 hover:bg-slate-100'
                   }`}
                 >
                   {link.name}
@@ -129,7 +129,7 @@ export const Navbar = () => {
                   aria-expanded={exploreOpen}
                   aria-haspopup="true"
                   className={`flex items-center gap-1 px-3 xl:px-4 py-2 rounded-full text-[13px] uppercase tracking-wider font-bold transition-all duration-300 ${
-                    exploreOpen ? 'bg-blue-50 text-blue-600' : 'text-slate-500 hover:text-deepNavy-900 hover:bg-slate-100'
+                    exploreOpen ? 'bg-blue-50 text-blue-600' : 'text-slate-500 hover:text-slate-900 hover:bg-slate-100'
                   }`}
                 >
                   Explore <ChevronDown size={14} className={`transition-transform ${exploreOpen ? 'rotate-180' : ''}`} />
@@ -139,7 +139,7 @@ export const Navbar = () => {
                 {exploreOpen && (
                   <div 
                     onMouseLeave={() => setExploreOpen(false)}
-                    className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-64 bg-white rounded-xl shadow-institutional border border-slate-100 border border-slate-100 overflow-hidden animate-in fade-in slide-in-from-top-2"
+                    className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-64 bg-white rounded-2xl shadow-xl border border-slate-100 overflow-hidden animate-in fade-in slide-in-from-top-2"
                   >
                     <div className="py-2">
                       {exploreLinks.map((link) => (
@@ -150,7 +150,7 @@ export const Navbar = () => {
                           className={`block px-5 py-3 text-sm font-bold transition-colors ${
                             location.pathname === link.path 
                               ? 'bg-blue-50 text-blue-600'
-                              : 'text-slate-600 hover:bg-slate-50 hover:text-deepNavy-900'
+                              : 'text-slate-600 hover:bg-slate-50 hover:text-slate-900'
                           }`}
                         >
                           {link.name}
@@ -168,8 +168,8 @@ export const Navbar = () => {
                   to={link.path} 
                   className={`px-3 xl:px-4 py-2 rounded-full text-[13px] uppercase tracking-wider font-bold transition-all duration-300 ${
                     location.pathname === link.path 
-                      ? 'bg-deepNavy-900 text-white shadow-md' 
-                      : 'text-slate-500 hover:text-deepNavy-900 hover:bg-slate-100'
+                      ? 'bg-slate-900 text-white shadow-md' 
+                      : 'text-slate-500 hover:text-slate-900 hover:bg-slate-100'
                   }`}
                 >
                   {link.name}
@@ -183,7 +183,7 @@ export const Navbar = () => {
                 href="https://play.google.com/store/apps/details?id=com.indian.vote.machine" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="group relative inline-flex items-center justify-center gap-2 px-5 py-2.5 text-[13px] font-extrabold text-white bg-deepNavy-900 rounded-full overflow-hidden transition-all hover:scale-105 hover:shadow-sm"
+                className="group relative inline-flex items-center justify-center gap-2 px-5 py-2.5 text-[13px] font-extrabold text-white bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full overflow-hidden transition-all hover:scale-105 hover:shadow-[0_8px_25px_rgba(37,99,235,0.4)]"
               >
                 <div className="absolute inset-0 w-full h-full bg-white/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <Smartphone size={16} className="relative z-10" />
@@ -199,7 +199,7 @@ export const Navbar = () => {
                 aria-expanded={isOpen}
                 aria-label={isOpen ? "Close menu" : "Open menu"}
                 aria-controls="mobile-menu"
-                className="p-3 -mr-2 min-h-[44px] min-w-[44px] flex items-center justify-center rounded-full text-slate-600 hover:bg-slate-100 hover:text-deepNavy-900 transition-all focus:outline-none focus:ring-2 focus:ring-blue-500/20"
+                className="p-3 -mr-2 min-h-[44px] min-w-[44px] flex items-center justify-center rounded-full text-slate-600 hover:bg-slate-100 hover:text-slate-900 transition-all focus:outline-none focus:ring-2 focus:ring-blue-500/20"
               >
                 {isOpen ? <X size={26} strokeWidth={2.5} /> : <Menu size={26} strokeWidth={2.5} />}
               </button>
@@ -212,7 +212,7 @@ export const Navbar = () => {
       {/* Background Overlay for Mobile Menu */}
       {isOpen && (
         <div 
-          className="fixed inset-0 z-50 bg-deepNavy-900/20 backdrop-blur-sm lg:hidden"
+          className="fixed inset-0 z-50 bg-slate-900/20 backdrop-blur-sm lg:hidden"
           onClick={() => setIsOpen(false)}
           aria-hidden="true"
         />
@@ -225,7 +225,7 @@ export const Navbar = () => {
         role="dialog"
         aria-modal="true"
         aria-label="Mobile Navigation"
-        className={`lg:hidden fixed left-0 right-0 top-[60px] z-[60] bg-white border-b border-slate-200 shadow-institutional-md border border-slate-200 transition-all duration-300 ease-in-out origin-top overflow-y-auto max-h-[calc(100vh-60px)] ${
+        className={`lg:hidden fixed left-0 right-0 top-[60px] z-[60] bg-white border-b border-slate-200 shadow-2xl transition-all duration-300 ease-in-out origin-top overflow-y-auto max-h-[calc(100vh-60px)] ${
           isOpen ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-4 pointer-events-none'
         }`}
       >
@@ -234,9 +234,9 @@ export const Navbar = () => {
             <Link
               key={link.name}
               to={link.path}
-              className={`flex items-center justify-between px-5 py-4 min-h-[48px] rounded-xl text-[15px] font-bold transition-all ${
+              className={`flex items-center justify-between px-5 py-4 min-h-[48px] rounded-2xl text-[15px] font-bold transition-all ${
                 location.pathname === link.path 
-                  ? 'bg-deepNavy-900 text-white shadow-md' 
+                  ? 'bg-slate-900 text-white shadow-md' 
                   : 'bg-slate-50 text-slate-700 hover:bg-slate-100'
               }`}
             >
@@ -251,7 +251,7 @@ export const Navbar = () => {
               <Link
                 key={link.name}
                 to={link.path}
-                className={`flex items-center justify-between px-5 py-4 min-h-[48px] rounded-xl text-[14px] font-bold transition-all mb-2 ${
+                className={`flex items-center justify-between px-5 py-4 min-h-[48px] rounded-2xl text-[14px] font-bold transition-all mb-2 ${
                   location.pathname === link.path 
                     ? 'bg-blue-50 text-blue-700' 
                     : 'text-slate-600 hover:bg-slate-50'
@@ -267,7 +267,7 @@ export const Navbar = () => {
               href="https://play.google.com/store/apps/details?id=com.indian.vote.machine" 
               target="_blank" 
               rel="noopener noreferrer" 
-              className="flex items-center justify-center gap-2 w-full px-5 py-4 min-h-[52px] text-[15px] font-extrabold text-white bg-deepNavy-900 rounded-xl shadow-institutional border border-slate-100 shadow-blue-600/20 active:scale-[0.98] transition-transform"
+              className="flex items-center justify-center gap-2 w-full px-5 py-4 min-h-[52px] text-[15px] font-extrabold text-white bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl shadow-lg shadow-blue-600/20 active:scale-[0.98] transition-transform"
             >
               <Smartphone size={18} />
               Download Janmat Bharat App

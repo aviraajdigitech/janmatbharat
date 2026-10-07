@@ -20,14 +20,14 @@ export class ErrorBoundary extends React.Component {
     if (this.state.hasError) {
       return (
         <div className="min-h-[70vh] flex items-center justify-center font-sans px-4 py-16">
-          <div className="max-w-2xl w-full text-center bg-white p-8 md:p-12 rounded-xl shadow-institutional border border-slate-100 border border-slate-200 relative overflow-hidden">
-            <div className="absolute top-0 right-0 w-32 h-32 bg-red-500/10 rounded-full hidden -mr-10 -mt-10 pointer-events-none"></div>
+          <div className="max-w-2xl w-full text-center bg-white p-8 md:p-12 rounded-3xl shadow-xl border border-slate-200 relative overflow-hidden">
+            <div className="absolute top-0 right-0 w-32 h-32 bg-red-500/10 rounded-full blur-2xl -mr-10 -mt-10 pointer-events-none"></div>
             
             <div className="bg-red-50 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 relative z-10">
               <AlertOctagon size={40} className="text-red-500" />
             </div>
             
-            <h1 className="text-3xl md:text-4xl font-black text-deepNavy-900 tracking-tight mb-4 relative z-10">
+            <h1 className="text-3xl md:text-4xl font-black text-slate-900 tracking-tight mb-4 relative z-10">
               Something went wrong
             </h1>
             
@@ -36,7 +36,7 @@ export class ErrorBoundary extends React.Component {
             </p>
 
             {/* Display the exact error message for debugging */}
-            <div className="bg-deepNavy-900 text-left p-4 rounded-xl mb-8 overflow-auto max-h-48 text-xs text-red-400 font-mono relative z-10">
+            <div className="bg-slate-900 text-left p-4 rounded-xl mb-8 overflow-auto max-h-48 text-xs text-red-400 font-mono relative z-10">
               <p className="font-bold mb-2">Error Details:</p>
               {this.state.error && this.state.error.toString()}
               <br />
@@ -46,7 +46,7 @@ export class ErrorBoundary extends React.Component {
             <div className="flex flex-col sm:flex-row gap-4 justify-center relative z-10">
               <button 
                 onClick={() => window.location.reload()}
-                className="inline-flex w-full sm:w-auto items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-xl transition-all shadow-md hover:shadow-institutional border border-slate-100"
+                className="inline-flex w-full sm:w-auto items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-xl transition-all shadow-md hover:shadow-lg"
               >
                 <RefreshCw size={18} /> Reload Page
               </button>
