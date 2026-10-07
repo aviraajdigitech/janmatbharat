@@ -99,7 +99,7 @@ export const HistoryDetail = () => {
             </div>
             <div className="relative z-10 w-full">
               <div className="w-48 h-48 mx-auto rounded-full border-4 border-white/20 overflow-hidden mb-6 shadow-2xl bg-slate-800">
-                <img src={termData.image} alt={termData.pm_name_en} className="w-full h-full object-cover" onError={(e) => { e.target.src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/300px-No_image_available.svg.png' }} />
+                <img src={termData.image} alt={termData.pm_name_en} className="w-full h-full object-cover" width="600" height="400" loading="eager" decoding="async" onError={(e) => { e.target.src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/300px-No_image_available.svg.png' }} />
               </div>
               
               <div className="bg-blue-600/20 text-blue-300 font-bold px-4 py-1.5 rounded-full inline-block mb-4 text-sm border border-blue-500/30">

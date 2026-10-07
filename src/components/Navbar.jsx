@@ -90,7 +90,7 @@ export const Navbar = () => {
             {/* Logo */}
             <div className="flex items-center gap-2.5">
               <div className="bg-white p-1 rounded-xl shadow-sm border border-slate-100 flex-shrink-0">
-                <img src="/assets/images/logo.webp" alt="Janmat Bharat Logo" className="w-6 h-6 md:w-7 md:h-7 object-contain" onError={(e) => { e.target.src = '/logo.webp' }} />
+                <img src="/assets/images/logo.webp" alt="Janmat Bharat Logo" className="w-6 h-6 md:w-7 md:h-7 object-contain" width="28" height="28" loading="eager" decoding="async" onError={(e) => { e.target.src = '/logo.webp' }} />
               </div>
               <Link to="/" className="text-[1.2rem] md:text-[1.3rem] font-black text-slate-900 tracking-tighter leading-none shrink-0" aria-label="Janmat Bharat Home">
                 Janmat<span className="text-saffron-500">Bharat</span><span className="text-blue-600 text-2xl leading-[0]">.</span>

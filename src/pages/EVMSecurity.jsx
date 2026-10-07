@@ -97,7 +97,7 @@ export const EVMSecurity = () => {
 
             {/* Visual Break (Image) */}
             <div className="rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
-              <img src="/assets/images/evm.jpg" alt="Electronic Voting Machine" className="w-full h-64 md:h-80 object-cover object-center" />
+              <img src="/assets/images/evm.jpg" alt="Electronic Voting Machine" className="w-full h-64 md:h-80 object-cover object-center" width="800" height="400" loading="lazy" decoding="async" />
               <div className="bg-slate-100 py-2 px-4 text-xs text-center text-slate-500 font-medium">Representative Image: Electronic Voting Machine</div>
             </div>
 
@@ -122,7 +122,7 @@ export const EVMSecurity = () => {
 
             {/* Supreme Court Image */}
             <div className="rounded-2xl overflow-hidden border border-slate-200 shadow-sm mt-12 mb-12">
-              <img src="/assets/images/sc.jpg" alt="Supreme Court of India" className="w-full h-64 md:h-80 object-cover object-center" />
+              <img src="/assets/images/sc.jpg" alt="Supreme Court of India" className="w-full h-64 md:h-80 object-cover object-center" width="800" height="400" loading="lazy" decoding="async" />
               <div className="bg-slate-100 py-2 px-4 text-xs text-center text-slate-500 font-medium">Supreme Court of India</div>
             </div>
 

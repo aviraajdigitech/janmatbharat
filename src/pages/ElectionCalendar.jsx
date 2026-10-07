@@ -79,7 +79,7 @@ export const ElectionCalendar = () => {
                 
                 {/* Image Header */}
                 <div className="h-48 relative overflow-hidden bg-slate-900">
-                  <img src={election.image} alt={election.state} className="w-full h-full object-cover opacity-60 group-hover:scale-105 group-hover:opacity-80 transition-all duration-700" />
+                  <img src={election.image} alt={election.state} className="w-full h-full object-cover opacity-60 group-hover:scale-105 group-hover:opacity-80 transition-all duration-700" width="400" height="200" loading="lazy" decoding="async" />
                   <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-slate-900 via-transparent to-transparent"></div>
                   
                   <div className="absolute bottom-6 left-6 right-6">
