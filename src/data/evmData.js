@@ -1,9 +1,13 @@
 export const evmData = {
   hi: {
-    title: "क्या भारतीय EVM हैक हो सकती है? (EVM Hack Reality Check)",
-    subtitle: "EVM Hack Reality Check — तकनीक, प्रक्रिया, Supreme Court और Paper Ballot का पूरा विश्लेषण",
+    title: "Understanding EVMs & Election Technology",
+    subtitle: "Understanding EVMs & Election Technology",
     introTitle: "सबसे पहले निष्कर्ष नहीं, सवाल को सही तरीके से समझें",
     introText: "“EVM hack हो सकती है?” के दो अलग मतलब हो सकते हैं:\n\n1. Remote hacking: क्या कोई व्यक्ति बाहर बैठकर Wi-Fi, Bluetooth, Internet, mobile network आदि से EVM में वोट बदल सकता है?\n\n2. Physical/insider tampering: क्या किसी व्यक्ति को मशीन तक असामान्य physical access मिल जाए, hardware/microcontroller से छेड़छाड़ हो, manufacturing या custody chain में manipulation हो, तो परिणाम प्रभावित किया सकता है?\n\nइन दोनों को एक ही चीज मानना गलत होगा। भारत की ECI-EVM को लेकर उपलब्ध official architecture में remote/network hacking का रास्ता मौजूद नहीं बताया गया है। लेकिन इससे यह अलग प्रश्न पैदा होता है कि क्या किसी भी electronic system को हर conceivable physical attack के खिलाफ mathematically “100% impossible to tamper” कहा जा सकता है। Supreme Court ने भी इसी वजह से safeguards और empirical verification पर जोर दिया, न कि “हैकिंग के universe में logically impossible” जैसा दावा किया।",
+    importantDisclaimer: {
+      title: "Educational Content Disclaimer",
+      text: "This educational content discusses India's election technology. It is separate from Janmat Bharat's independent digital opinion polls."
+    },
     
     sections: [
       {
@@ -84,10 +88,14 @@ export const evmData = {
   },
   
   en: {
-    title: "Can Indian EVMs be Hacked? (EVM Hack Reality Check)",
-    subtitle: "Complete analysis of Technology, Protocols, Supreme Court Judgments, and Paper Ballots",
+    title: "Understanding EVMs & Election Technology",
+    subtitle: "An Educational Guide to India's Official Voting Machines",
     introTitle: "Understand the Question Before Jumping to Conclusions",
     introText: "The question 'Can an EVM be hacked?' can mean two things: 1. Remote Hacking via Wi-Fi/Bluetooth/Internet. 2. Physical/Insider Tampering. The official ECI-EVM architecture has no provision for remote hacking as it is not network-connected. However, claiming any electronic system is '100% mathematically impossible to tamper with' against all conceivable physical attacks is technically absolute. This is why the Supreme Court emphasizes empirical verification and safeguards.",
+    importantDisclaimer: {
+      title: "Educational Content Disclaimer",
+      text: "This educational content discusses India's election technology. It is separate from Janmat Bharat's independent digital opinion polls."
+    },
     
     sections: [
        {

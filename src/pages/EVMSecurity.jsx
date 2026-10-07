@@ -70,6 +70,22 @@ export const EVMSecurity = () => {
           </div>
 
           <div className="p-8 md:p-12 space-y-12">
+
+            {/* Disclaimer Section */}
+            {content.importantDisclaimer && (
+              <section className="bg-orange-50 border-l-4 border-orange-500 rounded-r-2xl p-6 md:p-8 shadow-sm">
+                <div className="flex items-center gap-3 mb-3">
+                  <Shield className="text-orange-600 w-8 h-8 shrink-0" />
+                  <h3 className="text-xl md:text-2xl font-bold text-orange-900">
+                    {content.importantDisclaimer.title}
+                  </h3>
+                </div>
+                <p className="text-orange-800 font-medium text-[16px] md:text-lg leading-relaxed">
+                  {content.importantDisclaimer.text}
+                </p>
+              </section>
+            )}
+
             
             {/* Introduction Section */}
             <section className="bg-slate-50 rounded-2xl p-6 md:p-8 border border-slate-200">
