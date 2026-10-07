@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Helmet } from 'react-helmet-async';
+import { SEO } from '../components/SEO';
+
 import { Link } from 'react-router-dom';
 import { pmHistory } from '../data/historyData';
 import { Languages, ArrowRight, Landmark } from 'lucide-react';
@@ -9,10 +10,11 @@ export const History = () => {
 
   return (
     <div className="min-h-screen pt-28 pb-20 bg-slate-50 font-sans">
-      <Helmet>
-        <title>Political History of India | Janmat Bharat</title>
-        <meta name="description" content="Explore the comprehensive political history of India term by term." />
-      </Helmet>
+            <SEO 
+        title="Political History of India | Janmat Bharat"
+        description="Explore the comprehensive political history of India, past Prime Ministers, and key election timelines."
+        canonicalPath="/history"
+      />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-4xl mx-auto mb-16 relative">

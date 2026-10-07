@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { SEO } from '../components/SEO';
 import { evmData } from '../data/evmData';
 import { Network, Bluetooth, Monitor, Cpu, UserX, Printer, Scale, Search, Shield, FileCheck, ShieldCheck, FileText, CheckCircle2, XCircle } from 'lucide-react';
 
@@ -30,6 +31,11 @@ export const EVMSecurity = () => {
 
   return (
     <div className="min-h-screen bg-slate-50 pt-28 pb-20 font-sans">
+      <SEO 
+        title="Understanding EVMs & Election Technology | Janmat Bharat"
+        description="Learn about the security, architecture, and technology behind India's Electronic Voting Machines (EVMs)."
+        canonicalPath="/evm-security"
+      />
       
       {/* Top Language Toggle */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-6 flex justify-end">

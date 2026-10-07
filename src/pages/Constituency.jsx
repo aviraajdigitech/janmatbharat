@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Helmet } from 'react-helmet-async';
+import { SEO } from '../components/SEO';
+
 import { Map, MapPin, Download, Target, ChevronDown } from 'lucide-react';
 import { realLokSabhaData, constituencyUI } from '../data/realConstituencyData';
 
@@ -36,10 +37,11 @@ export const Constituency = () => {
 
   return (
     <div className="min-h-screen bg-slate-50 pt-28 pb-20 font-sans">
-      <Helmet>
-        <title>{lang === 'hi' ? 'अपनी लोकसभा जानें | Janmat Bharat' : 'Know Your Constituency | Janmat Bharat'}</title>
-        <meta name="description" content="Select your state and constituency to find your current Lok Sabha MP and cast your vote on Janmat Bharat." />
-      </Helmet>
+            <SEO 
+        title="Know Your Constituency | Janmat Bharat"
+        description="Search and explore details about your political constituency, historical voting trends, and regional demographics."
+        canonicalPath="/constituency"
+      />
 
       {/* Language Toggle */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-6 flex justify-end">

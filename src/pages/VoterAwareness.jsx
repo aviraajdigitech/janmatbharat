@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { SEO } from '../components/SEO';
 import { voterData } from '../data/voterData';
 import { BookOpen, UserCheck, UserPlus, Globe, Link as LinkIcon, Trash2, FileEdit, Files, Search, ShieldAlert, ArrowRight, HelpCircle } from 'lucide-react';
 
@@ -27,6 +28,11 @@ export const VoterAwareness = () => {
 
   return (
     <div className="min-h-screen bg-slate-50 pt-28 pb-20 font-sans">
+      <SEO 
+        title="Voter Awareness & Education | Janmat Bharat"
+        description="Essential information for Indian voters. Learn how to register, verify your name in the voter list, and understand your democratic rights."
+        canonicalPath="/voter-awareness"
+      />
       
       {/* Top Language Toggle */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-6 flex justify-end">

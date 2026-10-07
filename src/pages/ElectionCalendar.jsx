@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Helmet } from 'react-helmet-async';
+import { SEO } from '../components/SEO';
+
 import { Calendar, Clock, MapPin, Users, Download, AlertCircle } from 'lucide-react';
 import { upcomingElections } from '../data/electionCalendarData';
 
@@ -31,10 +32,11 @@ export const ElectionCalendar = () => {
 
   return (
     <div className="min-h-screen bg-slate-50 pt-28 pb-20 font-sans">
-      <Helmet>
-        <title>{lang === 'en' ? 'Upcoming Election Calendar | Janmat Bharat' : 'आगामी चुनाव कैलेंडर | Janmat Bharat'}</title>
-        <meta name="description" content="Track live countdowns and schedules for upcoming Assembly and Lok Sabha elections across India." />
-      </Helmet>
+            <SEO 
+        title="Upcoming Elections Calendar | Janmat Bharat"
+        description="Track upcoming state and national elections in India. Stay updated with the latest political events and voting dates."
+        canonicalPath="/upcoming-elections"
+      />
 
       {/* Language Toggle */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-6 flex justify-end">
