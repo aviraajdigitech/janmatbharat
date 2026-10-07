@@ -109,188 +109,144 @@ export const Home = () => {
         </div>
       </section>
 
-      {/* ── LIVE TREND PREVIEW ── */}
-      <section className="py-20 bg-slate-50 border-b border-slate-200">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center max-w-2xl mx-auto mb-14">
-            <div className="inline-flex items-center gap-2 text-saffron-600 font-bold tracking-widest uppercase mb-4 bg-saffron-100 px-4 py-1.5 rounded-full text-sm">
-              <TrendingUp size={16} /> Live Sneak Peek
-            </div>
-            <h3 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-4">Current National Mood</h3>
-            <p className="text-slate-600">A glimpse of the powerful analytics inside the Janmat Bharat app.</p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-white rounded-3xl p-8 shadow-xl border border-slate-100">
-              <h4 className="text-lg font-bold text-slate-900 mb-6">Projected Lok Sabha Sentiment</h4>
-              <div className="space-y-5">
-                {[
-                  { label: 'NDA (Alliance)', pct: '42%', w: '42%', color: 'bg-saffron-500' },
-                  { label: 'I.N.D.I.A (Alliance)', pct: '38%', w: '38%', color: 'bg-blue-500' },
-                  { label: 'Others / Undecided', pct: '20%', w: '20%', color: 'bg-slate-400' },
-                ].map(r => (
-                  <div key={r.label}>
-                    <div className="flex justify-between text-sm font-bold text-slate-700 mb-1"><span>{r.label}</span><span>{r.pct}</span></div>
-                    <div className="w-full bg-slate-100 rounded-full h-3"><div className={`${r.color} h-3 rounded-full`} style={{ width: r.w }} /></div>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            <div className="bg-white rounded-3xl p-8 shadow-xl border border-slate-100">
-              <h4 className="text-lg font-bold text-slate-900 mb-6">Top Issues Impacting Youth Vote</h4>
-              <div className="space-y-5">
-                {[
-                  { label: '1. Employment & Job Creation', pct: '65%', w: '65%', color: 'bg-indigo-500' },
-                  { label: '2. Inflation & Cost of Living', pct: '52%', w: '52%', color: 'bg-red-500' },
-                  { label: '3. Infrastructure & Development', pct: '45%', w: '45%', color: 'bg-green-500' },
-                ].map(r => (
-                  <div key={r.label}>
-                    <div className="flex justify-between text-sm font-bold text-slate-700 mb-1"><span>{r.label}</span><span>{r.pct}</span></div>
-                    <div className="w-full bg-slate-100 rounded-full h-3"><div className={`${r.color} h-3 rounded-full`} style={{ width: r.w }} /></div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ── PM HISTORY SHOWCASE ── */}
-      <section className="py-20 bg-white border-b border-slate-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center max-w-3xl mx-auto mb-12">
-            <h2 className="text-sm font-bold text-saffron-600 tracking-widest uppercase mb-2">The Digital Encyclopedia</h2>
-            <h3 className="text-3xl md:text-5xl font-extrabold text-slate-900 mb-4">Explore India's Leadership</h3>
-            <p className="text-slate-600 text-lg">Click any Prime Minister to read their full unbiased term-wise history.</p>
-          </div>
-
-          <div className="flex overflow-x-auto pb-8 gap-5 snap-x flex-nowrap [&::-webkit-scrollbar]:hidden">
-            {reversedHistory.map((pm) => (
-              <Link
-                to={`/history/${pm.id}`}
-                key={pm.id}
-                className="snap-start shrink-0 w-56 sm:w-64 bg-slate-50 rounded-3xl p-5 border border-slate-200 hover:shadow-2xl hover:border-blue-300 transition-all duration-300 group flex flex-col items-center text-center"
-              >
-                <div className="w-28 h-28 rounded-full border-4 border-white shadow-lg overflow-hidden mb-4 group-hover:scale-105 transition-transform duration-300 bg-slate-200">
-                  <img
-                    src={pm.image}
-                    alt={pm.pm_name_en}
-                    className="w-full h-full object-cover"
-                    loading="lazy"
-                  />
-                </div>
-                <div className="bg-blue-100 text-blue-700 font-bold px-3 py-1 rounded-full text-xs uppercase mb-2 border border-blue-200">
-                  {pm.period_en}
-                </div>
-                <h4 className="font-extrabold text-slate-900 text-base mb-1 leading-tight group-hover:text-blue-600 transition-colors">
-                  {pm.pm_name_en}
-                </h4>
-                <p className="text-xs text-slate-500 font-medium line-clamp-2">{pm.term_en}</p>
-                <div className="mt-3 text-saffron-500 font-bold text-xs flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
-                  Read History <ChevronRight size={14} />
-                </div>
-              </Link>
-            ))}
-          </div>
-
-          <div className="text-center mt-4">
-            <Link to="/history" className="inline-flex items-center gap-2 bg-slate-900 text-white px-8 py-3 rounded-full font-bold hover:bg-slate-700 transition-colors shadow-lg">
-              <Landmark size={18} /> View Full Political History
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* ── INSIDE THE APP (6 FEATURES) ── */}
-      <section className="py-24 bg-slate-50">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      {/* 🛑 NEW: LIVE PM RACE TEASER */}
+      <section className="py-24 bg-slate-900 relative overflow-hidden">
+        {/* Background Gradients */}
+        <div className="absolute top-0 right-0 w-96 h-96 bg-saffron-500 rounded-full blur-[100px] opacity-20"></div>
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-blue-500 rounded-full blur-[100px] opacity-20"></div>
+        
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-sm font-bold text-blue-600 tracking-widest uppercase mb-2">Inside The App</h2>
-            <h3 className="text-3xl md:text-5xl font-extrabold text-slate-900 mb-4">Everything You Need to Understand Indian Politics</h3>
-            <p className="text-slate-600 text-lg">Deep analytics, historical data, and a secure platform to cast your mock vote.</p>
+            <div className="inline-flex items-center gap-2 text-red-500 font-bold tracking-widest uppercase mb-4 bg-red-500/10 border border-red-500/20 px-4 py-1.5 rounded-full text-sm animate-pulse">
+              <div className="w-2 h-2 rounded-full bg-red-500"></div>
+              Live Polling Data
+            </div>
+            <h3 className="text-4xl md:text-5xl font-black text-white mb-6">
+              2029 PM Race: कौन चल रहा है सबसे आगे?
+            </h3>
+            <p className="text-xl text-slate-300 font-medium">
+              देश भर के लाखों वोटर्स अपना फैसला दे चुके हैं। जानिए रियल-टाइम में भारत की जनता किसे अगला प्रधानमंत्री देखना चाहती है।
+            </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[
-              { icon: Vote, color: 'text-blue-600', bg: 'bg-blue-50', title: '3-Tier Voting System', desc: 'Vote for your local MLA, your MP, and your choice for the Next Prime Minister of India.' },
-              { icon: Landmark, color: 'text-saffron-500', bg: 'bg-saffron-50', title: 'Deep Political Encyclopedia', desc: 'Wikipedia-grade, unbiased, term-by-term analysis of every Indian PM from 1947 to today.', link: '/history' },
-              { icon: BarChart3, color: 'text-green-600', bg: 'bg-green-50', title: 'In-App Polling Analytics', desc: 'Explore political trends inside the app. Charts filtered by state, constituency & demographics.' },
-              { icon: ShieldCheck, color: 'text-purple-600', bg: 'bg-purple-50', title: '100% Anonymous & Safe', desc: 'Zero-knowledge architecture ensures your mock vote can never be traced to your identity.' },
-              { icon: Lock, color: 'text-red-600', bg: 'bg-red-50', title: 'Anti-Fraud Technology', desc: 'One Device, One Vote. OTP verification blocks bots and IT cell manipulation.' },
-              { icon: Users, color: 'text-indigo-600', bg: 'bg-indigo-50', title: 'Youth Empowerment', desc: 'We educate first-time voters on EVM security, VVPAT, and their constitutional rights.', link: '/voter-awareness' },
-            ].map((f) => (
-              <div key={f.title} className="bg-white p-8 rounded-3xl shadow-xl border border-slate-100 hover:shadow-2xl transition-shadow group">
-                <div className={`w-14 h-14 ${f.bg} rounded-2xl flex items-center justify-center ${f.color} mb-5 group-hover:scale-110 transition-transform`}>
-                  <f.icon size={28} />
-                </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-3">{f.title}</h3>
-                <p className="text-slate-600 leading-relaxed text-sm">{f.desc}</p>
-                {f.link && (
-                  <Link to={f.link} className={`mt-3 ${f.color} font-bold flex items-center gap-1 text-sm`}>
-                    Explore <ChevronRight size={14} />
-                  </Link>
-                )}
+          <div className="bg-slate-800/50 backdrop-blur-md rounded-3xl p-1 border border-slate-700 shadow-2xl relative overflow-hidden group">
+            {/* Locked Content overlay */}
+            <div className="absolute inset-0 z-20 flex flex-col items-center justify-center bg-slate-900/60 backdrop-blur-sm p-6 text-center">
+              <div className="w-20 h-20 bg-blue-600 rounded-2xl flex items-center justify-center mb-6 shadow-lg shadow-blue-600/30">
+                <Lock size={40} className="text-white" />
               </div>
-            ))}
+              <h4 className="text-2xl md:text-3xl font-black text-white mb-4">असली और रियल-टाइम आँकड़े लॉक हैं</h4>
+              <p className="text-slate-300 max-w-md mx-auto mb-8 font-medium">
+                यह जानने के लिए कि कौन सी पार्टी या उम्मीदवार PM रेस में सबसे आगे है, अभी प्ले स्टोर से ऐप डाउनलोड करें।
+              </p>
+              <a 
+                href="https://play.google.com/store/apps/details?id=com.indian.vote.machine"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white text-slate-900 hover:bg-blue-50 px-8 py-4 rounded-full font-black text-lg transition-all shadow-xl flex items-center gap-3 transform hover:scale-105 inline-flex"
+              >
+                <Download size={24} className="text-blue-600" />
+                Unlock Live Results
+              </a>
+            </div>
+
+            {/* Fake Blurred Graph underneath */}
+            <div className="bg-slate-800 rounded-[22px] p-8 md:p-12 opacity-40 pointer-events-none select-none">
+              <div className="flex items-end justify-between gap-4 h-64 border-b border-slate-700 pb-4">
+                {[
+                  { label: "NDA", height: "80%", color: "bg-saffron-500" },
+                  { label: "I.N.D.I.A", height: "65%", color: "bg-blue-500" },
+                  { label: "Others", height: "30%", color: "bg-slate-500" }
+                ].map((bar, i) => (
+                  <div key={i} className="w-full flex flex-col justify-end items-center h-full gap-4">
+                    <div className="font-black text-3xl text-white opacity-0 group-hover:opacity-100 transition-opacity">??%</div>
+                    <div className={"w-full max-w-[120px] rounded-t-xl transition-all duration-1000 " + bar.color} style={{ height: bar.height }}></div>
+                    <div className="text-slate-400 font-bold text-lg">{bar.label}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* ── HOW IT WORKS ── */}
-      <section className="py-24 bg-white border-y border-slate-100 overflow-hidden">
+      {/* 🛑 NEW: YOUR VOTE MATTERS SECTION */}
+      <section className="py-24 bg-white border-b border-slate-200">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col lg:flex-row items-center gap-16 lg:gap-24">
-            <div className="lg:w-1/2">
-              <div className="inline-block px-4 py-1.5 rounded-full bg-blue-50 border border-blue-100 text-blue-600 font-bold text-sm tracking-wide mb-6">
-                Simple & Secure
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            
+            <div>
+              <div className="inline-flex items-center gap-2 text-blue-600 font-bold tracking-widest uppercase mb-4 bg-blue-50 px-4 py-1.5 rounded-full text-sm">
+                <Target size={16} /> The Power of One Vote
               </div>
-              <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-6 tracking-tight">How Janmat Bharat Works</h2>
-              <p className="text-slate-500 text-[17px] mb-12 leading-relaxed">
-                We've built a platform that is as simple as sending a message, yet as secure as a bank vault. Your voice matters, and making it heard has never been easier.
+              <h3 className="text-4xl md:text-5xl font-black text-slate-900 mb-6 leading-tight">
+                आपका एक वोट देश को सही दिशा और सच्चे आँकड़े देगा!
+              </h3>
+              <p className="text-xl text-slate-600 mb-10 leading-relaxed">
+                जब आप Janmat Bharat App पर वोट डालते हैं, तो आप देश को यह बताते हैं कि असल में जनता किसे पसंद करती है। हमारा सिस्टम इतना सुरक्षित है कि यहाँ कोई आपके फैसले को बदल नहीं सकता।
               </p>
               
-              <div className="relative space-y-10">
-                {/* Timeline connecting line */}
-                <div className="absolute left-6 top-6 bottom-6 w-[2px] bg-slate-100"></div>
-                
+              <div className="space-y-6">
                 {[
-                  { n: '1', color: 'bg-white text-blue-600 border-blue-200 shadow-blue-100', title: 'Download & Join', desc: 'Get the app from the Play Store and set up your secure profile instantly.' },
-                  { n: '2', color: 'bg-white text-blue-600 border-blue-200 shadow-blue-100', title: 'Select Constituency', desc: 'Choose your state and local area for hyper-local, accurate polling data.' },
-                  { n: '3', color: 'bg-white text-saffron-600 border-saffron-200 shadow-saffron-100', title: 'Cast Your Mock Vote', desc: 'Tap your preferred party. Your choice is fully encrypted and 100% anonymous.' },
-                  { n: '4', color: 'bg-white text-green-600 border-green-200 shadow-green-100', title: 'View App Results', desc: 'Unlock stunning charts inside the app showing national and state political trends.' },
-                ].map((s) => (
-                  <div key={s.n} className="group relative flex gap-6 z-10">
-                    <div className={`w-12 h-12 rounded-2xl ${s.color} font-black flex items-center justify-center flex-shrink-0 text-xl border-2 shadow-lg transition-transform duration-300 group-hover:scale-110 group-hover:-rotate-3`}>
-                      {s.n}
+                  { 
+                    icon: <ShieldCheck size={28} className="text-green-500" />, 
+                    title: "कोई वोट चोरी नहीं (Zero Vote Theft)", 
+                    desc: "हमारा सिस्टम 100% सुरक्षित है। कोई हैकर या पार्टी आपका फैसला बदल नहीं सकती।" 
+                  },
+                  { 
+                    icon: <Fingerprint size={28} className="text-blue-500" />, 
+                    title: "1 फ़ोन = 1 वोट (Anti-Fraud Tech)", 
+                    desc: "फर्जी वोटिंग पूरी तरह से असंभव। डिवाइस फिंगरप्रिंटिंग से हर व्यक्ति सिर्फ एक ही वोट डाल सकता है।" 
+                  },
+                  { 
+                    icon: <BarChart3 size={28} className="text-saffron-500" />, 
+                    title: "असली ओपिनियन पोल (True Analytics)", 
+                    desc: "मीडिया के झूठे सर्वर को भूल जाइए। यहाँ देश की जनता रियल-टाइम में खुद अपना ओपिनियन पोल तय करती है।" 
+                  }
+                ].map((item, i) => (
+                  <div key={i} className="flex gap-5 bg-slate-50 p-6 rounded-2xl border border-slate-100 hover:shadow-md transition-shadow">
+                    <div className="flex-shrink-0 w-14 h-14 bg-white rounded-xl shadow-sm flex items-center justify-center border border-slate-200">
+                      {item.icon}
                     </div>
-                    <div className="pt-2">
-                      <h4 className="text-[19px] font-extrabold text-slate-900 mb-1.5 group-hover:text-blue-600 transition-colors">{s.title}</h4>
-                      <p className="text-slate-500 text-[15px] leading-relaxed">{s.desc}</p>
+                    <div>
+                      <h4 className="text-xl font-bold text-slate-900 mb-2">{item.title}</h4>
+                      <p className="text-slate-600 leading-relaxed">{item.desc}</p>
                     </div>
                   </div>
                 ))}
               </div>
             </div>
-            <div className="lg:w-1/2 w-full">
-              <div className="bg-slate-900 rounded-[3rem] p-4 shadow-2xl relative">
-                <div className="absolute top-0 right-10 w-24 h-24 bg-saffron-500 rounded-full blur-3xl opacity-30" />
-                <div className="absolute bottom-10 left-10 w-32 h-32 bg-blue-500 rounded-full blur-3xl opacity-30" />
-                <div className="bg-slate-800 rounded-[2.5rem] p-8 relative z-10 border border-slate-700 aspect-[4/5] flex flex-col justify-center items-center text-center">
-                  <div className="w-20 h-20 bg-white rounded-2xl flex items-center justify-center mb-6 shadow-lg"><Vote size={40} className="text-blue-600" /></div>
-                  <h3 className="text-3xl font-extrabold text-white mb-3">India's Pulse</h3>
-                  <p className="text-slate-400 text-sm mb-8">The most intuitive polling interface designed for Indian voters.</p>
-                  {[{ color: 'bg-saffron-500', w: 'w-2/3' }, { color: 'bg-green-500', w: 'w-1/3' }, { color: 'bg-blue-500', w: 'w-1/2' }].map((b, i) => (
-                    <div key={i} className="w-full bg-slate-700/50 rounded-full h-4 mb-3 overflow-hidden"><div className={`${b.color} ${b.w} h-full rounded-full`} /></div>
-                  ))}
+
+            <div className="relative">
+              <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-saffron-500 rounded-[3rem] blur-2xl opacity-20 transform rotate-3"></div>
+              <div className="bg-slate-900 rounded-[3rem] p-10 md:p-14 relative z-10 text-center shadow-2xl border border-slate-800">
+                <div className="w-24 h-24 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-8 backdrop-blur-sm border border-white/20">
+                  <Vote size={48} className="text-white drop-shadow-md" />
                 </div>
+                <h4 className="text-3xl font-black text-white mb-6 leading-tight">देश को एक अच्छे राजनेता की जरूरत है।</h4>
+                <p className="text-slate-300 text-lg mb-10 leading-relaxed">
+                  अपना वोट डालें और साबित करें कि देश की असली ताकत जनता के हाथ में है।
+                </p>
+                <a 
+                  href="https://play.google.com/store/apps/details?id=com.indian.vote.machine"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-gradient-to-r from-saffron-500 via-white to-green-500 p-1 rounded-full block w-full transform hover:scale-105 transition-transform shadow-xl"
+                >
+                  <div className="bg-slate-900 rounded-full py-4 text-white font-black text-xl flex items-center justify-center gap-3">
+                    <Smartphone size={24} className="text-saffron-400" />
+                    Vote Now on App
+                  </div>
+                </a>
               </div>
             </div>
+
           </div>
         </div>
       </section>
 
-      {/* ── VOICES OF INDIA ── */}
+{/* ── VOICES OF INDIA ── */}
       <section className="py-24 bg-slate-50 border-b border-slate-200">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
