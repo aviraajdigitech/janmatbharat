@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Helmet } from 'react-helmet-async';
+import { SEO } from '../components/SEO';
 import { ShieldCheck, Lock, Eye, AlertTriangle } from 'lucide-react';
 
 export const PrivacyPolicy = () => {
@@ -9,17 +9,14 @@ export const PrivacyPolicy = () => {
 
   return (
     <div className="min-h-screen bg-slate-50 pt-28 pb-20 font-sans">
-      <Helmet>
-        <title>Privacy Policy | Janmat Bharat</title>
-        <meta name="description" content="Read our comprehensive Privacy Policy to understand how Janmat Bharat protects your data, ensures anonymous voting, and complies with legal guidelines." />
-      </Helmet>
+      <SEO title="Privacy Policy | Janmat Bharat" description="Read our comprehensive Privacy Policy to understand how Janmat Bharat protects your data, ensures anonymous voting, and complies with legal guidelines." canonicalPath="/privacy" />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-white rounded-3xl shadow-xl border border-slate-200 overflow-hidden">
           <div className="bg-blue-600 text-white p-10 md:p-14 text-center">
             <ShieldCheck size={56} className="mx-auto mb-6 text-blue-200" />
             <h1 className="text-4xl md:text-5xl font-black mb-4">Privacy Policy</h1>
-            <p className="text-lg text-blue-100 font-medium">Last Updated: {new Date().toLocaleDateString()}</p>
+            <p className="text-lg text-blue-100 font-medium">Last Updated: August 24, 2026</p>
           </div>
 
           <div className="p-8 md:p-14 prose prose-slate max-w-none prose-headings:font-black prose-headings:text-slate-900 prose-a:text-blue-600">

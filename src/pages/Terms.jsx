@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Helmet } from 'react-helmet-async';
+import { SEO } from '../components/SEO';
 import { FileText, AlertOctagon } from 'lucide-react';
 
 export const Terms = () => {
@@ -9,17 +9,14 @@ export const Terms = () => {
 
   return (
     <div className="min-h-screen bg-slate-50 pt-28 pb-20 font-sans">
-      <Helmet>
-        <title>Terms & Conditions | Janmat Bharat</title>
-        <meta name="description" content="Read the Terms and Conditions for using Janmat Bharat, an independent public opinion polling platform." />
-      </Helmet>
+      <SEO title="Terms & Conditions | Janmat Bharat" description="Read the Terms and Conditions for using Janmat Bharat, an independent public opinion polling platform." canonicalPath="/terms" />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-white rounded-3xl shadow-xl border border-slate-200 overflow-hidden">
           <div className="bg-slate-900 text-white p-10 md:p-14 text-center">
             <FileText size={56} className="mx-auto mb-6 text-slate-400" />
             <h1 className="text-4xl md:text-5xl font-black mb-4">Terms & Conditions</h1>
-            <p className="text-lg text-slate-400 font-medium">Last Updated: {new Date().toLocaleDateString()}</p>
+            <p className="text-lg text-slate-400 font-medium">Last Updated: August 24, 2026</p>
           </div>
 
           <div className="p-8 md:p-14 prose prose-slate max-w-none prose-headings:font-black prose-headings:text-slate-900">
