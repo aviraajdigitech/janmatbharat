@@ -12,14 +12,14 @@ export const PrivacyPolicy = () => {
       <SEO title="Privacy Policy | Janmat Bharat" description="Read our comprehensive Privacy Policy to understand how Janmat Bharat protects your data, ensures anonymous voting, and complies with legal guidelines." canonicalPath="/privacy" />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="bg-white rounded-3xl shadow-xl border border-slate-200 overflow-hidden">
+        <div className="bg-white rounded-xl shadow-institutional border border-slate-100 border border-slate-200 overflow-hidden">
           <div className="bg-blue-600 text-white p-10 md:p-14 text-center">
             <ShieldCheck size={56} className="mx-auto mb-6 text-blue-200" />
             <h1 className="text-4xl md:text-5xl font-black mb-4">Privacy Policy</h1>
             <p className="text-lg text-blue-100 font-medium">Last Updated: August 24, 2026</p>
           </div>
 
-          <div className="p-8 md:p-14 prose prose-slate max-w-none prose-headings:font-black prose-headings:text-slate-900 prose-a:text-blue-600">
+          <div className="p-8 md:p-14 prose prose-slate max-w-none prose-headings:font-black prose-headings:text-deepNavy-900 prose-a:text-blue-600">
             <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-xl mb-10">
               <h3 className="text-xl font-bold text-blue-900 mt-0 flex items-center gap-2">
                 <Lock size={20} /> Our Core Commitment

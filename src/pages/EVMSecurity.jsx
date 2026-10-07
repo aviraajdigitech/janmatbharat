@@ -16,15 +16,15 @@ export const EVMSecurity = () => {
   const getIcon = (iconName) => {
     switch (iconName) {
       case 'Network': return <Network className="text-blue-500 w-6 h-6" />;
-      case 'Bluetooth': return <Bluetooth className="text-indigo-500 w-6 h-6" />;
-      case 'Monitor': return <Monitor className="text-purple-500 w-6 h-6" />;
+      case 'Bluetooth': return <Bluetooth className="text-deepNavy-500 w-6 h-6" />;
+      case 'Monitor': return <Monitor className="text-deepNavy-500 w-6 h-6" />;
       case 'Cpu': return <Cpu className="text-rose-500 w-6 h-6" />;
       case 'UserX': return <UserX className="text-amber-500 w-6 h-6" />;
       case 'Printer': return <Printer className="text-emerald-500 w-6 h-6" />;
       case 'Scale': return <Scale className="text-cyan-500 w-6 h-6" />;
       case 'Search': return <Search className="text-orange-500 w-6 h-6" />;
       case 'Shield': return <Shield className="text-green-500 w-6 h-6" />;
-      case 'FileCheck': return <FileCheck className="text-teal-500 w-6 h-6" />;
+      case 'FileCheck': return <FileCheck className="text-indiaGreen-500 w-6 h-6" />;
       default: return <ShieldCheck className="text-blue-500 w-6 h-6" />;
     }
   };
@@ -59,15 +59,15 @@ export const EVMSecurity = () => {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Paper Container */}
-        <article className="bg-white rounded-3xl shadow-xl shadow-slate-200/50 border border-slate-100 overflow-hidden">
+        <article className="bg-white rounded-xl shadow-institutional border border-slate-100 shadow-slate-200/50 border border-slate-100 overflow-hidden">
           
           {/* Hero Header */}
           <div className="px-8 pt-12 pb-10 border-b border-slate-100 text-center relative overflow-hidden">
-            <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-saffron-500 via-white to-green-500"></div>
+            <div className="absolute top-0 left-0 w-full h-1 bg-deepNavy-900"></div>
             <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-red-50 text-red-500 mb-6 border border-red-100 shadow-sm">
                <ShieldCheck size={32} strokeWidth={2} />
             </div>
-            <h1 className="text-3xl md:text-5xl font-black text-slate-900 tracking-tight leading-tight mb-4">
+            <h1 className="text-3xl md:text-5xl font-black text-deepNavy-900 tracking-tight leading-tight mb-4">
               {content.title}
             </h1>
             <p className="text-slate-500 text-lg md:text-xl font-medium max-w-2xl mx-auto">
@@ -94,15 +94,15 @@ export const EVMSecurity = () => {
 
             
             {/* Introduction Section */}
-            <section className="bg-slate-50 rounded-2xl p-6 md:p-8 border border-slate-200">
-              <h2 className="text-2xl font-extrabold text-slate-900 mb-4">{content.introTitle}</h2>
+            <section className="bg-slate-50 rounded-xl p-6 md:p-8 border border-slate-200">
+              <h2 className="text-2xl font-extrabold text-deepNavy-900 mb-4">{content.introTitle}</h2>
               <div className="prose prose-slate prose-lg max-w-none text-slate-700 whitespace-pre-wrap leading-relaxed font-medium">
                 {content.introText}
               </div>
             </section>
 
             {/* Visual Break (Image) */}
-            <div className="rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
+            <div className="rounded-xl overflow-hidden border border-slate-200 shadow-sm">
               <img src="/assets/images/evm.jpg" alt="Electronic Voting Machine" className="w-full h-64 md:h-80 object-cover object-center" width="800" height="400" loading="lazy" decoding="async" />
               <div className="bg-slate-100 py-2 px-4 text-xs text-center text-slate-500 font-medium">Representative Image: Electronic Voting Machine</div>
             </div>
@@ -117,7 +117,7 @@ export const EVMSecurity = () => {
                     </div>
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-slate-900 mb-3 leading-snug">{section.title}</h3>
+                    <h3 className="text-xl font-bold text-deepNavy-900 mb-3 leading-snug">{section.title}</h3>
                     <div className="text-slate-600 leading-relaxed whitespace-pre-wrap font-medium">
                       {section.content}
                     </div>
@@ -127,17 +127,17 @@ export const EVMSecurity = () => {
             </section>
 
             {/* Supreme Court Image */}
-            <div className="rounded-2xl overflow-hidden border border-slate-200 shadow-sm mt-12 mb-12">
+            <div className="rounded-xl overflow-hidden border border-slate-200 shadow-sm mt-12 mb-12">
               <img src="/assets/images/sc.jpg" alt="Supreme Court of India" className="w-full h-64 md:h-80 object-cover object-center" width="800" height="400" loading="lazy" decoding="async" />
               <div className="bg-slate-100 py-2 px-4 text-xs text-center text-slate-500 font-medium">Supreme Court of India</div>
             </div>
 
             {/* Paper Ballot vs EVM Comparison */}
-            <section className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm">
+            <section className="bg-white rounded-xl border border-slate-200 overflow-hidden shadow-sm">
               <div className="bg-slate-50 p-6 border-b border-slate-200">
                 <div className="flex items-center gap-3 mb-2">
                   <FileText className="text-blue-600" />
-                  <h2 className="text-2xl font-black text-slate-900">{content.paperBallotComparison.title}</h2>
+                  <h2 className="text-2xl font-black text-deepNavy-900">{content.paperBallotComparison.title}</h2>
                 </div>
                 <p className="text-slate-600 font-medium">{content.paperBallotComparison.intro}</p>
               </div>
@@ -174,8 +174,8 @@ export const EVMSecurity = () => {
             </section>
 
             {/* Conclusion */}
-            <section className="bg-slate-900 text-white rounded-2xl p-8 shadow-2xl relative overflow-hidden">
-              <div className="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-blue-600/20 to-purple-600/20 rounded-full blur-3xl -mr-20 -mt-20"></div>
+            <section className="bg-deepNavy-900 text-white rounded-xl p-8 shadow-institutional-md border border-slate-200 relative overflow-hidden">
+              <div className="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-blue-600/20 to-purple-600/20 rounded-full hidden -mr-20 -mt-20"></div>
               <div className="relative z-10">
                 <h3 className="text-2xl md:text-3xl font-black mb-4 text-white leading-tight">
                   {content.conclusion.title}

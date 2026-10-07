@@ -19,9 +19,9 @@ export const PressKit = () => {
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header */}
-        <div className="bg-slate-900 text-white rounded-3xl p-10 md:p-14 mb-10 shadow-xl border border-slate-800 text-center relative overflow-hidden">
-          <div className="absolute top-0 left-0 w-64 h-64 bg-blue-500/10 rounded-full blur-3xl -ml-20 -mt-20 pointer-events-none"></div>
-          <div className="absolute bottom-0 right-0 w-64 h-64 bg-saffron-500/10 rounded-full blur-3xl -mr-20 -mb-20 pointer-events-none"></div>
+        <div className="bg-deepNavy-900 text-white rounded-xl p-10 md:p-14 mb-10 shadow-institutional border border-slate-100 border border-slate-800 text-center relative overflow-hidden">
+          <div className="absolute top-0 left-0 w-64 h-64 bg-blue-500/10 rounded-full hidden -ml-20 -mt-20 pointer-events-none"></div>
+          <div className="absolute bottom-0 right-0 w-64 h-64 bg-saffron-500/10 rounded-full hidden -mr-20 -mb-20 pointer-events-none"></div>
           <Megaphone size={48} className="mx-auto mb-6 text-blue-400" />
           <h1 className="text-4xl md:text-5xl font-black mb-4 tracking-tight">Press & Media Kit</h1>
           <p className="text-lg text-slate-300 font-medium max-w-2xl mx-auto">
@@ -35,8 +35,8 @@ export const PressKit = () => {
           <div className="lg:col-span-8 space-y-8">
             
             {/* About the Platform */}
-            <div className="bg-white p-8 md:p-10 rounded-3xl shadow-md border border-slate-200">
-              <h2 className="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
+            <div className="bg-white p-8 md:p-10 rounded-xl shadow-md border border-slate-200">
+              <h2 className="text-2xl font-bold text-deepNavy-900 mb-6 flex items-center gap-2">
                 <FileText className="text-blue-500" /> Platform Overview
               </h2>
               <div className="space-y-4 text-slate-600 font-medium leading-relaxed">
@@ -50,8 +50,8 @@ export const PressKit = () => {
             </div>
 
             {/* About the Company */}
-            <div className="bg-white p-8 md:p-10 rounded-3xl shadow-md border border-slate-200">
-              <h2 className="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
+            <div className="bg-white p-8 md:p-10 rounded-xl shadow-md border border-slate-200">
+              <h2 className="text-2xl font-bold text-deepNavy-900 mb-6 flex items-center gap-2">
                 <Building2 className="text-saffron-500" /> Company Profile
               </h2>
               <div className="space-y-4 text-slate-600 font-medium leading-relaxed">
@@ -65,29 +65,29 @@ export const PressKit = () => {
             </div>
 
             {/* Brand Colors */}
-            <div className="bg-white p-8 md:p-10 rounded-3xl shadow-md border border-slate-200">
-              <h2 className="text-2xl font-bold text-slate-900 mb-6">Brand Identity</h2>
+            <div className="bg-white p-8 md:p-10 rounded-xl shadow-md border border-slate-200">
+              <h2 className="text-2xl font-bold text-deepNavy-900 mb-6">Brand Identity</h2>
               <p className="text-slate-600 font-medium mb-6">When representing Janmat Bharat digitally or in print, please adhere to our core brand colors.</p>
               
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
-                <div className="rounded-2xl overflow-hidden border border-slate-100 shadow-sm">
+                <div className="rounded-xl overflow-hidden border border-slate-100 shadow-sm">
                   <div className="h-24 bg-blue-600 w-full"></div>
                   <div className="p-4 bg-slate-50">
-                    <div className="font-bold text-slate-900 text-sm">Janmat Blue</div>
+                    <div className="font-bold text-deepNavy-900 text-sm">Janmat Blue</div>
                     <div className="text-xs text-slate-500 mt-1 font-mono">#2563EB</div>
                   </div>
                 </div>
-                <div className="rounded-2xl overflow-hidden border border-slate-100 shadow-sm">
+                <div className="rounded-xl overflow-hidden border border-slate-100 shadow-sm">
                   <div className="h-24 bg-[#f97316] w-full"></div>
                   <div className="p-4 bg-slate-50">
-                    <div className="font-bold text-slate-900 text-sm">Bharat Saffron</div>
+                    <div className="font-bold text-deepNavy-900 text-sm">Bharat Saffron</div>
                     <div className="text-xs text-slate-500 mt-1 font-mono">#F97316</div>
                   </div>
                 </div>
-                <div className="rounded-2xl overflow-hidden border border-slate-100 shadow-sm">
-                  <div className="h-24 bg-slate-900 w-full"></div>
+                <div className="rounded-xl overflow-hidden border border-slate-100 shadow-sm">
+                  <div className="h-24 bg-deepNavy-900 w-full"></div>
                   <div className="p-4 bg-slate-50">
-                    <div className="font-bold text-slate-900 text-sm">Dark Slate</div>
+                    <div className="font-bold text-deepNavy-900 text-sm">Dark Slate</div>
                     <div className="text-xs text-slate-500 mt-1 font-mono">#0F172A</div>
                   </div>
                 </div>
@@ -100,7 +100,7 @@ export const PressKit = () => {
           <div className="lg:col-span-4 space-y-6">
             
             {/* Download Assets */}
-            <div className="bg-blue-50 p-8 rounded-3xl shadow-sm border border-blue-100">
+            <div className="bg-blue-50 p-8 rounded-xl shadow-sm border border-blue-100">
               <h3 className="text-lg font-bold text-blue-900 mb-4 flex items-center gap-2">
                 <Download size={20} /> Download Assets
               </h3>
@@ -142,14 +142,14 @@ export const PressKit = () => {
             </div>
 
             {/* Media Contact */}
-            <div className="bg-slate-900 text-white p-8 rounded-3xl shadow-xl relative overflow-hidden">
-              <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/20 rounded-full blur-3xl -mr-10 -mt-10 pointer-events-none"></div>
+            <div className="bg-deepNavy-900 text-white p-8 rounded-xl shadow-institutional border border-slate-100 relative overflow-hidden">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/20 rounded-full hidden -mr-10 -mt-10 pointer-events-none"></div>
               <Mail size={24} className="text-blue-400 mb-4" />
               <h3 className="text-xl font-bold mb-2">Media Enquiries</h3>
               <p className="text-slate-400 text-sm font-medium leading-relaxed mb-6">
                 For press interviews, comments, or detailed coverage requests, please contact our media team.
               </p>
-              <a href="mailto:official@aviraajdigitech.com?subject=Press%20Enquiry" className="inline-block bg-white text-slate-900 px-5 py-2.5 rounded-xl font-bold transition-colors text-sm hover:bg-slate-100 w-full text-center">
+              <a href="mailto:official@aviraajdigitech.com?subject=Press%20Enquiry" className="inline-block bg-white text-deepNavy-900 px-5 py-2.5 rounded-xl font-bold transition-colors text-sm hover:bg-slate-100 w-full text-center">
                 Email Media Team
               </a>
             </div>

@@ -64,7 +64,7 @@ export const DataDeletion = () => {
           <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-red-100 text-red-600 mb-6 shadow-sm border border-red-200">
             <Trash2 size={40} />
           </div>
-          <h1 className="text-4xl md:text-5xl font-black text-slate-900 mb-4 tracking-tight">Data Deletion Request</h1>
+          <h1 className="text-4xl md:text-5xl font-black text-deepNavy-900 mb-4 tracking-tight">Data Deletion Request</h1>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto font-medium">
             You have full control over your data. Submit this form to permanently delete your account and all associated personal data from our servers.
           </p>
@@ -74,8 +74,8 @@ export const DataDeletion = () => {
           
           {/* Trust & Info Sidebar */}
           <div className="lg:col-span-4 space-y-6">
-            <div className="bg-white p-6 md:p-8 rounded-3xl shadow-lg border border-slate-200">
-              <h3 className="font-bold text-slate-900 text-xl mb-6 flex items-center gap-3">
+            <div className="bg-white p-6 md:p-8 rounded-xl shadow-institutional border border-slate-100 border border-slate-200">
+              <h3 className="font-bold text-deepNavy-900 text-xl mb-6 flex items-center gap-3">
                 <ShieldCheck size={24} className="text-green-500" /> Trust & Privacy
               </h3>
               
@@ -85,7 +85,7 @@ export const DataDeletion = () => {
                     <Info size={16} strokeWidth={2.5} />
                   </div>
                   <div>
-                    <h4 className="text-sm font-bold text-slate-900 mb-1">Why do we need this information?</h4>
+                    <h4 className="text-sm font-bold text-deepNavy-900 mb-1">Why do we need this information?</h4>
                     <p className="text-sm text-slate-600 font-medium leading-relaxed">
                       We use these details <strong>only</strong> to accurately identify your account and process the deletion request securely.
                     </p>
@@ -97,7 +97,7 @@ export const DataDeletion = () => {
                     <Clock size={16} strokeWidth={2.5} />
                   </div>
                   <div>
-                    <h4 className="text-sm font-bold text-slate-900 mb-1">Expected Processing Time</h4>
+                    <h4 className="text-sm font-bold text-deepNavy-900 mb-1">Expected Processing Time</h4>
                     <p className="text-sm text-slate-600 font-medium leading-relaxed">
                       All deletion requests are verified and processed within <strong>7 to 14 working days</strong>.
                     </p>
@@ -109,7 +109,7 @@ export const DataDeletion = () => {
                     <Trash2 size={16} strokeWidth={2.5} />
                   </div>
                   <div>
-                    <h4 className="text-sm font-bold text-slate-900 mb-1">What gets deleted?</h4>
+                    <h4 className="text-sm font-bold text-deepNavy-900 mb-1">What gets deleted?</h4>
                     <p className="text-sm text-slate-600 font-medium leading-relaxed">
                       Your registered email, personal device bindings, and any identifiable connections to your cast votes.
                     </p>
@@ -121,7 +121,7 @@ export const DataDeletion = () => {
                     <FileWarning size={16} strokeWidth={2.5} />
                   </div>
                   <div>
-                    <h4 className="text-sm font-bold text-slate-900 mb-1">What may be retained?</h4>
+                    <h4 className="text-sm font-bold text-deepNavy-900 mb-1">What may be retained?</h4>
                     <p className="text-sm text-slate-600 font-medium leading-relaxed">
                       Where legally required, highly anonymized and aggregated statistical data (divorced from your identity) may be retained to maintain historical poll integrity.
                     </p>
@@ -130,8 +130,8 @@ export const DataDeletion = () => {
               </div>
             </div>
             
-            <div className="bg-slate-900 p-6 md:p-8 rounded-3xl shadow-xl text-white relative overflow-hidden">
-              <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/20 rounded-full blur-3xl -mr-10 -mt-10 pointer-events-none"></div>
+            <div className="bg-deepNavy-900 p-6 md:p-8 rounded-xl shadow-institutional border border-slate-100 text-white relative overflow-hidden">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/20 rounded-full hidden -mr-10 -mt-10 pointer-events-none"></div>
               <h3 className="font-bold text-xl mb-3 flex items-center gap-2">
                 <Mail size={20} className="text-blue-400" /> Manual Request
               </h3>
@@ -146,25 +146,25 @@ export const DataDeletion = () => {
 
           {/* Form Area */}
           <div className="lg:col-span-8">
-            <div className="bg-white p-8 md:p-10 rounded-3xl shadow-2xl border border-slate-100 h-full">
+            <div className="bg-white p-8 md:p-10 rounded-xl shadow-institutional-md border border-slate-200 border border-slate-100 h-full">
               
               <div className="flex items-center gap-3 mb-8 pb-6 border-b border-slate-100">
                 <Lock className="text-slate-400" size={24} />
-                <h2 className="text-2xl font-bold text-slate-900">Deletion Form</h2>
+                <h2 className="text-2xl font-bold text-deepNavy-900">Deletion Form</h2>
               </div>
 
               {status === 'success' ? (
-                <div className="bg-green-50 rounded-2xl p-8 md:p-12 text-center animate-in fade-in zoom-in duration-300 border border-green-200">
+                <div className="bg-green-50 rounded-xl p-8 md:p-12 text-center animate-in fade-in zoom-in duration-300 border border-green-200">
                   <div className="w-20 h-20 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto mb-6">
                     <CheckCircle2 size={40} />
                   </div>
-                  <h3 className="text-2xl font-black text-slate-900 mb-3">Request Submitted</h3>
+                  <h3 className="text-2xl font-black text-deepNavy-900 mb-3">Request Submitted</h3>
                   <p className="text-slate-600 font-medium mb-6">
                     We have received your data deletion request. Our team will verify your details and process the deletion within the expected timeframe.
                   </p>
                   <button 
                     onClick={() => setStatus('idle')}
-                    className="bg-slate-900 hover:bg-slate-800 text-white px-8 py-3 rounded-full font-bold transition-colors"
+                    className="bg-deepNavy-900 hover:bg-slate-800 text-white px-8 py-3 rounded-full font-bold transition-colors"
                   >
                     Submit Another Request
                   </button>
@@ -232,7 +232,7 @@ export const DataDeletion = () => {
                     className={`w-full flex justify-center items-center gap-2 py-4 rounded-xl text-white font-bold text-lg transition-all \${
                       status === 'submitting' 
                         ? 'bg-slate-400 cursor-not-allowed' 
-                        : 'bg-red-600 hover:bg-red-700 hover:shadow-lg hover:shadow-red-600/30 active:scale-[0.99]'
+                        : 'bg-red-600 hover:bg-red-700 hover:shadow-institutional border border-slate-100 hover:shadow-red-600/30 active:scale-[0.99]'
                     }`}
                   >
                     {status === 'submitting' ? (

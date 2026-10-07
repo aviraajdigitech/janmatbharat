@@ -27,7 +27,7 @@ export const History = () => {
             {lang === 'en' ? 'हिंदी में पढ़ें' : 'Read in English'}
           </button>
           
-          <h1 className="text-4xl md:text-6xl font-extrabold text-slate-900 mb-6 tracking-tight">
+          <h1 className="text-4xl md:text-6xl font-extrabold text-deepNavy-900 mb-6 tracking-tight">
             {lang === 'en' ? 'The Democratic Journey' : 'भारत का लोकतांत्रिक सफर'}
           </h1>
           <p className="text-xl text-slate-600 font-medium leading-relaxed">
@@ -39,8 +39,8 @@ export const History = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {pmHistory.map((pm) => (
-            <Link to={`/history/${pm.id}`} key={pm.id} className="bg-white rounded-3xl shadow-lg hover:shadow-2xl transition-all border border-slate-100 overflow-hidden group flex flex-col">
-              <div className="h-48 bg-slate-900 relative overflow-hidden flex items-center justify-center">
+            <Link to={`/history/${pm.id}`} key={pm.id} className="bg-white rounded-xl shadow-institutional border border-slate-100 hover:shadow-institutional-md border border-slate-200 transition-all border border-slate-100 overflow-hidden group flex flex-col">
+              <div className="h-48 bg-deepNavy-900 relative overflow-hidden flex items-center justify-center">
                 <Landmark size={80} className="absolute opacity-10 text-white" />
                 <img 
                   src={pm.image} 
@@ -53,7 +53,7 @@ export const History = () => {
                 <div className="bg-blue-50 text-blue-700 font-bold px-3 py-1 rounded-full text-xs inline-block mb-4 w-max">
                   {lang === 'en' ? pm.period_en : pm.period_hi}
                 </div>
-                <h2 className="text-2xl font-extrabold text-slate-900 mb-2">
+                <h2 className="text-2xl font-extrabold text-deepNavy-900 mb-2">
                   {lang === 'en' ? pm.pm_name_en : pm.pm_name_hi}
                 </h2>
                 <p className="text-slate-500 font-medium text-sm mb-6 flex-grow">

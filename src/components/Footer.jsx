@@ -114,14 +114,14 @@ export const Footer = () => {
             <ul className="space-y-5">
               <li>
                 <a href="mailto:official@aviraajdigitech.com" className="group flex items-center gap-4 hover:text-white transition-colors">
-                  <div className="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center group-hover:bg-blue-600/20 transition-colors">
+                  <div className="w-10 h-10 rounded-full bg-deepNavy-900 flex items-center justify-center group-hover:bg-blue-600/20 transition-colors">
                     <Mail size={18} className="text-blue-400 group-hover:text-blue-300" />
                   </div>
                   <span className="text-[15px]">official@aviraajdigitech.com</span>
                 </a>
               </li>
               <li className="flex items-center gap-4">
-                <div className="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center">
+                <div className="w-10 h-10 rounded-full bg-deepNavy-900 flex items-center justify-center">
                   <MapPin size={18} className="text-saffron-400" />
                 </div>
                 <span className="text-[15px]">India</span>
@@ -133,7 +133,7 @@ export const Footer = () => {
         
         {/* Official Disclaimer */}
         <div className="mt-16 pt-8 border-t border-slate-800/60 text-center">
-          <div className="inline-block bg-slate-900/50 border border-slate-800 rounded-xl px-6 py-4 max-w-3xl">
+          <div className="inline-block bg-deepNavy-900/50 border border-slate-800 rounded-xl px-6 py-4 max-w-3xl">
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3 text-slate-400">
               <ShieldCheck size={20} className="text-slate-500 shrink-0" />
               <p className="text-sm font-medium text-left sm:text-center leading-relaxed">

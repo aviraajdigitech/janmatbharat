@@ -93,7 +93,7 @@ export const ThreeFlag = () => {
       {/* Elegant vignette overlay: Dark edges for text readability, clear center to show flag colors */}
       <div className="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-900/10 to-slate-950/90" style={{ zIndex: 1 }} />
       <div className="absolute inset-0 bg-gradient-to-b from-slate-950/50 via-transparent to-slate-950/60" style={{ zIndex: 1 }} />
-      <div className="absolute inset-0 bg-slate-900/40" style={{ zIndex: 1 }} />
+      <div className="absolute inset-0 bg-deepNavy-900/40" style={{ zIndex: 1 }} />
     </div>
   );
 };
