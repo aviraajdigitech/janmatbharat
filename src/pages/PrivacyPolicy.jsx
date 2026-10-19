@@ -58,10 +58,10 @@ export const PrivacyPolicy = () => {
 
             <div className="bg-saffron-50 border border-saffron-200 p-6 rounded-xl mt-10">
               <h3 className="text-lg font-bold text-saffron-900 mt-0 flex items-center gap-2">
-                <AlertTriangle size={20} /> Disclaimer Regarding Opinion Polls
+                <AlertTriangle size={20} /> Statutory Compliance: Opinion Polls & ECI Regulations
               </h3>
               <p className="text-saffron-800 mb-0 text-sm leading-relaxed">
-                Janmat Bharat conducts digital surveys and opinion polls. In accordance with the Election Commission of India (ECI) guidelines and Section 126A of the Representation of the People Act, 1951, we may suspend the publication of live polling results during mandated "blackout periods" (usually 48 hours before the conclusion of actual polling).
+                Janmat Bharat conducts digital opinion polls and surveys. In accordance with Election Commission of India (ECI) regulations and the Representation of the People Act, 1951: (1) As per <strong>Section 126(1)(b)</strong>, the publication or display of election-related opinion poll results is strictly restricted in polling areas during the <strong>48 hours ending with the conclusion of voting (the statutory Silence Period)</strong>. (2) As per <strong>Section 126A</strong>, exit polls are strictly prohibited from the start of voting in the first phase until half an hour after the close of voting in the final phase. Janmat Bharat strictly adheres to these statutory windows.
               </p>
             </div>
 
